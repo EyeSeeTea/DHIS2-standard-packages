@@ -14,7 +14,7 @@ The modules consist consist of event programs and dashboards to support the coll
   * adult mosquito surveillance and identification, including individual mosquito laboratory results
   * monitoring of mosquito larval habitats.
 
-A [demo of the modules](https://extranet.who.int/dhis2-ento-vc) is available in french and english.
+A **[demo of the modules](https://extranet.who.int/dhis2-ento-vc)** is available in french and english.
 
 More information on the modules and the tools designed to facilitate their implementation can be found in [this page](https://www.who.int/teams/global-malaria-programme/prevention/vector-control/dhis-data-collection-and-collation-tools)
 
