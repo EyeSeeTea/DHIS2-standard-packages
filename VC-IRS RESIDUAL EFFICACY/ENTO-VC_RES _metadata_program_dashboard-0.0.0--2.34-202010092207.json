@@ -5158,207 +5158,7 @@
             "programSections": [],
             "displayShortName": "IRS residual efficacy monitoring",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "CImZjlYAIJR"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "aU8ZGLi2cxk"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "uVcYpFJ3BvZ"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "ObvvddcAtQO"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "LUmcbhoFMzd"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "azyqPDU2pf3"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "tTtUrzNhDg3"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "W9zb3Yva3Va"
-                },
-                {
-                    "id": "emI2bZvcq9K"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "kVaFnEaWZP0"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "BUzITQONG0i"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "J0CiQg4Pnfb"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "KZCAvf7PtMa"
-                },
-                {
-                    "id": "bSIYJFk5Pzz"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "qJkTwo3byYA"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+               
             ],
             "programIndicators": [
                 {
@@ -15298,162 +15098,7 @@
             "displayShortName": "Institute Pasteur",
             "dimensionItemType": "CATEGORY_OPTION",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+                
             ],
             "categoryOptionCombos": [
                 {
@@ -15702,162 +15347,7 @@
             "displayShortName": "PSI-Palu",
             "dimensionItemType": "CATEGORY_OPTION",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+               
             ],
             "categoryOptionCombos": [
                 {
@@ -16251,11 +15741,7 @@
             "displayShortName": "Mosquito mortality - Actellic 300CS- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Actellic 300CS in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "nDyEleFNAF3",
@@ -16352,11 +15838,7 @@
             "displayShortName": "Mosquito mortality - Actellic EC- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Actellic EC in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "dbFCu08bW5x",
@@ -16453,11 +15935,7 @@
             "displayShortName": "Mosquito mortality - Bistar 10WP- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Actellic 300CS in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "DCbanO86DE2",
@@ -16554,11 +16032,7 @@
             "displayShortName": "Mosquito mortality - DDT WP- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to DDT WP in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ajcUwMCmUhH",
@@ -16655,11 +16129,7 @@
             "displayShortName": "Mosquito mortality - Fendona 10 SC- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Fendona 10 SC in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "eAGhuSfrVbT",
@@ -16756,11 +16226,7 @@
             "displayShortName": "Mosquito mortality - Fendona 5 WP- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Fendona 5 WP in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "pUCCagCqLcz",
@@ -16857,11 +16323,7 @@
             "displayShortName": "Mosquito mortality - Fendona 6 SC- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Fendona 6 SC in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "hQG7Rhikv7I",
@@ -16958,11 +16420,7 @@
             "displayShortName": "Mosquito mortality - Ficam - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Ficam in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "JteFF5eYw1d",
@@ -17059,11 +16517,7 @@
             "displayShortName": "Mosquito mortality -Fludora Fusion - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Fludora Fusion in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "brRe1PzLxc8",
@@ -17160,11 +16614,7 @@
             "displayShortName": "Mosquito mortality - ICON 10 CS ‐ IRS - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to ICON 10 CS ‐ IRS in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "LGeYRmJc8Bu",
@@ -17261,11 +16711,7 @@
             "displayShortName": "Mosquito mortality -Icon WP - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Icon WP in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "oXPOHzyZ9KB",
@@ -17362,11 +16808,7 @@
             "displayShortName": "Mosquito mortality - K‐Othrine WG250 - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to K‐Othrine WG250 in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "B0owPaHAfmS",
@@ -17463,11 +16905,7 @@
             "displayShortName": "Mosquito mortality - PALI 250 WG - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to PALI 250 WG in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Kyn2Ssrlzkm",
@@ -17564,11 +17002,7 @@
             "displayShortName": "Mosquito mortality - Pendulum 10 SC - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Pendulum 10 SC in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "YRuRnbsif6g",
@@ -17665,11 +17099,7 @@
             "displayShortName": "Mosquito mortality - Pendulum 6 SC - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Pendulum 6 SC- in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "CJuCORUANY5",
@@ -17766,11 +17196,7 @@
             "displayShortName": "Mosquito mortality - REVIVAL 100 CS - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to REVIVAL 100 CS in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "h5gCReGXtgA",
@@ -17867,11 +17293,7 @@
             "displayShortName": "Mosquito mortality - REVIVAL 100 WP - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to REVIVAL 100 WP in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "TJqPwKkSPIv",
@@ -17968,11 +17390,7 @@
             "displayShortName": "Mosquito mortality - RUBI 100 SC - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to RUBI 100 SC in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "iSpZ8fHVY4Q",
@@ -18069,11 +17487,7 @@
             "displayShortName": "Mosquito mortality - RUBI 100 WP - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to RUBI 100 WP in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "GUOrlJTDxBs",
@@ -18170,11 +17584,7 @@
             "displayShortName": "Mosquito mortality - RUBI 250 WG‐SB - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to RUBI 250 WG‐SB in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "kBVG0tlUQ3H",
@@ -18271,11 +17681,7 @@
             "displayShortName": "Mosquito mortality - RUBI 50 SC- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to RUBI 50 SC in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "nxZzbVzTCxN",
@@ -18372,11 +17778,7 @@
             "displayShortName": "Mosquito mortality - RUBI 50 WP - 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to RUBI 50 WP in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "sYcJQ6iHQjf",
@@ -18473,11 +17875,7 @@
             "displayShortName": "Mosquito mortality - SumiShield 50WG- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to SumiShield 50WG in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "dj0XBoZA7P7",
@@ -18574,11 +17972,7 @@
             "displayShortName": "Mosquito mortality - Vectron 20WP- 24h",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure to Vectron 20WP in cone bioassays (%)",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "hTCJ1CoKjQp",
@@ -18675,11 +18069,7 @@
             "displayShortName": "Mosquito mortality 24h after exposure",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality 24h after exposure an insecticide",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ydjPD8XKxLq",
@@ -18776,11 +18166,7 @@
             "displayShortName": "Mosquito mortality 24h after exposure - cone 1",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality in cone 1 24h after exposure to an insecticide",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "BfK7jBINYi8",
@@ -18877,11 +18263,7 @@
             "displayShortName": "Mosquito mortality 24h after exposure - cone 2",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality in cone 2 24h after exposure to an insecticide",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "zLgHIe7XZ89",
@@ -18978,11 +18360,7 @@
             "displayShortName": "Mosquito mortality 24h after exposure - cone 3",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality in cone 3 24h after exposure to an insecticide",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "vK95zf7NdBi",
@@ -19079,11 +18457,7 @@
             "displayShortName": "Mosquito mortality 24h after exposure - cone 4",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent mosquito mortality in cone 4 24h after exposure to an insecticide",
-            "programIndicatorGroups": [
-                {
-                    "id": "rXluZ06yt7n"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "moKKenE07Pn",
@@ -20415,120 +19789,6 @@
             "attributeValues": [],
             "displayFormName": "Test initial conditions",
             "programIndicators": []
-        }
-    ],
-    "programIndicatorGroups": [
-        {
-            "id": "rXluZ06yt7n",
-            "code": "VC_IRS_RESIDUAL_EFFICACY",
-            "name": "VC-IRS- Residual efficacy",
-            "created": "2019-07-26T01:43:32.001",
-            "favorite": false,
-            "favorites": [],
-            "displayName": "VC-IRS- Residual efficacy",
-            "lastUpdated": "2020-01-31T22:15:23.608",
-            "publicAccess": "rw------",
-            "translations": [
-                {
-                    "value": "VC-PID- Efficacité résiduelle",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "lastUpdatedBy": {
-                "id": "gUQgjMPkPvK"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "programIndicators": [
-                {
-                    "id": "rOWWctHrEM7"
-                },
-                {
-                    "id": "ayZzH0DOE0q"
-                },
-                {
-                    "id": "gyE4j5Tz8nT"
-                },
-                {
-                    "id": "g0M638xEdeW"
-                },
-                {
-                    "id": "A6RYNz772CB"
-                },
-                {
-                    "id": "u6RjIL83Af7"
-                },
-                {
-                    "id": "Q3OgCu6DZHB"
-                },
-                {
-                    "id": "JyxLiWKWUu9"
-                },
-                {
-                    "id": "hzgUDLgEsC2"
-                },
-                {
-                    "id": "f2nM8KTHwLz"
-                },
-                {
-                    "id": "KcoijyuLNZn"
-                },
-                {
-                    "id": "uyFEi4qVblx"
-                },
-                {
-                    "id": "bcXDtKOIjR9"
-                },
-                {
-                    "id": "hiKMQIwKaTU"
-                },
-                {
-                    "id": "xNtN42F5rrC"
-                },
-                {
-                    "id": "BiFE1kqxkWW"
-                },
-                {
-                    "id": "IkD8UFmupFT"
-                },
-                {
-                    "id": "Ie63YmBksxL"
-                },
-                {
-                    "id": "BibAHb5WBFS"
-                },
-                {
-                    "id": "KY4QOnzCSa7"
-                },
-                {
-                    "id": "SyRE7rzm8Q0"
-                },
-                {
-                    "id": "doEXbnLk6p9"
-                },
-                {
-                    "id": "eOjH1ckQDsY"
-                },
-                {
-                    "id": "tbXm5oLkHkG"
-                },
-                {
-                    "id": "nCGFLG3QreP"
-                },
-                {
-                    "id": "vHQclyftgLY"
-                },
-                {
-                    "id": "TFhIQDJDvKk"
-                },
-                {
-                    "id": "KfuxkwHeqJ3"
-                },
-                {
-                    "id": "juYFRfcFMW6"
-                }
-            ]
         }
     ]
 }
