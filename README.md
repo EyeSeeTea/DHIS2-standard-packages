@@ -5,13 +5,13 @@ The WHO configuration packages consist of DHIS2 metadata that provide standard c
 Generic DHIS2 modules have been developed to strengthen the collection, reporting and use of malaria entomology and vector control data to inform decision-making.
 
 The modules consist of electronic data collection forms, standard indicators and automatically generated data visualizations developed to support the following interventions areas:
-⋅⋅*insecticide treated nets (ITN) mass distribution campaigns, 
-⋅⋅*ITN bioefficacy monitoring, 
-⋅⋅*indoor residual spraying (IRS) campaigns, 
-⋅⋅*IRS residual efficacy monitoring, 
-⋅⋅*insecticide resistance monitoring, 
-⋅⋅*adult mosquito surveillance and identification, including individual mosquito laboratory results
-⋅⋅*monitoring of mosquito larval habitats.
+  *insecticide treated nets (ITN) mass distribution campaigns, 
+  *ITN bioefficacy monitoring, 
+  *indoor residual spraying (IRS) campaigns, 
+  *IRS residual efficacy monitoring, 
+  *insecticide resistance monitoring, 
+  *adult mosquito surveillance and identification, including individual mosquito laboratory results
+  *monitoring of mosquito larval habitats.
 
 All the modules have been designed in line with existing WHO standard protocols and guidance. 
 More information on the modules and the tools designed to facilitate their implementation can be found in [this page] (https://www.who.int/teams/global-malaria-programme/prevention/vector-control/dhis-data-collection-and-collation-tools)
