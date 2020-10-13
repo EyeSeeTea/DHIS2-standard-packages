@@ -991,207 +991,7 @@
             "programSections": [],
             "displayShortName": "ITN campaign summary outcomes",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "CImZjlYAIJR"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "aU8ZGLi2cxk"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "uVcYpFJ3BvZ"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "ObvvddcAtQO"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "LUmcbhoFMzd"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "azyqPDU2pf3"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "tTtUrzNhDg3"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "W9zb3Yva3Va"
-                },
-                {
-                    "id": "emI2bZvcq9K"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "kVaFnEaWZP0"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "BUzITQONG0i"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "J0CiQg4Pnfb"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "KZCAvf7PtMa"
-                },
-                {
-                    "id": "bSIYJFk5Pzz"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "qJkTwo3byYA"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+                
             ],
             "programIndicators": [
                 {
@@ -4049,162 +3849,7 @@
             "displayShortName": "Institute Pasteur",
             "dimensionItemType": "CATEGORY_OPTION",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+                
             ],
             "categoryOptionCombos": [
                 {
@@ -4453,162 +4098,7 @@
             "displayShortName": "PSI-Palu",
             "dimensionItemType": "CATEGORY_OPTION",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+                
             ],
             "categoryOptionCombos": [
                 {
@@ -4807,11 +4297,7 @@
             "displayShortName": "Bednets distributed",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of bednets distributed",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "R4EJHnHV7m3",
@@ -4912,11 +4398,7 @@
             "displayShortName": "Bednets planned",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of bednets planned",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "NNlTJJMH1Cg",
@@ -5017,11 +4499,7 @@
             "displayShortName": "Households benefited",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of households benefited",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "sBOjJV7DlRH",
@@ -5122,11 +4600,7 @@
             "displayShortName": "Households expected",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of households expected",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "lZysSTtpjrA",
@@ -5227,11 +4701,7 @@
             "displayShortName": "Households registered",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of households registered",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Csof3cxL1OI",
@@ -5332,11 +4802,7 @@
             "displayShortName": "Number of people at risk benefited",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of people at risk benefited",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "A7yy03pxEuP",
@@ -5437,11 +4903,7 @@
             "displayShortName": "Number of expected people at risk",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of expected people at risk",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "IArFpSYh4R0",
@@ -5542,11 +5004,7 @@
             "displayShortName": "Number of people at risk registered",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Number of people at risk registered",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Te4cppwZioc",
@@ -5654,11 +5112,7 @@
             "displayShortName": "People per bednet",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "People per bednet",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Xi8bK4BwKbj",
@@ -5759,11 +5213,7 @@
             "displayShortName": "Percentage of bednets distributed",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percentage of bednets distributed",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "NjZ18F8xXOH",
@@ -5864,11 +5314,7 @@
             "displayShortName": "Percentage of households benefited",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percentage of households benefited",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "SOnsHVCw9Di",
@@ -5969,11 +5415,7 @@
             "displayShortName": "Percentage of people at risk benefited",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percentage of people at risk benefited",
-            "programIndicatorGroups": [
-                {
-                    "id": "GJa5OYPHL1h"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "hQsdkTkrS0B",
@@ -6246,121 +5688,7 @@
         }
     ],
     "programRuleVariables": [
-        {
-            "id": "iU7JrRFlqpi",
-            "name": "VC-ITN- Number of households 1 bednet",
-            "created": "2019-07-13T04:34:56.072",
-            "program": {
-                "id": "ekKJ03GMV20"
-            },
-            "favorite": false,
-            "favorites": [],
-            "dataElement": {
-                "id": "IiaGlIbMI83"
-            },
-            "displayName": "VC-ITN- Number of households 1 bednet",
-            "lastUpdated": "2019-09-03T16:17:56.855",
-            "translations": [],
-            "lastUpdatedBy": {
-                "id": "vUeLeQMSwhN"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "useCodeForOptionSet": false,
-            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
-        },
-        {
-            "id": "H7B1ZLvAIiK",
-            "name": "VC-ITN- Number of households 2 bednets",
-            "created": "2019-07-13T04:35:07.409",
-            "program": {
-                "id": "ekKJ03GMV20"
-            },
-            "favorite": false,
-            "favorites": [],
-            "dataElement": {
-                "id": "VsyQ94r50or"
-            },
-            "displayName": "VC-ITN- Number of households 2 bednets",
-            "lastUpdated": "2019-09-03T16:17:56.855",
-            "translations": [],
-            "lastUpdatedBy": {
-                "id": "vUeLeQMSwhN"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "useCodeForOptionSet": false,
-            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
-        },
-        {
-            "id": "JIe60paCVKx",
-            "name": "VC-ITN- Number of households 3 bednets",
-            "created": "2019-07-13T04:35:18.320",
-            "program": {
-                "id": "ekKJ03GMV20"
-            },
-            "favorite": false,
-            "favorites": [],
-            "dataElement": {
-                "id": "LobQc42w9wF"
-            },
-            "displayName": "VC-ITN- Number of households 3 bednets",
-            "lastUpdated": "2019-09-03T16:17:56.855",
-            "translations": [],
-            "lastUpdatedBy": {
-                "id": "vUeLeQMSwhN"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "useCodeForOptionSet": false,
-            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
-        },
-        {
-            "id": "lmuHyCQaLdq",
-            "name": "VC-ITN- Number of households 4 bednets",
-            "created": "2019-07-13T04:35:30.477",
-            "program": {
-                "id": "ekKJ03GMV20"
-            },
-            "favorite": false,
-            "favorites": [],
-            "dataElement": {
-                "id": "t93EZbbRODG"
-            },
-            "displayName": "VC-ITN- Number of households 4 bednets",
-            "lastUpdated": "2019-09-03T16:17:56.855",
-            "translations": [],
-            "lastUpdatedBy": {
-                "id": "vUeLeQMSwhN"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "useCodeForOptionSet": false,
-            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
-        },
-        {
-            "id": "NIRJXekNVKa",
-            "name": "VC-ITN- Number of households 5 bednets",
-            "created": "2019-07-13T04:35:42.622",
-            "program": {
-                "id": "ekKJ03GMV20"
-            },
-            "favorite": false,
-            "favorites": [],
-            "dataElement": {
-                "id": "FE8zR0eSDUQ"
-            },
-            "displayName": "VC-ITN- Number of households 5 bednets",
-            "lastUpdated": "2019-09-03T16:17:56.855",
-            "translations": [],
-            "lastUpdatedBy": {
-                "id": "vUeLeQMSwhN"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "useCodeForOptionSet": false,
-            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
-        },
+        
         {
             "id": "N2Isjo3cQ2o",
             "name": "VC-ITN- Number of households benefited",
@@ -6676,69 +6004,6 @@
             "attributeValues": [],
             "displayFormName": "Population results",
             "programIndicators": []
-        }
-    ],
-    "programIndicatorGroups": [
-        {
-            "id": "GJa5OYPHL1h",
-            "code": "VC_ITN_CAMPAIGN",
-            "name": "VC-ITN- Campaign",
-            "created": "2019-07-26T01:42:46.348",
-            "favorite": false,
-            "favorites": [],
-            "displayName": "VC-ITN- Campaign",
-            "lastUpdated": "2019-09-30T15:22:19.396",
-            "publicAccess": "rw------",
-            "translations": [
-                {
-                    "value": " VC-MILD- Campagne",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "lastUpdatedBy": {
-                "id": "gUQgjMPkPvK"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "programIndicators": [
-                {
-                    "id": "BGvevFjclkp"
-                },
-                {
-                    "id": "yHSDU1HG816"
-                },
-                {
-                    "id": "fG9dJc8aGxd"
-                },
-                {
-                    "id": "QWreCO4SZ31"
-                },
-                {
-                    "id": "xjec23xAh8m"
-                },
-                {
-                    "id": "u46NpIAypnS"
-                },
-                {
-                    "id": "ctDmjEVEeoZ"
-                },
-                {
-                    "id": "jhEHasvXpOV"
-                },
-                {
-                    "id": "B3it9KxZIaj"
-                },
-                {
-                    "id": "zSVsdrCj8wu"
-                },
-                {
-                    "id": "Z4a0gcDGkmH"
-                },
-                {
-                    "id": "Gp85u1mAzrC"
-                }
-            ]
         }
     ]
 }
