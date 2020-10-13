@@ -21,8 +21,10 @@ More information on the modules and the tools designed to facilitate their imple
 The latest version of the metadata packages compatible with different DHIS2 versions are available for download in the tables below. If you have questions or difficulties implementing these modules, please contact fernandezl@who.int
 
 ## Insecticide Resistance monitoring
-| DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
-| --- | --- | --- |  --- | --- |
-| DHIS2.34 | V1.1.0 | Event Program | - [Availability mapping](https://who.dhis2.org/documentation/pck/MAL-BR_DASHBOARD_V1_DHIS2.32/availability.html) <br> - [Configuration](https://who.dhis2.org/documentation/pck/MAL-BR_DASHBOARD_V1_DHIS2.32/configuration.html) <br> - [Reference](https://who.dhis2.org/documentation/pck/MAL-BR_DASHBOARD_V1_DHIS2.32/reference.html) | [metadata.json](https://who.dhis2.org/documentation/pck/MAL-BR_DASHBOARD_V1_DHIS2.32/reference.html)	| 2019-10-12T07:57 |
-| empty | empty | empty | empty | empty | empty |
+| Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
+| --- | --- | --- | --- |  --- | --- |
+| Discriminating concentration bioassays |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20DISCRIMINATING/ENTO-IR_DIS_metadata_program-0.0.0--2.34-202010092226.json)	| 2019-10-13T07:57 |
+| Intensity concentration bioassays | DHIS2.34 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20INTENSITY/ENTO-IR_INT_metadata_program-1.0.0-2.34-202010092203.json) | 2019-10-13T07:5 |
+| Synergist-insecticide bioassays | DHIS2.34 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20SYNERGIST/ENTO-IR_SYN_metadata_program-0.0.1-2.34-202010092244.json) | 2019-10-13T07:5 |
+| Resistance Mechanisms | DHIS2.34 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20SYNERGIST/ENTO-IR_SYN_metadata_program-0.0.1-2.34-202010092244.json) | 2019-10-13T07:5 |
 
