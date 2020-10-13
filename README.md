@@ -51,4 +51,4 @@ The latest version of the metadata packages compatible with different DHIS2 vers
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | ITN Campaign totals |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20CAMPAIGN%20TOTALS/ENTO-VC_ITN_metadata_program-0.0.0--2.34-202010092222.json)	| 2019-10-13T07:57 |
-| ITN bioefficacy DHIS2.34 | V0.0.0 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.0--2.34-202010092211.json) | 2019-10-13T07:5 |
+| ITN bioefficacy |  DHIS2.34 | V0.0.0 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.0--2.34-202010092211.json) | 2019-10-13T07:5 |
