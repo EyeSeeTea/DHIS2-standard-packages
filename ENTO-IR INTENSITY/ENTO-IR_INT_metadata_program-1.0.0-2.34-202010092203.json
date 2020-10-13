@@ -13441,11 +13441,7 @@
             "displayShortName": "Resistance Intensity- Carbamates",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity- Carbamates",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "jTnAoV5r7wj",
@@ -13542,11 +13538,7 @@
             "displayShortName": "Organochlorines- Resistance Intensity",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity- Organochlorines",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "VupQqGOMPxU",
@@ -13643,11 +13635,7 @@
             "displayShortName": "Organophosphates- Resistance Intensity",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity- Organochlorines",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "FdpcwpEIEem",
@@ -13744,11 +13732,7 @@
             "displayShortName": "Pyrethroids- Resistance Intensity",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity- Pyrethroids",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "DM5YIuhajg2",
@@ -13850,11 +13834,7 @@
             "displayShortName": "Intensity - Alphacypermethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity -for Alphacypermethrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Azg33WK2ufc",
@@ -13951,11 +13931,7 @@
             "displayShortName": "Intensity - Bendiocarb - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Bendiocarb in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "HFN0lCplx1y",
@@ -14052,11 +14028,7 @@
             "displayShortName": "Intensity - Cyfluthrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Cyfluthrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Y6ZvAz2WSNE",
@@ -14153,11 +14125,7 @@
             "displayShortName": "Intensity - Cypermethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Cypermethrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "qUzD7RQVVMd",
@@ -14254,11 +14222,7 @@
             "displayShortName": "Intensity - DDT - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for DDT in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ghUvSKe68rx",
@@ -14355,11 +14319,7 @@
             "displayShortName": "Intensity - Deltamethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Deltamethrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "atqwZwBvANp",
@@ -14456,11 +14416,7 @@
             "displayShortName": "Intensity - Etofenprox - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Etofenprox in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "mHZSLZM2t5x",
@@ -14557,11 +14513,7 @@
             "displayShortName": "Intensity -  Fenitrothion - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for  Fenitrothion in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "WU13IW5EX4p",
@@ -14658,11 +14610,7 @@
             "displayShortName": "Intensity - Lambda-cyhalothrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Lambda-cyhalothrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "C3OUukFdjs3",
@@ -14759,11 +14707,7 @@
             "displayShortName": "Intensity - Malathion - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Malathion in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "UXtC81SC6cG",
@@ -14860,11 +14804,7 @@
             "displayShortName": "Intensity - Permethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Permethrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ZAQoTkL4d8C",
@@ -14961,11 +14901,7 @@
             "displayShortName": "Intensity - Pirimiphos-methyl - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Resistance Intensity  for Pirimiphos-methyl in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "wraiSgsRWKD",
