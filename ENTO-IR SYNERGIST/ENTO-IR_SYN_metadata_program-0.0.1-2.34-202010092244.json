@@ -13328,11 +13328,7 @@
             "displayShortName": "PBO involvement Alphacyp. An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Alphacypermethrin  in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "wpq2GBy5Bkf",
@@ -13429,11 +13425,7 @@
             "displayShortName": "PBO involvement Alphacyp. An. gambiae s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Alphacypermethrin in An. gambiae s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "XhTZHLv4P7Q",
@@ -13530,11 +13522,7 @@
             "displayShortName": "PBO involvement - Cyfluthrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Cyfluthrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "RLa72FWV45T",
@@ -13631,11 +13619,7 @@
             "displayShortName": "PBO involvement -Cyfluthrin - An. gambiae s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Cyfluthrin in An. gambiae s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "DzEH8ngbudI",
@@ -13732,11 +13716,7 @@
             "displayShortName": "PBO involvement - Deltamethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Deltamethrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "h7wRgK3K9Ni",
@@ -13833,11 +13813,7 @@
             "displayShortName": "PBO involvement- Deltamethrin - An. gambiae s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Deltamethrin in An. gambiae s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "fZsAdoYs3EM",
@@ -13934,11 +13910,7 @@
             "displayShortName": "PBO involvement - Etofenprox - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Etofenprox in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "aDype07Mya2",
@@ -14035,11 +14007,7 @@
             "displayShortName": "PBO involvement -Etofenprox - An. gambiae s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Etofenprox in An. gambiae s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "aMaJpSs7tS1",
@@ -14136,11 +14104,7 @@
             "displayShortName": "PBO involvement Lambda-c. - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Lambda-cyhalothrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "mqubS0ueZ0y",
@@ -14237,11 +14201,7 @@
             "displayShortName": "PBO involvement Lambda-c. An. gambiae s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Lambda-cyhalothrin in An. gambiae s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "OaXrLDXYMls",
@@ -14338,11 +14298,7 @@
             "displayShortName": "PBO involvement - Permethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Permethrin in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "huyJsSibGc9",
@@ -14439,11 +14395,7 @@
             "displayShortName": "PBO involvement Permethrin An. gambiae s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Permethrin  in An. gambiae s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "mfzcy474ryQ",
@@ -14540,11 +14492,7 @@
             "displayShortName": "PBO involvement in resistance to Pyrethroids- all",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Pyrethroids - all anopheles",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "xFdVK0SrR3b",
@@ -14641,11 +14589,7 @@
             "displayShortName": "PBO involvement - Pyrethroids - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Pyrethroids in An. funestus s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "FNR6Bs94RTV",
@@ -14742,11 +14686,7 @@
             "displayShortName": "PBO involvement - Pyrethroids - An. gambiae s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "PBO involvement in resistance to Pyrethroids in An. gambiae s.l.",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+          
             "analyticsPeriodBoundaries": [
                 {
                     "id": "GVrXCqT1u7n",
