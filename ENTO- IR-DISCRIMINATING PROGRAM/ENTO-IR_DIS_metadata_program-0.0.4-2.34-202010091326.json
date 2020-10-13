@@ -5480,207 +5480,7 @@
             "programSections": [],
             "displayShortName": "IR discriminating concentration",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "CImZjlYAIJR"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "aU8ZGLi2cxk"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "uVcYpFJ3BvZ"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "ObvvddcAtQO"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "LUmcbhoFMzd"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "azyqPDU2pf3"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "tTtUrzNhDg3"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "W9zb3Yva3Va"
-                },
-                {
-                    "id": "emI2bZvcq9K"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "kVaFnEaWZP0"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "BUzITQONG0i"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "J0CiQg4Pnfb"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "KZCAvf7PtMa"
-                },
-                {
-                    "id": "bSIYJFk5Pzz"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "qJkTwo3byYA"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+                
             ],
             "programIndicators": [
                 {
@@ -12337,162 +12137,7 @@
             "displayShortName": "Institute Pasteur",
             "dimensionItemType": "CATEGORY_OPTION",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+                
             ],
             "categoryOptionCombos": [
                 {
@@ -12741,162 +12386,7 @@
             "displayShortName": "PSI-Palu",
             "dimensionItemType": "CATEGORY_OPTION",
             "organisationUnits": [
-                {
-                    "id": "Mh3MouoB8Qw"
-                },
-                {
-                    "id": "mfqO2fplCfN"
-                },
-                {
-                    "id": "nCliAIghgvS"
-                },
-                {
-                    "id": "yPn12R5naqJ"
-                },
-                {
-                    "id": "WnweWTOA3Bz"
-                },
-                {
-                    "id": "N6BJgpCaliD"
-                },
-                {
-                    "id": "b6hwG8JT8tT"
-                },
-                {
-                    "id": "q53ccn5xMtx"
-                },
-                {
-                    "id": "bGOQFhjNFr5"
-                },
-                {
-                    "id": "EhsigulLsGJ"
-                },
-                {
-                    "id": "eAu3YJkAgeJ"
-                },
-                {
-                    "id": "aOtr0GZoOQz"
-                },
-                {
-                    "id": "gRN0TTjmHD1"
-                },
-                {
-                    "id": "mOSo6aJThIA"
-                },
-                {
-                    "id": "v6aN4qeSTDw"
-                },
-                {
-                    "id": "xZdOeoEF94v"
-                },
-                {
-                    "id": "ubwjioysTXi"
-                },
-                {
-                    "id": "Cd4QQzp6I5B"
-                },
-                {
-                    "id": "s6odlJzLV31"
-                },
-                {
-                    "id": "SGUE8uREw3t"
-                },
-                {
-                    "id": "CdvoSXdS4Ju"
-                },
-                {
-                    "id": "myALBrKK8Hd"
-                },
-                {
-                    "id": "IJpJTOqnSb0"
-                },
-                {
-                    "id": "n642ZwFasgl"
-                },
-                {
-                    "id": "PPZZlTrHdwT"
-                },
-                {
-                    "id": "Ky6ZAJvX5TN"
-                },
-                {
-                    "id": "rRpCtenjMc6"
-                },
-                {
-                    "id": "xAWooM3sWV0"
-                },
-                {
-                    "id": "X65QVdbS7x7"
-                },
-                {
-                    "id": "ByqsEM8ZsAz"
-                },
-                {
-                    "id": "Kf6BN5I6pLV"
-                },
-                {
-                    "id": "dKu76PoXrQX"
-                },
-                {
-                    "id": "kbv9iwCpokl"
-                },
-                {
-                    "id": "lrGqnF0ZzM6"
-                },
-                {
-                    "id": "GlO0dKjdRxq"
-                },
-                {
-                    "id": "gEGjk21yljW"
-                },
-                {
-                    "id": "VlbxZJ7wJmz"
-                },
-                {
-                    "id": "yh3NwdKA8LR"
-                },
-                {
-                    "id": "iqcwksAb1aU"
-                },
-                {
-                    "id": "gfHm4sYgi0m"
-                },
-                {
-                    "id": "AZzwWDnJqdp"
-                },
-                {
-                    "id": "FwdnfcOSD2M"
-                },
-                {
-                    "id": "v47ZzRTBfxo"
-                },
-                {
-                    "id": "eD1afIl9y3e"
-                },
-                {
-                    "id": "xMvAcyWPxaD"
-                },
-                {
-                    "id": "N5TdlbdqJMA"
-                },
-                {
-                    "id": "yLobSYtGPEj"
-                },
-                {
-                    "id": "DmR19k293Hr"
-                },
-                {
-                    "id": "UlUWpRwY0iz"
-                },
-                {
-                    "id": "Ul76hFnnTrb"
-                },
-                {
-                    "id": "LlqK7AmeALh"
-                },
-                {
-                    "id": "Jn8YvN9eaR5"
-                }
+                
             ],
             "categoryOptionCombos": [
                 {
@@ -13082,11 +12572,7 @@
             "displayShortName": "Numero de An. funestus s.l. tested",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Numero total de An. funestus s.l. tested",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "kkhDujcmqlw",
@@ -13183,11 +12669,7 @@
             "displayShortName": "Number of An. funestus s.l. tested - Bendiocarb",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Bendiocarb",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "yl1lxJM5EaE",
@@ -13284,11 +12766,7 @@
             "displayShortName": "Number of An. funestus s.l. tested - Carbosulfan",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Carbosulfan",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "c9WpJNK9YbG",
@@ -13385,11 +12863,7 @@
             "displayShortName": "Number of An. funestus s.l. tested - Chlorfenapyr",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Chlorfenapyr",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ogTrmC5M9VH",
@@ -13486,11 +12960,7 @@
             "displayShortName": "Number of An. funestus s.l. tested -Cyfluthrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Cyfluthrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "PWFIjwva81W",
@@ -13587,11 +13057,7 @@
             "displayShortName": "Number of An. funestus s.l. tested -Cypermethrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. testados with Cypermethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "s3QAtGPQobP",
@@ -13688,11 +13154,7 @@
             "displayShortName": "Number of An. funestus s.l. tested -DDT",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with DDT",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "N9xmTQKjAMw",
@@ -13789,11 +13251,7 @@
             "displayShortName": "Number of An. funestus s.l. tested - Dieldrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Dieldrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "QzBiBqvE4tS",
@@ -13890,11 +13348,7 @@
             "displayShortName": "Number of An. funestus s.l. tested -Fenitrothion",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Fenitrothion",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "kV6Tkb2iBgt",
@@ -13991,11 +13445,7 @@
             "displayShortName": "Number of An. funestus s.l. tested - Fipronil",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Fipronil",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "SznaVWqA4Fp",
@@ -14092,11 +13542,7 @@
             "displayShortName": "Number of An. funestus s.l. tested - Lambda-c.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Lambda-cyhalothrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "kh4IdbNIwVM",
@@ -14193,11 +13639,7 @@
             "displayShortName": "Number of An. funestus s.l. tested - Malathion",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Malathion",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ovbFFf5NrEV",
@@ -14294,11 +13736,7 @@
             "displayShortName": "Number of An. funestus s.l. tested - Permethrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Permethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "tqsO3IZjjH9",
@@ -14395,11 +13833,7 @@
             "displayShortName": "Number of An. funestus s.l. tested-Pirimiphos-m.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Pirimiphos-methyl",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "G1ofO144ZbT",
@@ -14496,11 +13930,7 @@
             "displayShortName": " Number of An. funestus s.l. testados - Propoxur",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Propoxur",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "V8fcB2E9x46",
@@ -14597,11 +14027,7 @@
             "displayShortName": "Number of An. funestus s.l. testados - Etofenprox",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Etofenprox",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "GFm727AApeq",
@@ -14698,11 +14124,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "kpEX5NVnkH1",
@@ -14799,11 +14221,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested -Alphacy",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Alphacypermethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ZB18t063m1d",
@@ -14900,11 +14318,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested - Carbosulfan",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Carbosulfan",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "PCeawMaJzE4",
@@ -15001,11 +14415,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested - Chlorfenapyr",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Chlorfenapyr",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Vobi2vg8cbP",
@@ -15102,11 +14512,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested -Cyfluthrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Cyfluthrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "rxJ9amnzCAU",
@@ -15203,11 +14609,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested -DDT",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with DDT",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "JHbdMwB8Dzy",
@@ -15304,11 +14706,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested -Deltamethrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Deltamethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "A02dVB4k1o9",
@@ -15405,11 +14803,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested - Dieldrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Dieldrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ckcouxs3fHl",
@@ -15506,11 +14900,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested -Fenitrothion",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Fenitrothion",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "g0Dz3f7SF79",
@@ -15607,11 +14997,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested - Fipronil",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Fipronil",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "T7lxPZNDDpo",
@@ -15708,11 +15094,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested - Malathion",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Malathion",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "X8bJH9dKEZP",
@@ -15809,11 +15191,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested - Permethrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Permethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "RFK2JXFXLil",
@@ -15910,11 +15288,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested-Pirimiphos-m.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Pirimiphos-methyl",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "zSGtgl65QS8",
@@ -16011,11 +15385,7 @@
             "displayShortName": " Number of An. gambiae s.l. testados - Propoxur",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Propoxur",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "NYyi3EAalrh",
@@ -16112,11 +15482,7 @@
             "displayShortName": "Number of An. gambiae s.l. testados - Etofenprox",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Etofenprox",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "cNS2DOp40kC",
@@ -16213,11 +15579,7 @@
             "displayShortName": "Mosquito mortality in exposed to carbamates",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality carbamates",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "vT58PEEW2mO",
@@ -16314,11 +15676,7 @@
             "displayShortName": "%  mortality- Alphacypermethrin -An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Alphacypermethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "BOnrF7CyqKt",
@@ -16415,11 +15773,7 @@
             "displayShortName": "%  mortality - An. funestus s.l.- alphacyper 0.05%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to alphacypermethrin 0.05%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "lQz9dpo4v1t",
@@ -16516,11 +15870,7 @@
             "displayShortName": "%  mortality - An. funestus s.l.- Alphacy 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to alphacypermethrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "k5K8WjZClX9",
@@ -16617,11 +15967,7 @@
             "displayShortName": "%  mortality - An. funestus s.l. - Bendiocarb 0.1%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to bendiocarb 0.1%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "IagghXC3ec5",
@@ -16718,11 +16064,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Bendiocarb 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to bendiocarb 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "tXmDhUxGBqs",
@@ -16819,11 +16161,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Carbosulfan 0.4%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to carbosulfan 0.4%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "O5VZ3An7qQT",
@@ -16920,11 +16258,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Chlorfenapyr 5.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to chlorfenapyr 5.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Rf6SUwieYwj",
@@ -17021,11 +16355,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Cyfluthrin 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to cyfluthrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "btoRqXxyRU6",
@@ -17122,11 +16452,7 @@
             "displayShortName": "%  mortality -An. funestus s.l -Cypermet. 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to cypermethrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "PZleozAjmHY",
@@ -17223,11 +16549,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -DDT 4.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to DDT 4.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "GovW2dtuZZL",
@@ -17324,11 +16646,7 @@
             "displayShortName": "% mortality -An. funestus s.l.- Deltamethrin 0.05%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to deltamethrin 0.05%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "QTnmzrllIFP",
@@ -17425,11 +16743,7 @@
             "displayShortName": "% mortality -An. funestus s.l.-Deltamethrin 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to deltamethrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "mp2mxR9Zofv",
@@ -17526,11 +16840,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Dieldrin 0.4%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to dieldrin 0.4%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "w3wRjSC54qf",
@@ -17627,11 +16937,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Etofenprox 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to etofenprox 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Nvo89KTLjJJ",
@@ -17728,11 +17034,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Fenitrothion 1.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to fenitrothion 1.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "z4JUQLNBvbl",
@@ -17829,11 +17131,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Fenitrothion 50µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to fenitrothion 50µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "aGtHfgPc3Sy",
@@ -17930,11 +17228,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Fipronil 2.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to fipronil 2.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "LsRhTBlyVAe",
@@ -18031,11 +17325,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Lambda-c 0.05%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to lambda-cyhalothrin 0.05%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "gB1kWQmTiyA",
@@ -18132,11 +17422,7 @@
             "displayShortName": "%  mortality - An. funestus s.l.-Lambda-c 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to lambda-cyhalothrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "CrQJh6wQlMK",
@@ -18228,11 +17514,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Malathion 5.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to malathion 5.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "NzpkI8lPlO0",
@@ -18329,11 +17611,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Malathion 50µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to malathion 50µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "BLOTLqfv5ci",
@@ -18430,11 +17708,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Permethrin 0.75%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to permethrin 0.75%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "NjSdY4UrWUP",
@@ -18531,11 +17805,7 @@
             "displayShortName": "%  mortality -An. funestus s.l.-Permethrin 21.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to permethrin 21.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "rRLmzKLqJDD",
@@ -18632,11 +17902,7 @@
             "displayShortName": "%  mortality -An. funestus s.l.-Pirimiphos-m 20µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to pirimiphos-methyl 20µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "qmXR7S8dgcU",
@@ -18733,11 +17999,7 @@
             "displayShortName": "%  mortality -An. funestus s.l.-Propoxur 0.1%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to propoxur 0.1%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "T9LYIbLLZly",
@@ -18834,11 +18096,7 @@
             "displayShortName": "%  mortality -An. funestus s.l.-Propoxur 10µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to propoxur 10µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "FdGVPZv2Al1",
@@ -18935,11 +18193,7 @@
             "displayShortName": "%  mortality - An. gambiae s.l. - alphacyper 0.05%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to alphacypermethrin 0.05%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "kp3gK9GnzHF",
@@ -19036,11 +18290,7 @@
             "displayShortName": "%  mortality - An. gambiae s.l. -alphacyper 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to alphacypermethrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "zgLwJcpGVbR",
@@ -19137,11 +18387,7 @@
             "displayShortName": "%  mortality - An. gambiae s.l. - Bendiocarb 0.1%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to bendiocarb 0.1%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "wvDrdlKZfrw",
@@ -19238,11 +18484,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l. -Bendiocarb 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to bendiocarb 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ntPi8SIY7E8",
@@ -19339,11 +18581,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Chlorfenapyr 5.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to chlorfenapyr 5.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "lvkEWg0mG83",
@@ -19440,11 +18678,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Cyfluthrin 0.15%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to cyfluthrin 0.15%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "yASysiF3OQx",
@@ -19541,11 +18775,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Cyfluthrin 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to cyfluthrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Ck5qac0ELAL",
@@ -19642,11 +18872,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Cypermet. 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to cypermethrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ib7qASVaRip",
@@ -19743,11 +18969,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- DDT 100µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to DDT 100µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "WLP0moJE8mz",
@@ -19844,11 +19066,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- DDT 4.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to DDT 4.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "MJsnPsjuMhc",
@@ -19945,11 +19163,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Deltamethrin 0.05%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to deltamethrin 0.05%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Cwipnz5Df1N",
@@ -20046,11 +19260,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.-Deltamethrin 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to deltamethrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Hn2fGZpEY6w",
@@ -20147,11 +19357,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Etofenprox 0.5%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to etofenprox 0.5%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Z1MCBYEacld",
@@ -20248,11 +19454,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Etofenprox 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to etofenprox 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "LqXIZ3g0oIf",
@@ -20349,11 +19551,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Fenitrothion 1.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to fenitrothion 1.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "mxEK6SUgsgs",
@@ -20450,11 +19648,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Fenitrothion 50µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to Fenitrothion 50µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Il9UhGn0wY8",
@@ -20551,11 +19745,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Fipronil 2.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to fipronil 2.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "gadTLYMypjF",
@@ -20652,11 +19842,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Lambda-c 0.05%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to lambda-cyhalothrin 0.05%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "FMWWK2VAELF",
@@ -20753,11 +19939,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.-Lambda-c 12.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to lambda-cyhalothrin 12.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "W2SMSuo8evR",
@@ -20854,11 +20036,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Malathion 5.0%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to malathion 5.0%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "SH6qhpoBLDX",
@@ -20955,11 +20133,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.-Malathion 50µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to malathion 50µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "YEKIaCBXECP",
@@ -21056,11 +20230,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Permethrin 21.5µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to permethrin 21.5µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "yPqvksf4rMF",
@@ -21157,11 +20327,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.-Pirimiphos-m 0.05%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to pirimiphos-methyl 0.05%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "wNh7mr21qUJ",
@@ -21258,11 +20424,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.-Propoxur 0.1%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to propoxur 0.1%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "ZHo97zOhjv4",
@@ -21359,11 +20521,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.-Propoxur 10µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to propoxur 10µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Fspdihy7K9e",
@@ -21460,11 +20618,7 @@
             "displayShortName": "%  mortality - Bendiocarb - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Bendiocarb",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "WkveZ7QwBaX",
@@ -21561,11 +20715,7 @@
             "displayShortName": "%  mortality - Carbosulfan - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Carbosulfan",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "iTr83Ny3ND2",
@@ -21662,11 +20812,7 @@
             "displayShortName": "%  mortality - Cyfluthrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Cyfluthrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "NJFxqyn1Lyz",
@@ -21763,11 +20909,7 @@
             "displayShortName": "%  mortality - Cypermethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Cypermethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "cuREFDKvdPy",
@@ -21864,11 +21006,7 @@
             "displayShortName": "%  mortality - DDT - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to DDT",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "FY2L6sa8Hi6",
@@ -21965,11 +21103,7 @@
             "displayShortName": "%  mortality - Deltamethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Deltamethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "PQ09Inzd6Rm",
@@ -22066,11 +21200,7 @@
             "displayShortName": "%  mortality - Dieldrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Dieldrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "hcVvPWXO0uf",
@@ -22167,11 +21297,7 @@
             "displayShortName": "%  mortality - Fenitrothion - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Fenitrothion",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "PO06xuxvvE3",
@@ -22268,11 +21394,7 @@
             "displayShortName": "%  mortality - Fipronil - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Fipronil",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "qbPZHDbxE7D",
@@ -22369,11 +21491,7 @@
             "displayShortName": "%  mortality Lambda-cyhalothrin An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Lambda-cyhalothrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "gvcf3MF6c2s",
@@ -22470,11 +21588,7 @@
             "displayShortName": "%  mortality - Malathion - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Malathion",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "cZLScRDKCXF",
@@ -22571,11 +21685,7 @@
             "displayShortName": "%  mortality - Permethrin - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Permethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "hI8r5WyncxJ",
@@ -22672,11 +21782,7 @@
             "displayShortName": "%  mortality -Pirimiphos-methyl An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Pirimiphos-methyl",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "PI9oKgOnsQY",
@@ -22773,11 +21879,7 @@
             "displayShortName": "%  mortality - Propoxur - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Propoxur",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Wk33rKTlUj2",
@@ -22874,11 +21976,7 @@
             "displayShortName": "Mosquito mortality in exposed to organochlorines",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality organochlorines",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Q0Xe86VJNnf",
@@ -22975,11 +22073,7 @@
             "displayShortName": "Mosquito mortality in exposed to organophosphates",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality organophosphates",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "kvYztC0JkBL",
@@ -23076,11 +22170,7 @@
             "displayShortName": "Mosquito mortality in exposed to pyrethroids",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality pyrethroids",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "NQ4EUA6mog6",
@@ -23177,11 +22267,7 @@
             "displayShortName": "Number of An. funestus s.l. tested -Alphacy",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Alphacypermethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "iE8NFo0aGmb",
@@ -23278,11 +22364,7 @@
             "displayShortName": "Number of An. funestus s.l. tested -Deltamethrin",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. funestus s.l. tested with Deltamethrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Ti7Fkt6XpPS",
@@ -23379,11 +22461,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested - Bendiocarb",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Bendiocarb",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "aqzIsDOLr40",
@@ -23480,11 +22558,7 @@
             "displayShortName": "Number of An. gambiae s.l. tested - Lambda-c.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of An. gambiae s.l. tested with Lambda-cyhalothrin",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "SVfBkLRKhJa",
@@ -23581,11 +22655,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Cyfluthrin 0.15%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to cyfluthrin 0.15%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "VUWVnpLA91s",
@@ -23682,11 +22752,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -DDT 100µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to DDT 100µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "kUVYMykEMKt",
@@ -23783,11 +22849,7 @@
             "displayShortName": "%  mortality -An. funestus s.l. -Etofenprox 0.5%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to etofenprox 0.5%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "OtUrf8VJbbu",
@@ -23884,11 +22946,7 @@
             "displayShortName": "%  mortality -An. funestus s.l.-Pirimiphos-m 0.05%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to pirimiphos-methyl 0.05%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "Wv90CakKBbd",
@@ -23985,11 +23043,7 @@
             "displayShortName": "%  mortality - An. gambiae s.l. - Carbosulfan 0.4%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to carbosulfan 0.4%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "XFx4Dwwyj9M",
@@ -24086,11 +23140,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Dieldrin 0.4%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to dieldrin 0.4%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "sKTlAFHDLjZ",
@@ -24187,11 +23237,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.- Permethrin 0.75%",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to permethrin 0.75%",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "vBDIRs5yoiv",
@@ -24288,11 +23334,7 @@
             "displayShortName": "%  mortality -An. gambiae s.l.-Pirimiphos-m 20µg",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. gambiae s.l. exposed to pirimiphos-methyl 20µg",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "uHppnjMe3jg",
@@ -24389,11 +23431,7 @@
             "displayShortName": "%  mortality - Chlorfenapyr - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Chlorfenapyr",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "rLDQZh9ctF5",
@@ -24490,11 +23528,7 @@
             "displayShortName": "%  mortality - Etofenprox - An. funestus s.l.",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Average adjusted mortality in An. funestus s.l. exposed to Etofenprox",
-            "programIndicatorGroups": [
-                {
-                    "id": "RtPhRtbKjyI"
-                }
-            ],
+         
             "analyticsPeriodBoundaries": [
                 {
                     "id": "xfuEvkrd2uq",
@@ -25378,525 +24412,6 @@
             "displayFormName": "Test outcomes",
             "programIndicators": []
         }
-    ],
-    "programIndicatorGroups": [
-        {
-            "id": "RtPhRtbKjyI",
-            "name": "ENTO- Vector Insecticide resistance",
-            "created": "2019-07-26T01:41:17.672",
-            "favorite": false,
-            "favorites": [],
-            "displayName": "ENTO- Vector Insecticide resistance",
-            "lastUpdated": "2020-02-01T03:08:05.756",
-            "publicAccess": "rw------",
-            "translations": [
-                {
-                    "value": "ENTO- Résistance aux insecticides vecteurs",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "ENTO- Resistencia de los vectores a los insecticidas",
-                    "locale": "es",
-                    "property": "NAME"
-                }
-            ],
-            "lastUpdatedBy": {
-                "id": "gUQgjMPkPvK"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "programIndicators": [
-                {
-                    "id": "M2jFJPoGaD6"
-                },
-                {
-                    "id": "EjIDkaaBb1w"
-                },
-                {
-                    "id": "MkdstBWHEkI"
-                },
-                {
-                    "id": "zEU4ZBbnmgt"
-                },
-                {
-                    "id": "rtWE5KAUjAV"
-                },
-                {
-                    "id": "GJOcWsDHXQj"
-                },
-                {
-                    "id": "pe5Yw6qGaaj"
-                },
-                {
-                    "id": "SIbHyMCLMv3"
-                },
-                {
-                    "id": "ru1Nx5cudSo"
-                },
-                {
-                    "id": "ODkXhm0SvoF"
-                },
-                {
-                    "id": "Jyx721thHsk"
-                },
-                {
-                    "id": "oppVgACbuZW"
-                },
-                {
-                    "id": "EtEnmvbhwn2"
-                },
-                {
-                    "id": "jOgWoQpCZ0Z"
-                },
-                {
-                    "id": "waH5bC8xaZX"
-                },
-                {
-                    "id": "pAKsaLigyi8"
-                },
-                {
-                    "id": "d6NWEP2dhJ5"
-                },
-                {
-                    "id": "EX5PkymVnV3"
-                },
-                {
-                    "id": "OytIjn1yuP7"
-                },
-                {
-                    "id": "sEatCyX28Ad"
-                },
-                {
-                    "id": "mLSBMXSbmmJ"
-                },
-                {
-                    "id": "uKIScot102l"
-                },
-                {
-                    "id": "XlsSvIlZEqU"
-                },
-                {
-                    "id": "LsRlureP66U"
-                },
-                {
-                    "id": "PsM0vIYmn6T"
-                },
-                {
-                    "id": "XnV1Pzn9yOE"
-                },
-                {
-                    "id": "X817m3hrz7W"
-                },
-                {
-                    "id": "Lb8hvXEuTBc"
-                },
-                {
-                    "id": "fdeM6p8epae"
-                },
-                {
-                    "id": "lLhxgQv4zql"
-                },
-                {
-                    "id": "E4P5oTTXT3B"
-                },
-                {
-                    "id": "qlmH5EtHBsn"
-                },
-                {
-                    "id": "nRJkNvpmJ9j"
-                },
-                {
-                    "id": "ixeY52f25Yi"
-                },
-                {
-                    "id": "fYigdBYl9Js"
-                },
-                {
-                    "id": "V85DcSa9TII"
-                },
-                {
-                    "id": "bN9znOccHGb"
-                },
-                {
-                    "id": "iaCw2NofmwB"
-                },
-                {
-                    "id": "NwykA4ZUA0D"
-                },
-                {
-                    "id": "tdkfNHWSK2P"
-                },
-                {
-                    "id": "bjQiLf3bh0A"
-                },
-                {
-                    "id": "R9ruB9ArDMs"
-                },
-                {
-                    "id": "vGCfOQaaEWp"
-                },
-                {
-                    "id": "eM6fmENnLm6"
-                },
-                {
-                    "id": "CE5vE9EtjLm"
-                },
-                {
-                    "id": "wPFDnjPusDi"
-                },
-                {
-                    "id": "X5TyCprWl29"
-                },
-                {
-                    "id": "E0BVXHVNxLu"
-                },
-                {
-                    "id": "wUzpWqwPXtp"
-                },
-                {
-                    "id": "pZVviN8xOUP"
-                },
-                {
-                    "id": "wdwdgmHJkJt"
-                },
-                {
-                    "id": "jXklO68EDss"
-                },
-                {
-                    "id": "eQ2QXZMbYlo"
-                },
-                {
-                    "id": "L3Ml2Kfpiad"
-                },
-                {
-                    "id": "fNzKeMn6meK"
-                },
-                {
-                    "id": "xNXdsBj28IQ"
-                },
-                {
-                    "id": "MUsPrxVVKsk"
-                },
-                {
-                    "id": "VNSw7bUbwlu"
-                },
-                {
-                    "id": "i0ncrIbrviS"
-                },
-                {
-                    "id": "KJLOCkMCeO7"
-                },
-                {
-                    "id": "Z8t0LE61oiB"
-                },
-                {
-                    "id": "SfImxOYldzk"
-                },
-                {
-                    "id": "f45xGajGY7b"
-                },
-                {
-                    "id": "EG8ePzQoprU"
-                },
-                {
-                    "id": "TZSwD47BMY7"
-                },
-                {
-                    "id": "afpjw5yWsQ5"
-                },
-                {
-                    "id": "ezWnbfIJuX3"
-                },
-                {
-                    "id": "x1k8cp6YRkN"
-                },
-                {
-                    "id": "wGgipzJYVob"
-                },
-                {
-                    "id": "RxP0WaY91NS"
-                },
-                {
-                    "id": "Q9WJzuZzcqu"
-                },
-                {
-                    "id": "fOKLkLHVU3L"
-                },
-                {
-                    "id": "TMKiG4lcOND"
-                },
-                {
-                    "id": "zi535npXy4i"
-                },
-                {
-                    "id": "ZypiPs63j9t"
-                },
-                {
-                    "id": "FTKvETVl55F"
-                },
-                {
-                    "id": "WvgrFqvyO8I"
-                },
-                {
-                    "id": "LNtqmd9Rjur"
-                },
-                {
-                    "id": "dBoQsNyuaEx"
-                },
-                {
-                    "id": "oxmboIUpINn"
-                },
-                {
-                    "id": "uZyRxbZyDvj"
-                },
-                {
-                    "id": "ABDEv0VG9RL"
-                },
-                {
-                    "id": "iNZYPIqzpX2"
-                },
-                {
-                    "id": "IbsFn1YLYU7"
-                },
-                {
-                    "id": "Q1E82iLkNbQ"
-                },
-                {
-                    "id": "hLGHT1UU0ON"
-                },
-                {
-                    "id": "XFVrzoMzkNm"
-                },
-                {
-                    "id": "x8BnwAYfwqg"
-                },
-                {
-                    "id": "B0ynuHwObDX"
-                },
-                {
-                    "id": "I75yBwnFieI"
-                },
-                {
-                    "id": "msmqZoQ7IFZ"
-                },
-                {
-                    "id": "QgxdaianpRN"
-                },
-                {
-                    "id": "WODfi9aGNhx"
-                },
-                {
-                    "id": "Bznvwcc4lcr"
-                },
-                {
-                    "id": "jQ0MmBKIKEw"
-                },
-                {
-                    "id": "ScAxhjb0Oy6"
-                },
-                {
-                    "id": "XJes3PCmR0H"
-                },
-                {
-                    "id": "fzeS8q3porN"
-                },
-                {
-                    "id": "iJgJ2pDECuU"
-                },
-                {
-                    "id": "Xz1UyjGQxLW"
-                },
-                {
-                    "id": "vCty4iqIT4X"
-                },
-                {
-                    "id": "fQz6UbUNE8n"
-                },
-                {
-                    "id": "zUInQUqttWS"
-                },
-                {
-                    "id": "OXpSlRM3qtv"
-                },
-                {
-                    "id": "EExiXFwG8rn"
-                },
-                {
-                    "id": "d5Zgvc0gb6o"
-                },
-                {
-                    "id": "Y6IV1LevaSi"
-                },
-                {
-                    "id": "H9lnCMMNXcw"
-                },
-                {
-                    "id": "sbxATDnS4Cy"
-                },
-                {
-                    "id": "w1TrafpriJi"
-                },
-                {
-                    "id": "vtMf2Mm8vTr"
-                },
-                {
-                    "id": "vnmNc9B2klt"
-                },
-                {
-                    "id": "YuXNgCLGrdg"
-                },
-                {
-                    "id": "gLrET4JT5MC"
-                },
-                {
-                    "id": "GKSXTEZHi0R"
-                },
-                {
-                    "id": "x0sM6fKuM2g"
-                },
-                {
-                    "id": "h4uFegkig18"
-                },
-                {
-                    "id": "iforSB1vXv2"
-                },
-                {
-                    "id": "o0LHDYyTEdI"
-                },
-                {
-                    "id": "wFXEmX88h9R"
-                },
-                {
-                    "id": "kVP8qjOYdav"
-                },
-                {
-                    "id": "M9bpYE6t0zK"
-                },
-                {
-                    "id": "ODLOWFL9n4O"
-                },
-                {
-                    "id": "nwpWlJDmzbi"
-                },
-                {
-                    "id": "K0GtHtbhigc"
-                },
-                {
-                    "id": "xq4UZsnqVDl"
-                },
-                {
-                    "id": "y0eaqmDGvnH"
-                },
-                {
-                    "id": "cFp5azgCX6C"
-                },
-                {
-                    "id": "Oi31D457oi9"
-                },
-                {
-                    "id": "KqtyVLKyIQ0"
-                },
-                {
-                    "id": "Rt3i8luuow1"
-                },
-                {
-                    "id": "vF6wiJzaWgT"
-                },
-                {
-                    "id": "rcpi6lqxg4l"
-                },
-                {
-                    "id": "e320m7Xanep"
-                },
-                {
-                    "id": "O6X5h84JZgI"
-                },
-                {
-                    "id": "YU8XAap2AGB"
-                },
-                {
-                    "id": "fZWb5Ys5Tck"
-                },
-                {
-                    "id": "YeB2DHP0SMI"
-                },
-                {
-                    "id": "cEPk4tkRNOC"
-                },
-                {
-                    "id": "Yqr0CPJLcPq"
-                },
-                {
-                    "id": "IKBrIGPTIm0"
-                },
-                {
-                    "id": "MscgBBqLPsl"
-                },
-                {
-                    "id": "xys7LMRtKgB"
-                },
-                {
-                    "id": "y3TlMByt20a"
-                },
-                {
-                    "id": "eieR4HbxORw"
-                },
-                {
-                    "id": "aK5rmXJHcmc"
-                },
-                {
-                    "id": "Q7fZw5jE1eo"
-                },
-                {
-                    "id": "KKxgmgM7LUe"
-                },
-                {
-                    "id": "IIxijCLyhhY"
-                },
-                {
-                    "id": "q4ii17Xygtd"
-                },
-                {
-                    "id": "JXSIUvIWubS"
-                },
-                {
-                    "id": "KDAePX37AR9"
-                },
-                {
-                    "id": "UgLzW06DE5l"
-                },
-                {
-                    "id": "e7SfgeJC4fv"
-                },
-                {
-                    "id": "veVeBDiT0Gw"
-                },
-                {
-                    "id": "jvUkkLy8mSk"
-                },
-                {
-                    "id": "s4RPDCiM2kE"
-                },
-                {
-                    "id": "T4Enu2NV1WF"
-                },
-                {
-                    "id": "NSyX1vtZGbk"
-                },
-                {
-                    "id": "F9iwJWEGi5R"
-                },
-                {
-                    "id": "XDG8o9kSAhh"
-                },
-                {
-                    "id": "zr4FVggGurt"
-                },
-                {
-                    "id": "o1lEMElu9Lv"
-                }
-            ]
-        }
     ]
+   
 }
