@@ -32,10 +32,10 @@
             "translations": [],
             "userGroupAccesses": [
                 {
-                    "access": "r-------",
-                    "userGroupUid": "dDI3HYmyK3l",
-                    "displayName": "CC access",
-                    "id": "dDI3HYmyK3l"
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
                 },
                 {
                     "access": "rw------",
