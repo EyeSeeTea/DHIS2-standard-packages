@@ -1,0 +1,2089 @@
+{
+    "date": "2020-07-14T00:11:30.592Z",
+    "dataSets": [
+        {
+            "metadataType": "dataSets",
+            "lastUpdated": "2020-07-14T00:08:07.230",
+            "id": "O34y2Kyxx6P",
+            "created": "2016-05-20T18:25:13.615",
+            "name": "Malaria burden reduction",
+            "shortName": "Malaria burden reduction",
+            "code": "MAL_BR",
+            "validCompleteOnly": false,
+            "publicAccess": "--------",
+            "skipOffline": false,
+            "compulsoryFieldsCompleteOnly": false,
+            "formType": "SECTION",
+            "version": 188,
+            "timelyDays": 15,
+            "favorite": false,
+            "dimensionItemType": "REPORTING_RATE",
+            "dataElementDecoration": false,
+            "displayName": "Malaria burden reduction",
+            "notifyCompletingUser": false,
+            "noValueRequiresComment": false,
+            "displayShortName": "Malaria burden reduction",
+            "externalAccess": false,
+            "fieldCombinationRequired": false,
+            "renderHorizontally": false,
+            "renderAsTabs": false,
+            "dimensionItem": "O34y2Kyxx6P",
+            "mobile": false,
+            "periodType": "Monthly",
+            "openFuturePeriods": 12,
+            "expiryDays": 0,
+            "lastUpdatedBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "rY7FJXnqwkM"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                },
+                {
+                    "categoryCombo": {
+                        "id": "IvYR8mc6prX"
+                    },
+                    "dataElement": {
+                        "id": "enVf9I39FRZ"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                },
+                {
+                    "categoryCombo": {
+                        "id": "IvYR8mc6prX"
+                    },
+                    "dataElement": {
+                        "id": "vTRrNdOOT9g"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                },
+                {
+                    "categoryCombo": {
+                        "id": "BwnnrV1AkNj"
+                    },
+                    "dataElement": {
+                        "id": "kRasaq1REFp"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                },
+                {
+                    "categoryCombo": {
+                        "id": "BwnnrV1AkNj"
+                    },
+                    "dataElement": {
+                        "id": "GxlrIgMyEf4"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                },
+                {
+                    "dataElement": {
+                        "id": "qokS11KT7gD"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                }
+            ],
+            "translations": [],
+            "dataInputPeriods": [],
+            "interpretations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "indicators": [],
+            "sections": [
+                {
+                    "id": "iwiTbzS3JBh"
+                },
+                {
+                    "id": "uvJxbOVALVi"
+                },
+                {
+                    "id": "eef5XTydUgW"
+                },
+                {
+                    "id": "wmZb0JjszLK"
+                },
+                {
+                    "id": "lLRmTfxH1r9"
+                },
+                {
+                    "id": "szfx1ygvXLg"
+                },
+                {
+                    "id": "GcrCfzpTvBW"
+                }
+            ],
+            "userAccesses": [],
+            "legendSets": [],
+            "favorites": [],
+            "compulsoryDataElementOperands": [],
+            "organisationUnits": []
+        }
+    ],
+    "dataElements": [
+        {
+            "metadataType": "dataElements",
+            "code": "MAL_BR_TOT_PW",
+            "lastUpdated": "2019-10-09T23:21:41.789",
+            "id": "rY7FJXnqwkM",
+            "created": "2016-04-26T14:18:51.328",
+            "name": "MAL - Total malaria cases (confirmed + presumed)  (pregnant women)",
+            "shortName": "Malaria cases - OPD (P+C)(PW)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "MAL - Total malaria cases (confirmed + presumed)  (pregnant women)",
+            "publicAccess": "--------",
+            "displayShortName": "Malaria cases - OPD (P+C)(PW)",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "formName": "Outpatient malaria cases (pregnant women)",
+            "dimensionItem": "rY7FJXnqwkM",
+            "displayFormName": "Outpatient malaria cases (pregnant women)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "rY7FJXnqwkM"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "mK2oQeHvdm5"
+                },
+                {
+                    "id": "ri242cU0Sm5"
+                },
+                {
+                    "id": "cDz6fWn4n7M"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "MAL_CASES_POS_MICR",
+            "lastUpdated": "2019-10-09T23:26:37.346",
+            "id": "enVf9I39FRZ",
+            "created": "2016-04-26T14:18:53.325",
+            "name": "MAL - Malaria cases positive with microscopy",
+            "shortName": "Positive (micr)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "MAL - Malaria cases positive with microscopy",
+            "publicAccess": "--------",
+            "description": "Cases confirmed as positive with microscopy",
+            "displayShortName": "Positive (micr)",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "formName": "Positive (micr)",
+            "displayDescription": "Cases confirmed as positive with microscopy",
+            "dimensionItem": "enVf9I39FRZ",
+            "displayFormName": "Positive (micr)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "IvYR8mc6prX"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "categoryCombo": {
+                        "id": "IvYR8mc6prX"
+                    },
+                    "dataElement": {
+                        "id": "enVf9I39FRZ"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                },
+                {
+                    "categoryCombo": {
+                        "id": "IvYR8mc6prX"
+                    },
+                    "dataElement": {
+                        "id": "enVf9I39FRZ"
+                    },
+                    "dataSet": {
+                        "id": "VEM58nY22sO"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "O3Y4zr16OCX"
+                },
+                {
+                    "id": "ri242cU0Sm5"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "MAL_CASES_POS_RDT",
+            "lastUpdated": "2019-10-09T23:26:37.344",
+            "id": "vTRrNdOOT9g",
+            "created": "2016-04-26T14:18:56.341",
+            "name": "MAL - Malaria cases positive (RDT)",
+            "shortName": "Positive (RDT)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "MAL - Malaria cases positive (RDT)",
+            "publicAccess": "--------",
+            "description": "Cases confirmed as positive with RDT",
+            "displayShortName": "Positive (RDT)",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "formName": "Positive (RDT)",
+            "displayDescription": "Cases confirmed as positive with RDT",
+            "dimensionItem": "vTRrNdOOT9g",
+            "displayFormName": "Positive (RDT)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "IvYR8mc6prX"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "categoryCombo": {
+                        "id": "IvYR8mc6prX"
+                    },
+                    "dataElement": {
+                        "id": "vTRrNdOOT9g"
+                    },
+                    "dataSet": {
+                        "id": "VEM58nY22sO"
+                    }
+                },
+                {
+                    "categoryCombo": {
+                        "id": "IvYR8mc6prX"
+                    },
+                    "dataElement": {
+                        "id": "vTRrNdOOT9g"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "O3Y4zr16OCX"
+                },
+                {
+                    "id": "ri242cU0Sm5"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "MAL_CASES_PRES_CONF",
+            "lastUpdated": "2019-10-09T23:21:41.788",
+            "id": "kRasaq1REFp",
+            "created": "2016-04-26T14:18:51.328",
+            "name": "MAL - Total malaria cases (confirmed + presumed)",
+            "shortName": "Outpatient malaria cases (confirmed + presumed)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "MAL - Total malaria cases (confirmed + presumed)",
+            "publicAccess": "--------",
+            "description": "Total number of cases reported as malaria (confirmed with either microscopy or RDT, and presumed clinically as malaria in absence of diagnosis)",
+            "displayShortName": "Outpatient malaria cases (confirmed + presumed)",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "formName": "Outpatient malaria cases (confirmed + presumed)",
+            "displayDescription": "Total number of cases reported as malaria (confirmed with either microscopy or RDT, and presumed clinically as malaria in absence of diagnosis)",
+            "dimensionItem": "kRasaq1REFp",
+            "displayFormName": "Outpatient malaria cases (confirmed + presumed)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "BwnnrV1AkNj"
+            },
+            "lastUpdatedBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "categoryCombo": {
+                        "id": "BwnnrV1AkNj"
+                    },
+                    "dataElement": {
+                        "id": "kRasaq1REFp"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "O3Y4zr16OCX"
+                },
+                {
+                    "id": "ri242cU0Sm5"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "MAL_DEATH",
+            "lastUpdated": "2019-12-23T18:39:35.123",
+            "id": "GxlrIgMyEf4",
+            "created": "2016-04-26T14:18:52.341",
+            "name": "MAL - Malaria deaths",
+            "shortName": "Malaria deaths",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "MAL - Malaria deaths",
+            "publicAccess": "--------",
+            "description": "Deaths in health facility due to malaria",
+            "displayShortName": "Malaria deaths",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "formName": "Malaria deaths",
+            "displayDescription": "Deaths in health facility due to malaria",
+            "dimensionItem": "GxlrIgMyEf4",
+            "displayFormName": "Malaria deaths",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "BwnnrV1AkNj"
+            },
+            "lastUpdatedBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "categoryCombo": {
+                        "id": "BwnnrV1AkNj"
+                    },
+                    "dataElement": {
+                        "id": "GxlrIgMyEf4"
+                    },
+                    "dataSet": {
+                        "id": "VEM58nY22sO"
+                    }
+                },
+                {
+                    "categoryCombo": {
+                        "id": "BwnnrV1AkNj"
+                    },
+                    "dataElement": {
+                        "id": "GxlrIgMyEf4"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "mK2oQeHvdm5"
+                },
+                {
+                    "id": "ri242cU0Sm5"
+                },
+                {
+                    "id": "O3Y4zr16OCX"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "code": "MAL_BR_DEATH_PW",
+            "lastUpdated": "2019-10-09T23:21:41.768",
+            "id": "qokS11KT7gD",
+            "created": "2016-04-26T14:18:52.341",
+            "name": "MAL - Malaria deaths (pregnant women)",
+            "shortName": "Malaria deaths (PW)",
+            "aggregationType": "SUM",
+            "domainType": "AGGREGATE",
+            "displayName": "MAL - Malaria deaths (pregnant women)",
+            "publicAccess": "--------",
+            "displayShortName": "Malaria deaths (PW)",
+            "externalAccess": false,
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "formName": "Malaria deaths (pregnant women)",
+            "dimensionItem": "qokS11KT7gD",
+            "displayFormName": "Malaria deaths (pregnant women)",
+            "zeroIsSignificant": true,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "dataSetElements": [
+                {
+                    "dataElement": {
+                        "id": "qokS11KT7gD"
+                    },
+                    "dataSet": {
+                        "id": "O34y2Kyxx6P"
+                    }
+                }
+            ],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "mK2oQeHvdm5"
+                },
+                {
+                    "id": "ri242cU0Sm5"
+                },
+                {
+                    "id": "cDz6fWn4n7M"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        }
+    ],
+    "categoryCombos": [
+        {
+            "metadataType": "categoryCombos",
+            "created": "2015-09-14T08:48:50.928",
+            "lastUpdated": "2019-10-09T23:26:36.840",
+            "name": "Age and sex (malaria)",
+            "id": "IvYR8mc6prX",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "Age and sex (malaria)",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "AroSt3y4ir0"
+                },
+                {
+                    "id": "b449dBrOSFK"
+                },
+                {
+                    "id": "kQBGXKMwoqR"
+                },
+                {
+                    "id": "bWFxj7MF1qR"
+                },
+                {
+                    "id": "j21YQgQ9GzP"
+                },
+                {
+                    "id": "t5FrQ0GTvGf"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "mFoasCYViMW"
+                },
+                {
+                    "id": "FRwO58KwwJt"
+                }
+            ]
+        },
+        {
+            "metadataType": "categoryCombos",
+            "created": "2015-09-14T08:48:50.928",
+            "lastUpdated": "2019-10-09T23:26:36.837",
+            "name": "Age (malaria)",
+            "id": "BwnnrV1AkNj",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "Age (malaria)",
+            "publicAccess": "--------",
+            "externalAccess": false,
+            "isDefault": false,
+            "skipTotal": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "rtfSaMjPyq6"
+                },
+                {
+                    "id": "oPcWGgS2Liz"
+                },
+                {
+                    "id": "hF0pQZIn6Ch"
+                }
+            ],
+            "translations": [],
+            "userAccesses": [],
+            "categories": [
+                {
+                    "id": "mFoasCYViMW"
+                }
+            ]
+        }
+    ],
+    
+    "categoryOptionCombos": [
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "rtfSaMjPyq6",
+            "created": "2017-06-02T11:03:03.295",
+            "name": "5-14 years",
+            "shortName": "5-14 years",
+            "displayName": "5-14 years",
+            "displayShortName": "5-14 years",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "rtfSaMjPyq6",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "BwnnrV1AkNj"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "pa0cY66MrG6"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "oPcWGgS2Liz",
+            "created": "2017-06-02T11:03:03.291",
+            "name": "0-4 years",
+            "shortName": "0-4 years",
+            "displayName": "0-4 years",
+            "displayShortName": "0-4 years",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "oPcWGgS2Liz",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "BwnnrV1AkNj"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "hF0pQZIn6Ch",
+            "created": "2017-06-02T11:03:03.298",
+            "name": "15+ years",
+            "shortName": "15+ years",
+            "displayName": "15+ years",
+            "displayShortName": "15+ years",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "hF0pQZIn6Ch",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "BwnnrV1AkNj"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "wTpH7wugXzZ"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "AroSt3y4ir0",
+            "created": "2017-06-02T11:03:12.512",
+            "name": "15+ years, Male",
+            "shortName": "15+ years, Male",
+            "displayName": "15+ years, Male",
+            "displayShortName": "15+ years, Male",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "AroSt3y4ir0",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "IvYR8mc6prX"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "wTpH7wugXzZ"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "b449dBrOSFK",
+            "created": "2017-06-02T11:03:12.500",
+            "name": "0-4 years, Male",
+            "shortName": "0-4 years, Male",
+            "displayName": "0-4 years, Male",
+            "displayShortName": "0-4 years, Male",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "b449dBrOSFK",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "IvYR8mc6prX"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                },
+                {
+                    "id": "MP15bHaQh2x"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "kQBGXKMwoqR",
+            "created": "2017-06-02T11:03:12.514",
+            "name": "15+ years, Female",
+            "shortName": "15+ years, Female",
+            "displayName": "15+ years, Female",
+            "displayShortName": "15+ years, Female",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "kQBGXKMwoqR",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "IvYR8mc6prX"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "FFA9e1yIXCT"
+                },
+                {
+                    "id": "wTpH7wugXzZ"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "bWFxj7MF1qR",
+            "created": "2017-06-02T11:03:12.510",
+            "name": "5-14 years, Female",
+            "shortName": "5-14 years, Female",
+            "displayName": "5-14 years, Female",
+            "displayShortName": "5-14 years, Female",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "bWFxj7MF1qR",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "IvYR8mc6prX"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "FFA9e1yIXCT"
+                },
+                {
+                    "id": "pa0cY66MrG6"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "j21YQgQ9GzP",
+            "created": "2017-06-02T11:03:12.508",
+            "name": "5-14 years, Male",
+            "shortName": "5-14 years, Male",
+            "displayName": "5-14 years, Male",
+            "displayShortName": "5-14 years, Male",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "j21YQgQ9GzP",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "IvYR8mc6prX"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "pa0cY66MrG6"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionCombos",
+            "lastUpdated": "2019-10-09T23:26:36.985",
+            "id": "t5FrQ0GTvGf",
+            "created": "2017-06-02T11:03:12.505",
+            "name": "0-4 years, Female",
+            "shortName": "0-4 years, Female",
+            "displayName": "0-4 years, Female",
+            "displayShortName": "0-4 years, Female",
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "dimensionItem": "t5FrQ0GTvGf",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "categoryCombo": {
+                "id": "IvYR8mc6prX"
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": []
+        }
+    ],
+    "categoryOptions": [
+        {
+            "metadataType": "categoryOptions",
+            "code": "P0Y--P5Y",
+            "lastUpdated": "2019-10-09T23:26:36.393",
+            "id": "UPvKbcqTEY3",
+            "created": "2016-02-08T12:52:19.692",
+            "name": "0-4 years",
+            "shortName": "0-4 y",
+            "displayName": "0-4 years",
+            "publicAccess": "--------",
+            "displayShortName": "0-4 y",
+            "externalAccess": false,
+            "dimensionItem": "UPvKbcqTEY3",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "0-4"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "0-4 ans"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "0-4"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "0-4 ans"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "mFoasCYViMW"
+                }
+            ],
+            "organisationUnits": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "b449dBrOSFK"
+                },
+                {
+                    "id": "oPcWGgS2Liz"
+                },
+                {
+                    "id": "t5FrQ0GTvGf"
+                }
+            ],
+            "categoryOptionGroups": [
+                {
+                    "id": "yuathFHLjNe"
+                }
+            ],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "F",
+            "lastUpdated": "2019-10-09T23:26:36.400",
+            "id": "FFA9e1yIXCT",
+            "created": "2016-02-08T12:50:49.872",
+            "name": "Female",
+            "shortName": "Female",
+            "displayName": "Female",
+            "publicAccess": "--------",
+            "displayShortName": "Female",
+            "externalAccess": false,
+            "dimensionItem": "FFA9e1yIXCT",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Femmelle"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Féminin"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Féminin"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Femmelle"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Féminin"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Femmelle"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Femmelle"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Féminin"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "FRwO58KwwJt"
+                }
+            ],
+            "organisationUnits": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "kQBGXKMwoqR"
+                },
+                {
+                    "id": "bWFxj7MF1qR"
+                },
+                {
+                    "id": "t5FrQ0GTvGf"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "M",
+            "lastUpdated": "2019-10-09T23:26:36.402",
+            "id": "MP15bHaQh2x",
+            "created": "2016-02-08T12:50:35.460",
+            "name": "Male",
+            "shortName": "Male",
+            "displayName": "Male",
+            "publicAccess": "--------",
+            "displayShortName": "Male",
+            "externalAccess": false,
+            "dimensionItem": "MP15bHaQh2x",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Masculin"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Masculin"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Masculin"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Masculin"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Mâle"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Mâle"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Mâle"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Mâle"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "FRwO58KwwJt"
+                }
+            ],
+            "organisationUnits": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "AroSt3y4ir0"
+                },
+                {
+                    "id": "j21YQgQ9GzP"
+                },
+                {
+                    "id": "b449dBrOSFK"
+                }
+            ],
+            "categoryOptionGroups": [],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "P15Y--P999Y",
+            "lastUpdated": "2019-10-09T23:26:36.396",
+            "id": "wTpH7wugXzZ",
+            "created": "2016-02-15T15:46:58.933",
+            "name": "15+ years",
+            "shortName": "15+ y",
+            "displayName": "15+ years",
+            "publicAccess": "--------",
+            "displayShortName": "15+ y",
+            "externalAccess": false,
+            "dimensionItem": "wTpH7wugXzZ",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "15+ ans"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "15+ ans"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "15+ ans"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "15+"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "15+ ans"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "15+"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "mFoasCYViMW"
+                }
+            ],
+            "organisationUnits": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "AroSt3y4ir0"
+                },
+                {
+                    "id": "kQBGXKMwoqR"
+                },
+                {
+                    "id": "hF0pQZIn6Ch"
+                }
+            ],
+            "categoryOptionGroups": [
+                {
+                    "id": "SqvDE9fTeGl"
+                }
+            ],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptions",
+            "code": "P5Y--P15Y",
+            "lastUpdated": "2019-10-09T23:26:36.398",
+            "id": "pa0cY66MrG6",
+            "created": "2016-02-08T12:52:32.597",
+            "name": "5-14 years",
+            "shortName": "5-14 y",
+            "displayName": "5-14 years",
+            "publicAccess": "--------",
+            "displayShortName": "5-14 y",
+            "externalAccess": false,
+            "dimensionItem": "pa0cY66MrG6",
+            "isDefault": false,
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true,
+                "data": {
+                    "read": true,
+                    "write": true
+                }
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "5-14 ans"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "5-14"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "5-14 ans"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "5-14"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "5-14 ans"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "5-14 ans"
+                }
+            ],
+            "categories": [
+                {
+                    "id": "mFoasCYViMW"
+                }
+            ],
+            "organisationUnits": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "j21YQgQ9GzP"
+                },
+                {
+                    "id": "rtfSaMjPyq6"
+                },
+                {
+                    "id": "bWFxj7MF1qR"
+                }
+            ],
+            "categoryOptionGroups": [
+                {
+                    "id": "V9t81g7Wspa"
+                }
+            ],
+            "userAccesses": [],
+            "legendSets": []
+        }
+    ],
+    "categories": [
+        {
+            "metadataType": "categories",
+            "lastUpdated": "2019-10-09T23:26:36.675",
+            "id": "mFoasCYViMW",
+            "created": "2015-09-14T08:27:04.761",
+            "name": "Age (malaria)",
+            "shortName": "Age (malaria)",
+            "dataDimensionType": "DISAGGREGATION",
+            "dimensionType": "CATEGORY",
+            "displayName": "Age (malaria)",
+            "publicAccess": "--------",
+            "displayShortName": "Age (malaria)",
+            "externalAccess": false,
+            "dimension": "mFoasCYViMW",
+            "allItems": false,
+            "dataDimension": true,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryCombos": [
+                {
+                    "id": "IvYR8mc6prX"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                },
+                {
+                    "id": "pa0cY66MrG6"
+                },
+                {
+                    "id": "wTpH7wugXzZ"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "items": [
+                {
+                    "id": "UPvKbcqTEY3"
+                },
+                {
+                    "id": "pa0cY66MrG6"
+                },
+                {
+                    "id": "wTpH7wugXzZ"
+                }
+            ]
+        },
+        {
+            "metadataType": "categories",
+            "lastUpdated": "2019-10-09T23:26:36.679",
+            "id": "FRwO58KwwJt",
+            "created": "2015-10-08T09:38:20.706",
+            "name": "Sex",
+            "shortName": "Sex",
+            "dataDimensionType": "DISAGGREGATION",
+            "dimensionType": "CATEGORY",
+            "displayName": "Sex",
+            "publicAccess": "--------",
+            "displayShortName": "Sex",
+            "externalAccess": false,
+            "dimension": "FRwO58KwwJt",
+            "allItems": false,
+            "dataDimension": false,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "PG2izvccrYM"
+            },
+            "user": {
+                "id": "PG2izvccrYM"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Sexe"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Sexe"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Sexe"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Sexe"
+                }
+            ],
+            "categoryCombos": [
+                {
+                    "id": "IvYR8mc6prX"
+                }
+            ],
+            "categoryOptions": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "userAccesses": [],
+            "items": [
+                {
+                    "id": "MP15bHaQh2x"
+                },
+                {
+                    "id": "FFA9e1yIXCT"
+                }
+            ]
+        }
+    ],
+    "categoryOptionGroups": [
+        {
+            "metadataType": "categoryOptionGroups",
+            "lastUpdated": "2019-10-09T23:21:41.234",
+            "id": "yuathFHLjNe",
+            "created": "2017-06-04T19:45:41.126",
+            "name": "0-4 years",
+            "shortName": "0-4 years",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "0-4 years",
+            "publicAccess": "--------",
+            "displayShortName": "0-4 years",
+            "externalAccess": false,
+            "dimensionItem": "yuathFHLjNe",
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION_GROUP",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "UPvKbcqTEY3"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "groupSets": [
+                {
+                    "id": "AzDcxg4bW1N"
+                }
+            ],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionGroups",
+            "lastUpdated": "2019-10-09T23:21:41.235",
+            "id": "SqvDE9fTeGl",
+            "created": "2017-06-06T09:56:16.663",
+            "name": "15+ years",
+            "shortName": "15+ years",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "15+ years",
+            "publicAccess": "--------",
+            "displayShortName": "15+ years",
+            "externalAccess": false,
+            "dimensionItem": "SqvDE9fTeGl",
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION_GROUP",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "wTpH7wugXzZ"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "groupSets": [
+                {
+                    "id": "AzDcxg4bW1N"
+                }
+            ],
+            "userAccesses": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "categoryOptionGroups",
+            "lastUpdated": "2019-10-09T23:21:41.236",
+            "id": "V9t81g7Wspa",
+            "created": "2017-06-04T19:46:03.484",
+            "name": "5-14 years",
+            "shortName": "5-14 years",
+            "dataDimensionType": "DISAGGREGATION",
+            "displayName": "5-14 years",
+            "publicAccess": "--------",
+            "displayShortName": "5-14 years",
+            "externalAccess": false,
+            "dimensionItem": "V9t81g7Wspa",
+            "favorite": false,
+            "dimensionItemType": "CATEGORY_OPTION_GROUP",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "vUeLeQMSwhN"
+            },
+            "user": {
+                "id": "vUeLeQMSwhN"
+            },
+            "favorites": [],
+            "translations": [],
+            "categoryOptions": [
+                {
+                    "id": "pa0cY66MrG6"
+                }
+            ],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "suMb19wGXPR",
+                    "displayName": "Malaria admin",
+                    "id": "suMb19wGXPR"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "ZXEVDM9XRea",
+                    "displayName": "Malaria access",
+                    "id": "ZXEVDM9XRea"
+                }
+            ],
+            "attributeValues": [],
+            "groupSets": [
+                {
+                    "id": "AzDcxg4bW1N"
+                }
+            ],
+            "userAccesses": [],
+            "legendSets": []
+        }
+    ]
+}

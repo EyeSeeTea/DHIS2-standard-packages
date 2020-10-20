@@ -1,0 +1,3798 @@
+{
+    "date": "2020-07-13T18:08:06.623Z",
+    "dashboards": [
+        {
+            "metadataType": "dashboards",
+            "lastUpdated": "2020-07-10T10:02:58.968",
+            "id": "OSDgGKMx9Pk",
+            "created": "2020-07-09T17:07:09.223",
+            "name": "Climate Change (Predictors)",
+            "displayName": "Climate Change (Predictors)",
+            "publicAccess": "--------",
+            "description": "Predictors Dashboard for climate change data",
+            "externalAccess": false,
+            "displayDescription": "Predictors Dashboard for climate change data",
+            "itemCount": 16,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "r-------",
+                    "userGroupUid": "dDI3HYmyK3l",
+                    "displayName": "CC access",
+                    "id": "dDI3HYmyK3l"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "E3Wsdy0Lr3D",
+                    "displayName": "CC admin",
+                    "id": "E3Wsdy0Lr3D"
+                }
+            ],
+            "attributeValues": [],
+            "dashboardItems": [
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.970",
+                    "id": "qzIKJkW6jwy",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 19,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 12,
+                    "x": 47,
+                    "y": 97,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "xUueXmwaOrB"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.970",
+                    "id": "df1YRN1Ahdj",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 19,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 12,
+                    "x": 35,
+                    "y": 97,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "A44KxHK9hci"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.971",
+                    "id": "oVePCft7w8l",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 19,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 12,
+                    "x": 23,
+                    "y": 97,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "JBgmif4XTQI"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.971",
+                    "id": "O7vLYUZ3xfs",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 19,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 12,
+                    "x": 11,
+                    "y": 97,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "GQjWJKElBja"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.971",
+                    "id": "P1BKxnPtriO",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 19,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 11,
+                    "x": 0,
+                    "y": 97,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "FDpkPDuqmoI"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.971",
+                    "id": "kOJ09xDa3rU",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 21,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 12,
+                    "x": 47,
+                    "y": 76,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "jnzGQ3NfdBN"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.971",
+                    "id": "mKZVwYtLh0m",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 21,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 12,
+                    "x": 35,
+                    "y": 76,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "iNKX3jkvE6j"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.971",
+                    "id": "gjtL3Us1Tjb",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 21,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 12,
+                    "x": 23,
+                    "y": 76,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "bSlP4mDavX2"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.972",
+                    "id": "iKONNP720Fx",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 21,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 12,
+                    "x": 11,
+                    "y": 76,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "u2XgZdbKFGz"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.972",
+                    "id": "AxXfVAVB5bK",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "MAP",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 21,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 11,
+                    "x": 0,
+                    "y": 76,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "map": {
+                        "id": "FpHjyITPJKo"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.972",
+                    "id": "p6e62aEJKuF",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "CHART",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 21,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 59,
+                    "x": 0,
+                    "y": 55,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "chart": {
+                        "id": "jTmsbOrLSdI"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.972",
+                    "id": "XV0DPmIXoN7",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "CHART",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 19,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 59,
+                    "x": 0,
+                    "y": 36,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "chart": {
+                        "id": "LMUY1du1PTS"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.972",
+                    "id": "xWTQAlunkwc",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "CHART",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 18,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 29,
+                    "x": 0,
+                    "y": 18,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "chart": {
+                        "id": "OQp5AL9oGDs"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.972",
+                    "id": "XZVXobYlSwd",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "CHART",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 18,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 29,
+                    "x": 0,
+                    "y": 0,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "chart": {
+                        "id": "y4U1oeHc2oH"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.973",
+                    "id": "wD7RRtAS7ql",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "CHART",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 18,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 30,
+                    "x": 29,
+                    "y": 18,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "chart": {
+                        "id": "vdlU3HyGvIH"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-07-10T10:02:58.973",
+                    "id": "XOZiwdCdrw3",
+                    "created": "2020-07-10T10:02:58.921",
+                    "type": "CHART",
+                    "externalAccess": false,
+                    "contentCount": 1,
+                    "height": 18,
+                    "shape": "NORMAL",
+                    "interpretationCount": 0,
+                    "width": 30,
+                    "x": 29,
+                    "y": 0,
+                    "interpretationLikeCount": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "chart": {
+                        "id": "FwK1t7Qs5NT"
+                    },
+                    "favorites": [],
+                    "reports": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "resources": [],
+                    "users": [],
+                    "userAccesses": []
+                }
+            ],
+            "userAccesses": []
+        }
+    ],
+    "maps": [
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:15:08.921",
+            "id": "xUueXmwaOrB",
+            "created": "2020-07-10T07:15:08.921",
+            "name": "Temperature (2025)",
+            "displayName": "Temperature (2025)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.977637753504988,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "ZTIS4kUBO5C"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:14:52.905",
+            "id": "A44KxHK9hci",
+            "created": "2020-07-10T07:14:52.905",
+            "name": "Temperature (2024)",
+            "displayName": "Temperature (2024)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.977637753504988,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "FYmpLpm5nzM"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:14:40.095",
+            "id": "JBgmif4XTQI",
+            "created": "2020-07-10T07:14:40.095",
+            "name": "Temperature (2023)",
+            "displayName": "Temperature (2023)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.977637753504988,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "k5tAHZkMmq8"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:14:27.353",
+            "id": "GQjWJKElBja",
+            "created": "2020-07-10T07:14:27.353",
+            "name": "Temperature (2022)",
+            "displayName": "Temperature (2022)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.977637753504988,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "KemGuYsf8fM"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:14:05.687",
+            "id": "FDpkPDuqmoI",
+            "created": "2020-07-10T07:14:05.687",
+            "name": "Temperature (2021)",
+            "displayName": "Temperature (2021)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.977637753504988,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "XPVKGehniM4"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:13:21.407",
+            "id": "jnzGQ3NfdBN",
+            "created": "2020-07-10T07:13:21.407",
+            "name": "Rainfall (2025)",
+            "displayName": "Rainfall (2025)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.966757602932168,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "yrb7JMHbhsr"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:13:04.627",
+            "id": "iNKX3jkvE6j",
+            "created": "2020-07-10T07:13:04.627",
+            "name": "Rainfall (2024)",
+            "displayName": "Rainfall (2024)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.966757602932168,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "dGYmcoemr2g"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:12:49.730",
+            "id": "bSlP4mDavX2",
+            "created": "2020-07-10T07:12:49.730",
+            "name": "Rainfall (2023)",
+            "displayName": "Rainfall (2023)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.966757602932168,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "CzSMFZvLIAz"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:11:03.638",
+            "id": "u2XgZdbKFGz",
+            "created": "2020-07-10T07:11:03.638",
+            "name": "Rainfall (2022)",
+            "displayName": "Rainfall (2022)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.966757602932168,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "LHIcH1yrUXd"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "maps",
+            "lastUpdated": "2020-07-10T07:09:49.720",
+            "id": "FpHjyITPJKo",
+            "created": "2020-07-10T07:09:49.720",
+            "name": "Rainfall (2021)",
+            "displayName": "Rainfall (2021)",
+            "publicAccess": "rw------",
+            "basemap": "osmLight",
+            "latitude": 7.966757602932168,
+            "externalAccess": false,
+            "subscribed": false,
+            "longitude": -1.0327148437500002,
+            "zoom": 7,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "mapViews": [
+                {
+                    "id": "haO2AW5Omau"
+                }
+            ],
+            "interpretations": [],
+            "userGroupAccesses": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": []
+        }
+    ],
+    "charts": [
+        {
+            "metadataType": "charts",
+            "lastUpdated": "2020-07-09T17:49:00.582",
+            "id": "jTmsbOrLSdI",
+            "created": "2020-07-09T17:49:00.582",
+            "name": "Rainfall and Temperature (predictors)",
+            "showData": true,
+            "publicAccess": "rw------",
+            "userOrganisationUnitChildren": false,
+            "type": "LINE",
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": true,
+            "displayDescription": "The relation between rainfall and temperature in the future. Remember that you can activate or deactivate the different values by clicking on the legend name",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "cumulativeValues": false,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "displayName": "Rainfall and Temperature (predictors)",
+            "hideSubtitle": false,
+            "description": "The relation between rainfall and temperature in the future. Remember that you can activate or deactivate the different values by clicking on the legend name",
+            "hideLegend": false,
+            "externalAccess": false,
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "hideTitle": false,
+            "series": "dx",
+            "category": "pe",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "filterDimensions": [
+                "ou"
+            ],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "u7hCRYiJ7Rc"
+                    }
+                },
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "gyZzCZ5RynH"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2025Q1"
+                },
+                {
+                    "id": "2025Q2"
+                },
+                {
+                    "id": "2025Q3"
+                },
+                {
+                    "id": "2025Q4"
+                },
+                {
+                    "id": "2024Q1"
+                },
+                {
+                    "id": "2024Q2"
+                },
+                {
+                    "id": "2024Q3"
+                },
+                {
+                    "id": "2024Q4"
+                },
+                {
+                    "id": "2023Q1"
+                },
+                {
+                    "id": "2023Q2"
+                },
+                {
+                    "id": "2023Q3"
+                },
+                {
+                    "id": "2023Q4"
+                },
+                {
+                    "id": "2022Q1"
+                },
+                {
+                    "id": "2022Q2"
+                },
+                {
+                    "id": "2022Q3"
+                },
+                {
+                    "id": "2022Q4"
+                },
+                {
+                    "id": "2021Q1"
+                },
+                {
+                    "id": "2021Q2"
+                },
+                {
+                    "id": "2021Q3"
+                },
+                {
+                    "id": "2021Q4"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "charts",
+            "lastUpdated": "2020-07-10T16:46:20.235",
+            "id": "LMUY1du1PTS",
+            "created": "2020-07-10T16:46:20.235",
+            "name": "Rainfall and Temperature",
+            "showData": true,
+            "publicAccess": "rw------",
+            "userOrganisationUnitChildren": false,
+            "type": "LINE",
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": true,
+            "displayDescription": "The relation between rainfall and temperature. Remember that you can activate or deactivate the different values by clicking on the legend name",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "cumulativeValues": false,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "displayName": "Rainfall and Temperature",
+            "hideSubtitle": false,
+            "description": "The relation between rainfall and temperature. Remember that you can activate or deactivate the different values by clicking on the legend name",
+            "hideLegend": false,
+            "externalAccess": false,
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "rangeAxisSteps": 5,
+            "hideTitle": false,
+            "series": "dx",
+            "category": "pe",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "filterDimensions": [
+                "ou"
+            ],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "jVZ3dMpuf9x"
+                    }
+                },
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "NegjVU2KRfJ"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2020Q4"
+                },
+                {
+                    "id": "2020Q3"
+                },
+                {
+                    "id": "2020Q2"
+                },
+                {
+                    "id": "2020Q1"
+                },
+                {
+                    "id": "2019Q4"
+                },
+                {
+                    "id": "2019Q3"
+                },
+                {
+                    "id": "2019Q2"
+                },
+                {
+                    "id": "2019Q1"
+                },
+                {
+                    "id": "2018Q4"
+                },
+                {
+                    "id": "2017Q2"
+                },
+                {
+                    "id": "2018Q3"
+                },
+                {
+                    "id": "2018Q2"
+                },
+                {
+                    "id": "2018Q1"
+                },
+                {
+                    "id": "2017Q4"
+                },
+                {
+                    "id": "2017Q3"
+                },
+                {
+                    "id": "2017Q1"
+                },
+                {
+                    "id": "2016Q4"
+                },
+                {
+                    "id": "2016Q3"
+                },
+                {
+                    "id": "2016Q2"
+                },
+                {
+                    "id": "2016Q1"
+                },
+                {
+                    "id": "2015Q4"
+                },
+                {
+                    "id": "2015Q3"
+                },
+                {
+                    "id": "2015Q2"
+                },
+                {
+                    "id": "2015Q1"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "charts",
+            "lastUpdated": "2020-07-10T16:41:11.602",
+            "id": "OQp5AL9oGDs",
+            "created": "2020-07-10T16:41:11.602",
+            "name": "Temperature by regions",
+            "showData": true,
+            "publicAccess": "rw------",
+            "userOrganisationUnitChildren": true,
+            "type": "LINE",
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "displayDescription": "Temperature showed by regions",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "cumulativeValues": false,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "displayName": "Temperature by regions",
+            "hideSubtitle": false,
+            "description": "Temperature showed by regions",
+            "hideLegend": false,
+            "externalAccess": false,
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "hideTitle": false,
+            "series": "ou",
+            "category": "pe",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "filterDimensions": [
+                "dx"
+            ],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "jVZ3dMpuf9x"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "charts",
+            "lastUpdated": "2020-07-10T16:40:42.259",
+            "id": "y4U1oeHc2oH",
+            "created": "2020-07-10T16:40:42.259",
+            "name": "Rainfall by Regions",
+            "showData": true,
+            "publicAccess": "rw------",
+            "userOrganisationUnitChildren": true,
+            "type": "STACKED_COLUMN",
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "displayDescription": "Rainfall showed by Regions",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "cumulativeValues": false,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "displayName": "Rainfall by Regions",
+            "hideSubtitle": false,
+            "description": "Rainfall showed by Regions",
+            "hideLegend": false,
+            "externalAccess": false,
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "hideTitle": false,
+            "series": "ou",
+            "category": "pe",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": true,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": true,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "filterDimensions": [
+                "dx"
+            ],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "NegjVU2KRfJ"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "charts",
+            "lastUpdated": "2020-07-09T17:42:19.629",
+            "id": "vdlU3HyGvIH",
+            "created": "2020-07-09T17:42:19.629",
+            "name": "Temperature by regions (predictors)",
+            "showData": true,
+            "publicAccess": "rw------",
+            "userOrganisationUnitChildren": true,
+            "type": "LINE",
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "displayDescription": "Temperature showed by regions for predictors",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "cumulativeValues": false,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "displayName": "Temperature by regions (predictors)",
+            "hideSubtitle": false,
+            "description": "Temperature showed by regions for predictors",
+            "hideLegend": false,
+            "externalAccess": false,
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "hideTitle": false,
+            "series": "ou",
+            "category": "pe",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "filterDimensions": [
+                "dx"
+            ],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "u7hCRYiJ7Rc"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2021"
+                },
+                {
+                    "id": "2022"
+                },
+                {
+                    "id": "2023"
+                },
+                {
+                    "id": "2024"
+                },
+                {
+                    "id": "2025"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "charts",
+            "lastUpdated": "2020-07-09T17:34:18.702",
+            "id": "FwK1t7Qs5NT",
+            "created": "2020-07-09T17:34:18.702",
+            "name": "Rainfall by Regions (predictors)",
+            "showData": true,
+            "publicAccess": "rw------",
+            "userOrganisationUnitChildren": true,
+            "type": "STACKED_COLUMN",
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "displayDescription": "Rainfall showed by Regions (predictors)",
+            "regressionType": "NONE",
+            "completedOnly": false,
+            "cumulativeValues": false,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "hideEmptyRowItems": "NONE",
+            "aggregationType": "DEFAULT",
+            "userOrganisationUnitGrandChildren": false,
+            "displayName": "Rainfall by Regions (predictors)",
+            "hideSubtitle": false,
+            "description": "Rainfall showed by Regions (predictors)",
+            "hideLegend": false,
+            "externalAccess": false,
+            "percentStackedValues": false,
+            "noSpaceBetweenColumns": false,
+            "hideTitle": false,
+            "series": "ou",
+            "category": "pe",
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "filterDimensions": [
+                "dx"
+            ],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "gyZzCZ5RynH"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2021"
+                },
+                {
+                    "id": "2022"
+                },
+                {
+                    "id": "2023"
+                },
+                {
+                    "id": "2024"
+                },
+                {
+                    "id": "2025"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        }
+    ],
+    "mapViews": [
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:09:49.719",
+            "id": "haO2AW5Omau",
+            "created": "2020-07-10T07:09:49.719",
+            "name": "CC - Rainfall (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Rainfall (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "##000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "gyZzCZ5RynH"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2021"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:11:03.638",
+            "id": "LHIcH1yrUXd",
+            "created": "2020-07-10T07:11:03.638",
+            "name": "CC - Rainfall (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Rainfall (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "##000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "gyZzCZ5RynH"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2022"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:12:49.729",
+            "id": "CzSMFZvLIAz",
+            "created": "2020-07-10T07:12:49.729",
+            "name": "CC - Rainfall (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Rainfall (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "##000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "gyZzCZ5RynH"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2023"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:13:04.627",
+            "id": "dGYmcoemr2g",
+            "created": "2020-07-10T07:13:04.627",
+            "name": "CC - Rainfall (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Rainfall (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "##000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "gyZzCZ5RynH"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2024"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:13:21.407",
+            "id": "yrb7JMHbhsr",
+            "created": "2020-07-10T07:13:21.407",
+            "name": "CC - Rainfall (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#eff3ff,#bdd7e7,#6baed6,#3182bd,#08519c",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Rainfall (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "##000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "gyZzCZ5RynH"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2025"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:14:05.687",
+            "id": "XPVKGehniM4",
+            "created": "2020-07-10T07:14:05.687",
+            "name": "CC - Temperature (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#fee5d9,#fcae91,#fb6a4a,#de2d26,#a50f15",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Temperature (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "###000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "u7hCRYiJ7Rc"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2021"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:14:27.353",
+            "id": "KemGuYsf8fM",
+            "created": "2020-07-10T07:14:27.353",
+            "name": "CC - Temperature (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#fee5d9,#fcae91,#fb6a4a,#de2d26,#a50f15",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Temperature (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "###000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "u7hCRYiJ7Rc"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2022"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:14:40.095",
+            "id": "k5tAHZkMmq8",
+            "created": "2020-07-10T07:14:40.095",
+            "name": "CC - Temperature (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#fee5d9,#fcae91,#fb6a4a,#de2d26,#a50f15",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Temperature (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "###000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "u7hCRYiJ7Rc"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2023"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:14:52.905",
+            "id": "FYmpLpm5nzM",
+            "created": "2020-07-10T07:14:52.905",
+            "name": "CC - Temperature (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#fee5d9,#fcae91,#fb6a4a,#de2d26,#a50f15",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Temperature (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "###000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "u7hCRYiJ7Rc"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2024"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        },
+        {
+            "metadataType": "mapViews",
+            "lastUpdated": "2020-07-10T07:15:08.920",
+            "id": "ZTIS4kUBO5C",
+            "created": "2020-07-10T07:15:08.920",
+            "name": "CC - Temperature (predictors)",
+            "userOrganisationUnitChildren": true,
+            "colorScale": "#fee5d9,#fcae91,#fb6a4a,#de2d26,#a50f15",
+            "parentLevel": 0,
+            "subscribed": false,
+            "parentGraphMap": {},
+            "userOrganisationUnit": false,
+            "method": 2,
+            "labelFontSize": "11px",
+            "colorHigh": "00ff00",
+            "completedOnly": false,
+            "eventPointRadius": 0,
+            "labels": true,
+            "sortOrder": 0,
+            "favorite": false,
+            "topLimit": 0,
+            "userOrganisationUnitGrandChildren": false,
+            "hidden": false,
+            "displayName": "CC - Temperature (predictors)",
+            "classes": 5,
+            "hideSubtitle": false,
+            "labelFontColor": "###000000",
+            "layer": "thematic",
+            "externalAccess": false,
+            "labelFontStyle": "normal",
+            "labelFontWeight": "normal",
+            "radiusLow": 5,
+            "radiusHigh": 15,
+            "hideTitle": false,
+            "eventClustering": false,
+            "colorLow": "ff0000",
+            "opacity": 0.8,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "relativePeriods": {
+                "thisYear": false,
+                "quartersLastYear": false,
+                "last52Weeks": false,
+                "thisWeek": false,
+                "lastMonth": false,
+                "last14Days": false,
+                "biMonthsThisYear": false,
+                "monthsThisYear": false,
+                "last2SixMonths": false,
+                "yesterday": false,
+                "thisQuarter": false,
+                "last12Months": false,
+                "last5FinancialYears": false,
+                "thisSixMonth": false,
+                "lastQuarter": false,
+                "thisFinancialYear": false,
+                "last4Weeks": false,
+                "last3Months": false,
+                "thisDay": false,
+                "thisMonth": false,
+                "last5Years": false,
+                "last6BiMonths": false,
+                "last4BiWeeks": false,
+                "lastFinancialYear": false,
+                "lastBiWeek": false,
+                "weeksThisYear": false,
+                "last6Months": false,
+                "last3Days": false,
+                "quartersThisYear": false,
+                "monthsLastYear": false,
+                "lastWeek": false,
+                "last7Days": false,
+                "thisBimonth": false,
+                "lastBimonth": false,
+                "lastSixMonth": false,
+                "thisBiWeek": false,
+                "lastYear": false,
+                "last12Weeks": false,
+                "last4Quarters": false
+            },
+            "dataElementGroupSetDimensions": [],
+            "attributeDimensions": [],
+            "translations": [],
+            "interpretations": [],
+            "itemOrganisationUnitGroups": [],
+            "userGroupAccesses": [],
+            "programIndicatorDimensions": [],
+            "subscribers": [],
+            "attributeValues": [],
+            "columnDimensions": [
+                "dx"
+            ],
+            "userAccesses": [],
+            "favorites": [],
+            "dataDimensionItems": [
+                {
+                    "dataDimensionItemType": "INDICATOR",
+                    "indicator": {
+                        "id": "u7hCRYiJ7Rc"
+                    }
+                }
+            ],
+            "categoryOptionGroupSetDimensions": [],
+            "columns": [],
+            "organisationUnitGroupSetDimensions": [],
+            "organisationUnitLevels": [],
+            "dataElementDimensions": [],
+            "periods": [
+                {
+                    "id": "2025"
+                }
+            ],
+            "organisationUnits": [],
+            "categoryDimensions": [],
+            "filters": [],
+            "rows": []
+        }
+    ],
+    "indicators": [
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_temperature_predictors",
+            "lastUpdated": "2020-07-09T16:51:32.052",
+            "id": "u7hCRYiJ7Rc",
+            "created": "2020-07-09T16:51:32.052",
+            "name": "CC - Temperature (predictors)",
+            "shortName": "Temperature celsius (predictors)",
+            "displayName": "CC - Temperature (predictors)",
+            "publicAccess": "rw------",
+            "description": "Average temperature in Celsius for predictors",
+            "displayShortName": "Temperature celsius (predictors)",
+            "externalAccess": false,
+            "denominatorDescription": "1",
+            "numeratorDescription": "Temperature",
+            "displayDescription": "Average temperature in Celsius for predictors",
+            "dimensionItem": "u7hCRYiJ7Rc",
+            "numerator": "#{C9g75snMS5S}",
+            "denominator": "1",
+            "annualized": false,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "Me6Jx5885BH"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_rainfall2_predictors",
+            "lastUpdated": "2020-07-10T16:34:34.423",
+            "id": "gyZzCZ5RynH",
+            "created": "2020-07-09T16:53:38.840",
+            "name": "CC - Rainfall (predictors)",
+            "shortName": "Rainfall in mm (predictors)",
+            "displayName": "CC - Rainfall (predictors)",
+            "publicAccess": "rw------",
+            "displayShortName": "Rainfall in mm (predictors)",
+            "externalAccess": false,
+            "denominatorDescription": "1",
+            "numeratorDescription": "Rainfall",
+            "dimensionItem": "gyZzCZ5RynH",
+            "numerator": "#{sGxB2hDUQk7}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "Me6Jx5885BH"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_rainfall_predictors",
+            "lastUpdated": "2020-07-09T16:54:13.260",
+            "id": "WwfsiFzM3uK",
+            "created": "2020-07-09T16:52:41.237",
+            "name": "CC - Rainfall (:100 predictors)",
+            "shortName": "Rainfall in mm (:100 predictors)",
+            "displayName": "CC - Rainfall (:100 predictors)",
+            "publicAccess": "rw------",
+            "description": "Rainfall in mm for predictors (:100)",
+            "displayShortName": "Rainfall in mm (:100 predictors)",
+            "externalAccess": false,
+            "denominatorDescription": "100",
+            "numeratorDescription": "Rainfall",
+            "displayDescription": "Rainfall in mm for predictors (:100)",
+            "dimensionItem": "WwfsiFzM3uK",
+            "numerator": "#{sGxB2hDUQk7}",
+            "denominator": "100",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "Me6Jx5885BH"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_maximum_temperature_predictors",
+            "lastUpdated": "2020-07-09T16:48:38.827",
+            "id": "O1BbmGWInPN",
+            "created": "2020-07-09T16:46:09.903",
+            "name": "CC - Maximum temperature celsius (predictors)",
+            "shortName": "Maximum temperature celsius (predictors)",
+            "displayName": "CC - Maximum temperature celsius (predictors)",
+            "publicAccess": "rw------",
+            "description": "Maximum temperature in celsius for predictors",
+            "displayShortName": "Maximum temperature celsius (predictors)",
+            "externalAccess": false,
+            "denominatorDescription": "1",
+            "numeratorDescription": "Temperature limit up",
+            "displayDescription": "Maximum temperature in celsius for predictors",
+            "dimensionItem": "O1BbmGWInPN",
+            "numerator": "#{JktSaZhiVrF}",
+            "denominator": "1",
+            "annualized": false,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "Me6Jx5885BH"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_minimum_temperature_predictors",
+            "lastUpdated": "2020-07-09T16:48:21.572",
+            "id": "vdQo8yiuqK3",
+            "created": "2020-07-09T16:48:21.572",
+            "name": "CC - Minimum temperature celsius (predictors)",
+            "shortName": "Minimum temperature celsius (predictors)",
+            "displayName": "CC - Minimum temperature celsius (predictors)",
+            "publicAccess": "rw------",
+            "description": "Minimum temperature in celsius for predictors",
+            "displayShortName": "Minimum temperature celsius (predictors)",
+            "externalAccess": false,
+            "denominatorDescription": "1",
+            "numeratorDescription": "Temperature limit down",
+            "displayDescription": "Minimum temperature in celsius for predictors",
+            "dimensionItem": "vdQo8yiuqK3",
+            "numerator": "#{yb3FPpPu61p}",
+            "denominator": "1",
+            "annualized": false,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "Me6Jx5885BH"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_temperature",
+            "lastUpdated": "2020-07-10T07:43:02.779",
+            "id": "jVZ3dMpuf9x",
+            "created": "2020-01-18T10:19:36.799",
+            "name": "CC - Temperature",
+            "shortName": "Temperature celsius",
+            "displayName": "CC - Temperature",
+            "publicAccess": "rw------",
+            "description": "Average temperature in Celsius",
+            "displayShortName": "Temperature celsius",
+            "externalAccess": false,
+            "denominatorDescription": "1",
+            "numeratorDescription": "Temperature",
+            "displayDescription": "Average temperature in Celsius",
+            "dimensionItem": "jVZ3dMpuf9x",
+            "numerator": "#{RSJpUZqMoxC}",
+            "denominator": "1",
+            "annualized": false,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "grkpsNJZwHw"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_Rainfall2",
+            "lastUpdated": "2020-07-10T16:32:22.589",
+            "id": "NegjVU2KRfJ",
+            "created": "2020-01-29T23:17:59.320",
+            "name": "CC - Rainfall",
+            "shortName": "Rainfall in mm",
+            "displayName": "CC - Rainfall",
+            "publicAccess": "rw------",
+            "displayShortName": "Rainfall in mm",
+            "externalAccess": false,
+            "denominatorDescription": "1",
+            "numeratorDescription": "Rainfall",
+            "dimensionItem": "NegjVU2KRfJ",
+            "numerator": "#{uWYGA1xiwuZ}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "grkpsNJZwHw"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_rainfall",
+            "lastUpdated": "2020-07-10T07:42:01.421",
+            "id": "QRqvasoj4RL",
+            "created": "2020-01-18T10:15:52.768",
+            "name": "CC - Rainfall (:100)",
+            "shortName": "Rainfall in mm (:100)",
+            "displayName": "CC - Rainfall (:100)",
+            "publicAccess": "rw------",
+            "description": "Rainfall in mm (:100)",
+            "displayShortName": "Rainfall in mm (:100)",
+            "externalAccess": false,
+            "denominatorDescription": "100",
+            "numeratorDescription": "Rainfall",
+            "displayDescription": "Rainfall in mm (:100)",
+            "dimensionItem": "QRqvasoj4RL",
+            "numerator": "#{uWYGA1xiwuZ}",
+            "denominator": "100",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "grkpsNJZwHw"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_minimum_temperature",
+            "lastUpdated": "2020-07-10T07:40:39.019",
+            "id": "P1TLDyqVUp8",
+            "created": "2020-01-22T15:56:18.698",
+            "name": "CC - Minimum temperature celsius",
+            "shortName": "Minimum temperature celsius",
+            "displayName": "CC - Minimum temperature celsius",
+            "publicAccess": "rw------",
+            "description": "Minimum temperature in celsius",
+            "displayShortName": "Minimum temperature celsius",
+            "externalAccess": false,
+            "denominatorDescription": "1",
+            "numeratorDescription": "Temperature limit down",
+            "displayDescription": "Minimum temperature in celsius",
+            "dimensionItem": "P1TLDyqVUp8",
+            "numerator": "#{klaKtwaWAvG}",
+            "denominator": "1",
+            "annualized": false,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "grkpsNJZwHw"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_tot_mal_conf_cases",
+            "lastUpdated": "2020-07-10T07:39:29.943",
+            "id": "mvXxXmSWYv5",
+            "created": "2020-02-10T22:26:10.191",
+            "name": "CC - Malaria cases confirmed (number :100 000)",
+            "shortName": "Malaria confirmed (:100 000)",
+            "displayName": "CC - Malaria cases confirmed (number :100 000)",
+            "publicAccess": "rw------",
+            "description": "Number of malaria cases confirmed as positive with microscopy and/or RDT",
+            "displayShortName": "Malaria confirmed (:100 000)",
+            "externalAccess": false,
+            "denominatorDescription": "100000",
+            "numeratorDescription": "Total malaria confirmed cases",
+            "displayDescription": "Number of malaria cases confirmed as positive with microscopy and/or RDT",
+            "dimensionItem": "mvXxXmSWYv5",
+            "numerator": "#{enVf9I39FRZ} + #{vTRrNdOOT9g}",
+            "denominator": "100000",
+            "annualized": false,
+            "decimals": 4,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "grkpsNJZwHw"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "IA_CC_maximum_temperature",
+            "lastUpdated": "2020-07-10T07:39:59.430",
+            "id": "swC1byErpea",
+            "created": "2020-01-22T15:57:37.097",
+            "name": "CC - Maximum temperature celsius",
+            "shortName": "Maximum temperature celsius",
+            "displayName": "CC - Maximum temperature celsius",
+            "publicAccess": "rw------",
+            "description": "Maximum temperature in celsius",
+            "displayShortName": "Maximum temperature celsius",
+            "externalAccess": false,
+            "denominatorDescription": "1",
+            "numeratorDescription": "Temperature limit up",
+            "displayDescription": "Maximum temperature in celsius",
+            "dimensionItem": "swC1byErpea",
+            "numerator": "#{c24Y5UNjXyj}",
+            "denominator": "1",
+            "annualized": false,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "grkpsNJZwHw"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        }
+    ],
+    "indicatorGroups": [
+        {
+            "metadataType": "indicatorGroups",
+            "created": "2020-07-10T07:08:45.335",
+            "lastUpdated": "2020-07-10T07:08:45.335",
+            "name": "Climate Change Predictors",
+            "id": "Me6Jx5885BH",
+            "displayName": "Climate Change Predictors",
+            "publicAccess": "rw------",
+            "externalAccess": false,
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "M5zQapPyTZI"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "M5zQapPyTZI"
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicators": [
+                {
+                    "id": "WwfsiFzM3uK"
+                },
+                {
+                    "id": "gyZzCZ5RynH"
+                },
+                {
+                    "id": "u7hCRYiJ7Rc"
+                },
+                {
+                    "id": "O1BbmGWInPN"
+                },
+                {
+                    "id": "vdQo8yiuqK3"
+                }
+            ],
+            "translations": [],
+            "userAccesses": []
+        }
+    ]
+}

@@ -1,0 +1,63 @@
+{
+    "date": "2020-10-20T09:16:16.628Z",
+    "userGroups": [
+        {
+            "metadataType": "userGroups",
+            "created": "2020-01-29T23:37:20.878",
+            "lastUpdated": "2020-01-29T23:37:20.878",
+            "name": "Malaria access",
+            "id": "ZXEVDM9XRea",
+            "displayName": "Malaria access",
+            "publicAccess": "rw------",
+            "externalAccess": false,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],
+            "userGroupAccesses": [],
+            "managedByGroups": [],
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "userGroups",
+            "created": "2020-01-29T23:33:22.543",
+            "lastUpdated": "2020-01-29T23:33:22.543",
+            "name": "Malaria admin",
+            "id": "suMb19wGXPR",
+            "displayName": "Malaria admin",
+            "publicAccess": "rw------",
+            "externalAccess": false,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],
+            "userGroupAccesses": [],
+            "managedByGroups": [],
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [],
+            "userAccesses": []
+        }
+    ]
+}

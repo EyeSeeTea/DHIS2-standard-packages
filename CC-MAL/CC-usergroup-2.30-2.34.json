@@ -1,0 +1,63 @@
+{
+    "date": "2020-10-13T09:34:05.182Z",
+    "userGroups": [
+        {
+            "metadataType": "userGroups",
+            "created": "2020-06-23T10:45:50.683",
+            "lastUpdated": "2020-07-14T00:25:17.610",
+            "name": "CC access",
+            "id": "dDI3HYmyK3l",
+            "displayName": "CC access",
+            "publicAccess": "rw------",
+            "externalAccess": false,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],
+            "userGroupAccesses": [],
+            "managedByGroups": [],
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "userGroups",
+            "created": "2020-06-23T10:45:09.219",
+            "lastUpdated": "2020-07-14T00:25:17.625",
+            "name": "CC admin",
+            "id": "E3Wsdy0Lr3D",
+            "displayName": "CC admin",
+            "publicAccess": "rw------",
+            "externalAccess": false,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],
+            "userGroupAccesses": [],
+            "managedByGroups": [],
+            "attributeValues": [],
+            "users": [],
+            "managedGroups": [],
+            "translations": [],
+            "userAccesses": []
+        }
+    ]
+}
