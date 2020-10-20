@@ -32,18 +32,18 @@ The latest version of the metadata packages compatible with different DHIS2 vers
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | Adult surveillance |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-ADULT%20SURVEILLANCE/ENTO-ADULT_SURV_metadata_program-0.0.0--2.34-202010092218.json)	| 2020-10-13 |
-| Mosquito Tracker | DHIS2.34 | V0.0.0 | Linked Tracker Programs (x2) | [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/ENTO-MOSQUITO%20TRACKER/ENTO-MOSQ_TRACKER_metadata_program-0.0.2-2.34-202010201645.json) | 2020-10-20 |
+| Mosquito Tracker | DHIS2.34 | V0.0.0 | Linked Tracker Programs (x2) | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-MOSQUITO%20TRACKER/ENTO-MOSQ_TRACKER_metadata_program-0.0.2-2.34-202010201645.json) | 2020-10-20 |
 
 ## Breeding sites monitoring
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
-| Breeding sites monitoring |  DHIS2.34 | V0.0.1 | Event Program |  [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES/ENTO-BREED_SITE_MAPING_metadata_program-0.0.1-2.34-202010201051.json)	| 2020-10-20 |
-| Breeding sites tracker |  DHIS2.34 | V0.0.0 | Tracker Program |  [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES/ENTO-BREED_SITE_MAPING_metadata_program-0.0.1-2.34-202010201051.json)	| 2020-10-20 |
+| Breeding sites maping |  DHIS2.34 | V0.0.1 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES/ENTO-BREED_SITE_MAPING_metadata_program-0.0.1-2.34-202010201051.json)	| 2020-10-20 |
+| Breeding sites tracker |  DHIS2.34 | V0.0.0 | Tracker Program |  [metadata.json]https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES%20TRACKER/ENTO-BREED_SITE_TRACKER_metadata_program-0.0.1-2.34-202010201544.json)	| 2020-10-20 |
 
 ## Indoor Residual Spraying (IRS)
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
-| IRS Campaign totals |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20CAMPAIGN%20TOTALS/ENTO-VC_IRS_metadata_program-0.0.1-2.34-202010201044.json)	| 2020-10-20 |
+| IRS Campaign totals |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/tree/GMP/VCR/VC-IRS%20CAMPAIGN%20TOTALS)	| 2020-10-20 |
 | IRS Residual efficacy| DHIS2.34 | V0.0.0 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20RESIDUAL%20EFFICACY/ENTO-VC_RES%20_metadata_program_dashboard-0.0.0--2.34-202010092207.json) | 2020-10-13 |
 
 
@@ -51,4 +51,4 @@ The latest version of the metadata packages compatible with different DHIS2 vers
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | ITN Campaign totals |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20CAMPAIGN%20TOTALS/ENTO-VC_ITN_metadata_program-0.0.0--2.34-202010092222.json)	| 2020-10-13 |
-| ITN Bioefficacy |  DHIS2.34 | V0.0.1 | Event Program | [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.1-2.34-202010201058.json) | 2020-10-20 |
+| ITN Bioefficacy |  DHIS2.34 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.1-2.34-202010201058.json) | 2020-10-20 |
