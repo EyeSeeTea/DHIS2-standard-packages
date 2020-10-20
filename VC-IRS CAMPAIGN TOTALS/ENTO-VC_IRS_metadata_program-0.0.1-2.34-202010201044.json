@@ -1,10 +1,10 @@
 {
     "package": {
-        "id": "KtZsbVHkzO3",
+        "id": "krbyEzjDTBX",
         "name": "ENTO-VC_IRS_metadata_program",
         "deleted": false,
-        "description": "First commit to GitHub Repo",
-        "version": "0.0.0-",
+        "description": "Some data elements were renamed/remove to make the program easier to use",
+        "version": "0.0.1",
         "dhisVersion": "2.34",
         "module": {
             "id": "AKqt2ue593S",
@@ -19,8 +19,8 @@
             "id": "gUQgjMPkPvK",
             "name": "Lucia Fernandez"
         },
-        "created": "2020-10-09T20:24:42.986Z",
-        "lastUpdated": "2020-10-09T20:24:55.287Z",
+        "created": "2020-10-20T08:44:30.934Z",
+        "lastUpdated": "2020-10-20T08:45:40.547Z",
         "lastUpdatedBy": {
             "id": "gUQgjMPkPvK",
             "name": "Lucia Fernandez"
@@ -297,414 +297,6 @@
             "externalAccess": false,
             "attributeValues": [],
             "displayFormName": "Pirimiphos‐methyl"
-        },
-        {
-            "id": "xMYgDzfEx6h",
-            "code": "APRIL",
-            "name": "April",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 4,
-            "displayName": "April",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Avril",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Abril",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Abril",
-                    "locale": "pt",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "April"
-        },
-        {
-            "id": "IKmErhbDalI",
-            "code": "AUGUST",
-            "name": "August",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 8,
-            "displayName": "August",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Agosto",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Agosto",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Août",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "August"
-        },
-        {
-            "id": "rvpMGdSpoKD",
-            "code": "DECEMBER",
-            "name": "December",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 12,
-            "displayName": "December",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Dezembro",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Décembre",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Diciembre",
-                    "locale": "es",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "December"
-        },
-        {
-            "id": "I8g5V4nNNHP",
-            "code": "FEBRUARY",
-            "name": "February",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 2,
-            "displayName": "February",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Fevereiro",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Febrero",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Février",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "February"
-        },
-        {
-            "id": "j9u7xDsERNh",
-            "code": "JANUARY",
-            "name": "January",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 1,
-            "displayName": "January",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Enero",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Janvier",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Janeiro",
-                    "locale": "pt",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "January"
-        },
-        {
-            "id": "BWIvpag11aa",
-            "code": "JULY",
-            "name": "July",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 7,
-            "displayName": "July",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Juillet",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Julho",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Julio",
-                    "locale": "es",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "July"
-        },
-        {
-            "id": "gff9mk2Dwvc",
-            "code": "JUNE",
-            "name": "June",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 6,
-            "displayName": "June",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Junio",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Junho",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Juin",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "June"
-        },
-        {
-            "id": "OFZ8bS7yK7C",
-            "code": "MARCH",
-            "name": "March",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 3,
-            "displayName": "March",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Marzo",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Março",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Mars",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "March"
-        },
-        {
-            "id": "tkgrOOi3872",
-            "code": "MAY",
-            "name": "May",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 5,
-            "displayName": "May",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Maio",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Mayo",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Mai",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "May"
-        },
-        {
-            "id": "NzmxtbLS9fg",
-            "code": "NOVEMBER",
-            "name": "November",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 11,
-            "displayName": "November",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Novembro",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Novembre",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Noviembre",
-                    "locale": "es",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "November"
-        },
-        {
-            "id": "bz8NaWVlGB4",
-            "code": "OCTOBER",
-            "name": "October",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 10,
-            "displayName": "October",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Octobre",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Outubro",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Octubre",
-                    "locale": "es",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "October"
-        },
-        {
-            "id": "XNLXdB4bAeY",
-            "code": "SEPTEMBER",
-            "name": "September",
-            "created": "2019-04-10T10:42:36.444",
-            "favorite": false,
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "sortOrder": 9,
-            "displayName": "September",
-            "lastUpdated": "2020-05-22T16:58:02.301",
-            "translations": [
-                {
-                    "value": "Septiembre",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Setembro",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Septembre",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "externalAccess": false,
-            "attributeValues": [],
-            "displayFormName": "September"
         },
         {
             "id": "X2h5UWfoWfa",
@@ -1456,10 +1048,10 @@
                     "id": "fJH0EtpRN2I"
                 },
                 {
-                    "id": "gyLkhnEOXPz"
+                    "id": "uDi1sfaEUNq"
                 },
                 {
-                    "id": "uDi1sfaEUNq"
+                    "id": "gyLkhnEOXPz"
                 },
                 {
                     "id": "s73XNtbCGPD"
@@ -1763,79 +1355,6 @@
                 {
                     "value": "VC- PID Ingrédient actif",
                     "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "lastUpdatedBy": {
-                "id": "gUQgjMPkPvK"
-            },
-            "externalAccess": false,
-            "attributeValues": []
-        },
-        {
-            "id": "jIwEmnCDJpT",
-            "code": "ENTO_COLLECTION_MONTH",
-            "name": "ENTO- Month mosquito collection",
-            "created": "2019-03-28T14:05:59.903",
-            "options": [
-                {
-                    "id": "j9u7xDsERNh"
-                },
-                {
-                    "id": "I8g5V4nNNHP"
-                },
-                {
-                    "id": "OFZ8bS7yK7C"
-                },
-                {
-                    "id": "xMYgDzfEx6h"
-                },
-                {
-                    "id": "tkgrOOi3872"
-                },
-                {
-                    "id": "gff9mk2Dwvc"
-                },
-                {
-                    "id": "BWIvpag11aa"
-                },
-                {
-                    "id": "IKmErhbDalI"
-                },
-                {
-                    "id": "XNLXdB4bAeY"
-                },
-                {
-                    "id": "bz8NaWVlGB4"
-                },
-                {
-                    "id": "NzmxtbLS9fg"
-                },
-                {
-                    "id": "rvpMGdSpoKD"
-                }
-            ],
-            "version": 10,
-            "favorite": false,
-            "favorites": [],
-            "valueType": "TEXT",
-            "displayName": "ENTO- Month mosquito collection",
-            "lastUpdated": "2020-05-22T16:58:03.712",
-            "publicAccess": "rw------",
-            "translations": [
-                {
-                    "value": "ENTO- Meses de captura de los mosquitos",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "ENTO- Mois de collecte des mousqitues",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "ENTO- Mês de coleta dos mosquitos",
-                    "locale": "pt",
                     "property": "NAME"
                 }
             ],
@@ -2428,112 +1947,6 @@
             "zeroIsSignificant": false
         },
         {
-            "id": "x56L0jVn7Bc",
-            "code": "VC_IRS_DATE_START_SPRAYING",
-            "name": "VC-IRS- Date start spraying",
-            "created": "2019-06-17T11:09:27.374",
-            "favorite": false,
-            "formName": "Date when spraying started",
-            "favorites": [],
-            "shortName": "Date start spraying",
-            "valueType": "DATE",
-            "domainType": "TRACKER",
-            "legendSets": [],
-            "description": "Date when the spraying campaign started",
-            "displayName": "VC-IRS- Date start spraying",
-            "lastUpdated": "2020-04-21T07:30:29.555",
-            "publicAccess": "rw------",
-            "translations": [
-                {
-                    "value": "VC-IRS- Data do inicio da pulverização",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Fecha de inicio del rociado",
-                    "locale": "es",
-                    "property": "FORM_NAME"
-                },
-                {
-                    "value": "Date de debut de la pulvérisation",
-                    "locale": "fr",
-                    "property": "FORM_NAME"
-                },
-                {
-                    "value": "Fecha de inicio del rociado",
-                    "locale": "es",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": "VC-IRS- Date de debut de la pulvérisation",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Fecha de inicio del rociado",
-                    "locale": "es",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": " Data do inicio da pulverização",
-                    "locale": "pt",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": "Date de debut de la pulvérisation",
-                    "locale": "fr",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": " Data do inicio da pulverização",
-                    "locale": "pt",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": "Date de debut de la pulvérisation",
-                    "locale": "fr",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": " Data do inicio da pulverização",
-                    "locale": "pt",
-                    "property": "FORM_NAME"
-                },
-                {
-                    "value": "VC-IRS- Fecha de inicio del rociado",
-                    "locale": "es",
-                    "property": "NAME"
-                }
-            ],
-            "dimensionItem": "x56L0jVn7Bc",
-            "lastUpdatedBy": {
-                "id": "gUQgjMPkPvK"
-            },
-            "externalAccess": false,
-            "optionSetValue": false,
-            "aggregationType": "MIN",
-            "attributeValues": [],
-            "dataSetElements": [],
-            "displayFormName": "Date when spraying started",
-            "displayShortName": "Date start spraying",
-            "aggregationLevels": [
-                5,
-                4,
-                6,
-                2,
-                1,
-                3
-            ],
-            "dataElementGroups": [
-                {
-                    "id": "BruIyTTbHLJ"
-                }
-            ],
-            "dimensionItemType": "DATA_ELEMENT",
-            "zeroIsSignificant": false,
-            "displayDescription": "Date when the spraying campaign started"
-        },
-        {
             "id": "Ae9aLkImjpq",
             "code": "VC_IRS_MEN_SPRAYED_STRUCTURES",
             "name": "VC-IRS- Men living in sprayed structures",
@@ -2638,112 +2051,6 @@
             "dimensionItemType": "DATA_ELEMENT",
             "zeroIsSignificant": false,
             "displayDescription": "Total number of men living in the sprayed households"
-        },
-        {
-            "id": "Tb8jI0Ycqgi",
-            "code": "VC_IRS_MONTH",
-            "name": "VC-IRS- Month of campaign",
-            "created": "2019-11-08T07:14:03.955",
-            "favorite": false,
-            "formName": "Month of campaign",
-            "favorites": [],
-            "optionSet": {
-                "id": "jIwEmnCDJpT"
-            },
-            "shortName": "Month of campaign",
-            "valueType": "TEXT",
-            "domainType": "TRACKER",
-            "legendSets": [],
-            "description": "Month of campaign",
-            "displayName": "VC-IRS- Month of campaign",
-            "lastUpdated": "2020-04-21T07:36:08.808",
-            "publicAccess": "rw------",
-            "translations": [
-                {
-                    "value": "Mes de la campaña",
-                    "locale": "es",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": "Mes da campanha",
-                    "locale": "pt",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": "Mes da campanha",
-                    "locale": "pt",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": "Mois de campagne",
-                    "locale": "fr",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": "Mois de campagne",
-                    "locale": "fr",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": "Mes de la campaña",
-                    "locale": "es",
-                    "property": "FORM_NAME"
-                },
-                {
-                    "value": "Mes da campanha",
-                    "locale": "pt",
-                    "property": "FORM_NAME"
-                },
-                {
-                    "value": "Mes de la campaña",
-                    "locale": "es",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": "VC-IRS- Mois de campagne",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "VC-IRS- Mes da campanha",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Mois de campagne",
-                    "locale": "fr",
-                    "property": "FORM_NAME"
-                },
-                {
-                    "value": "VC-IRS- Mes de la campaña",
-                    "locale": "es",
-                    "property": "NAME"
-                }
-            ],
-            "dimensionItem": "Tb8jI0Ycqgi",
-            "lastUpdatedBy": {
-                "id": "gUQgjMPkPvK"
-            },
-            "externalAccess": false,
-            "optionSetValue": true,
-            "aggregationType": "NONE",
-            "attributeValues": [],
-            "dataSetElements": [],
-            "displayFormName": "Month of campaign",
-            "displayShortName": "Month of campaign",
-            "aggregationLevels": [
-                1,
-                3,
-                2
-            ],
-            "dataElementGroups": [
-                {
-                    "id": "BruIyTTbHLJ"
-                }
-            ],
-            "dimensionItemType": "DATA_ELEMENT",
-            "zeroIsSignificant": false,
-            "displayDescription": "Month of campaign"
         },
         {
             "id": "VzN4VUfZmrq",
@@ -4101,105 +3408,6 @@
             "dimensionItemType": "DATA_ELEMENT",
             "zeroIsSignificant": false,
             "displayDescription": "Total number of women living in the sprayed households"
-        },
-        {
-            "id": "w2I9SVnF50O",
-            "code": "VC_IRS_YEAR",
-            "name": "VC-IRS- Year of campaign",
-            "created": "2019-11-08T07:14:41.174",
-            "favorite": false,
-            "formName": "Year of campaign",
-            "favorites": [],
-            "shortName": "Year of campaign",
-            "valueType": "NUMBER",
-            "domainType": "TRACKER",
-            "legendSets": [],
-            "description": "Year of campaign",
-            "displayName": "VC-IRS- Year of campaign",
-            "lastUpdated": "2020-04-21T07:39:40.721",
-            "publicAccess": "rw------",
-            "translations": [
-                {
-                    "value": "Année de campagne",
-                    "locale": "fr",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": "VC-IRS- Année de campagne",
-                    "locale": "fr",
-                    "property": "NAME"
-                },
-                {
-                    "value": "VC-IRS- Año de la campaña",
-                    "locale": "es",
-                    "property": "NAME"
-                },
-                {
-                    "value": "Año de la campaña",
-                    "locale": "es",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": "VC-IRS- Ano da campanha",
-                    "locale": "pt",
-                    "property": "FORM_NAME"
-                },
-                {
-                    "value": "Año de la campaña",
-                    "locale": "es",
-                    "property": "FORM_NAME"
-                },
-                {
-                    "value": "VC-IRS- Ano da campanha",
-                    "locale": "pt",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": "Año de la campaña",
-                    "locale": "es",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": "VC-IRS- Ano da campanha",
-                    "locale": "pt",
-                    "property": "NAME"
-                },
-                {
-                    "value": "VC-IRS- Ano da campanha",
-                    "locale": "pt",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": "Année de campagne",
-                    "locale": "fr",
-                    "property": "SHORT_NAME"
-                },
-                {
-                    "value": "Année de campagne",
-                    "locale": "fr",
-                    "property": "FORM_NAME"
-                }
-            ],
-            "dimensionItem": "w2I9SVnF50O",
-            "lastUpdatedBy": {
-                "id": "gUQgjMPkPvK"
-            },
-            "externalAccess": false,
-            "optionSetValue": false,
-            "aggregationType": "COUNT",
-            "attributeValues": [],
-            "dataSetElements": [],
-            "displayFormName": "Year of campaign",
-            "displayShortName": "Year of campaign",
-            "aggregationLevels": [
-                1,
-                3,
-                2
-            ],
-            "dataElementGroups": [],
-            "dimensionItemType": "DATA_ELEMENT",
-            "zeroIsSignificant": false,
-            "displayDescription": "Year of campaign"
         }
     ],
     "programStages": [
@@ -4218,7 +3426,7 @@
             "displayName": "VC-IRS- Campaign",
             "featureType": "NONE",
             "hideDueDate": false,
-            "lastUpdated": "2020-10-09T19:42:56.795",
+            "lastUpdated": "2020-10-14T16:03:15.986",
             "publicAccess": "r-rw----",
             "translations": [],
             "lastUpdatedBy": {
@@ -4232,7 +3440,7 @@
             "remindCompleted": false,
             "minDaysFromStart": 0,
             "autoGenerateEvent": true,
-            "executionDateLabel": "Reporting date",
+            "executionDateLabel": "Date when spraying started",
             "validationStrategy": "ON_UPDATE_AND_INSERT",
             "openAfterEnrollment": false,
             "enableUserAssignment": false,
@@ -4269,40 +3477,7 @@
                     "dataElement": {
                         "id": "YM6u2WkSqKl"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.739",
-                    "programStage": {
-                        "id": "Bj4Xx6cthPk"
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "externalAccess": false,
-                    "allowFutureDate": false,
-                    "attributeValues": [],
-                    "displayInReports": false,
-                    "userGroupAccesses": [],
-                    "skipSynchronization": false,
-                    "renderOptionsAsRadio": false,
-                    "allowProvidedElsewhere": false
-                },
-                {
-                    "id": "x1Y77FFkx28",
-                    "access": {
-                        "read": true,
-                        "write": true,
-                        "delete": true,
-                        "manage": true,
-                        "update": true,
-                        "externalize": true
-                    },
-                    "created": "2019-06-17T11:31:04.817",
-                    "favorite": false,
-                    "favorites": [],
-                    "sortOrder": 2,
-                    "compulsory": true,
-                    "dataElement": {
-                        "id": "x56L0jVn7Bc"
-                    },
-                    "lastUpdated": "2020-10-09T19:42:56.739",
+                    "lastUpdated": "2020-10-14T16:03:15.996",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4335,7 +3510,7 @@
                     "dataElement": {
                         "id": "NzSR146lWBw"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.738",
+                    "lastUpdated": "2020-10-14T16:03:15.991",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4368,7 +3543,7 @@
                     "dataElement": {
                         "id": "XYC9FaLEDmc"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.738",
+                    "lastUpdated": "2020-10-14T16:03:15.991",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4401,7 +3576,7 @@
                     "dataElement": {
                         "id": "HLZ7sxdS1SI"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.737",
+                    "lastUpdated": "2020-10-14T16:03:15.988",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4434,7 +3609,7 @@
                     "dataElement": {
                         "id": "EAmMK7oGg9h"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.733",
+                    "lastUpdated": "2020-10-14T16:03:15.986",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4467,7 +3642,7 @@
                     "dataElement": {
                         "id": "BIaGhM62cip"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.739",
+                    "lastUpdated": "2020-10-14T16:03:15.993",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4500,7 +3675,7 @@
                     "dataElement": {
                         "id": "jtzesxODACr"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.739",
+                    "lastUpdated": "2020-10-14T16:03:15.996",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4533,7 +3708,7 @@
                     "dataElement": {
                         "id": "aPBe3TF8iH8"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.734",
+                    "lastUpdated": "2020-10-14T16:03:15.988",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4566,7 +3741,7 @@
                     "dataElement": {
                         "id": "OMt5wquR6gE"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.739",
+                    "lastUpdated": "2020-10-14T16:03:15.996",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4599,40 +3774,7 @@
                     "dataElement": {
                         "id": "Ae9aLkImjpq"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.734",
-                    "programStage": {
-                        "id": "Bj4Xx6cthPk"
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "externalAccess": false,
-                    "allowFutureDate": false,
-                    "attributeValues": [],
-                    "displayInReports": false,
-                    "userGroupAccesses": [],
-                    "skipSynchronization": false,
-                    "renderOptionsAsRadio": false,
-                    "allowProvidedElsewhere": false
-                },
-                {
-                    "id": "buVPjkKLKJl",
-                    "access": {
-                        "read": true,
-                        "write": true,
-                        "delete": true,
-                        "manage": true,
-                        "update": true,
-                        "externalize": true
-                    },
-                    "created": "2019-07-06T03:56:34.023",
-                    "favorite": false,
-                    "favorites": [],
-                    "sortOrder": 13,
-                    "compulsory": false,
-                    "dataElement": {
-                        "id": "OMhkExRQU1s"
-                    },
-                    "lastUpdated": "2020-10-09T19:42:56.739",
+                    "lastUpdated": "2020-10-14T16:03:15.988",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4665,7 +3807,40 @@
                     "dataElement": {
                         "id": "xJKbgi33bAH"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.737",
+                    "lastUpdated": "2020-10-14T16:03:15.988",
+                    "programStage": {
+                        "id": "Bj4Xx6cthPk"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "buVPjkKLKJl",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-06T03:56:34.023",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 13,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "OMhkExRQU1s"
+                    },
+                    "lastUpdated": "2020-10-14T16:03:15.996",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4698,7 +3873,7 @@
                     "dataElement": {
                         "id": "EXzGYDxqXJi"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.737",
+                    "lastUpdated": "2020-10-14T16:03:15.988",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4731,7 +3906,7 @@
                     "dataElement": {
                         "id": "O1O7Cfzn9ZA"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.738",
+                    "lastUpdated": "2020-10-14T16:03:15.990",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4764,73 +3939,7 @@
                     "dataElement": {
                         "id": "fyGxdBQwNaY"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.739",
-                    "programStage": {
-                        "id": "Bj4Xx6cthPk"
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "externalAccess": false,
-                    "allowFutureDate": false,
-                    "attributeValues": [],
-                    "displayInReports": false,
-                    "userGroupAccesses": [],
-                    "skipSynchronization": false,
-                    "renderOptionsAsRadio": false,
-                    "allowProvidedElsewhere": false
-                },
-                {
-                    "id": "tt86o4Myvcd",
-                    "access": {
-                        "read": true,
-                        "write": true,
-                        "delete": true,
-                        "manage": true,
-                        "update": true,
-                        "externalize": true
-                    },
-                    "created": "2019-11-10T10:00:48.975",
-                    "favorite": false,
-                    "favorites": [],
-                    "sortOrder": 17,
-                    "compulsory": false,
-                    "dataElement": {
-                        "id": "Tb8jI0Ycqgi"
-                    },
-                    "lastUpdated": "2020-10-09T19:42:56.736",
-                    "programStage": {
-                        "id": "Bj4Xx6cthPk"
-                    },
-                    "translations": [],
-                    "userAccesses": [],
-                    "externalAccess": false,
-                    "allowFutureDate": false,
-                    "attributeValues": [],
-                    "displayInReports": false,
-                    "userGroupAccesses": [],
-                    "skipSynchronization": false,
-                    "renderOptionsAsRadio": false,
-                    "allowProvidedElsewhere": false
-                },
-                {
-                    "id": "q7k3E3TyFQN",
-                    "access": {
-                        "read": true,
-                        "write": true,
-                        "delete": true,
-                        "manage": true,
-                        "update": true,
-                        "externalize": true
-                    },
-                    "created": "2019-11-10T10:00:48.975",
-                    "favorite": false,
-                    "favorites": [],
-                    "sortOrder": 18,
-                    "compulsory": false,
-                    "dataElement": {
-                        "id": "w2I9SVnF50O"
-                    },
-                    "lastUpdated": "2020-10-09T19:42:56.737",
+                    "lastUpdated": "2020-10-14T16:03:15.995",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4863,7 +3972,7 @@
                     "dataElement": {
                         "id": "DwTUBLCnEHB"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.740",
+                    "lastUpdated": "2020-10-14T16:03:15.997",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4896,7 +4005,7 @@
                     "dataElement": {
                         "id": "gXJ317zreR1"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.738",
+                    "lastUpdated": "2020-10-14T16:03:15.989",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -4929,7 +4038,7 @@
                     "dataElement": {
                         "id": "VzN4VUfZmrq"
                     },
-                    "lastUpdated": "2020-10-09T19:42:56.739",
+                    "lastUpdated": "2020-10-14T16:03:15.996",
                     "programStage": {
                         "id": "Bj4Xx6cthPk"
                     },
@@ -5036,7 +4145,7 @@
             "displayShortName": "Institute Pasteur",
             "dimensionItemType": "CATEGORY_OPTION",
             "organisationUnits": [
-                
+               
             ],
             "categoryOptionCombos": [
                 {
@@ -5285,7 +4394,7 @@
             "displayShortName": "PSI-Palu",
             "dimensionItemType": "CATEGORY_OPTION",
             "organisationUnits": [
-               
+                
             ],
             "categoryOptionCombos": [
                 {
@@ -5375,7 +4484,7 @@
             "shortName": "IRS- Campaign",
             "legendSets": [],
             "displayName": "VC- IRS- Campaign",
-            "lastUpdated": "2020-04-21T12:15:26.356",
+            "lastUpdated": "2020-10-14T15:38:39.453",
             "publicAccess": "rw------",
             "translations": [
                 {
@@ -5465,7 +4574,12 @@
             "displayShortName": "People living in sprayed area",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of people living in the sprayed area",
-                     "analyticsPeriodBoundaries": [
+            "programIndicatorGroups": [
+                {
+                    "id": "l504LNrgDhV"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
                 {
                     "id": "QqKaF4lrkCm",
                     "access": {
@@ -5561,7 +4675,12 @@
             "displayShortName": "People living in sprayed households",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of people living in the sprayed households",
-                     "analyticsPeriodBoundaries": [
+            "programIndicatorGroups": [
+                {
+                    "id": "l504LNrgDhV"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
                 {
                     "id": "ZYSHooYqCoD",
                     "access": {
@@ -5617,6 +4736,7 @@
             "program": {
                 "id": "TNsilMJnxi6"
             },
+            "decimals": 1,
             "favorite": false,
             "favorites": [],
             "shortName": "% People protected",
@@ -5624,7 +4744,7 @@
             "legendSets": [],
             "description": "Percentage of people living in sprayed houses out of the total number of people living in the sprayed arfe",
             "displayName": "VC-IRS- Percentage of people protected",
-            "lastUpdated": "2020-04-21T11:55:12.586",
+            "lastUpdated": "2020-10-14T16:04:54.841",
             "publicAccess": "rw------",
             "translations": [
                 {
@@ -5671,7 +4791,7 @@
                     "created": "2019-06-29T01:19:14.715",
                     "favorite": false,
                     "favorites": [],
-                    "lastUpdated": "2020-01-31T22:15:49.551",
+                    "lastUpdated": "2020-10-14T16:04:54.841",
                     "translations": [],
                     "userAccesses": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -5693,7 +4813,7 @@
                     "created": "2019-06-29T01:19:14.715",
                     "favorite": false,
                     "favorites": [],
-                    "lastUpdated": "2020-01-31T22:15:49.551",
+                    "lastUpdated": "2020-10-14T16:04:54.841",
                     "translations": [],
                     "userAccesses": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -5752,7 +4872,12 @@
             "displayShortName": "Quantity of formulation used",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "The total quantity of insecticide formulation used",
-                     "analyticsPeriodBoundaries": [
+            "programIndicatorGroups": [
+                {
+                    "id": "l504LNrgDhV"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
                 {
                     "id": "KBgy7t1bt5u",
                     "access": {
@@ -5848,7 +4973,12 @@
             "displayShortName": "Sprayable structures found",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Total number of sprayable structures found in the field",
-                     "analyticsPeriodBoundaries": [
+            "programIndicatorGroups": [
+                {
+                    "id": "l504LNrgDhV"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
                 {
                     "id": "vlA5f0j5Khn",
                     "access": {
@@ -5904,14 +5034,14 @@
             "program": {
                 "id": "TNsilMJnxi6"
             },
-            "decimals": 2,
+            "decimals": 1,
             "favorite": false,
             "favorites": [],
             "legendSet": {
                 "id": "w9wi3zWJIIP"
             },
-            "shortName": "Structures sprayed",
-            "expression": "#{Bj4Xx6cthPk.HLZ7sxdS1SI}*100/#{Bj4Xx6cthPk.BIaGhM62cip}",
+            "shortName": "% Structures sprayed",
+            "expression": "(#{Bj4Xx6cthPk.HLZ7sxdS1SI}*100/#{Bj4Xx6cthPk.BIaGhM62cip})",
             "legendSets": [
                 {
                     "id": "w9wi3zWJIIP"
@@ -5919,7 +5049,7 @@
             ],
             "description": "Percent of structures that were sprayed out of the total number of structures that needed to be sprayed",
             "displayName": "VC-IRS- Structures sprayed (%)",
-            "lastUpdated": "2020-04-21T11:55:58.610",
+            "lastUpdated": "2020-10-14T16:42:33.752",
             "publicAccess": "rw------",
             "translations": [
                 {
@@ -5948,10 +5078,15 @@
             "aggregationType": "AVERAGE",
             "attributeValues": [],
             "displayFormName": "VC-IRS- Structures sprayed (%)",
-            "displayShortName": "Structures sprayed",
+            "displayShortName": "% Structures sprayed",
             "dimensionItemType": "PROGRAM_INDICATOR",
             "displayDescription": "Percent of structures that were sprayed out of the total number of structures that needed to be sprayed",
-                     "analyticsPeriodBoundaries": [
+            "programIndicatorGroups": [
+                {
+                    "id": "l504LNrgDhV"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
                 {
                     "id": "tPKrYkUNlvX",
                     "access": {
@@ -5965,7 +5100,7 @@
                     "created": "2019-06-29T01:49:06.796",
                     "favorite": false,
                     "favorites": [],
-                    "lastUpdated": "2020-01-31T22:15:49.549",
+                    "lastUpdated": "2020-10-14T16:42:33.753",
                     "translations": [],
                     "userAccesses": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -5987,7 +5122,7 @@
                     "created": "2019-06-29T01:49:06.796",
                     "favorite": false,
                     "favorites": [],
-                    "lastUpdated": "2020-01-31T22:15:49.549",
+                    "lastUpdated": "2020-10-14T16:42:33.753",
                     "translations": [],
                     "userAccesses": [],
                     "boundaryTarget": "EVENT_DATE",
@@ -6505,7 +5640,7 @@
                 }
             },
             "displayName": "Insecticide and formulation sprayed",
-            "lastUpdated": "2020-04-21T07:18:04.980",
+            "lastUpdated": "2020-10-14T15:38:18.196",
             "dataElements": [
                 {
                     "id": "XYC9FaLEDmc"
@@ -6551,11 +5686,8 @@
                 }
             },
             "displayName": "Intervention timing",
-            "lastUpdated": "2020-04-21T07:18:04.980",
+            "lastUpdated": "2020-10-14T15:38:18.196",
             "dataElements": [
-                {
-                    "id": "x56L0jVn7Bc"
-                },
                 {
                     "id": "YM6u2WkSqKl"
                 },
@@ -6597,7 +5729,7 @@
                 }
             },
             "displayName": "IRS campaign results",
-            "lastUpdated": "2020-04-21T07:18:04.981",
+            "lastUpdated": "2020-10-14T15:38:18.196",
             "dataElements": [
                 {
                     "id": "fyGxdBQwNaY"

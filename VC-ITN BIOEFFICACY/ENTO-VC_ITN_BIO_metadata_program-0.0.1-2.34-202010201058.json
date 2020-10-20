@@ -1,11 +1,11 @@
 {
     "package": {
-        "id": "lYQpu9po7ko",
+        "id": "RLNlJqvrEL6",
         "name": "ENTO-VC_ITN_BIO_metadata_program",
-        "user": {
-            "id": "gUQgjMPkPvK",
-            "name": "Lucia Fernandez"
-        },
+        "deleted": false,
+        "description": "",
+        "version": "0.0.1",
+        "dhisVersion": "2.34",
         "module": {
             "id": "kWpscnOVFxT",
             "name": "VC-ITN BIOEFFICACY",
@@ -15,12 +15,12 @@
                 "name": "GMP/VCR"
             }
         },
-        "created": "2020-10-09T20:11:56.403Z",
-        "deleted": false,
-        "version": "0.0.0-",
-        "description": "First commit to GitHub Repo",
-        "dhisVersion": "2.34",
-        "lastUpdated": "2020-10-09T20:12:12.277Z",
+        "user": {
+            "id": "gUQgjMPkPvK",
+            "name": "Lucia Fernandez"
+        },
+        "created": "2020-10-20T08:58:02.658Z",
+        "lastUpdated": "2020-10-20T08:58:24.272Z",
         "lastUpdatedBy": {
             "id": "gUQgjMPkPvK",
             "name": "Lucia Fernandez"
@@ -5304,7 +5304,7 @@
             "legendSets": [],
             "description": "Number of dead mosquitoes among exposed to position 1",
             "displayName": "VC-ITN-BE- Dead mosquitoes in position 1",
-            "lastUpdated": "2020-04-21T11:15:38.864",
+            "lastUpdated": "2020-10-14T16:53:38.360",
             "publicAccess": "rw------",
             "translations": [
                 {
@@ -5318,24 +5318,19 @@
                     "property": "FORM_NAME"
                 },
                 {
-                    "value": "Mosquito control muertos en posición 1",
-                    "locale": "es",
-                    "property": "FORM_NAME"
-                },
-                {
                     "value": "VC-ITN-BE- Mosquitos mortos na posição 1",
                     "locale": "pt",
                     "property": "NAME"
                 },
                 {
-                    "value": "Mosquito control muertos en posición 1",
-                    "locale": "es",
-                    "property": "SHORT_NAME"
-                },
-                {
                     "value": "Moustiques morts - Position 1",
                     "locale": "fr",
                     "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Mosquitos muertos en posición 1",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
                 },
                 {
                     "value": "Nombre de moustiques morts - Position 1",
@@ -5348,14 +5343,19 @@
                     "property": "SHORT_NAME"
                 },
                 {
-                    "value": "Mosquitos mortos na posição 1",
-                    "locale": "pt",
+                    "value": "Mosquitos muertos en posición 1",
+                    "locale": "es",
                     "property": "FORM_NAME"
                 },
                 {
-                    "value": "VC-ITN-BE- Mosquito control muertos en posición 1",
+                    "value": "Mosquitos muertos en posición 1",
                     "locale": "es",
-                    "property": "NAME"
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Mosquitos mortos na posição 1",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
                 },
                 {
                     "value": "VC-ITN-BE- Moustiques morts - Position 1",
@@ -5363,9 +5363,9 @@
                     "property": "NAME"
                 },
                 {
-                    "value": "Mosquito control muertos en posición 1",
+                    "value": "VC-ITN-BE- Mosquits muertos en posición 1",
                     "locale": "es",
-                    "property": "DESCRIPTION"
+                    "property": "NAME"
                 }
             ],
             "dimensionItem": "Tb6lXOFHfzE",
@@ -5406,23 +5406,18 @@
             "legendSets": [],
             "description": "Number of dead mosquitoes among exposed to position 2",
             "displayName": "VC-ITN-BE- Dead mosquitoes in position 2",
-            "lastUpdated": "2020-04-21T11:15:33.300",
+            "lastUpdated": "2020-10-14T16:53:53.203",
             "publicAccess": "rw------",
             "translations": [
-                {
-                    "value": " Mosquito control muertos en posición 2",
-                    "locale": "es",
-                    "property": "SHORT_NAME"
-                },
                 {
                     "value": "Moustiques morts - Position 2",
                     "locale": "fr",
                     "property": "FORM_NAME"
                 },
                 {
-                    "value": " Mosquito control muertos en posición 2",
+                    "value": "VC-ITN-BE- Mosquitos muertos en posición 2",
                     "locale": "es",
-                    "property": "FORM_NAME"
+                    "property": "NAME"
                 },
                 {
                     "value": "Mosquitos mortos na posição 2",
@@ -5440,14 +5435,24 @@
                     "property": "NAME"
                 },
                 {
+                    "value": "Mosquitos muertos en posición 2",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
                     "value": "VC-ITN-BE- Moustiques morts - Position 2",
                     "locale": "fr",
                     "property": "NAME"
                 },
                 {
-                    "value": "VC-ITN-BE- Mosquito control muertos en posición 2",
+                    "value": "Mosquitos muertos en posición 2",
                     "locale": "es",
-                    "property": "NAME"
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Mosquitos muertos en posición 2",
+                    "locale": "es",
+                    "property": "FORM_NAME"
                 },
                 {
                     "value": "Mosquitos mortos na posição 2",
@@ -5462,11 +5467,6 @@
                 {
                     "value": "Nombre de moustiques morts  dans la position 2",
                     "locale": "fr",
-                    "property": "DESCRIPTION"
-                },
-                {
-                    "value": " Mosquito control muertos en posición 2",
-                    "locale": "es",
                     "property": "DESCRIPTION"
                 }
             ],
@@ -5508,7 +5508,7 @@
             "legendSets": [],
             "description": "Number of dead mosquitoes among exposed to position 3",
             "displayName": "VC-ITN-BE- Dead mosquitoes in position 3",
-            "lastUpdated": "2020-04-21T11:14:50.809",
+            "lastUpdated": "2020-10-14T16:54:07.544",
             "publicAccess": "rw------",
             "translations": [
                 {
@@ -5522,18 +5522,13 @@
                     "property": "NAME"
                 },
                 {
-                    "value": "Moustiques morts - Position 3",
-                    "locale": "fr",
-                    "property": "FORM_NAME"
-                },
-                {
                     "value": "Mosquitos mortos na posição 3",
                     "locale": "pt",
                     "property": "DESCRIPTION"
                 },
                 {
-                    "value": "Número de mosquitos muertos en posición 3",
-                    "locale": "es",
+                    "value": "Moustiques morts - Position 3",
+                    "locale": "fr",
                     "property": "FORM_NAME"
                 },
                 {
@@ -5544,6 +5539,11 @@
                 {
                     "value": "Mosquitos muertos en posición 3",
                     "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Mosquitos muertos en posición 3",
+                    "locale": "es",
                     "property": "SHORT_NAME"
                 },
                 {
@@ -5557,13 +5557,13 @@
                     "property": "FORM_NAME"
                 },
                 {
-                    "value": "Nombre de moustiques morts dans la position Position 3",
-                    "locale": "fr",
+                    "value": "Mosquitos muertos en posición 3",
+                    "locale": "es",
                     "property": "DESCRIPTION"
                 },
                 {
-                    "value": "Mosquitos muertos en posición 3",
-                    "locale": "es",
+                    "value": "Nombre de moustiques morts dans la position Position 3",
+                    "locale": "fr",
                     "property": "DESCRIPTION"
                 },
                 {
@@ -5610,7 +5610,7 @@
             "legendSets": [],
             "description": "Number of dead mosquitoes among exposed to position 4",
             "displayName": "VC-ITN-BE- Dead mosquitoes in position 4",
-            "lastUpdated": "2020-04-21T11:14:56.589",
+            "lastUpdated": "2020-10-14T16:54:15.710",
             "publicAccess": "rw------",
             "translations": [
                 {
@@ -5634,7 +5634,7 @@
                     "property": "SHORT_NAME"
                 },
                 {
-                    "value": "Número de mosquitos muertos en posición 4",
+                    "value": "Mosquitos muertos en posición 4",
                     "locale": "es",
                     "property": "FORM_NAME"
                 },
@@ -5654,14 +5654,14 @@
                     "property": "FORM_NAME"
                 },
                 {
-                    "value": "Mosquitos muertos en posición 4",
-                    "locale": "es",
-                    "property": "DESCRIPTION"
-                },
-                {
                     "value": "Mosquitos mortos na posição 4",
                     "locale": "pt",
                     "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Mosquitos muertos en posición 4",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
                 },
                 {
                     "value": "Mosquitos mortos na posição 4",
