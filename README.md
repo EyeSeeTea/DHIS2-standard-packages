@@ -1,10 +1,10 @@
 # WHO Configuration Packages for DHIS2
 The WHO configuration packages consist of DHIS2 metadata that provide standard configurations of DHIS2 that allow for the collection of health data following WHO recommendations. 
 
-# Climate - disease surveillance
-Generic DHIS2 modules have been developed to monitor the impact of climate in certain diseases.
+# Climate/weather - disease integrated surveillance
+Generic DHIS2 modules have been developed to assess the impact of climate/weather in certain diseases.
 
-The modules consist consist of datasets and dashboards to to support the cross-comparison of the following topics:
+The modules consist of datasets and dashboards to support the cross-comparison of the following topics:
   * Malaria confirmed cases
   * Rainfall
   * Temperature (avg)
