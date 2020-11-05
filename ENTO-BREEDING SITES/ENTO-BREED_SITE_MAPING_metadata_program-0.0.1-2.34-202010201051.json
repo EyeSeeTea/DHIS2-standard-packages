@@ -3576,5 +3576,237 @@
             "displayFormName": "Habitat treatment",
             "programIndicators": []
         }
+    ],
+    "indicators": [
+        {
+            "metadataType": "indicators",
+            "code": "ENTO_INMATURE_POSITIVE_BREEDING_SITES_PROP",
+            "lastUpdated": "2020-04-21T08:02:34.911",
+            "id": "V50Z8CqySq9",
+            "created": "2019-07-20T04:04:20.839",
+            "name": "ENTO - INMATURE - Proportion of positive breeding sites",
+            "shortName": "Proportion of positive breeding sites",
+            "displayName": "ENTO - INMATURE - Proportion of positive breeding sites",
+            "publicAccess": "rw------",
+            "description": "Proportion of positive breeding sites",
+            "displayShortName": "Proportion of positive breeding sites",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Number of positive breeding sites",
+            "denominatorDescription": "Number of breeding sites mapped",
+            "displayDenominatorDescription": "Number of breeding sites mapped",
+            "numeratorDescription": "Number of positive breeding sites",
+            "displayDescription": "Proportion of positive breeding sites",
+            "dimensionItem": "V50Z8CqySq9",
+            "displayFormName": "ENTO - INMATURE - Proportion of positive breeding sites",
+            "numerator": "I{ctiHW5CAeiy}",
+            "denominator": "I{Zh5AFfusCYg}",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Proporcion de criadores con larvas/pupas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Proportion de sites de reproduction positifs"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Proporcion de criadores con larvas/pupas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "ENTO - INMATURE - Proporcion de criadores con larvas/pupas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Proporção de criadouros positivos"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Proportion de sites de reproduction positifs"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " ENTO - INMATURE -  Proporção de criadouros positivos"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "ENTO - INMATURE - Proportion de sites de reproduction positifs"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Proporção de criadouros positivos"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "YGWilORfvGn"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "ENTO_INMATURE_TREATED_HABITATS_PROP",
+            "lastUpdated": "2020-04-21T08:03:10.123",
+            "id": "YCs75S8sDb5",
+            "created": "2019-09-10T16:02:20.566",
+            "name": "ENTO - INMATURE - Proportion of treated habitats",
+            "shortName": " Proportion of treated habitats",
+            "displayName": "ENTO - INMATURE - Proportion of treated habitats",
+            "publicAccess": "rw------",
+            "description": " Proportion of treated habitats",
+            "displayShortName": " Proportion of treated habitats",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Number of habitats treated",
+            "denominatorDescription": "Number of habitats",
+            "displayDenominatorDescription": "Number of habitats",
+            "numeratorDescription": "Number of habitats treated",
+            "displayDescription": " Proportion of treated habitats",
+            "dimensionItem": "YCs75S8sDb5",
+            "displayFormName": "ENTO - INMATURE - Proportion of treated habitats",
+            "numerator": "#{VF0kTT7ej2s}",
+            "denominator": "#{to02PUZa3TY}",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " ENTO - INMATURE -  Proporção de criadouros tratados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Proportion d'habitats traités"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Proportion d'habitats traités"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Proporción de criadores tratados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "ENTO - INMATURE - Proporción de criadores tratados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Proporção de criadouros tratados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Proporción de criadores tratados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "ENTO - INMATURE - Proportion d'habitats traités"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Proporção de criadouros tratados"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "YGWilORfvGn"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        }
+    ],
+    "indicatorTypes": [
+        {
+            "metadataType": "indicatorTypes",
+            "created": "2015-03-23T01:41:28.852",
+            "lastUpdated": "2020-10-23T19:03:39.578",
+            "name": "Percentage",
+            "id": "hmSnCXmLYwt",
+            "displayName": "Percentage",
+            "externalAccess": false,
+            "number": false,
+            "factor": 100,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Pourcentage"
+                }
+            ],
+            "userAccesses": []
+        }
     ]
 }
