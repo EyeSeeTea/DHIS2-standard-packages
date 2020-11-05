@@ -6005,5 +6005,1385 @@
             "displayFormName": "Population results",
             "programIndicators": []
         }
+    ],
+    "indicators": [
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_BEDNET_DISTRIBUTED",
+            "lastUpdated": "2020-04-21T07:56:47.379",
+            "id": "JcdzZT2YcUY",
+            "created": "2019-10-02T11:55:56.742",
+            "name": "VC-ITN- Bednets distributed",
+            "shortName": "Bednets distributed",
+            "displayName": "VC-ITN- Bednets distributed",
+            "publicAccess": "rw------",
+            "description": "Number of bednets distributed",
+            "displayShortName": "Bednets distributed",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Bednets distributed",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "Bednets distributed",
+            "displayDescription": "Number of bednets distributed",
+            "dimensionItem": "JcdzZT2YcUY",
+            "displayFormName": "VC-ITN- Bednets distributed",
+            "numerator": "D{ekKJ03GMV20.LdtutZje2N8}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Mosquiteiras distribuidas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Moustiquaires distribués"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Mosquiteros distribuidos"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Moustiquaires distribués"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Mosquiteros distribuidos"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Mosquiteiras distribuidas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Moustiquaires distribués"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Mosquiteros distribuidos"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Mosquiteiras distribuidas"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_BEDNETS_PLANNED",
+            "lastUpdated": "2020-04-21T08:00:39.964",
+            "id": "xImOAx9B8c5",
+            "created": "2019-10-02T11:57:16.119",
+            "name": "VC-ITN- Bednets planned",
+            "shortName": "VC-ITN- Bednets planned",
+            "displayName": "VC-ITN- Bednets planned",
+            "publicAccess": "rw------",
+            "description": "\nBednets planned\n",
+            "displayShortName": "VC-ITN- Bednets planned",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Bednets planned",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "Bednets planned",
+            "displayDescription": "\nBednets planned\n",
+            "dimensionItem": "xImOAx9B8c5",
+            "displayFormName": "VC-ITN- Bednets planned",
+            "numerator": "D{ekKJ03GMV20.JAYytoX8GbU}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Moustiquaires prévues"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Mosquiteros previstos"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Mosquiteiras planejadas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Mosquiteiras planejadas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Mosquiteros previstos"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Moustiquaires prévues"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Mosquiteiras planejadas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "v"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Mosquiteros previstos"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_HOUSEHOLDS_BENEFITED",
+            "lastUpdated": "2020-04-21T07:57:25.995",
+            "id": "khc5753bXq0",
+            "created": "2019-10-02T11:58:12.074",
+            "name": "VC-ITN- Households- benefited",
+            "shortName": "Households benefited",
+            "displayName": "VC-ITN- Households- benefited",
+            "publicAccess": "rw------",
+            "description": "Number of households benefited",
+            "displayShortName": "Households benefited",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Households benefited",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "Households benefited",
+            "displayDescription": "Number of households benefited",
+            "dimensionItem": "khc5753bXq0",
+            "displayFormName": "VC-ITN- Households- benefited",
+            "numerator": "D{ekKJ03GMV20.u03FPLThgSA}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-ITN- Agregados beneficiados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Hogares planificados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Agregados beneficiados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Ménages ont bénéficiés"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Hogares planificados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Agregados beneficiados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Ménages ont bénéficiés"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Hogares planificados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Ménages ont bénéficiés"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_HOUSEHOLDS_EXPECTED",
+            "lastUpdated": "2020-04-21T07:57:49.253",
+            "id": "elLoEXOZskL",
+            "created": "2019-10-02T11:59:03.200",
+            "name": "VC-ITN- Households- expected",
+            "shortName": "Households expected",
+            "displayName": "VC-ITN- Households- expected",
+            "publicAccess": "rw------",
+            "description": "Number of households expected",
+            "displayShortName": "Households expected",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Households expected",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "Households expected",
+            "displayDescription": "Number of households expected",
+            "dimensionItem": "elLoEXOZskL",
+            "displayFormName": "VC-ITN- Households- expected",
+            "numerator": "D{ekKJ03GMV20.qzQBhoOgijN}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Ménages prévues"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Ménages prévues"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Hogares esperados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-ITN- Agregados esperados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Agregados esperados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Agregados esperados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Ménages prévues"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Hogares esperados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Hogares esperados"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_HOUSEHOLDS_REGISTERED",
+            "lastUpdated": "2020-04-21T07:58:10.730",
+            "id": "vaBFyC8cEeY",
+            "created": "2019-10-02T11:59:57.716",
+            "name": "VC-ITN- Households- registered",
+            "shortName": "Households registered",
+            "displayName": "VC-ITN- Households- registered",
+            "publicAccess": "rw------",
+            "description": "Number of households registered",
+            "displayShortName": "Households registered",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Households registered",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "Households registered",
+            "displayDescription": "Number of households registered",
+            "dimensionItem": "vaBFyC8cEeY",
+            "displayFormName": "VC-ITN- Households- registered",
+            "numerator": "D{ekKJ03GMV20.Kx4KFokmYZU}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Hogares enumerados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Hogares enumerados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Ménages enregistrés"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Ménages enregistrés"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-ITN- Agregados registados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Hogares enumerados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Agregados registados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Ménages enregistrés"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Agregados registados"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_PEOPLE_AT_RISK_BENEFITED",
+            "lastUpdated": "2020-04-21T08:01:36.339",
+            "id": "Tjo0ZozbQ08",
+            "created": "2019-10-02T12:00:38.781",
+            "name": "VC-ITN- Number of people at risk- benefited",
+            "shortName": "Number of people at risk benefited",
+            "displayName": "VC-ITN- Number of people at risk- benefited",
+            "publicAccess": "rw------",
+            "description": "Number of people at risk benefited",
+            "displayShortName": "Number of people at risk benefited",
+            "externalAccess": false,
+            "displayNumeratorDescription": "People at risk that benefited",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "People at risk that benefited",
+            "displayDescription": "Number of people at risk benefited",
+            "dimensionItem": "Tjo0ZozbQ08",
+            "displayFormName": "VC-ITN- Number of people at risk- benefited",
+            "numerator": "D{ekKJ03GMV20.SZkD4JrbI3T}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Numero de personas a riesgo beneficiadas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Numero de personas a riesgo beneficiadas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Nombre de personnes à risque bénéficiées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Nombre de personnes à risque bénéficiées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-ITN-  Número de pessoas em risco beneficiadas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Nombre de personnes à risque bénéficiées"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": " Número de pessoas em risco beneficiadas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": " Número de pessoas em risco beneficiadas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Numero de personas a riesgo beneficiadas"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_PEOPLE_AT_RISK_EXPECTED",
+            "lastUpdated": "2020-04-21T08:01:52.267",
+            "id": "NXHhh5CsFja",
+            "created": "2019-10-02T12:01:12.336",
+            "name": "VC-ITN- Number of people at risk- expected",
+            "shortName": "Number of expected people at risk",
+            "displayName": "VC-ITN- Number of people at risk- expected",
+            "publicAccess": "rw------",
+            "description": "Number of expected people at risk",
+            "displayShortName": "Number of expected people at risk",
+            "externalAccess": false,
+            "displayNumeratorDescription": "People at risk expected",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "People at risk expected",
+            "displayDescription": "Number of expected people at risk",
+            "dimensionItem": "NXHhh5CsFja",
+            "displayFormName": "VC-ITN- Number of people at risk- expected",
+            "numerator": "D{ekKJ03GMV20.pwzY9q43Nvk}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Numero de personas a riesgo previsto"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Nombre de personnes à risque prévues"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Numero de personas a riesgo previsto"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " VC-ITN- Número esperado de pessoas em risco"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Nombre de personnes à risque prévues"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Nombre de personnes à risque prévues"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Numero de personas a riesgo previsto"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Número esperado de pessoas em risco"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Número esperado de pessoas em risco"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_PEOPLE_AT_RISK_REGISTERED",
+            "lastUpdated": "2020-04-21T08:02:00.804",
+            "id": "MCJqb9TzLhJ",
+            "created": "2019-10-02T12:02:23.016",
+            "name": "VC-ITN- Number of people at risk- registered",
+            "shortName": "Number of people at risk registered",
+            "displayName": "VC-ITN- Number of people at risk- registered",
+            "publicAccess": "rw------",
+            "description": "Number of people at risk registered",
+            "displayShortName": "Number of people at risk registered",
+            "externalAccess": false,
+            "displayNumeratorDescription": "People at risk registered",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "People at risk registered",
+            "displayDescription": "Number of people at risk registered",
+            "dimensionItem": "MCJqb9TzLhJ",
+            "displayFormName": "VC-ITN- Number of people at risk- registered",
+            "numerator": "D{ekKJ03GMV20.zRiYg9aqBT2}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Nombre de personnes à risque enregistrées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " VC-ITN- Número de pessoas em risco registadas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Nombre de personnes à risque enregistrées"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Nombre de personnes à risque enregistrées"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Número de personas a riesgo registradas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Número de pessoas em risco registadas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Número de personas a riesgo registradas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Número de pessoas em risco registadas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Número de personas a riesgo registradas"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_PEOPLE_PER_BEDNET",
+            "lastUpdated": "2020-04-21T07:59:43.047",
+            "id": "Uwf4d2YoZ7W",
+            "created": "2019-10-02T12:08:13.318",
+            "name": "VC-ITN- People per bednet",
+            "shortName": "People per bednet",
+            "displayName": "VC-ITN- People per bednet",
+            "publicAccess": "rw------",
+            "description": "People per bednet",
+            "displayShortName": "People per bednet",
+            "externalAccess": false,
+            "displayNumeratorDescription": "People registered in the distribution area",
+            "denominatorDescription": "Bednets ditributed",
+            "displayDenominatorDescription": "Bednets ditributed",
+            "numeratorDescription": "People registered in the distribution area",
+            "displayDescription": "People per bednet",
+            "dimensionItem": "Uwf4d2YoZ7W",
+            "displayFormName": "VC-ITN- People per bednet",
+            "numerator": "D{ekKJ03GMV20.zRiYg9aqBT2}",
+            "denominator": "D{ekKJ03GMV20.LdtutZje2N8}",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "k4RGC3sMTzO"
+            },
+            "lastUpdatedBy": {},
+            "legendSet": {
+                "id": "e7oFKndPxaP"
+            },
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Personnes par moustiquaire"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Pesoas por rede"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-ITN- Pesoas por rede"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Personnes par moustiquaire"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Personas por cada mosquitero"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Pesoas por rede"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Personas por cada mosquitero"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Personas por cada mosquitero"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Personnes par moustiquaire"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": [
+                {
+                    "id": "e7oFKndPxaP"
+                }
+            ]
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_HOUSEHOLDS_BENEFITED_PERCENT",
+            "lastUpdated": "2020-04-21T08:01:01.480",
+            "id": "p3a2gvb9RBx",
+            "created": "2019-10-02T12:10:02.019",
+            "name": "VC-ITN- Percentage of households benefited",
+            "shortName": "Percentage of households benefited",
+            "displayName": "VC-ITN- Percentage of households benefited",
+            "publicAccess": "rw------",
+            "description": "Percentage of households benefited",
+            "displayShortName": "Percentage of households benefited",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Households benefited",
+            "denominatorDescription": "Households registered",
+            "displayDenominatorDescription": "Households registered",
+            "numeratorDescription": "Households benefited",
+            "displayDescription": "Percentage of households benefited",
+            "dimensionItem": "p3a2gvb9RBx",
+            "displayFormName": "VC-ITN- Percentage of households benefited",
+            "numerator": "D{ekKJ03GMV20.u03FPLThgSA}",
+            "denominator": "D{ekKJ03GMV20.Kx4KFokmYZU}",
+            "annualized": false,
+            "decimals": 1,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " VC-ITN-  Percentagem de agregados em risco beneficiados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Hogares beneficiados (%)"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Percentagem de agregados em risco beneficiados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Pourcentage de moustiquaires bénéficiées"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Percentagem de agregados em risco beneficiados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Pourcentage de moustiquaires bénéficiées"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Hogares beneficiados (%)"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Pourcentage de moustiquaires bénéficiées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Hogares beneficiados (%)"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_BEDNETS_DISTRIBUTED_PERCENT",
+            "lastUpdated": "2020-04-21T08:00:18.648",
+            "id": "jpub7qatOM2",
+            "created": "2019-10-02T12:09:02.840",
+            "name": "VC-ITN- Percentage of bednets distributed",
+            "shortName": "Percentage of bednets distributed",
+            "displayName": "VC-ITN- Percentage of bednets distributed",
+            "publicAccess": "rw------",
+            "description": "Percentage of bednets distributed",
+            "displayShortName": "Percentage of bednets distributed",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Bednets distributed",
+            "denominatorDescription": "Bednets planned",
+            "displayDenominatorDescription": "Bednets planned",
+            "numeratorDescription": "Bednets distributed",
+            "displayDescription": "Percentage of bednets distributed",
+            "dimensionItem": "jpub7qatOM2",
+            "displayFormName": "VC-ITN- Percentage of bednets distributed",
+            "numerator": "D{ekKJ03GMV20.LdtutZje2N8}",
+            "denominator": "D{ekKJ03GMV20.JAYytoX8GbU}",
+            "annualized": false,
+            "decimals": 1,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Pourcentage de moustiquaires distribuées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " VC-ITN-  Percentagem de redes distribuidas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Percentagem de redes distribuidas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Pourcentage de moustiquaires distribuées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Mosquiteros distribuidos (%)"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Mosquiteros distribuidos en relacion a los previstos"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Percentagem de redes distribuidas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Mosquiteros distribuidos (%)"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Pourcentage de moustiquaires distribuées"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_ITN_PEOPLE_AT_RISK_BENEFITED_PERCENT",
+            "lastUpdated": "2020-04-21T08:01:21.634",
+            "id": "Ug6xycyoDnn",
+            "created": "2019-10-02T12:10:51.050",
+            "name": "VC-ITN- Percentage of people at risk benefited",
+            "shortName": "Percentage of people at risk benefited",
+            "displayName": "VC-ITN- Percentage of people at risk benefited",
+            "publicAccess": "rw------",
+            "description": "Percentage of people at risk benefited",
+            "displayShortName": "Percentage of people at risk benefited",
+            "externalAccess": false,
+            "displayNumeratorDescription": "People at risk benefited",
+            "denominatorDescription": "People at risk registered",
+            "displayDenominatorDescription": "People at risk registered",
+            "numeratorDescription": "People at risk benefited",
+            "displayDescription": "Percentage of people at risk benefited",
+            "dimensionItem": "Ug6xycyoDnn",
+            "displayFormName": "VC-ITN- Percentage of people at risk benefited",
+            "numerator": "D{ekKJ03GMV20.SZkD4JrbI3T}",
+            "denominator": "D{ekKJ03GMV20.zRiYg9aqBT2}",
+            "annualized": false,
+            "decimals": 1,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Personas a riesgo beneficiadas (%)"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Percentagem de pessoas em risco beneficiadas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " VC-ITN-  Percentagem de pessoas em risco beneficiadas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-ITN- Personas a riesgo beneficiadas (%)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-ITN- Pourcentage de personnes à risque bénéficiées"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Percentagem de pessoas em risco beneficiadas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Pourcentage de personnes à risque bénéficiées"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Pourcentage de personnes à risque bénéficiées"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Personas a riesgo beneficiadas (%)"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        }
+    ],
+    "indicatorTypes": [
+        {
+            "metadataType": "indicatorTypes",
+            "created": "2015-03-23T01:42:43.716",
+            "lastUpdated": "2020-10-23T19:03:39.578",
+            "name": "Numerator only (number)",
+            "id": "kHy61PbChXr",
+            "displayName": "Numerator only (number)",
+            "externalAccess": false,
+            "number": true,
+            "factor": 1,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Numérateur seulement"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "indicatorTypes",
+            "created": "2012-01-08T20:43:04.118",
+            "lastUpdated": "2020-01-31T22:08:35.299",
+            "name": "Rate (factor=1)",
+            "id": "k4RGC3sMTzO",
+            "displayName": "Rate (factor=1)",
+            "externalAccess": false,
+            "number": false,
+            "factor": 1,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Taux (facteur = 1)"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "indicatorTypes",
+            "created": "2015-03-23T01:41:28.852",
+            "lastUpdated": "2020-10-23T19:03:39.578",
+            "name": "Percentage",
+            "id": "hmSnCXmLYwt",
+            "displayName": "Percentage",
+            "externalAccess": false,
+            "number": false,
+            "factor": 100,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Pourcentage"
+                }
+            ],
+            "userAccesses": []
+        }
+    ],
+    "legendSets": [
+        {
+            "metadataType": "legendSets",
+            "code": "VC_ITN_TARGET",
+            "created": "2019-07-08T15:47:07.811",
+            "lastUpdated": "2020-02-01T02:58:06.629",
+            "name": "VC-ITN Target",
+            "id": "e7oFKndPxaP",
+            "displayName": "VC-ITN Target",
+            "publicAccess": "rw------",
+            "externalAccess": false,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "legends": [
+                {
+                    "lastUpdated": "2020-01-31T22:08:34.102",
+                    "id": "YTuKa72SxAv",
+                    "created": "2019-11-10T08:45:24.250",
+                    "name": "< 1.8 people per bednet",
+                    "endValue": 1.8,
+                    "color": "#0DAC19",
+                    "displayName": "< 1.8 people per bednet",
+                    "externalAccess": false,
+                    "startValue": 0,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                },
+                {
+                    "lastUpdated": "2020-01-31T22:08:34.103",
+                    "id": "P8T97uRuole",
+                    "created": "2019-11-10T08:45:24.250",
+                    "name": "> 1.8 people per bednet",
+                    "endValue": 10,
+                    "color": "#F61A1A",
+                    "displayName": "> 1.8 people per bednet",
+                    "externalAccess": false,
+                    "startValue": 1.8,
+                    "favorite": false,
+                    "access": {
+                        "read": true,
+                        "update": true,
+                        "externalize": true,
+                        "delete": true,
+                        "write": true,
+                        "manage": true
+                    },
+                    "favorites": [],
+                    "translations": [],
+                    "userGroupAccesses": [],
+                    "attributeValues": [],
+                    "userAccesses": []
+                }
+            ],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-ITN- Objetivo"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "en",
+                    "value": "VC-ITN Target"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-MILD Cible"
+                }
+            ],
+            "userAccesses": []
+        }
     ]
 }
