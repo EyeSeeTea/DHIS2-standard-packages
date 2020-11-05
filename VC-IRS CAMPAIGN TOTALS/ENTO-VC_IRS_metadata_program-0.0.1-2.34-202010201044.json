@@ -5771,5 +5771,955 @@
             "displayFormName": "IRS campaign results",
             "programIndicators": []
         }
+    ],
+    "indicators": [
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_PEOPLE_AREA",
+            "lastUpdated": "2020-04-21T12:06:46.542",
+            "id": "cS1npfHOqXO",
+            "created": "2019-10-07T16:44:24.553",
+            "name": "VC-IRS- People living in sprayed area",
+            "shortName": "People living in sprayed area",
+            "displayName": "VC-IRS- People living in sprayed area",
+            "publicAccess": "rw------",
+            "description": "Total number of people living in the sprayed area",
+            "displayShortName": "People living in sprayed area",
+            "externalAccess": false,
+            "displayNumeratorDescription": "People living in sprayed area",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "People living in sprayed area",
+            "displayDescription": "Total number of people living in the sprayed area",
+            "dimensionItem": "cS1npfHOqXO",
+            "displayFormName": "VC-IRS- People living in sprayed area",
+            "numerator": "1",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Personnes qui habitent dans la zone pulvérisée"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Personas que viven en el area rociada"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Personnes qui habitent dans la zone pulvérisée"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Pessoas que vivem a area pulverizada"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Personas que viven en el area rociada"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Pessoas que vivem a area pulverizada"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Pessoas que vivem a area pulverizada"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Personnes qui habitent dans la zone pulvérisée"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS- Personas que viven en el area rociada"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_PEOPLE_HH",
+            "lastUpdated": "2020-04-21T08:04:19.637",
+            "id": "uKZxLsPOCfK",
+            "created": "2019-10-02T12:13:09.741",
+            "name": "VC-IRS- People living in sprayed households",
+            "shortName": "People living in sprayed households",
+            "displayName": "VC-IRS- People living in sprayed households",
+            "publicAccess": "rw------",
+            "description": "Total number of people living in the sprayed households",
+            "displayShortName": "People living in sprayed households",
+            "externalAccess": false,
+            "displayNumeratorDescription": "People living in sprayed area",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "People living in sprayed area",
+            "displayDescription": "Total number of people living in the sprayed households",
+            "dimensionItem": "uKZxLsPOCfK",
+            "displayFormName": "VC-IRS- People living in sprayed households",
+            "numerator": "D{TNsilMJnxi6.Ae9aLkImjpq}+D{TNsilMJnxi6.EAmMK7oGg9h}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Pessoas que vivem nos agregadas pulverizados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Pessoas que vivem nos agregadas pulverizados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Personnes qui habitent dans des foyers pulvérisés"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Personas que viven en  hogares rociados"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Personnes qui habitent dans des foyers pulvérisés"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Pessoas que vivem nos agregadas pulverizados"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Personas que viven en  hogares rociados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS- Personas que viven en  hogares rociados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Personnes qui habitent dans des foyers pulvérisés"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "zICGaHFeJ9O"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_HH_1ITN",
+            "lastUpdated": "2020-04-21T12:07:10.445",
+            "id": "AESTW26eiwW",
+            "created": "2019-10-09T20:10:29.784",
+            "name": "VC-IRS- Proportion of Households with at Least One ITN",
+            "shortName": "% of Households with at Least One ITN",
+            "displayName": "VC-IRS- Proportion of Households with at Least One ITN",
+            "publicAccess": "rw------",
+            "description": "Proportion of Households with at Least One ITN",
+            "displayShortName": "% of Households with at Least One ITN",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Number of HH that received bednet(s)",
+            "denominatorDescription": "Total number of HH registered",
+            "displayDenominatorDescription": "Total number of HH registered",
+            "numeratorDescription": "Number of HH that received bednet(s)",
+            "displayDescription": "Proportion of Households with at Least One ITN",
+            "dimensionItem": "AESTW26eiwW",
+            "displayFormName": "VC-IRS- Proportion of Households with at Least One ITN",
+            "numerator": "D{ekKJ03GMV20.u03FPLThgSA}",
+            "denominator": "D{ekKJ03GMV20.Kx4KFokmYZU}",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Proporção de domicílios com pelo menos uma rede"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Proportion de ménages ayant au moins une MILD"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Proportion de ménages ayant au moins une MILD"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": " Proporción de hogares con al menos un MILD"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Proporção de domicílios com pelo menos uma rede"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": " Proporción de hogares con al menos un MILD"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Proportion de ménages ayant au moins une MILD"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS-  Proporción de hogares con al menos un MILD"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " VC-IRS - Proporção de domicílios com pelo menos uma rede"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_POPULATION_ACCESS",
+            "lastUpdated": "2020-04-21T12:08:25.794",
+            "id": "fWfIlSSbWH4",
+            "created": "2019-10-09T20:12:15.577",
+            "name": "VC-IRS- Proportion of Population with Access to an ITN in their Household",
+            "shortName": "% of Population with Access to an ITN",
+            "displayName": "VC-IRS- Proportion of Population with Access to an ITN in their Household",
+            "publicAccess": "rw------",
+            "description": "Proportion of Population with Access to an ITN in their Household",
+            "displayShortName": "% of Population with Access to an ITN",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Population benefited",
+            "denominatorDescription": "Population registered",
+            "displayDenominatorDescription": "Population registered",
+            "numeratorDescription": "Population benefited",
+            "displayDescription": "Proportion of Population with Access to an ITN in their Household",
+            "dimensionItem": "fWfIlSSbWH4",
+            "displayFormName": "VC-IRS- Proportion of Population with Access to an ITN in their Household",
+            "numerator": "D{ekKJ03GMV20.SZkD4JrbI3T}",
+            "denominator": "D{ekKJ03GMV20.zRiYg9aqBT2}",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Proportion de la population ayant accès à une MII dans leur ménage"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Proporción de población con acceso a un MILD en su hogar"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Proporção da população com acesso a um ITN em seu domicílio"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS- Proporción de población con acceso a un MILD en su hogar"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Proporção da população com acesso a um ITN em seu domicílio"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Proportion de la population ayant accès à une MII dans leur ménage"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Proportion de la population ayant accès à une MII dans leur ménage"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Proporción de población con acceso a un MILD en su hogar"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": " VC-IRS - Proporção da população com acesso a um ITN em seu domicílio"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "yyhtdZtGHvJ"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_FORMULATION_QUANTITY",
+            "lastUpdated": "2020-04-21T08:04:47.744",
+            "id": "SEbHmRl3xid",
+            "created": "2019-10-02T12:13:59.801",
+            "name": "VC-IRS- Quantity of formulation used",
+            "shortName": "Quantity of formulation used",
+            "displayName": "VC-IRS- Quantity of formulation used",
+            "publicAccess": "rw------",
+            "description": "The total quantity of insecticide formulation used",
+            "displayShortName": "Quantity of formulation used",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Quantity of insecticide formulation used",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "Quantity of insecticide formulation used",
+            "displayDescription": "The total quantity of insecticide formulation used",
+            "dimensionItem": "SEbHmRl3xid",
+            "displayFormName": "VC-IRS- Quantity of formulation used",
+            "numerator": "D{TNsilMJnxi6.aPBe3TF8iH8}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS- Cantidad de formulación utilzada"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Quantidade de producto utilizada"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Cantidad de formulación utilzada"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Quantidade de producto utilizada"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Quantité de formulation utilisée"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Quantidade de producto utilizada"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Quantité de formulation utilisée"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Cantidad de formulación utilzada"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Quantité de formulation utilisée"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "zICGaHFeJ9O"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_SPRAYABLE_STRUCTURES_FOUND",
+            "lastUpdated": "2020-04-21T08:05:13.058",
+            "id": "q6OoW6UozB7",
+            "created": "2019-10-02T12:14:46.852",
+            "name": "VC-IRS- Sprayable structures found",
+            "shortName": "Sprayable structures found",
+            "displayName": "VC-IRS- Sprayable structures found",
+            "publicAccess": "rw------",
+            "description": "Total number of sprayable structures found in the field",
+            "displayShortName": "Sprayable structures found",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Sprayable strutures found",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "Sprayable strutures found",
+            "displayDescription": "Total number of sprayable structures found in the field",
+            "dimensionItem": "q6OoW6UozB7",
+            "displayFormName": "VC-IRS- Sprayable structures found",
+            "numerator": "D{TNsilMJnxi6.BIaGhM62cip}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Estructuras encontradas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS- Número de estructuras objetivo encontradas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Structures pulvérisables trouvées"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Número de estructuras objetivo encontradas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Structures pulvérisables trouvées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Estructuras encontradas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Structures pulvérisables trouvées"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Estructuras encontradas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Número de estructuras objetivo encontradas"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "zICGaHFeJ9O"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_STRUCTURES_SPRAYED_PERCENT",
+            "lastUpdated": "2020-04-21T08:05:24.626",
+            "id": "tFgTl4UeDz3",
+            "created": "2019-10-02T12:15:45.944",
+            "name": "VC-IRS- Structures sprayed (%)",
+            "shortName": "Structures sprayed",
+            "displayName": "VC-IRS- Structures sprayed (%)",
+            "publicAccess": "rw------",
+            "description": "Percent of structures that were sprayed out of the total number of structures that needed to be sprayed",
+            "displayShortName": "Structures sprayed",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Structures sprayed",
+            "denominatorDescription": "Sprayable structures found",
+            "displayDenominatorDescription": "Sprayable structures found",
+            "numeratorDescription": "Structures sprayed",
+            "displayDescription": "Percent of structures that were sprayed out of the total number of structures that needed to be sprayed",
+            "dimensionItem": "tFgTl4UeDz3",
+            "displayFormName": "VC-IRS- Structures sprayed (%)",
+            "numerator": "D{TNsilMJnxi6.HLZ7sxdS1SI}",
+            "denominator": "D{TNsilMJnxi6.BIaGhM62cip}",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Estructuras pulverizadas (%)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS- Estructuras pulverizadas (%)"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Structures pulvérisées"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Estructuras pulverizadas (%)"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Estructuras pulverizadas (%)"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Structures pulvérisées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Estructuras pulverizadas (%)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Structures pulvérisées (%)"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Estructuras pulverizadas (%)"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "zICGaHFeJ9O"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_STRUCTURES_SPRAYED_NUMBER",
+            "lastUpdated": "2020-04-21T08:05:48.186",
+            "id": "bCcc70i2msl",
+            "created": "2019-10-02T12:16:36.726",
+            "name": "VC-IRS- Structures sprayed (number)",
+            "shortName": "Structures sprayed (number)",
+            "displayName": "VC-IRS- Structures sprayed (number)",
+            "publicAccess": "rw------",
+            "description": "Number of structures that were sprayed",
+            "displayShortName": "Structures sprayed (number)",
+            "externalAccess": false,
+            "displayNumeratorDescription": "Structures sprayed",
+            "denominatorDescription": "None",
+            "displayDenominatorDescription": "None",
+            "numeratorDescription": "Structures sprayed",
+            "displayDescription": "Number of structures that were sprayed",
+            "dimensionItem": "bCcc70i2msl",
+            "displayFormName": "VC-IRS- Structures sprayed (number)",
+            "numerator": "D{TNsilMJnxi6.HLZ7sxdS1SI}",
+            "denominator": "1",
+            "annualized": false,
+            "decimals": 0,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "kHy61PbChXr"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Estructuras pulverizadas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS- Estructuras pulverzadas (Número)"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Structures pulvérisées (number)"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Número de estructuras pulverzadas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Structures pulvérisées"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Número de estructuras pulverzadas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Estructuras pulverizadas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Structures pulvérisées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Estructuras pulverizadas"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "zICGaHFeJ9O"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        },
+        {
+            "metadataType": "indicators",
+            "code": "VC_IRS_PEOPLE_PROTECTED",
+            "lastUpdated": "2020-04-21T08:06:08.466",
+            "id": "rAv96Tz3zjG",
+            "created": "2019-10-02T12:18:28.524",
+            "name": "VC-IRS-Percentage of people protected",
+            "shortName": "% People protected",
+            "displayName": "VC-IRS-Percentage of people protected",
+            "publicAccess": "rw------",
+            "description": "Percentage of people living in sprayed houses out of the total number of people living in the sprayed area",
+            "displayShortName": "% People protected",
+            "externalAccess": false,
+            "displayNumeratorDescription": "People living in the sprayed structures",
+            "denominatorDescription": "People living in the sprayed area",
+            "displayDenominatorDescription": "People living in the sprayed area",
+            "numeratorDescription": "People living in the sprayed structures",
+            "displayDescription": "Percentage of people living in sprayed houses out of the total number of people living in the sprayed area",
+            "dimensionItem": "rAv96Tz3zjG",
+            "displayFormName": "VC-IRS-Percentage of people protected",
+            "numerator": "(D{TNsilMJnxi6.EAmMK7oGg9h}+D{TNsilMJnxi6.Ae9aLkImjpq})",
+            "denominator": "(D{TNsilMJnxi6.xJKbgi33bAH}+D{TNsilMJnxi6.OMt5wquR6gE})",
+            "annualized": false,
+            "decimals": 2,
+            "favorite": false,
+            "dimensionItemType": "INDICATOR",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "indicatorType": {
+                "id": "hmSnCXmLYwt"
+            },
+            "lastUpdatedBy": {},
+            "user": {},
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "VC-IRS-Porcentage de personas protegidas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "pt",
+                    "value": "Percentagem de pessoas protegidas"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "es",
+                    "value": "Personas protegidas (%)"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "fr",
+                    "value": "Pourcentage de personnes protégées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "VC-IRS- Pourcentage de personnes protégées"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "VC-IRS- Percentagem de pessoas protegidas"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "es",
+                    "value": "Personas protegidas (%)"
+                },
+                {
+                    "property": "SHORT_NAME",
+                    "locale": "fr",
+                    "value": "Pourcentage de personnes protégées"
+                },
+                {
+                    "property": "DESCRIPTION",
+                    "locale": "pt",
+                    "value": "Percentagem de pessoas protegidas"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "indicatorGroups": [
+                {
+                    "id": "zICGaHFeJ9O"
+                }
+            ],
+            "userAccesses": [],
+            "dataSets": [],
+            "legendSets": []
+        }
+    ],
+    "indicatorTypes": [
+        {
+            "metadataType": "indicatorTypes",
+            "created": "2015-03-23T01:42:43.716",
+            "lastUpdated": "2020-10-23T19:03:39.578",
+            "name": "Numerator only (number)",
+            "id": "kHy61PbChXr",
+            "displayName": "Numerator only (number)",
+            "externalAccess": false,
+            "number": true,
+            "factor": 1,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Numérateur seulement"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "indicatorTypes",
+            "created": "2015-03-23T01:41:28.852",
+            "lastUpdated": "2020-10-23T19:03:39.578",
+            "name": "Percentage",
+            "id": "hmSnCXmLYwt",
+            "displayName": "Percentage",
+            "externalAccess": false,
+            "number": false,
+            "factor": 100,
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Pourcentage"
+                }
+            ],
+            "userAccesses": []
+        }
     ]
 }
