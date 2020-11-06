@@ -1,0 +1,5376 @@
+{
+    "package": {
+        "id": "hCjU2R1vglj",
+        "name": "ENTO-BREED_SITE_metadata_program",
+        "user": {
+            "id": "gUQgjMPkPvK",
+            "name": "Lucia Fernandez"
+        },
+        "module": {
+            "id": "spMrVnDAvOW",
+            "name": "ENTO-BREEDING SITES",
+            "instance": "http://localhost:8080",
+            "department": {
+                "id": "OEHAIvnHRxz",
+                "name": "GMP/VCR"
+            }
+        },
+        "created": "2020-10-09T20:39:26.271Z",
+        "deleted": false,
+        "version": "0.0.0-",
+        "description": "First commit to GitHub Repo",
+        "dhisVersion": "2.34",
+        "lastUpdated": "2020-10-09T20:39:39.675Z",
+        "lastUpdatedBy": {
+            "id": "gUQgjMPkPvK",
+            "name": "Lucia Fernandez"
+        }
+    },
+    "options": [
+        {
+            "id": "BD5ABdacrx9",
+            "code": "ENTO_BREEDING_SITE_PERMANENT",
+            "name": "Permanent",
+            "created": "2019-07-09T05:32:53.608",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "f92SY2JJxiS"
+            },
+            "sortOrder": 2,
+            "displayName": "Permanent",
+            "lastUpdated": "2020-05-22T16:58:02.284",
+            "translations": [
+                {
+                    "value": "Permanente",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Permanente",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Permanente",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Permanent"
+        },
+        {
+            "id": "rMkZgTe3Xnc",
+            "code": "ENTO_BREEDING_SITE_SEMIPERMANENT",
+            "name": "Semipermanent",
+            "created": "2019-07-09T05:33:11.513",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "f92SY2JJxiS"
+            },
+            "sortOrder": 3,
+            "displayName": "Semipermanent",
+            "lastUpdated": "2020-05-22T16:58:02.284",
+            "translations": [
+                {
+                    "value": "Semipermanente",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Semipermanente",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Semi permanente",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Semipermanent"
+        },
+        {
+            "id": "QlNaequxPfE",
+            "code": "ENTO_BREEDING_SITE_TEMPORARY",
+            "name": "Temporary",
+            "created": "2019-07-09T05:32:39.642",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "f92SY2JJxiS"
+            },
+            "sortOrder": 1,
+            "displayName": "Temporary",
+            "lastUpdated": "2020-05-22T16:58:02.284",
+            "translations": [
+                {
+                    "value": "Temporal",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Temporario",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Temporaire",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Temporary"
+        },
+        {
+            "id": "xn71ZDoREhZ",
+            "code": "ENTO_FOOTPRINT",
+            "name": "Animal footptrints",
+            "created": "2019-07-09T23:01:21.802",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 6,
+            "displayName": "Animal footptrints",
+            "lastUpdated": "2020-05-22T16:58:02.288",
+            "translations": [
+                {
+                    "value": "Pisadas de animales",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Pegadas de animais",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Animal footptrints"
+        },
+        {
+            "id": "o0Air6XX92Q",
+            "code": "ENTO_EXCAVATION_AGRICULTURE",
+            "name": "Excavation for agriculture",
+            "created": "2019-07-09T22:58:50.168",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 5,
+            "displayName": "Excavation for agriculture",
+            "lastUpdated": "2020-05-22T16:58:02.288",
+            "translations": [
+                {
+                    "value": "Excavation pour l'agriculture",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Excavacion agricola",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Escavação feita pelo homem: para agricultura",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Excavation for agriculture"
+        },
+        {
+            "id": "EY83UD1ytX9",
+            "code": "ENTO_HUMAN_RESERVOIR",
+            "name": "Human made water reservoir",
+            "created": "2019-07-09T22:58:17.777",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 4,
+            "displayName": "Human made water reservoir",
+            "lastUpdated": "2020-05-22T16:58:02.288",
+            "translations": [
+                {
+                    "value": "Reservorios de agua creados por el hombre",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Agua de fonte humana",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Réservoir d'eau fabriqué par l'homme",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Human made water reservoir"
+        },
+        {
+            "id": "lM9pkcaX2pg",
+            "code": "ENTO_POND",
+            "name": "Pond",
+            "created": "2019-07-09T22:57:37.365",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 2,
+            "displayName": "Pond",
+            "lastUpdated": "2020-05-22T16:58:02.288",
+            "translations": [
+                {
+                    "value": "Lagoa",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Laguna",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Étang",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Pond"
+        },
+        {
+            "id": "xOqsh4t9H2d",
+            "code": "ENTO_RAINFALL_WATERS",
+            "name": "Rainfall residual waters",
+            "created": "2019-07-09T22:57:55.401",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 3,
+            "displayName": "Rainfall residual waters",
+            "lastUpdated": "2020-05-22T16:58:02.288",
+            "translations": [
+                {
+                    "value": "Eaux résiduelles pluviométriques",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Aguas residuales de lluvia",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Aguas de chuvas",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Rainfall residual waters"
+        },
+        {
+            "id": "HCQ0qVvDhGo",
+            "code": "ENTO_ROAD_SIDE",
+            "name": "Road side",
+            "created": "2019-07-09T23:02:55.080",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 8,
+            "displayName": "Road side",
+            "lastUpdated": "2020-05-22T16:58:02.289",
+            "translations": [
+                {
+                    "value": "Berma da estrada",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Côté route",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Lados de la carretera",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Road side"
+        },
+        {
+            "id": "UGXb1y2mrrI",
+            "code": "ENTO_SAND_DOMESTIC_CONSTRUCTION",
+            "name": "Sand deposits for domestic construction work",
+            "created": "2019-07-09T23:06:25.252",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 10,
+            "displayName": "Sand deposits for domestic construction work",
+            "lastUpdated": "2020-05-22T16:58:02.289",
+            "translations": [
+                {
+                    "value": "Depositos de arena para construccion",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Dépôts de sable pour travaux de construction domestiques",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Areeiros para construções domesticas",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Sand deposits for domestic construction work"
+        },
+        {
+            "id": "MV2iZ5B3xAL",
+            "code": "ENTO_SAND_CONSTRUCTION",
+            "name": "Sand explotation for construction",
+            "created": "2019-07-09T23:05:48.972",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 9,
+            "displayName": "Sand explotation for construction",
+            "lastUpdated": "2020-05-22T16:58:02.289",
+            "translations": [
+                {
+                    "value": "Areeiros para obras de construção",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Exploitation du sable pour la construction",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Explotaciones de arena para construccion",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Sand explotation for construction"
+        },
+        {
+            "id": "ElA8pTDHSFQ",
+            "code": "ENTO_SWAMP",
+            "name": "Swamp",
+            "created": "2019-07-09T22:57:21.002",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 1,
+            "displayName": "Swamp",
+            "lastUpdated": "2020-05-22T16:58:02.288",
+            "translations": [
+                {
+                    "value": "Marais",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Pantano",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Pantano",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Swamp"
+        },
+        {
+            "id": "vqHGaRVH3Dt",
+            "code": "ENTO_TIRE_GROOVES",
+            "name": "Tire grooves",
+            "created": "2019-07-09T23:02:19.803",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "sortOrder": 7,
+            "displayName": "Tire grooves",
+            "lastUpdated": "2020-05-22T16:58:02.289",
+            "translations": [
+                {
+                    "value": "Huellas de vehiculos",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Rainures de pneus",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Marcas de pneus",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Tire grooves"
+        },
+        {
+            "id": "q5kXUtzePui",
+            "code": "ENTO_BACILLUS_SPHAERICUS",
+            "name": "Bacillus sphaericus",
+            "created": "2019-07-27T01:12:41.531",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "sortOrder": 6,
+            "displayName": "Bacillus sphaericus",
+            "lastUpdated": "2020-05-22T16:58:02.317",
+            "translations": [],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Bacillus sphaericus"
+        },
+        {
+            "id": "fE8pKtP3Red",
+            "code": "ENTO_BACILLUS_THURINGIENSIS_ISRAELENSIS",
+            "name": "Bacillus thuringiensis subsp. israelensis",
+            "created": "2019-07-27T01:12:13.805",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "sortOrder": 5,
+            "displayName": "Bacillus thuringiensis subsp. israelensis",
+            "lastUpdated": "2020-05-22T16:58:02.317",
+            "translations": [],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Bacillus thuringiensis subsp. israelensis"
+        },
+        {
+            "id": "RgEMgdfjyhz",
+            "code": "ENTO_DIFLUBENZURON",
+            "name": "Diflubenzuron",
+            "created": "2019-07-27T01:13:02.468",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "sortOrder": 7,
+            "displayName": "Diflubenzuron",
+            "lastUpdated": "2020-05-22T16:58:02.317",
+            "translations": [
+                {
+                    "value": "Diflubenzuron",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Diflubenzuron"
+        },
+        {
+            "id": "G8EqTC5hrJ9",
+            "code": "ENTO_NOVALURON",
+            "name": "Novaluron",
+            "created": "2019-07-27T01:11:29.617",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "sortOrder": 3,
+            "displayName": "Novaluron",
+            "lastUpdated": "2020-05-22T16:58:02.317",
+            "translations": [
+                {
+                    "value": "Novaluron",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Novaluron"
+        },
+        {
+            "id": "PLLPFGGJKFM",
+            "code": "ENTO_POLYDIMETHYLSILOXANE",
+            "name": "Polydimethylsiloxane",
+            "created": "2019-07-27T01:13:30.621",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "sortOrder": 8,
+            "displayName": "Polydimethylsiloxane",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Polydimethylsiloxane",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Polydimethylsiloxane"
+        },
+        {
+            "id": "QRh0YVZVrjm",
+            "code": "ENTO_PYRIPROXYFEN",
+            "name": "Pyriproxyfen",
+            "created": "2019-07-27T01:10:57.200",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "sortOrder": 1,
+            "displayName": "Pyriproxyfen",
+            "lastUpdated": "2020-05-22T16:58:02.317",
+            "translations": [
+                {
+                    "value": "Pyriproxyfen",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Pyriproxyfen"
+        },
+        {
+            "id": "p0Hll06U3TV",
+            "code": "ENTO_SPINOSAD",
+            "name": "Spinosad",
+            "created": "2019-07-27T01:11:40.007",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "sortOrder": 4,
+            "displayName": "Spinosad",
+            "lastUpdated": "2020-05-22T16:58:02.317",
+            "translations": [
+                {
+                    "value": "Spinosad",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Spinosad"
+        },
+        {
+            "id": "Y5riTuoM0Gb",
+            "code": "ENTO_TEMEPHOS",
+            "name": "Temephos",
+            "created": "2019-07-27T01:11:07.114",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "sortOrder": 2,
+            "displayName": "Temephos",
+            "lastUpdated": "2020-05-22T16:58:02.317",
+            "translations": [
+                {
+                    "value": "Temephos",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Temefós",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Temefos",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Temephos"
+        },
+        {
+            "id": "yrNYXCSRDt5",
+            "code": "VC_ABATE_1SG",
+            "name": "Abate 1 SG",
+            "created": "2019-07-27T00:11:50.193",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 1,
+            "displayName": "Abate 1 SG",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Abate 1 SG",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Abate 1 SG"
+        },
+        {
+            "id": "CYH9PBuwXlS",
+            "code": "VC_ABATE_500EC",
+            "name": "Abate 500 EC",
+            "created": "2019-07-27T00:11:33.793",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 2,
+            "displayName": "Abate 500 EC",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Abate 500 EC",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Abate 500 EC"
+        },
+        {
+            "id": "wRgROnA8KXo",
+            "code": "VC_AQUATAIN_AMF",
+            "name": "Aquatain AMF",
+            "created": "2019-07-27T00:19:46.592",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 3,
+            "displayName": "Aquatain AMF",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Aquatain AMF"
+        },
+        {
+            "id": "KECO6llaiNR",
+            "code": "VC_DEVICE_25WP",
+            "name": "Device 25WP",
+            "created": "2019-07-27T00:19:08.659",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 4,
+            "displayName": "Device 25WP",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Device 25WP",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Device 25WP"
+        },
+        {
+            "id": "I7Tog4BG3sQ",
+            "code": "VC_DIMILIN_GR",
+            "name": "Dimilin GR",
+            "created": "2019-07-27T00:19:28.304",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 5,
+            "displayName": "Dimilin GR",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Dimilin GR",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Dimilin GR"
+        },
+        {
+            "id": "eia43JLPcLO",
+            "code": "VC_DU_DIM_2DT",
+            "name": "Du‐Dim 2 DT",
+            "created": "2019-07-27T00:18:48.661",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 6,
+            "displayName": "Du‐Dim 2 DT",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Du‐Dim 2 DT",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Du‐Dim 2 DT"
+        },
+        {
+            "id": "Hu1VQpccpjs",
+            "code": "VC_LIMITOR_5GR",
+            "name": "LIMITOR 5 GR",
+            "created": "2019-07-27T00:12:06.204",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 7,
+            "displayName": "LIMITOR 5 GR",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "LIMITOR 5 GR",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "LIMITOR 5 GR"
+        },
+        {
+            "id": "cyYKMMj8Ue4",
+            "code": "VC_MOSQUIRON_100EC",
+            "name": "Mosquiron 100EC",
+            "created": "2019-07-27T00:13:53.364",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 8,
+            "displayName": "Mosquiron 100EC",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Mosquiron 100EC",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Mosquiron 100EC"
+        },
+        {
+            "id": "ElD5WZaqHvK",
+            "code": "VC_MOZKILL_120_SC",
+            "name": "MOZKILL 120 SC",
+            "created": "2019-07-27T00:18:29.754",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 9,
+            "displayName": "MOZKILL 120 SC",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "MOZKILL 120 SC",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "MOZKILL 120 SC"
+        },
+        {
+            "id": "rxBduy4pMGT",
+            "code": "VC_SPINOSAD_0.5_GR",
+            "name": "Spinosad 0.5% GR",
+            "created": "2019-07-27T00:17:49.465",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 10,
+            "displayName": "Spinosad 0.5% GR",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Spinosad 0.5% GR",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Spinosad 0.5% GR"
+        },
+        {
+            "id": "gLFCEj6YBJZ",
+            "code": "VC_SPINOSAD_20.6EC",
+            "name": "Spinosad 20.6% EC",
+            "created": "2019-07-27T00:14:41.417",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 11,
+            "displayName": "Spinosad 20.6% EC",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Spinosad 20.6% EC",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Spinosad 20.6% EC"
+        },
+        {
+            "id": "cq6NnbMZ2jx",
+            "code": "VC_SPINOSAD_25_EXTENDED_RELEASE_GR",
+            "name": "SPINOSAD 25 EXTENDED RELEASE GR",
+            "created": "2019-07-27T00:15:30.717",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 12,
+            "displayName": "SPINOSAD 25 EXTENDED RELEASE GR",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "SPINOSAD 25 EXTENDED RELEASE GR",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "SPINOSAD 25 EXTENDED RELEASE GR"
+        },
+        {
+            "id": "cL7zzIVTCDG",
+            "code": "VC_SPINOSAD_7.48_DT",
+            "name": "Spinosad 7.48% DT",
+            "created": "2019-07-27T00:14:19.523",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 13,
+            "displayName": "Spinosad 7.48% DT",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Spinosad 7.48% DT",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Spinosad 7.48% DT"
+        },
+        {
+            "id": "EPzUShsxD4w",
+            "code": "VC_SPINOSAD_MONOLAYER_DT",
+            "name": "Spinosad Monolayer DT",
+            "created": "2019-07-27T00:18:09.937",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 14,
+            "displayName": "Spinosad Monolayer DT",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Spinosad Monolayer DT",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Spinosad Monolayer DT"
+        },
+        {
+            "id": "rUaQFLWC0O9",
+            "code": "VC_SUMILARV_0.5G",
+            "name": "Sumilarv 0.5G",
+            "created": "2019-07-27T00:10:42.172",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 15,
+            "displayName": "Sumilarv 0.5G",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Sumilarv 0.5G",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Sumilarv 0.5G"
+        },
+        {
+            "id": "sIXgPiBgJlo",
+            "code": "VC_SUMILARV_2MR",
+            "name": "Sumilarv 2MR",
+            "created": "2019-07-27T00:11:15.163",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 16,
+            "displayName": "Sumilarv 2MR",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Sumilarv 2MR",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Sumilarv 2MR"
+        },
+        {
+            "id": "avWSp1f5kgi",
+            "code": "VC_TEMEGUARD",
+            "name": "Temeguard",
+            "created": "2019-07-27T00:12:22.657",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 17,
+            "displayName": "Temeguard",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "Temeguard",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Temeguard"
+        },
+        {
+            "id": "Iuv0voiGrg2",
+            "code": "VC_VECTOBAC_GR",
+            "name": "VectoBac GR",
+            "created": "2019-07-27T00:12:53.671",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 18,
+            "displayName": "VectoBac GR",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "VectoBac GR",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "VectoBac GR"
+        },
+        {
+            "id": "DUvpo8Verkx",
+            "code": "VC_VECTOBAC_WG",
+            "name": "VectoBac WG",
+            "created": "2019-07-27T00:13:13.355",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 19,
+            "displayName": "VectoBac WG",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "VectoBac WG",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "VectoBac WG"
+        },
+        {
+            "id": "k3sLY1WWhjz",
+            "code": "VC_VECTOMAX_FG",
+            "name": "VectoMax FG",
+            "created": "2019-07-27T00:13:32.599",
+            "favorite": false,
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "sortOrder": 20,
+            "displayName": "VectoMax FG",
+            "lastUpdated": "2020-05-22T16:58:02.318",
+            "translations": [
+                {
+                    "value": "VectoMax FG",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "VectoMax FG"
+        }
+    ],
+    "programs": [
+        {
+            "id": "Zh0HNoNbYZv",
+            "code": "ENTO_SURVEILLANCE_INMATURE_STAGES",
+            "name": "ENTO- Inmature stages surveillance",
+            "created": "2019-07-09T05:27:04.059",
+            "version": 19,
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Inmature stages surveillance",
+            "userRoles": [],
+            "expiryDays": 0,
+            "accessLevel": "OPEN",
+            "displayName": "ENTO- Inmature stages surveillance",
+            "featureType": "NONE",
+            "lastUpdated": "2020-04-21T12:25:40.682",
+            "programType": "WITHOUT_REGISTRATION",
+            "skipOffline": false,
+            "publicAccess": "r-rw----",
+            "registration": false,
+            "translations": [
+                {
+                    "value": "ENTO- Mapeamiento de criadores",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Vigilância de criadouros",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO- Vigilância de criadouros",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Surveillance des stades immatures",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO- Surveillance des stades immatures",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Mapeamiento de criadores",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "OOS695whbE7"
+            },
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "programStages": [
+                {
+                    "id": "lKwrVuxBlTb"
+                }
+            ],
+            "externalAccess": false,
+            "onlyEnrollOnce": false,
+            "attributeValues": [],
+            "displayFormName": "ENTO- Inmature stages surveillance",
+            "programSections": [],
+            "displayShortName": "Inmature stages surveillance",
+            "organisationUnits": [
+                {
+                    "id": "Mh3MouoB8Qw"
+                },
+                {
+                    "id": "mfqO2fplCfN"
+                },
+                {
+                    "id": "nCliAIghgvS"
+                },
+                {
+                    "id": "yPn12R5naqJ"
+                },
+                {
+                    "id": "WnweWTOA3Bz"
+                },
+                {
+                    "id": "N6BJgpCaliD"
+                },
+                {
+                    "id": "b6hwG8JT8tT"
+                },
+                {
+                    "id": "CImZjlYAIJR"
+                },
+                {
+                    "id": "q53ccn5xMtx"
+                },
+                {
+                    "id": "bGOQFhjNFr5"
+                },
+                {
+                    "id": "EhsigulLsGJ"
+                },
+                {
+                    "id": "eAu3YJkAgeJ"
+                },
+                {
+                    "id": "aOtr0GZoOQz"
+                },
+                {
+                    "id": "gRN0TTjmHD1"
+                },
+                {
+                    "id": "mOSo6aJThIA"
+                },
+                {
+                    "id": "v6aN4qeSTDw"
+                },
+                {
+                    "id": "xZdOeoEF94v"
+                },
+                {
+                    "id": "ubwjioysTXi"
+                },
+                {
+                    "id": "Cd4QQzp6I5B"
+                },
+                {
+                    "id": "aU8ZGLi2cxk"
+                },
+                {
+                    "id": "s6odlJzLV31"
+                },
+                {
+                    "id": "SGUE8uREw3t"
+                },
+                {
+                    "id": "CdvoSXdS4Ju"
+                },
+                {
+                    "id": "myALBrKK8Hd"
+                },
+                {
+                    "id": "uVcYpFJ3BvZ"
+                },
+                {
+                    "id": "IJpJTOqnSb0"
+                },
+                {
+                    "id": "n642ZwFasgl"
+                },
+                {
+                    "id": "PPZZlTrHdwT"
+                },
+                {
+                    "id": "Ky6ZAJvX5TN"
+                },
+                {
+                    "id": "rRpCtenjMc6"
+                },
+                {
+                    "id": "ObvvddcAtQO"
+                },
+                {
+                    "id": "xAWooM3sWV0"
+                },
+                {
+                    "id": "X65QVdbS7x7"
+                },
+                {
+                    "id": "ByqsEM8ZsAz"
+                },
+                {
+                    "id": "Kf6BN5I6pLV"
+                },
+                {
+                    "id": "LUmcbhoFMzd"
+                },
+                {
+                    "id": "dKu76PoXrQX"
+                },
+                {
+                    "id": "azyqPDU2pf3"
+                },
+                {
+                    "id": "kbv9iwCpokl"
+                },
+                {
+                    "id": "tTtUrzNhDg3"
+                },
+                {
+                    "id": "lrGqnF0ZzM6"
+                },
+                {
+                    "id": "GlO0dKjdRxq"
+                },
+                {
+                    "id": "W9zb3Yva3Va"
+                },
+                {
+                    "id": "emI2bZvcq9K"
+                },
+                {
+                    "id": "gEGjk21yljW"
+                },
+                {
+                    "id": "VlbxZJ7wJmz"
+                },
+                {
+                    "id": "yh3NwdKA8LR"
+                },
+                {
+                    "id": "iqcwksAb1aU"
+                },
+                {
+                    "id": "gfHm4sYgi0m"
+                },
+                {
+                    "id": "AZzwWDnJqdp"
+                },
+                {
+                    "id": "kVaFnEaWZP0"
+                },
+                {
+                    "id": "FwdnfcOSD2M"
+                },
+                {
+                    "id": "BUzITQONG0i"
+                },
+                {
+                    "id": "v47ZzRTBfxo"
+                },
+                {
+                    "id": "eD1afIl9y3e"
+                },
+                {
+                    "id": "xMvAcyWPxaD"
+                },
+                {
+                    "id": "N5TdlbdqJMA"
+                },
+                {
+                    "id": "yLobSYtGPEj"
+                },
+                {
+                    "id": "DmR19k293Hr"
+                },
+                {
+                    "id": "UlUWpRwY0iz"
+                },
+                {
+                    "id": "J0CiQg4Pnfb"
+                },
+                {
+                    "id": "Ul76hFnnTrb"
+                },
+                {
+                    "id": "KZCAvf7PtMa"
+                },
+                {
+                    "id": "bSIYJFk5Pzz"
+                },
+                {
+                    "id": "LlqK7AmeALh"
+                },
+                {
+                    "id": "qJkTwo3byYA"
+                },
+                {
+                    "id": "Jn8YvN9eaR5"
+                }
+            ],
+            "programIndicators": [
+                {
+                    "id": "jzKpfuB1mFM"
+                },
+                {
+                    "id": "ctiHW5CAeiy"
+                },
+                {
+                    "id": "g0tiBbjdorI"
+                },
+                {
+                    "id": "zccmCqnJlrf"
+                },
+                {
+                    "id": "Zh5AFfusCYg"
+                },
+                {
+                    "id": "c12Wiwrtplq"
+                }
+            ],
+            "displayIncidentDate": true,
+            "ignoreOverdueEvents": false,
+            "maxTeiCountToReturn": 0,
+            "withoutRegistration": true,
+            "displayFrontPageList": false,
+            "programRuleVariables": [
+                {
+                    "id": "K1jlVtZ7jcI"
+                },
+                {
+                    "id": "GimHnQinkaG"
+                }
+            ],
+            "notificationTemplates": [],
+            "completeEventsExpiryDays": 0,
+            "selectIncidentDatesInFuture": false,
+            "minAttributesRequiredToSearch": 1,
+            "selectEnrollmentDatesInFuture": false,
+            "programTrackedEntityAttributes": [],
+            "useFirstStageDuringRegistration": false
+        }
+    ],
+    "categories": [
+        {
+            "id": "lIBiiq34QJE",
+            "code": "ENTO_IR_INSTITUTION_CA",
+            "name": "ENTO- Reporting institution",
+            "items": [
+                {
+                    "id": "adHe8ZqTLGQ"
+                },
+                {
+                    "id": "MFYaHarMqU1"
+                },
+                {
+                    "id": "U9ryfMWEJwI"
+                }
+            ],
+            "created": "2018-04-26T14:01:45.516",
+            "allItems": false,
+            "favorite": false,
+            "dimension": "lIBiiq34QJE",
+            "favorites": [],
+            "shortName": "ENTO- Reporting institution",
+            "displayName": "ENTO- Reporting institution",
+            "lastUpdated": "2020-01-31T22:16:28.809",
+            "publicAccess": "r-------",
+            "translations": [
+                {
+                    "value": "Origen de los datos",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Origen de los datos",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO- Institution déclarante",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Instituição relatora",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Instituição relatora",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Institution déclarante",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "dataDimension": true,
+            "dimensionType": "CATEGORY",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "categoryCombos": [
+                {
+                    "id": "OOS695whbE7"
+                }
+            ],
+            "externalAccess": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "adHe8ZqTLGQ"
+                },
+                {
+                    "id": "MFYaHarMqU1"
+                },
+                {
+                    "id": "U9ryfMWEJwI"
+                }
+            ],
+            "displayFormName": "ENTO- Reporting institution",
+            "displayShortName": "ENTO- Reporting institution",
+            "dataDimensionType": "ATTRIBUTE"
+        }
+    ],
+    "optionSets": [
+        {
+            "id": "f92SY2JJxiS",
+            "code": "ENTO_BREEDING_SITE_PERMANENCE",
+            "name": "ENTO- Breeding site permanence",
+            "created": "2019-07-09T05:32:18.618",
+            "options": [
+                {
+                    "id": "QlNaequxPfE"
+                },
+                {
+                    "id": "BD5ABdacrx9"
+                },
+                {
+                    "id": "rMkZgTe3Xnc"
+                }
+            ],
+            "version": 8,
+            "favorite": false,
+            "favorites": [],
+            "valueType": "TEXT",
+            "displayName": "ENTO- Breeding site permanence",
+            "lastUpdated": "2020-05-22T16:58:03.697",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO- Grados de permanencia de los criadores",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO- Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO- Permanence des gîtes",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": []
+        },
+        {
+            "id": "olzbqs3w1SB",
+            "code": "ENTO_HABITAT_TYPE",
+            "name": "ENTO- Habitat type",
+            "created": "2019-07-09T22:56:52.473",
+            "options": [
+                {
+                    "id": "ElA8pTDHSFQ"
+                },
+                {
+                    "id": "lM9pkcaX2pg"
+                },
+                {
+                    "id": "xOqsh4t9H2d"
+                },
+                {
+                    "id": "EY83UD1ytX9"
+                },
+                {
+                    "id": "o0Air6XX92Q"
+                },
+                {
+                    "id": "xn71ZDoREhZ"
+                },
+                {
+                    "id": "vqHGaRVH3Dt"
+                },
+                {
+                    "id": "HCQ0qVvDhGo"
+                },
+                {
+                    "id": "MV2iZ5B3xAL"
+                },
+                {
+                    "id": "UGXb1y2mrrI"
+                }
+            ],
+            "version": 15,
+            "favorite": false,
+            "favorites": [],
+            "valueType": "TEXT",
+            "displayName": "ENTO- Habitat type",
+            "lastUpdated": "2020-05-22T16:58:03.698",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO- Tipos de criadores",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO- Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": " 18/5000 ENTO- Type d'habitat",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": []
+        },
+        {
+            "id": "j1wDh6RXDty",
+            "code": "VC_LARVICIDING_ACTIVE_INGREDIENT",
+            "name": "VC- Larviciding Active ingredient",
+            "created": "2019-07-27T01:10:06.515",
+            "options": [
+                {
+                    "id": "QRh0YVZVrjm"
+                },
+                {
+                    "id": "Y5riTuoM0Gb"
+                },
+                {
+                    "id": "G8EqTC5hrJ9"
+                },
+                {
+                    "id": "p0Hll06U3TV"
+                },
+                {
+                    "id": "fE8pKtP3Red"
+                },
+                {
+                    "id": "q5kXUtzePui"
+                },
+                {
+                    "id": "RgEMgdfjyhz"
+                },
+                {
+                    "id": "PLLPFGGJKFM"
+                }
+            ],
+            "version": 12,
+            "favorite": false,
+            "favorites": [],
+            "valueType": "TEXT",
+            "displayName": "VC- Larviciding Active ingredient",
+            "lastUpdated": "2020-05-22T16:58:03.714",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "VC- Ingredientes activos de los larvicidas",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "VC- Ingrédient actif du larvicide",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "VC-  Ingrediente ativo do larvicida",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": []
+        },
+        {
+            "id": "OR0QRh94Ync",
+            "code": "VC_LARVICIDING_PRODUCTS",
+            "name": "VC- Larviciding Products",
+            "created": "2019-07-27T00:09:00.696",
+            "options": [
+                {
+                    "id": "yrNYXCSRDt5"
+                },
+                {
+                    "id": "CYH9PBuwXlS"
+                },
+                {
+                    "id": "wRgROnA8KXo"
+                },
+                {
+                    "id": "KECO6llaiNR"
+                },
+                {
+                    "id": "I7Tog4BG3sQ"
+                },
+                {
+                    "id": "eia43JLPcLO"
+                },
+                {
+                    "id": "Hu1VQpccpjs"
+                },
+                {
+                    "id": "cyYKMMj8Ue4"
+                },
+                {
+                    "id": "ElD5WZaqHvK"
+                },
+                {
+                    "id": "rxBduy4pMGT"
+                },
+                {
+                    "id": "gLFCEj6YBJZ"
+                },
+                {
+                    "id": "cq6NnbMZ2jx"
+                },
+                {
+                    "id": "cL7zzIVTCDG"
+                },
+                {
+                    "id": "EPzUShsxD4w"
+                },
+                {
+                    "id": "rUaQFLWC0O9"
+                },
+                {
+                    "id": "sIXgPiBgJlo"
+                },
+                {
+                    "id": "avWSp1f5kgi"
+                },
+                {
+                    "id": "Iuv0voiGrg2"
+                },
+                {
+                    "id": "DUvpo8Verkx"
+                },
+                {
+                    "id": "k3sLY1WWhjz"
+                }
+            ],
+            "version": 25,
+            "favorite": false,
+            "favorites": [],
+            "valueType": "TEXT",
+            "displayName": "VC- Larviciding Products",
+            "lastUpdated": "2020-05-22T16:58:03.714",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "VC- Traitement larvicide -Produits",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "VC-  Produtos larvicidas pré-qualificados",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "VC- Productos larvicidas precalificados",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": []
+        }
+    ],
+    "dataElements": [
+        {
+            "id": "cFWU8YgUi2V",
+            "code": "ENTO_INMATURE_FUNESTUS",
+            "name": "ENTO-INMATURE- An. funestus s.l. larvae/pupae",
+            "created": "2019-07-09T05:47:30.441",
+            "favorite": false,
+            "formName": "Number of An. funestus s.l. larvae/pupae",
+            "favorites": [],
+            "shortName": "An. funestus s.l. larvae/pupae",
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Number of An. funestus s.l. larvae/pupae",
+            "displayName": "ENTO-INMATURE- An. funestus s.l. larvae/pupae",
+            "lastUpdated": "2020-04-21T11:45:02.762",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "S'il y a larves / pupes d'An. funestus s.l.",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Larvas/pupas de An. funestus s.l.",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Larvas/pupas de An. funestus s.l.",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "An. funestus s.l. larvas/pupas",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Larvas/pupas de An. funestus s.l.",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "An. funestus s.l. larvas/pupas",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- An. funestus s.l. larves / pupes",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Larvas/pupas de An. funestus s.l.",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "An. funestus s.l. larves / pupes",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- An. funestus s.l. larvas/pupas",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "An. funestus s.l. larves / pupes",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Número de larvas de An. funestus s.l.",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                }
+            ],
+            "dimensionItem": "cFWU8YgUi2V",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Number of An. funestus s.l. larvae/pupae",
+            "displayShortName": "An. funestus s.l. larvae/pupae",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Number of An. funestus s.l. larvae/pupae"
+        },
+        {
+            "id": "Pi2WdkwnRRs",
+            "code": "ENTO_INMATURE_GAMBIAE",
+            "name": "ENTO-INMATURE- An. gambaie s.l. larvae/pupae",
+            "created": "2019-07-09T05:46:45.445",
+            "favorite": false,
+            "formName": "Number of An. gambaie s.l. larvae/pupae",
+            "favorites": [],
+            "shortName": "An. gambaie s.l. larvae/pupae",
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Number of An. gambaie s.l. larvae/pupae",
+            "displayName": "ENTO-INMATURE- An. gambaie s.l. larvae/pupae",
+            "lastUpdated": "2020-04-21T11:46:01.237",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE- An. gambiae s.l. larvas/pupas",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Número de larvas/pupas de An. gambaie s.l.",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "An. gambiae s.l. larvas/pupas",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "S'il y a larves / pupes d'An. gambaie s.l.",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Larvas/pupas de An. gambaie s.l.",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE-  Larvas/pupas de An. gambaie s.l.",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "An. gambiae s.l. larvas/pupas",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Número de larvas de  An. gambiae s.l.",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Larvas/pupas de An. gambaie s.l.",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "An. gambaie s.l. larves / pupes",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "An. gambaie s.l. larves / pupes",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- An. gambaie s.l. larves / pupes",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "dimensionItem": "Pi2WdkwnRRs",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Number of An. gambaie s.l. larvae/pupae",
+            "displayShortName": "An. gambaie s.l. larvae/pupae",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Number of An. gambaie s.l. larvae/pupae"
+        },
+        {
+            "id": "vMxyT9QDOau",
+            "code": "ENTO_INMATURE_ANOPHELINE",
+            "name": "ENTO-INMATURE- Anopheline larvae/pupae",
+            "created": "2019-07-09T05:25:08.715",
+            "favorite": false,
+            "formName": "Total number of anopheline larvae/pupae",
+            "favorites": [],
+            "shortName": "Anopheline larvae/pupae",
+            "valueType": "INTEGER_ZERO_OR_POSITIVE",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Number of anopheline larvae/pupae",
+            "displayName": "ENTO-INMATURE- Anopheline larvae/pupae",
+            "lastUpdated": "2020-04-21T11:46:31.222",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Larvas/pupas anofelinas",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "S'il y a larves / pupes d'anophelines",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Larvas/pupas de Anofeles",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Número de larvas/pupas de Anofeles",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Anophelines larvae/pupae",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Larvas/pupas anofelinas",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Larvas/pupas de Anofeles",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Anophelines larvae/pupae",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Larvas/pupas anofelinas",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Larvas/pupas de Anofeles",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Anophelines larvae/pupae",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Larvas/pupas anofelinas",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                }
+            ],
+            "dimensionItem": "vMxyT9QDOau",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Total number of anopheline larvae/pupae",
+            "displayShortName": "Anopheline larvae/pupae",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": true,
+            "displayDescription": "Number of anopheline larvae/pupae"
+        },
+        {
+            "id": "kFfqnyr5a1I",
+            "code": "ENTO_INMATURE_HABITAT_PERMANENCE",
+            "name": "ENTO-INMATURE- Habitat permanence",
+            "created": "2019-07-09T05:29:07.083",
+            "favorite": false,
+            "formName": "Habitat permanence",
+            "favorites": [],
+            "optionSet": {
+                "id": "f92SY2JJxiS"
+            },
+            "shortName": "Habitat permanence",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Habitat permanence",
+            "displayName": "ENTO-INMATURE- Habitat permanence",
+            "lastUpdated": "2020-04-21T11:43:47.938",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Permanence du gîte",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Permanencia del habitat",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Permanence du gîtes",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Permanence du gîtes",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Permanencia del habitat",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Permanence du gîte",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Permanence du gîtes",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Permanencia del habitat",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Permanence du gîtes",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Permanencia del habitat",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Permanence du gîte",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Permanence du gîte",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "dimensionItem": "kFfqnyr5a1I",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": true,
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Habitat permanence",
+            "displayShortName": "Habitat permanence",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Habitat permanence"
+        },
+        {
+            "id": "lj3SAt3wWPo",
+            "code": "ENTO_INMATURE_HABITAT_SIZE",
+            "name": "ENTO-INMATURE- Habitat size",
+            "created": "2019-07-09T05:22:07.057",
+            "favorite": false,
+            "formName": "Habitat size",
+            "favorites": [],
+            "shortName": "Habitat size",
+            "valueType": "INTEGER_POSITIVE",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Habitat size",
+            "displayName": "ENTO-INMATURE- Habitat size",
+            "lastUpdated": "2020-04-21T11:44:07.906",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Dimensão do criadouro",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Tamaño del habitat",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Dimensão do criadouro",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Tamaño del habitat",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Tamaño del habitat",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Taille de l'habitat",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Taille de l'habitat",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Tamaño del habitat",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Taille de l'habitat",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Dimensão do criadouro",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Dimensão do criadouro",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Taille de l'habitat",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                }
+            ],
+            "dimensionItem": "lj3SAt3wWPo",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Habitat size",
+            "displayShortName": "Habitat size",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Habitat size"
+        },
+        {
+            "id": "VoYiwMjDQZU",
+            "code": "ENTO_INMATURE_HABITAT_TREATED",
+            "name": "ENTO-INMATURE- Habitat treated",
+            "created": "2019-07-27T00:07:36.576",
+            "favorite": false,
+            "formName": "Was larva control recently applied to this habitat?",
+            "favorites": [],
+            "shortName": "Habitat treated",
+            "valueType": "BOOLEAN",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Habitat treated",
+            "displayName": "ENTO-INMATURE- Habitat treated",
+            "lastUpdated": "2020-04-21T11:44:21.819",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Habitat tratado",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Larvicida aplicado",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Larvicide appliqué",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Habitat tratado",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Habitat tratado",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Larvicide appliqué",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Larvicide appliqué",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Habitat tratado",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Algum larvicida foi aplicado neste criadouro?",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE-  Larvicide appliqué",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Larvicida aplicado",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Larvicida aplicado",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                }
+            ],
+            "dimensionItem": "VoYiwMjDQZU",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Was larva control recently applied to this habitat?",
+            "displayShortName": "Habitat treated",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Habitat treated"
+        },
+        {
+            "id": "XdUREk3P1h8",
+            "code": "ENTO_INMATURE_HABITAT_TYPE",
+            "name": "ENTO-INMATURE- Habitat type",
+            "created": "2019-07-09T05:20:09.172",
+            "favorite": false,
+            "formName": "Type of larval habitat",
+            "favorites": [],
+            "optionSet": {
+                "id": "olzbqs3w1SB"
+            },
+            "shortName": "Habitat type",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Type of larval habitat",
+            "displayName": "ENTO-INMATURE- Habitat type",
+            "lastUpdated": "2020-04-21T11:44:31.951",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Tipo de habitat",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Type d'habitat",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Tipo de habitat",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Type d'habitat",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Type d'habitat",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Type d'habitat",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Tipo de habitat",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Tipo de habitat",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Tipo de criadouro",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "dimensionItem": "XdUREk3P1h8",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": true,
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Type of larval habitat",
+            "displayShortName": "Habitat type",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Type of larval habitat"
+        },
+        {
+            "id": "uq6pb40I9am",
+            "code": "ENTO_INMATURE_ID_HABITAT",
+            "name": "ENTO-INMATURE- ID of habitat",
+            "created": "2019-07-09T05:19:17.719",
+            "favorite": false,
+            "formName": "ID of the larval habitat",
+            "favorites": [],
+            "shortName": "ID of habitat",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "ID of the larval habitat",
+            "displayName": "ENTO-INMATURE- ID of habitat",
+            "lastUpdated": "2020-04-21T11:42:06.621",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Identificador del habitat",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ID de l'habitat",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ID de l'habitat",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ID do habitat",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- ID de l'habitat",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ID do habitat",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Identificador del habitat",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Identificador del habitat",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ID do habitat",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ID de l'habitat",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- ID do habitat",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Identificador del habitat",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "dimensionItem": "uq6pb40I9am",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "ID of the larval habitat",
+            "displayShortName": "ID of habitat",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "ID of the larval habitat"
+        },
+        {
+            "id": "l9n5O6dRqga",
+            "code": "ENTO_INMATURE_PRESENT",
+            "name": "ENTO-INMATURE- Larvae/pupae present",
+            "created": "2019-07-09T05:21:11.351",
+            "favorite": false,
+            "formName": "Larvae/pupae present",
+            "favorites": [],
+            "shortName": "Larvae/pupae present",
+            "valueType": "BOOLEAN",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Larvae/pupae present",
+            "displayName": "ENTO-INMATURE- Larvae/pupae present",
+            "lastUpdated": "2020-04-21T11:42:15.988",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "S'il y a larves /pupes présents",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Larves /pupes présents",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Larvas/pupas presentes",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Larvas/pupas presentes",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Larves /pupes présents",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Larvas/pupas presentes",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Larves /pupes présents",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Larvas/pupas presentes",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Larvas/pupas presentes",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Larvas/pupas presentes",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Larvas/pupas presentes",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Larvas/pupas presentes",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                }
+            ],
+            "dimensionItem": "l9n5O6dRqga",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Larvae/pupae present",
+            "displayShortName": "Larvae/pupae present",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Larvae/pupae present"
+        },
+        {
+            "id": "WKYvQepwuwk",
+            "code": "ENTO_INMATURE_LARVICIDE_ACTIVE_INGREDIENT",
+            "name": "ENTO-INMATURE- Larvicide active ingredient",
+            "created": "2019-07-27T01:15:59.963",
+            "favorite": false,
+            "formName": "Larvicide active ingredient",
+            "favorites": [],
+            "optionSet": {
+                "id": "j1wDh6RXDty"
+            },
+            "shortName": "Larvicide active ingredient",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Larvicide active ingredient",
+            "displayName": "ENTO-INMATURE- Larvicide active ingredient",
+            "lastUpdated": "2020-04-21T11:42:35.215",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE-  Ingrédient actif du larvicide",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ingrédient actif du larvicide",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Ingrediente ativo de larvicida",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ingrédient actif du larvicide",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Ingrédient actif du larvicide",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Ingrediente ativo de larvicida",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Ingrediente activo del larvicida",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Ingrediente ativo de larvicida",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Ingrediente ativo de larvicida",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Ingrediente activo del larvicida",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Ingrediente activo del larvicida",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Ingrediente activo del larvicida",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "dimensionItem": "WKYvQepwuwk",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": true,
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Larvicide active ingredient",
+            "displayShortName": "Larvicide active ingredient",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Larvicide active ingredient"
+        },
+        {
+            "id": "rEaMwWGTkES",
+            "code": "ENTO_INMATURE_LARVICIDE_PRODUCT",
+            "name": "ENTO-INMATURE- Larvicide product",
+            "created": "2019-07-27T00:08:27.754",
+            "favorite": false,
+            "formName": "Larvicide product",
+            "favorites": [],
+            "optionSet": {
+                "id": "OR0QRh94Ync"
+            },
+            "shortName": "Larvicide product",
+            "valueType": "TEXT",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Larvicide product",
+            "displayName": "ENTO-INMATURE- Larvicide product",
+            "lastUpdated": "2020-04-21T11:42:49.959",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE- Produto Larvicida",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Produto Larvicida",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "ENTO-INMATURE- Traitement larvicide - Produit",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Producto larvicida",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Producto larvicida",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Produit utilisé pour le traitement larvicide",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Traitement larvicide - Produit",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Producto larvicida",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Produto Larvicida",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Produit utilisé pour le traitement larvicide",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Producto larvicida",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Produto Larvicida",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                }
+            ],
+            "dimensionItem": "rEaMwWGTkES",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": true,
+            "aggregationType": "NONE",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Larvicide product",
+            "displayShortName": "Larvicide product",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Larvicide product"
+        },
+        {
+            "id": "cxUDfo737a6",
+            "code": "ENTO_INMATURE_SCOOPS",
+            "name": "ENTO-INMATURE- Scoops",
+            "created": "2019-07-09T05:24:24.186",
+            "favorite": false,
+            "formName": "Number of scoops",
+            "favorites": [],
+            "shortName": "Scoops",
+            "valueType": "INTEGER_POSITIVE",
+            "domainType": "TRACKER",
+            "legendSets": [],
+            "description": "Number of scoops",
+            "displayName": "ENTO-INMATURE- Scoops",
+            "lastUpdated": "2020-04-21T11:43:10.993",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Nr de conchas",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Nr de conchas",
+                    "locale": "pt",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Cuillers prises",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Cucharones de agua tomadas",
+                    "locale": "es",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Nombre de cuillers prises",
+                    "locale": "fr",
+                    "property": "DESCRIPTION"
+                },
+                {
+                    "value": "Cucharones de agua tomadas",
+                    "locale": "es",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "ENTO-LARVAE- Nr de conchas",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Nombre de cuillers prises",
+                    "locale": "fr",
+                    "property": "FORM_NAME"
+                },
+                {
+                    "value": "Cucharones de agua tomadas",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Cuillers prises",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Cucharones de agua tomadas",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Nr de conchas",
+                    "locale": "pt",
+                    "property": "DESCRIPTION"
+                }
+            ],
+            "dimensionItem": "cxUDfo737a6",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "optionSetValue": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "dataSetElements": [],
+            "displayFormName": "Number of scoops",
+            "displayShortName": "Scoops",
+            "aggregationLevels": [
+                5,
+                4,
+                6,
+                2,
+                1,
+                3
+            ],
+            "dataElementGroups": [
+                {
+                    "id": "ltniWtFJyZm"
+                }
+            ],
+            "dimensionItemType": "DATA_ELEMENT",
+            "zeroIsSignificant": false,
+            "displayDescription": "Number of scoops"
+        }
+    ],
+    "programStages": [
+        {
+            "id": "lKwrVuxBlTb",
+            "name": "ENTO- Inmature stages surveillance",
+            "created": "2019-07-09T05:27:04.045",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "favorite": false,
+            "formType": "SECTION",
+            "favorites": [],
+            "sortOrder": 1,
+            "repeatable": false,
+            "displayName": "ENTO- Inmature stages surveillance",
+            "featureType": "POINT",
+            "hideDueDate": false,
+            "lastUpdated": "2020-05-15T12:46:26.144",
+            "publicAccess": "r-rw----",
+            "translations": [],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "blockEntryForm": false,
+            "externalAccess": false,
+            "preGenerateUID": false,
+            "attributeValues": [],
+            "displayFormName": "ENTO- Inmature stages surveillance",
+            "remindCompleted": false,
+            "minDaysFromStart": 0,
+            "autoGenerateEvent": true,
+            "executionDateLabel": "Date of breeding site visit",
+            "validationStrategy": "ON_UPDATE_AND_INSERT",
+            "openAfterEnrollment": false,
+            "enableUserAssignment": false,
+            "programStageSections": [
+                {
+                    "id": "G5viMGmFMA1"
+                },
+                {
+                    "id": "M00vUEhtSRc"
+                },
+                {
+                    "id": "lWQQP0wykgV"
+                }
+            ],
+            "notificationTemplates": [],
+            "allowGenerateNextVisit": false,
+            "displayGenerateEventBox": true,
+            "programStageDataElements": [
+                {
+                    "id": "ohf41kh0Z4q",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:29:57.056",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 0,
+                    "compulsory": true,
+                    "dataElement": {
+                        "id": "uq6pb40I9am"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.738",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "wsFQZtolxqJ",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:29:57.055",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 1,
+                    "compulsory": true,
+                    "dataElement": {
+                        "id": "XdUREk3P1h8"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.737",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "XxmwBw1TxeX",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:29:57.055",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 2,
+                    "compulsory": true,
+                    "dataElement": {
+                        "id": "kFfqnyr5a1I"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.738",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "mPWPJp1tKm0",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:29:57.056",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 3,
+                    "compulsory": true,
+                    "dataElement": {
+                        "id": "l9n5O6dRqga"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.738",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "hztlXUgI9uP",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:29:57.056",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 4,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "lj3SAt3wWPo"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.738",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "e0HpwW2BhRT",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:29:57.056",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 5,
+                    "compulsory": true,
+                    "dataElement": {
+                        "id": "cxUDfo737a6"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.739",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "YbWLwJldrhI",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:52:09.396",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 6,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "Pi2WdkwnRRs"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.739",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "qzZIOvNstU3",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-27T01:15:03.904",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 7,
+                    "compulsory": true,
+                    "dataElement": {
+                        "id": "VoYiwMjDQZU"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.739",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "rpQJKUPAlN1",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-27T01:15:03.903",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 8,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "rEaMwWGTkES"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.738",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "STgQwxNO023",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-27T01:16:22.127",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 9,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "WKYvQepwuwk"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.738",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "uZv72QhFfjZ",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:52:09.396",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 10,
+                    "compulsory": false,
+                    "dataElement": {
+                        "id": "cFWU8YgUi2V"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.738",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                },
+                {
+                    "id": "wXI4rhALvoS",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:31:02.321",
+                    "favorite": false,
+                    "favorites": [],
+                    "sortOrder": 11,
+                    "compulsory": true,
+                    "dataElement": {
+                        "id": "vMxyT9QDOau"
+                    },
+                    "lastUpdated": "2020-04-21T10:08:57.738",
+                    "programStage": {
+                        "id": "lKwrVuxBlTb"
+                    },
+                    "translations": [],
+                    "userAccesses": [],
+                    "externalAccess": false,
+                    "allowFutureDate": false,
+                    "attributeValues": [],
+                    "displayInReports": false,
+                    "userGroupAccesses": [],
+                    "skipSynchronization": false,
+                    "renderOptionsAsRadio": false,
+                    "allowProvidedElsewhere": false
+                }
+            ],
+            "generatedByEnrollmentDate": false
+        }
+    ],
+    "categoryCombos": [
+        {
+            "id": "OOS695whbE7",
+            "code": "IR_INSTITUTION_CC",
+            "name": "Reporting institution",
+            "created": "2018-04-26T14:03:24.674",
+            "favorite": false,
+            "favorites": [],
+            "isDefault": false,
+            "skipTotal": false,
+            "categories": [
+                {
+                    "id": "lIBiiq34QJE"
+                }
+            ],
+            "displayName": "Reporting institution",
+            "lastUpdated": "2020-02-17T17:34:29.779",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Institution déclarante",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Institution déclarante",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "dataDimensionType": "ATTRIBUTE",
+            "categoryOptionCombos": [
+                {
+                    "id": "TK0mPvnTouU"
+                },
+                {
+                    "id": "kYPcULOkUsO"
+                },
+                {
+                    "id": "cFESoMtqa0C"
+                },
+                {
+                    "id": "RXF8jKUqiQS"
+                },
+                {
+                    "id": "DiTbrfnZWKl"
+                },
+                {
+                    "id": "QtxebQmZDVN"
+                },
+                {
+                    "id": "v7Z3x5VoaPo"
+                }
+            ]
+        }
+    ],
+    "visualizations": [],
+    "categoryOptions": [
+        {
+            "id": "UfkrlNBExjc",
+            "code": "INSTITUTE_PASTEUR",
+            "name": "Institute Pasteur",
+            "created": "2019-11-05T16:12:28.461",
+            "favorite": false,
+            "favorites": [],
+            "isDefault": false,
+            "shortName": "Institute Pasteur",
+            "categories": [],
+            "legendSets": [],
+            "displayName": "Institute Pasteur",
+            "lastUpdated": "2020-02-17T17:34:29.347",
+            "publicAccess": "rw------",
+            "translations": [],
+            "dimensionItem": "UfkrlNBExjc",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Institute Pasteur",
+            "displayShortName": "Institute Pasteur",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "organisationUnits": [
+                {
+                    "id": "Mh3MouoB8Qw"
+                },
+                {
+                    "id": "mfqO2fplCfN"
+                },
+                {
+                    "id": "nCliAIghgvS"
+                },
+                {
+                    "id": "yPn12R5naqJ"
+                },
+                {
+                    "id": "WnweWTOA3Bz"
+                },
+                {
+                    "id": "N6BJgpCaliD"
+                },
+                {
+                    "id": "b6hwG8JT8tT"
+                },
+                {
+                    "id": "q53ccn5xMtx"
+                },
+                {
+                    "id": "bGOQFhjNFr5"
+                },
+                {
+                    "id": "EhsigulLsGJ"
+                },
+                {
+                    "id": "eAu3YJkAgeJ"
+                },
+                {
+                    "id": "aOtr0GZoOQz"
+                },
+                {
+                    "id": "gRN0TTjmHD1"
+                },
+                {
+                    "id": "mOSo6aJThIA"
+                },
+                {
+                    "id": "v6aN4qeSTDw"
+                },
+                {
+                    "id": "xZdOeoEF94v"
+                },
+                {
+                    "id": "ubwjioysTXi"
+                },
+                {
+                    "id": "Cd4QQzp6I5B"
+                },
+                {
+                    "id": "s6odlJzLV31"
+                },
+                {
+                    "id": "SGUE8uREw3t"
+                },
+                {
+                    "id": "CdvoSXdS4Ju"
+                },
+                {
+                    "id": "myALBrKK8Hd"
+                },
+                {
+                    "id": "IJpJTOqnSb0"
+                },
+                {
+                    "id": "n642ZwFasgl"
+                },
+                {
+                    "id": "PPZZlTrHdwT"
+                },
+                {
+                    "id": "Ky6ZAJvX5TN"
+                },
+                {
+                    "id": "rRpCtenjMc6"
+                },
+                {
+                    "id": "xAWooM3sWV0"
+                },
+                {
+                    "id": "X65QVdbS7x7"
+                },
+                {
+                    "id": "ByqsEM8ZsAz"
+                },
+                {
+                    "id": "Kf6BN5I6pLV"
+                },
+                {
+                    "id": "dKu76PoXrQX"
+                },
+                {
+                    "id": "kbv9iwCpokl"
+                },
+                {
+                    "id": "lrGqnF0ZzM6"
+                },
+                {
+                    "id": "GlO0dKjdRxq"
+                },
+                {
+                    "id": "gEGjk21yljW"
+                },
+                {
+                    "id": "VlbxZJ7wJmz"
+                },
+                {
+                    "id": "yh3NwdKA8LR"
+                },
+                {
+                    "id": "iqcwksAb1aU"
+                },
+                {
+                    "id": "gfHm4sYgi0m"
+                },
+                {
+                    "id": "AZzwWDnJqdp"
+                },
+                {
+                    "id": "FwdnfcOSD2M"
+                },
+                {
+                    "id": "v47ZzRTBfxo"
+                },
+                {
+                    "id": "eD1afIl9y3e"
+                },
+                {
+                    "id": "xMvAcyWPxaD"
+                },
+                {
+                    "id": "N5TdlbdqJMA"
+                },
+                {
+                    "id": "yLobSYtGPEj"
+                },
+                {
+                    "id": "DmR19k293Hr"
+                },
+                {
+                    "id": "UlUWpRwY0iz"
+                },
+                {
+                    "id": "Ul76hFnnTrb"
+                },
+                {
+                    "id": "LlqK7AmeALh"
+                },
+                {
+                    "id": "Jn8YvN9eaR5"
+                }
+            ],
+            "categoryOptionCombos": [
+                {
+                    "id": "cFESoMtqa0C"
+                }
+            ],
+            "categoryOptionGroups": []
+        },
+        {
+            "id": "LuiskwtRSa3",
+            "code": "MEASURE_EVALUATION",
+            "name": "Measure evaluation",
+            "created": "2019-11-06T07:37:47.778",
+            "favorite": false,
+            "favorites": [],
+            "isDefault": false,
+            "shortName": "Measure evaluation",
+            "categories": [],
+            "legendSets": [],
+            "displayName": "Measure evaluation",
+            "lastUpdated": "2020-02-17T17:34:29.347",
+            "publicAccess": "rw------",
+            "translations": [],
+            "dimensionItem": "LuiskwtRSa3",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Measure evaluation",
+            "displayShortName": "Measure evaluation",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "organisationUnits": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "TK0mPvnTouU"
+                }
+            ],
+            "categoryOptionGroups": []
+        },
+        {
+            "id": "adHe8ZqTLGQ",
+            "code": "ENTO_MoH",
+            "name": "MoH",
+            "created": "2018-04-26T13:58:41.283",
+            "favorite": false,
+            "favorites": [],
+            "isDefault": false,
+            "shortName": "MoH",
+            "startDate": "2000-01-01T00:00:00.000",
+            "categories": [
+                {
+                    "id": "lIBiiq34QJE"
+                }
+            ],
+            "legendSets": [],
+            "displayName": "MoH",
+            "lastUpdated": "2020-02-17T17:34:29.539",
+            "publicAccess": "rwrw----",
+            "translations": [
+                {
+                    "value": "Ministerio de la Salud",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ministerio da Saúde ",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ministerio da Saúde ",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Ministerio de la Salud",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Ministère de la Santé",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "PNLP",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Ministère de la Santé",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "PNLP",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "dimensionItem": "adHe8ZqTLGQ",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "MoH",
+            "displayShortName": "MoH",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "organisationUnits": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "RXF8jKUqiQS"
+                }
+            ],
+            "categoryOptionGroups": []
+        },
+        {
+            "id": "U9ryfMWEJwI",
+            "code": "ENTO_PARTNERT",
+            "name": "Partner",
+            "created": "2018-04-26T13:59:14.918",
+            "favorite": false,
+            "favorites": [],
+            "isDefault": false,
+            "shortName": "Partner",
+            "startDate": "2000-01-01T00:00:00.000",
+            "categories": [
+                {
+                    "id": "lIBiiq34QJE"
+                }
+            ],
+            "legendSets": [],
+            "displayName": "Partner",
+            "lastUpdated": "2020-02-17T17:34:29.540",
+            "publicAccess": "rwrw----",
+            "translations": [
+                {
+                    "value": "Colaborador",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Colaborador",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Parceiro",
+                    "locale": "pr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Parceiro",
+                    "locale": "pr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Partenaire",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Partenaire",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Parceiro",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "dimensionItem": "U9ryfMWEJwI",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Partner",
+            "displayShortName": "Partner",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "organisationUnits": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "QtxebQmZDVN"
+                }
+            ],
+            "categoryOptionGroups": []
+        },
+        {
+            "id": "bMOJxhv2TPW",
+            "code": "PMI",
+            "name": "PMI - Vector Link",
+            "created": "2019-11-06T07:37:19.434",
+            "favorite": false,
+            "favorites": [],
+            "isDefault": false,
+            "shortName": "PMI - Vector Link",
+            "categories": [],
+            "legendSets": [],
+            "displayName": "PMI - Vector Link",
+            "lastUpdated": "2020-02-17T17:34:29.347",
+            "publicAccess": "rw------",
+            "translations": [],
+            "dimensionItem": "bMOJxhv2TPW",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "PMI - Vector Link",
+            "displayShortName": "PMI - Vector Link",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "organisationUnits": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "v7Z3x5VoaPo"
+                }
+            ],
+            "categoryOptionGroups": []
+        },
+        {
+            "id": "qTFwVqScZfE",
+            "code": "PSI_PALU",
+            "name": "PSI-Palu",
+            "created": "2019-11-05T16:11:05.476",
+            "favorite": false,
+            "favorites": [],
+            "isDefault": false,
+            "shortName": "PSI-Palu",
+            "categories": [],
+            "legendSets": [],
+            "displayName": "PSI-Palu",
+            "lastUpdated": "2020-02-17T17:34:29.347",
+            "publicAccess": "rw------",
+            "translations": [],
+            "dimensionItem": "qTFwVqScZfE",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "PSI-Palu",
+            "displayShortName": "PSI-Palu",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "organisationUnits": [
+                {
+                    "id": "Mh3MouoB8Qw"
+                },
+                {
+                    "id": "mfqO2fplCfN"
+                },
+                {
+                    "id": "nCliAIghgvS"
+                },
+                {
+                    "id": "yPn12R5naqJ"
+                },
+                {
+                    "id": "WnweWTOA3Bz"
+                },
+                {
+                    "id": "N6BJgpCaliD"
+                },
+                {
+                    "id": "b6hwG8JT8tT"
+                },
+                {
+                    "id": "q53ccn5xMtx"
+                },
+                {
+                    "id": "bGOQFhjNFr5"
+                },
+                {
+                    "id": "EhsigulLsGJ"
+                },
+                {
+                    "id": "eAu3YJkAgeJ"
+                },
+                {
+                    "id": "aOtr0GZoOQz"
+                },
+                {
+                    "id": "gRN0TTjmHD1"
+                },
+                {
+                    "id": "mOSo6aJThIA"
+                },
+                {
+                    "id": "v6aN4qeSTDw"
+                },
+                {
+                    "id": "xZdOeoEF94v"
+                },
+                {
+                    "id": "ubwjioysTXi"
+                },
+                {
+                    "id": "Cd4QQzp6I5B"
+                },
+                {
+                    "id": "s6odlJzLV31"
+                },
+                {
+                    "id": "SGUE8uREw3t"
+                },
+                {
+                    "id": "CdvoSXdS4Ju"
+                },
+                {
+                    "id": "myALBrKK8Hd"
+                },
+                {
+                    "id": "IJpJTOqnSb0"
+                },
+                {
+                    "id": "n642ZwFasgl"
+                },
+                {
+                    "id": "PPZZlTrHdwT"
+                },
+                {
+                    "id": "Ky6ZAJvX5TN"
+                },
+                {
+                    "id": "rRpCtenjMc6"
+                },
+                {
+                    "id": "xAWooM3sWV0"
+                },
+                {
+                    "id": "X65QVdbS7x7"
+                },
+                {
+                    "id": "ByqsEM8ZsAz"
+                },
+                {
+                    "id": "Kf6BN5I6pLV"
+                },
+                {
+                    "id": "dKu76PoXrQX"
+                },
+                {
+                    "id": "kbv9iwCpokl"
+                },
+                {
+                    "id": "lrGqnF0ZzM6"
+                },
+                {
+                    "id": "GlO0dKjdRxq"
+                },
+                {
+                    "id": "gEGjk21yljW"
+                },
+                {
+                    "id": "VlbxZJ7wJmz"
+                },
+                {
+                    "id": "yh3NwdKA8LR"
+                },
+                {
+                    "id": "iqcwksAb1aU"
+                },
+                {
+                    "id": "gfHm4sYgi0m"
+                },
+                {
+                    "id": "AZzwWDnJqdp"
+                },
+                {
+                    "id": "FwdnfcOSD2M"
+                },
+                {
+                    "id": "v47ZzRTBfxo"
+                },
+                {
+                    "id": "eD1afIl9y3e"
+                },
+                {
+                    "id": "xMvAcyWPxaD"
+                },
+                {
+                    "id": "N5TdlbdqJMA"
+                },
+                {
+                    "id": "yLobSYtGPEj"
+                },
+                {
+                    "id": "DmR19k293Hr"
+                },
+                {
+                    "id": "UlUWpRwY0iz"
+                },
+                {
+                    "id": "Ul76hFnnTrb"
+                },
+                {
+                    "id": "LlqK7AmeALh"
+                },
+                {
+                    "id": "Jn8YvN9eaR5"
+                }
+            ],
+            "categoryOptionCombos": [
+                {
+                    "id": "DiTbrfnZWKl"
+                }
+            ],
+            "categoryOptionGroups": []
+        },
+        {
+            "id": "MFYaHarMqU1",
+            "code": "ENTO_PUBLICATION",
+            "name": "Publication",
+            "created": "2018-04-26T13:59:57.629",
+            "favorite": false,
+            "favorites": [],
+            "isDefault": false,
+            "shortName": "Publication",
+            "startDate": "2000-01-01T00:00:00.000",
+            "categories": [
+                {
+                    "id": "lIBiiq34QJE"
+                }
+            ],
+            "legendSets": [],
+            "displayName": "Publication",
+            "lastUpdated": "2020-02-17T17:34:29.541",
+            "publicAccess": "rwrw----",
+            "translations": [
+                {
+                    "value": "Publication",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Publication",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Publicación",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Publicación",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Publicação",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Publicação",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "dimensionItem": "MFYaHarMqU1",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Publication",
+            "displayShortName": "Publication",
+            "dimensionItemType": "CATEGORY_OPTION",
+            "organisationUnits": [],
+            "categoryOptionCombos": [
+                {
+                    "id": "kYPcULOkUsO"
+                }
+            ],
+            "categoryOptionGroups": []
+        }
+    ],
+    "dataElementGroups": [
+        {
+            "id": "ltniWtFJyZm",
+            "code": "ENTO_INMATURE_STAGES_SURVEILLANCE",
+            "name": "ENTO- Inmature stages surveillance",
+            "created": "2019-07-26T01:28:12.020",
+            "favorite": false,
+            "favorites": [],
+            "groupSets": [],
+            "shortName": "Inmature stages surveillance",
+            "legendSets": [],
+            "displayName": "ENTO- Inmature stages surveillance",
+            "lastUpdated": "2020-04-21T12:14:15.451",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "Vigilancia de criadores",
+                    "locale": "es",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "Surveillance des stades immatures",
+                    "locale": "fr",
+                    "property": "SHORT_NAME"
+                },
+                {
+                    "value": "ENTO- Surveillance des stades immatures",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO- Vigilancia de criadores",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-  Vigilância dos criadouros",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "Vigilância dos criadouros",
+                    "locale": "pt",
+                    "property": "SHORT_NAME"
+                }
+            ],
+            "dimensionItem": "ltniWtFJyZm",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "displayFormName": "ENTO- Inmature stages surveillance",
+            "displayShortName": "Inmature stages surveillance",
+            "dimensionItemType": "DATA_ELEMENT_GROUP"
+        }
+    ],
+    "programIndicators": [
+        {
+            "id": "g0tiBbjdorI",
+            "code": "ENTO_INMATURE_FUNESTUS_DENSITY",
+            "name": "ENTO-INMATURE- An. funestus s.l. larval density",
+            "created": "2019-07-09T05:51:38.489",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "decimals": 2,
+            "favorite": false,
+            "favorites": [],
+            "shortName": "An. funestus s.l. larval density",
+            "expression": "100*#{lKwrVuxBlTb.cFWU8YgUi2V}/#{lKwrVuxBlTb.cxUDfo737a6}",
+            "legendSets": [],
+            "description": "An. funestus s.l. larval density",
+            "displayName": "ENTO-INMATURE- An. funestus s.l. larval density",
+            "lastUpdated": "2020-04-21T11:58:18.020",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE- An. funestus s.l.- densité larvaire",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Densidad de larvas de An. funestus s.l. ",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-LARVAE- Densidade larval de An. funestus s.l.",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "analyticsType": "EVENT",
+            "dimensionItem": "g0tiBbjdorI",
+            "displayInForm": true,
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "aggregationType": "AVERAGE",
+            "attributeValues": [],
+            "displayFormName": "ENTO-INMATURE- An. funestus s.l. larval density",
+            "displayShortName": "An. funestus s.l. larval density",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "displayDescription": "An. funestus s.l. larval density",
+            "programIndicatorGroups": [
+                {
+                    "id": "bUdn6HJHuYK"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
+                {
+                    "id": "v7CER8pNAaG",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:35:28.107",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-04-21T10:13:48.399",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD"
+                },
+                {
+                    "id": "DPBdzEqiT2N",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:35:28.107",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-04-21T10:13:48.399",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD"
+                }
+            ]
+        },
+        {
+            "id": "jzKpfuB1mFM",
+            "code": "ENTO_INMATURE_GAMBIAE_DENSITY",
+            "name": "ENTO-INMATURE- An. gambiae s.l. larval density",
+            "created": "2019-07-09T05:51:02.749",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "decimals": 2,
+            "favorite": false,
+            "favorites": [],
+            "shortName": "An. gambiae s.l. larval density",
+            "expression": "100*#{lKwrVuxBlTb.Pi2WdkwnRRs}/#{lKwrVuxBlTb.cxUDfo737a6}",
+            "legendSets": [],
+            "description": "An. gambiae s.l. larval density",
+            "displayName": "ENTO-INMATURE- An. gambiae s.l. larval density",
+            "lastUpdated": "2020-04-21T11:57:27.788",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE- An. gambiae s.l.- densité larvaire",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-LARVAE- Densidade larval de An. gambiae s.l.",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Densidad de larvas de An. gambiae s.l.",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "analyticsType": "EVENT",
+            "dimensionItem": "jzKpfuB1mFM",
+            "displayInForm": true,
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "aggregationType": "AVERAGE",
+            "attributeValues": [],
+            "displayFormName": "ENTO-INMATURE- An. gambiae s.l. larval density",
+            "displayShortName": "An. gambiae s.l. larval density",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "displayDescription": "An. gambiae s.l. larval density",
+            "programIndicatorGroups": [
+                {
+                    "id": "bUdn6HJHuYK"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
+                {
+                    "id": "HvR0BzYS36W",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:35:28.107",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-04-21T10:13:55.595",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD"
+                },
+                {
+                    "id": "LYi7aw2CNGj",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:35:28.107",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-04-21T10:13:55.594",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD"
+                }
+            ]
+        },
+        {
+            "id": "zccmCqnJlrf",
+            "code": "ENTO_INMATURE_ANOPHELINE_DENSITY",
+            "name": "ENTO-INMATURE- Anopheline larval density",
+            "created": "2019-07-09T05:35:28.107",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "decimals": 2,
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Anopheline larval density",
+            "expression": "100*#{lKwrVuxBlTb.vMxyT9QDOau}/#{lKwrVuxBlTb.cxUDfo737a6}",
+            "legendSets": [],
+            "description": "Anopheline larval density",
+            "displayName": "ENTO-INMATURE- Anopheline larval density",
+            "lastUpdated": "2020-04-21T11:57:37.376",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE- Densidad de larvas de Anofeles",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Anophelines- densité larvaire",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": " ENTO-LARVAL- Densidade larval de anofelinos",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "analyticsType": "EVENT",
+            "dimensionItem": "zccmCqnJlrf",
+            "displayInForm": true,
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "aggregationType": "AVERAGE",
+            "attributeValues": [],
+            "displayFormName": "ENTO-INMATURE- Anopheline larval density",
+            "displayShortName": "Anopheline larval density",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "displayDescription": "Anopheline larval density",
+            "programIndicatorGroups": [
+                {
+                    "id": "bUdn6HJHuYK"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
+                {
+                    "id": "mjN2vsY6Cwv",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:35:28.107",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-04-21T10:14:02.450",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD"
+                },
+                {
+                    "id": "kzLtgCJXqeA",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-09T05:35:28.107",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-04-21T10:14:02.450",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD"
+                }
+            ]
+        },
+        {
+            "id": "Zh5AFfusCYg",
+            "code": "ENTO_INMATURE_BREEDING_SITES_SURVEYED",
+            "name": "ENTO-INMATURE- Number of breeding sites surveyed",
+            "created": "2019-07-20T02:37:26.906",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "decimals": 0,
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Number of breeding sites surveyed",
+            "expression": "1",
+            "legendSets": [],
+            "description": "Number of breeding sites surveyed",
+            "displayName": "ENTO-INMATURE- Number of breeding sites surveyed",
+            "lastUpdated": "2020-04-21T11:57:48.836",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE- Nombre des gîtes cartographiés",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Número de criaderos encuestados",
+                    "locale": "es",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Número de criadouros mapeados",
+                    "locale": "pt",
+                    "property": "NAME"
+                }
+            ],
+            "analyticsType": "EVENT",
+            "dimensionItem": "Zh5AFfusCYg",
+            "displayInForm": false,
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "displayFormName": "ENTO-INMATURE- Number of breeding sites surveyed",
+            "displayShortName": "Number of breeding sites surveyed",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "displayDescription": "Number of breeding sites surveyed",
+            "programIndicatorGroups": [
+                {
+                    "id": "bUdn6HJHuYK"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
+                {
+                    "id": "xZfvyQON0z7",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-20T02:37:26.906",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-01-31T22:16:29.723",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD"
+                },
+                {
+                    "id": "cPEJIdvav1z",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-20T02:37:26.906",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-01-31T22:16:29.723",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD"
+                }
+            ]
+        },
+        {
+            "id": "ctiHW5CAeiy",
+            "code": "ENTO_INMATURE_POSITIVE_BREEDING_SITES",
+            "name": "ENTO-INMATURE- Number of positive breeding sites",
+            "filter": "#{lKwrVuxBlTb.vMxyT9QDOau} != 0",
+            "created": "2019-07-20T02:03:09.116",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "decimals": 0,
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Number of positive breeding sites",
+            "expression": "1",
+            "legendSets": [],
+            "description": "Number of positive breeding sites",
+            "displayName": "ENTO-INMATURE- Number of positive breeding sites",
+            "lastUpdated": "2020-04-21T11:58:05.772",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE - Número de criadouros com larvas ou pupas",
+                    "locale": "pt",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Nombre des gîte positifs",
+                    "locale": "fr",
+                    "property": "NAME"
+                },
+                {
+                    "value": "ENTO-INMATURE- Número de criaderos con larvas/pupas",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "analyticsType": "EVENT",
+            "dimensionItem": "ctiHW5CAeiy",
+            "displayInForm": false,
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "displayFormName": "ENTO-INMATURE- Number of positive breeding sites",
+            "displayShortName": "Number of positive breeding sites",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "displayDescription": "Number of positive breeding sites",
+            "programIndicatorGroups": [
+                {
+                    "id": "bUdn6HJHuYK"
+                }
+            ],
+            "analyticsPeriodBoundaries": [
+                {
+                    "id": "wSMRVjg6FXP",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-20T02:03:09.116",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-01-31T22:16:29.722",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD"
+                },
+                {
+                    "id": "ZE2dmMAPaK7",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-20T02:03:09.116",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-01-31T22:16:29.722",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD"
+                }
+            ]
+        },
+        {
+            "id": "c12Wiwrtplq",
+            "code": "ENTO_INMATURE_TREATED_BREEDING_SITES",
+            "name": "ENTO-INMATURE- Number of treated breeding sites",
+            "filter": "#{lKwrVuxBlTb.VoYiwMjDQZU}!=FALSE",
+            "created": "2019-10-01T16:25:35.959",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "decimals": 0,
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Number of breeding sites treated",
+            "expression": "1",
+            "legendSets": [],
+            "description": "Number of breeding sites treated",
+            "displayName": "ENTO-INMATURE- Number of treated breeding sites",
+            "lastUpdated": "2020-04-21T11:58:04.514",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO-INMATURE- Número de criaderos tratados",
+                    "locale": "es",
+                    "property": "NAME"
+                }
+            ],
+            "analyticsType": "EVENT",
+            "dimensionItem": "c12Wiwrtplq",
+            "displayInForm": false,
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "aggregationType": "SUM",
+            "attributeValues": [],
+            "displayFormName": "ENTO-INMATURE- Number of treated breeding sites",
+            "displayShortName": "Number of breeding sites treated",
+            "dimensionItemType": "PROGRAM_INDICATOR",
+            "displayDescription": "Number of breeding sites treated",
+            "programIndicatorGroups": [],
+            "analyticsPeriodBoundaries": [
+                {
+                    "id": "JCy46sxH6Hz",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-20T02:03:09.116",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-01-31T22:16:29.724",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "BEFORE_END_OF_REPORTING_PERIOD"
+                },
+                {
+                    "id": "vCGhHDrnzEJ",
+                    "access": {
+                        "read": true,
+                        "write": true,
+                        "delete": true,
+                        "manage": true,
+                        "update": true,
+                        "externalize": true
+                    },
+                    "created": "2019-07-20T02:03:09.116",
+                    "favorite": false,
+                    "favorites": [],
+                    "lastUpdated": "2020-01-31T22:16:29.724",
+                    "translations": [],
+                    "userAccesses": [],
+                    "boundaryTarget": "EVENT_DATE",
+                    "externalAccess": false,
+                    "attributeValues": [],
+                    "userGroupAccesses": [],
+                    "analyticsPeriodBoundaryType": "AFTER_START_OF_REPORTING_PERIOD"
+                }
+            ]
+        }
+    ],
+    "categoryOptionCombos": [
+        {
+            "id": "cFESoMtqa0C",
+            "name": "Institute Pasteur",
+            "created": "2020-01-10T13:16:08.434",
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Institute Pasteur",
+            "legendSets": [],
+            "displayName": "Institute Pasteur",
+            "lastUpdated": "2020-02-17T17:34:29.919",
+            "translations": [],
+            "categoryCombo": {
+                "id": "OOS695whbE7"
+            },
+            "dimensionItem": "cFESoMtqa0C",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "UfkrlNBExjc"
+                }
+            ],
+            "displayFormName": "Institute Pasteur",
+            "displayShortName": "Institute Pasteur"
+        },
+        {
+            "id": "TK0mPvnTouU",
+            "name": "Measure evaluation",
+            "created": "2020-01-10T13:16:08.479",
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Measure evaluation",
+            "legendSets": [],
+            "displayName": "Measure evaluation",
+            "lastUpdated": "2020-02-17T17:34:29.919",
+            "translations": [],
+            "categoryCombo": {
+                "id": "OOS695whbE7"
+            },
+            "dimensionItem": "TK0mPvnTouU",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "LuiskwtRSa3"
+                }
+            ],
+            "displayFormName": "Measure evaluation",
+            "displayShortName": "Measure evaluation"
+        },
+        {
+            "id": "RXF8jKUqiQS",
+            "name": "MoH",
+            "created": "2019-05-11T12:30:30.117",
+            "favorite": false,
+            "favorites": [],
+            "shortName": "MoH",
+            "legendSets": [],
+            "displayName": "MoH",
+            "lastUpdated": "2020-02-17T17:34:30.060",
+            "translations": [
+                {
+                    "value": "Ministère de la Santé",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "OOS695whbE7"
+            },
+            "dimensionItem": "RXF8jKUqiQS",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "adHe8ZqTLGQ"
+                }
+            ],
+            "displayFormName": "MoH",
+            "displayShortName": "MoH"
+        },
+        {
+            "id": "QtxebQmZDVN",
+            "name": "Partner",
+            "created": "2019-05-11T12:30:30.120",
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Partner",
+            "legendSets": [],
+            "displayName": "Partner",
+            "lastUpdated": "2020-02-17T17:34:30.060",
+            "translations": [
+                {
+                    "value": "Partenaire",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "OOS695whbE7"
+            },
+            "dimensionItem": "QtxebQmZDVN",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "U9ryfMWEJwI"
+                }
+            ],
+            "displayFormName": "Partner",
+            "displayShortName": "Partner"
+        },
+        {
+            "id": "v7Z3x5VoaPo",
+            "name": "PMI - Vector Link",
+            "created": "2020-01-10T13:16:08.453",
+            "favorite": false,
+            "favorites": [],
+            "shortName": "PMI - Vector Link",
+            "legendSets": [],
+            "displayName": "PMI - Vector Link",
+            "lastUpdated": "2020-02-17T17:34:29.919",
+            "translations": [],
+            "categoryCombo": {
+                "id": "OOS695whbE7"
+            },
+            "dimensionItem": "v7Z3x5VoaPo",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "bMOJxhv2TPW"
+                }
+            ],
+            "displayFormName": "PMI - Vector Link",
+            "displayShortName": "PMI - Vector Link"
+        },
+        {
+            "id": "DiTbrfnZWKl",
+            "name": "PSI-Palu",
+            "created": "2020-01-10T13:16:08.466",
+            "favorite": false,
+            "favorites": [],
+            "shortName": "PSI-Palu",
+            "legendSets": [],
+            "displayName": "PSI-Palu",
+            "lastUpdated": "2020-02-17T17:34:29.919",
+            "translations": [],
+            "categoryCombo": {
+                "id": "OOS695whbE7"
+            },
+            "dimensionItem": "DiTbrfnZWKl",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "qTFwVqScZfE"
+                }
+            ],
+            "displayFormName": "PSI-Palu",
+            "displayShortName": "PSI-Palu"
+        },
+        {
+            "id": "kYPcULOkUsO",
+            "name": "Publication",
+            "created": "2019-05-11T12:30:30.122",
+            "favorite": false,
+            "favorites": [],
+            "shortName": "Publication",
+            "legendSets": [],
+            "displayName": "Publication",
+            "lastUpdated": "2020-02-17T17:34:30.060",
+            "translations": [
+                {
+                    "value": "Publication",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "categoryCombo": {
+                "id": "OOS695whbE7"
+            },
+            "dimensionItem": "kYPcULOkUsO",
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "ignoreApproval": false,
+            "attributeValues": [],
+            "categoryOptions": [
+                {
+                    "id": "MFYaHarMqU1"
+                }
+            ],
+            "displayFormName": "Publication",
+            "displayShortName": "Publication"
+        }
+    ],
+    "programRuleVariables": [
+        {
+            "id": "K1jlVtZ7jcI",
+            "name": "ENTO-INMATURE- Larvae or pupae present",
+            "created": "2019-10-01T14:50:24.172",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "favorite": false,
+            "favorites": [],
+            "dataElement": {
+                "id": "l9n5O6dRqga"
+            },
+            "displayName": "ENTO-INMATURE- Larvae or pupae present",
+            "lastUpdated": "2020-01-31T22:16:29.842",
+            "translations": [],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "useCodeForOptionSet": false,
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+        },
+        {
+            "id": "GimHnQinkaG",
+            "name": "ENTO-INMATURE- Larviciding presence",
+            "created": "2019-07-27T01:17:29.681",
+            "program": {
+                "id": "Zh0HNoNbYZv"
+            },
+            "favorite": false,
+            "favorites": [],
+            "dataElement": {
+                "id": "VoYiwMjDQZU"
+            },
+            "displayName": "ENTO-INMATURE- Larviciding presence",
+            "lastUpdated": "2020-01-31T22:16:29.842",
+            "translations": [],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "useCodeForOptionSet": false,
+            "programRuleVariableSourceType": "DATAELEMENT_CURRENT_EVENT"
+        }
+    ],
+    "programStageSections": [
+        {
+            "id": "M00vUEhtSRc",
+            "name": "Anopheles densities",
+            "created": "2020-04-21T10:08:57.684",
+            "favorite": false,
+            "favorites": [],
+            "sortOrder": 1,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayName": "Anopheles densities",
+            "lastUpdated": "2020-04-21T10:10:41.456",
+            "dataElements": [
+                {
+                    "id": "cxUDfo737a6"
+                },
+                {
+                    "id": "l9n5O6dRqga"
+                },
+                {
+                    "id": "cFWU8YgUi2V"
+                },
+                {
+                    "id": "Pi2WdkwnRRs"
+                },
+                {
+                    "id": "vMxyT9QDOau"
+                }
+            ],
+            "programStage": {
+                "id": "lKwrVuxBlTb"
+            },
+            "translations": [],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Anopheles densities",
+            "programIndicators": []
+        },
+        {
+            "id": "G5viMGmFMA1",
+            "name": "Habitat characteristics",
+            "created": "2020-04-21T10:08:57.684",
+            "favorite": false,
+            "favorites": [],
+            "sortOrder": 0,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayName": "Habitat characteristics",
+            "lastUpdated": "2020-04-21T10:10:41.455",
+            "dataElements": [
+                {
+                    "id": "uq6pb40I9am"
+                },
+                {
+                    "id": "XdUREk3P1h8"
+                },
+                {
+                    "id": "kFfqnyr5a1I"
+                },
+                {
+                    "id": "lj3SAt3wWPo"
+                }
+            ],
+            "programStage": {
+                "id": "lKwrVuxBlTb"
+            },
+            "translations": [],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Habitat characteristics",
+            "programIndicators": []
+        },
+        {
+            "id": "lWQQP0wykgV",
+            "name": "Habitat treatment",
+            "created": "2020-04-21T10:08:57.684",
+            "favorite": false,
+            "favorites": [],
+            "sortOrder": 2,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayName": "Habitat treatment",
+            "lastUpdated": "2020-04-21T10:10:41.456",
+            "dataElements": [
+                {
+                    "id": "VoYiwMjDQZU"
+                },
+                {
+                    "id": "WKYvQepwuwk"
+                },
+                {
+                    "id": "rEaMwWGTkES"
+                }
+            ],
+            "programStage": {
+                "id": "lKwrVuxBlTb"
+            },
+            "translations": [],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "displayFormName": "Habitat treatment",
+            "programIndicators": []
+        }
+    ],
+    "programIndicatorGroups": [
+        {
+            "id": "bUdn6HJHuYK",
+            "code": "ENTO_SURVEILLANCE_INMATURE_STAGES",
+            "name": "ENTO- Inmature stages surveillance",
+            "created": "2019-07-26T01:40:58.473",
+            "favorite": false,
+            "favorites": [],
+            "displayName": "ENTO- Inmature stages surveillance",
+            "lastUpdated": "2020-01-31T22:16:29.951",
+            "publicAccess": "rw------",
+            "translations": [
+                {
+                    "value": "ENTO- Surveillance des stades immatures",
+                    "locale": "fr",
+                    "property": "NAME"
+                }
+            ],
+            "lastUpdatedBy": {
+                "id": "gUQgjMPkPvK"
+            },
+            "externalAccess": false,
+            "attributeValues": [],
+            "programIndicators": [
+                {
+                    "id": "jzKpfuB1mFM"
+                },
+                {
+                    "id": "ctiHW5CAeiy"
+                },
+                {
+                    "id": "Zh5AFfusCYg"
+                },
+                {
+                    "id": "g0tiBbjdorI"
+                },
+                {
+                    "id": "zccmCqnJlrf"
+                }
+            ]
+        }
+    ]
+}
