@@ -4806,47 +4806,6 @@
             "displayFormName": "Habitat treatment",
             "programIndicators": []
         }
-    ],
-    "programIndicatorGroups": [
-        {
-            "id": "bUdn6HJHuYK",
-            "code": "ENTO_SURVEILLANCE_INMATURE_STAGES",
-            "name": "ENTO- Inmature stages surveillance",
-            "created": "2019-07-26T01:40:58.473",
-            "favorite": false,
-            "favorites": [],
-            "displayName": "ENTO- Inmature stages surveillance",
-            "lastUpdated": "2020-01-31T22:16:29.951",
-            "publicAccess": "rw------",
-            "translations": [
-                {
-                    "value": "ENTO- Surveillance des stades immatures",
-                    "locale": "fr",
-                    "property": "NAME"
-                }
-            ],
-            "lastUpdatedBy": {
-                "id": "gUQgjMPkPvK"
-            },
-            "externalAccess": false,
-            "attributeValues": [],
-            "programIndicators": [
-                {
-                    "id": "g0tiBbjdorI"
-                },
-                {
-                    "id": "zccmCqnJlrf"
-                },
-                {
-                    "id": "ctiHW5CAeiy"
-                },
-                {
-                    "id": "Zh5AFfusCYg"
-                },
-                {
-                    "id": "jzKpfuB1mFM"
-                }
-            ]
-        }
     ]
+   
 }
