@@ -1,0 +1,9 @@
+{
+    "id": "kWpscnOVFxT",
+    "name": "VC-ITN BIOEFFICACY",
+    "instance": "https://extranet.who.int/dhis2-ento-vc",
+    "department": {
+        "id": "OEHAIvnHRxz",
+        "name": "GMP/VCR"
+    }
+}
