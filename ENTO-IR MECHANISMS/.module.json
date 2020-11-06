@@ -1,0 +1,9 @@
+{
+    "id": "AwS1PPKyAYp",
+    "name": "ENTO-IR MECHANISMS",
+    "instance": "http://localhost:8080",
+    "department": {
+        "id": "OEHAIvnHRxz",
+        "name": "GMP/VCR"
+    }
+}

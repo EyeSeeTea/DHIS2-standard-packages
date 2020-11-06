@@ -1,0 +1,9 @@
+{
+    "id": "qa4lbJy2NZF",
+    "name": "ENTO- IR-DISCRIMINATING PROGRAM",
+    "instance": "http://localhost:8080",
+    "department": {
+        "id": "OEHAIvnHRxz",
+        "name": "GMP/VCR"
+    }
+}

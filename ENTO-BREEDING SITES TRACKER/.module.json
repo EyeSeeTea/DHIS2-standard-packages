@@ -1,0 +1,9 @@
+{
+    "id": "czR04VAadTg",
+    "name": "ENTO-BREEDING SITES TRACKER",
+    "instance": "http://localhost:8080",
+    "department": {
+        "name": "GMP/VCR",
+        "id": "OEHAIvnHRxz"
+    }
+}
