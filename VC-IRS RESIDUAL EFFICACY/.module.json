@@ -1,7 +1,7 @@
 {
     "id": "n1emyUPch3P",
     "name": "VC-IRS RESIDUAL EFFICACY",
-    "instance": "http://localhost:8080",
+    "instance": "https://extranet.who.int/dhis2-ento-vc",
     "department": {
         "id": "OEHAIvnHRxz",
         "name": "GMP/VCR"

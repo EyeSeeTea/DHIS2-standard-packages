@@ -1,7 +1,7 @@
 {
     "id": "AKqt2ue593S",
     "name": "VC-IRS CAMPAIGN TOTALS",
-    "instance": "http://localhost:8080",
+    "instance": "https://extranet.who.int/dhis2-ento-vc",
     "department": {
         "id": "OEHAIvnHRxz",
         "name": "GMP/VCR"
