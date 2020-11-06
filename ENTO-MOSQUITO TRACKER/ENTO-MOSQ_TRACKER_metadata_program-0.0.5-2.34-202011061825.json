@@ -9466,6 +9466,71 @@
         }
     ],
     "optionSets": [
+    {
+            "metadataType": "optionSets",
+            "code": "ENTO_CLASS",
+            "created": "2017-06-16T10:15:45.000",
+            "lastUpdated": "2020-10-08T13:01:07.170",
+            "name": "ENTO- Insecticide class",
+            "id": "eHrT4UiAgh8",
+            "displayName": "ENTO- Insecticide class",
+            "publicAccess": "rw------",
+            "version": 20,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            "lastUpdatedBy": {},
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {},
+            "favorites": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "ENTO- Classe d'insecticide"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "ENTO- Clases de Insecticidas"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "ENTO- Classe Inseticida"
+                }
+            ],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "rI0WRGtbDEx"
+                },
+                {
+                    "id": "qALFGXGFxK6"
+                },
+                {
+                    "id": "pLNFist0ss2"
+                },
+                {
+                    "id": "IAvRLxT1Gt6"
+                },
+                {
+                    "id": "zIaeXOX7JfC"
+                },
+                {
+                    "id": "utFLbNQ1gOa"
+                }
+            ]
+        },
         {
             "code": "ENTO_BLOOD_TYPE",
             "created": "2020-08-17T09:05:52.566",
@@ -10104,6 +10169,286 @@
         }
     ],
     "options": [
+     {
+            "metadataType": "options",
+            "code": "CAR",
+            "lastUpdated": "2020-10-08T13:01:06.532",
+            "id": "rI0WRGtbDEx",
+            "created": "2018-03-26T13:51:45.000",
+            "name": "Carbamates",
+            "displayName": "Carbamates",
+            "externalAccess": false,
+            "displayFormName": "Carbamates",
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "eHrT4UiAgh8"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Carbamatos"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Carbamates"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Carbamatos"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "ORGCHL",
+            "lastUpdated": "2020-10-08T13:01:06.532",
+            "id": "qALFGXGFxK6",
+            "created": "2018-03-26T13:51:45.000",
+            "name": "Organochlorines",
+            "displayName": "Organochlorines",
+            "externalAccess": false,
+            "displayFormName": "Organochlorines",
+            "sortOrder": 2,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "eHrT4UiAgh8"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Organoclorados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Organochloreé"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Organoclorados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Organochlorés"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "ORGPH",
+            "lastUpdated": "2020-10-08T13:01:06.532",
+            "id": "pLNFist0ss2",
+            "created": "2018-03-26T13:51:45.000",
+            "name": "Organophosphates",
+            "displayName": "Organophosphates",
+            "externalAccess": false,
+            "displayFormName": "Organophosphates",
+            "sortOrder": 3,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "eHrT4UiAgh8"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Organofosforados"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Organophosphates"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Organofosforados"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "PHENY",
+            "lastUpdated": "2020-10-08T13:01:06.532",
+            "id": "IAvRLxT1Gt6",
+            "created": "2018-05-28T12:36:27.224",
+            "name": "Phenylpyrazoles",
+            "displayName": "Phenylpyrazoles",
+            "externalAccess": false,
+            "displayFormName": "Phenylpyrazoles",
+            "sortOrder": 4,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "eHrT4UiAgh8"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Phenylpyrazoles"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Phénylpyrazoles"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Fenilpirazoles"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Fenilpirazoles"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "PYR",
+            "lastUpdated": "2020-10-08T13:01:06.532",
+            "id": "zIaeXOX7JfC",
+            "created": "2018-03-26T13:51:45.000",
+            "name": "Pyrethroids",
+            "displayName": "Pyrethroids",
+            "externalAccess": false,
+            "displayFormName": "Pyrethroids",
+            "sortOrder": 5,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "eHrT4UiAgh8"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Pyréthrinoïdes"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Piretroides"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Piretroides"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "PYRR",
+            "lastUpdated": "2020-10-08T13:01:06.532",
+            "id": "utFLbNQ1gOa",
+            "created": "2018-05-28T12:39:27.211",
+            "name": "Pyrroles",
+            "displayName": "Pyrroles",
+            "externalAccess": false,
+            "displayFormName": "Pyrroles",
+            "sortOrder": 6,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "eHrT4UiAgh8"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Pirroles"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Pirrolos"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Pyrroles"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
         {
             "code": "ENTO_CHICKEN",
             "lastUpdated": "2020-10-08T13:01:06.400",
