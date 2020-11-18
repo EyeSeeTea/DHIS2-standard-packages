@@ -56,8 +56,10 @@ Links to the latest version of the metadata packages compatible with different D
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | IRS Campaign totals |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/tree/GMP/VCR/VC-IRS%20CAMPAIGN%20TOTALS)	| 2020-10-20 |
-| IRS Residual efficacy| DHIS2.34 | V0.0.0 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20RESIDUAL%20EFFICACY/ENTO-VC_RES%20_metadata_program_dashboard-0.0.0--2.34-202010092207.json) | 2020-10-13 |
-
+| IRS Residual efficacy| DHIS2.34 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20RESIDUAL%20EFFICACY/ENTO-VC_RES%20_metadata_program-0.0.1-2.34-202011061943.json) | 2020-11-18 |
+| | DHIS2.33 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20RESIDUAL%20EFFICACY/ENTO-VC_RES%20_metadata_program-0.0.1-2.33-202011061943.json) | 2020-11-18 |
+| | DHIS2.32 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20RESIDUAL%20EFFICACY/ENTO-VC_RES%20_metadata_program-0.0.1-2.32-202011061943.json) | 2020-11-18 |
+| | DHIS2.31 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20RESIDUAL%20EFFICACY/ENTO-VC_RES%20_metadata_program-0.0.1-2.31-202011061943.json) | 2020-11-18 |
 
 ## Insecticide Treated Nets (ITNs)
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
