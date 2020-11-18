@@ -21,7 +21,7 @@ More information on the modules and the tools designed to facilitate their imple
 Links to the latest version of the metadata packages compatible with different DHIS2 versions included in the tables below. If you have questions or difficulties implementing these modules, please contact fernandezl@who.int
 
 ## Insecticide Resistance monitoring
-| Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
+| Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | Discriminating concentration bioassays |  DHIS2.34 | V0.0.2 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20DISCRIMINATING/ENTO-IR_DIS_metadata_program-0.0.2-2.34-202011131444.json)	| 2020-11-18 |
 | |  DHIS2.33 | V0.0.2 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20DISCRIMINATING/ENTO-IR_DIS_metadata_program-0.0.2-2.33-202011131444.json)	| 2020-11-18 |
@@ -41,19 +41,19 @@ Links to the latest version of the metadata packages compatible with different D
 |  | DHIS2.31 | V0.0.2 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20MECHANISMS/ENTO-IR_MECH_metadata_program-0.0.2-2.31-202011181315.json) | 2020-11-18 |
 
 ## Adult surveillance
-| Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
+| Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | Adult surveillance |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-ADULT%20SURVEILLANCE/ENTO-ADULT_SURV_metadata_program-0.0.0--2.34-202010092218.json)	| 2020-10-13 |
 | Mosquito Tracker | DHIS2.34 | V0.0.0 | Linked Tracker Programs (x2) | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-MOSQUITO%20TRACKER/ENTO-MOSQ_TRACKER_metadata_program-0.0.2-2.34-202010201645.json) | 2020-10-20 |
 
 ## Breeding sites monitoring
-| Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
+| Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | Breeding sites maping |  DHIS2.34 | V0.0.1 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES/ENTO-BREED_SITE_MAPING_metadata_program-0.0.1-2.34-202010201051.json)	| 2020-10-20 |
 | Breeding sites tracker |  DHIS2.34 | V0.0.0 | Tracker Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES%20TRACKER/ENTO-BREED_SITE_TRACKER_metadata_program-0.0.1-2.34-202010201544.json)	| 2020-10-20 |
 
 ## Indoor Residual Spraying (IRS)
-| Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
+| Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | IRS Campaign totals |  DHIS2.34 | V0.0.4 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20CAMPAIGN%20TOTALS/ENTO-VC_IRS_metadata_program-0.0.4-2.34-202011181318.json)	| 2020-11-18 |
 |  |  DHIS2.33 | V0.0.4 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20CAMPAIGN%20TOTALS/ENTO-VC_IRS_metadata_program-0.0.4-2.33-202011181318.json)	| 2020-11-18 |
@@ -65,7 +65,7 @@ Links to the latest version of the metadata packages compatible with different D
 | | DHIS2.31 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-IRS%20RESIDUAL%20EFFICACY/ENTO-VC_RES%20_metadata_program-0.0.1-2.31-202011061943.json) | 2020-11-18 |
 
 ## Insecticide Treated Nets (ITNs)
-| Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
+| Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | ITN Campaign totals |  DHIS2.34 | V0.0.3 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20CAMPAIGN%20TOTALS/ENTO-IR_INT_metadata_program-0.0.3-2.34-202011131443.json)	| 2020-11-18 |
 | |  DHIS2.33 | V0.0.3 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20CAMPAIGN%20TOTALS/ENTO-IR_INT_metadata_program-0.0.3-2.33-202011131443.json)	| 2020-11-18 |
