@@ -1,0 +1,9 @@
+{
+    "id": "RFh7Hay20tA",
+    "name": "VC-ITN CAMPAIGN TOTALS",
+    "instance": "http://localhost:8080",
+    "department": {
+        "id": "OEHAIvnHRxz",
+        "name": "GMP/VCR"
+    }
+}
