@@ -63,4 +63,7 @@ Links to the latest version of the metadata packages compatible with different D
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | ITN Campaign totals |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20CAMPAIGN%20TOTALS/ENTO-VC_ITN_metadata_program-0.0.0--2.34-202010092222.json)	| 2020-10-13 |
-| ITN Bioefficacy |  DHIS2.34 | V0.0.1 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.1-2.34-202010201058.json) | 2020-10-20 |
+| ITN Bioefficacy |  DHIS2.34 | V0.0.2 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.2-2.34-202011061943.json) | 2020-11-18 |
+|  |  DHIS2.33 | V0.0.2 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.2-2.33-202011061943.json) | 2020-11-18 |
+|  |  DHIS2.32 | V0.0.2 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.2-2.32-202011061943.json) | 2020-11-18 |
+| |  DHIS2.31 | V0.0.2 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/VC-ITN%20BIOEFFICACY/ENTO-VC_ITN_BIO_metadata_program-0.0.2-2.31-202011061943.json) | 2020-11-18 |
