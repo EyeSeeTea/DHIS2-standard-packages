@@ -44,7 +44,7 @@ Links to the latest version of the metadata packages compatible with different D
 | Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | Adult surveillance |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-ADULT%20SURVEILLANCE/ENTO-ADULT_SURV_metadata_program-0.0.0--2.34-202010092218.json)	| 2020-10-13 |
-| Mosquito Tracker | DHIS2.34 | V0.0.0 | Linked Tracker Programs (x2) | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-MOSQUITO%20TRACKER/ENTO-MOSQ_TRACKER_metadata_program-0.0.2-2.34-202010201645.json) | 2020-10-20 |
+| Mosquito Tracker | DHIS2.34 | V0.0.0 | Linked Tracker Programs (x2) | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages-nonHF/blob/GMP/VCR/ENTO-MOSQUITO%20TRACKER/ENTO-MOSQ_TRACKER_metadata_program-0.0.5-2.34-202011061825.json) | 2020-10-20 |
 
 ## Breeding sites monitoring
 | Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
