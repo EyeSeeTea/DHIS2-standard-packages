@@ -1,0 +1,9 @@
+{
+    "id": "d3mmasybIoW",
+    "name": "ENTO-IR SYNERGIST + MOSQUITO TRACKER BIOASSAY",
+    "instance": "http://localhost:8080",
+    "department": {
+        "name": "GMP/VCR",
+        "id": "OEHAIvnHRxz"
+    }
+}
