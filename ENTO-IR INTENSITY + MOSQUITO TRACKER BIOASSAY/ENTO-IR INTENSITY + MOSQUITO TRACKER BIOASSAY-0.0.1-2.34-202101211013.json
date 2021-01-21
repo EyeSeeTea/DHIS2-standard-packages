@@ -17841,5 +17841,61 @@
             "displayInListNoProgram": true,
             "displayOnVisitSchedule": false
         }
-    ]
+    ],
+
+  "relationshipTypes": [
+    {
+      "code": "ENTO_MOSQUITO_BIOASSAY_RESISTANCE_INTENSITY",
+      "lastUpdated": "2021-01-14T08:16:36.674",
+      "id": "pT1A25YqaCF",
+      "href": "http://localhost:8080/api/relationshipTypes/pT1A25YqaCF",
+      "created": "2020-11-05T16:31:30.469",
+      "name": "ENTO- Mosquito bioassay- Intensity concentration",
+      "bidirectional": true,
+      "displayName": "ENTO- Mosquito bioassay- Intensity concentration",
+      "publicAccess": "rwrw----",
+      "fromToName": "belongs to",
+      "externalAccess": false,
+      "displayFromToName": "belongs to",
+      "toFromName": "contains",
+      "displayToFromName": "contains",
+      "favorite": false,
+      "access": {
+        "read": true,
+        "update": true,
+        "externalize": true,
+        "delete": true,
+        "write": true,
+        "manage": true,
+        "data": {
+          "read": true,
+          "write": true
+        }
+      },
+      "toConstraint": {
+        "relationshipEntity": "TRACKED_ENTITY_INSTANCE",
+        "trackedEntityType": {
+          "id": "NkCYXoaePCy"
+        }
+      },
+      "lastUpdatedBy": {
+        "id": "gUQgjMPkPvK"
+      },
+      "fromConstraint": {
+        "relationshipEntity": "PROGRAM_STAGE_INSTANCE",
+        "program": {
+          "id": "FUzFm6UEmRn"
+        }
+      },
+      "user": {
+        "id": "gUQgjMPkPvK"
+      },
+      "favorites": [],
+      "translations": [],
+      "userGroupAccesses": [],
+      "attributeValues": [],
+      "userAccesses": []
+    }
+  ]
+
 }
