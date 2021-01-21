@@ -27,6 +27,7 @@ Links to the latest version of the metadata packages compatible with different D
 | |  DHIS2.33 | V0.0.2 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20DISCRIMINATING/ENTO-IR_DIS_metadata_program-0.0.2-2.33-202011131444.json)	| 2020-11-18 |
 |  |  DHIS2.32 | V0.0.2 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20DISCRIMINATING/ENTO-IR_DIS_metadata_program-0.0.2-2.32-202011131444.json)	| 2020-11-18 |
 | |  DHIS2.31 | V0.0.2 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20DISCRIMINATING/ENTO-IR_DIS_metadata_program-0.0.2-2.31-202011131444.json)	| 2020-11-18 |
+| Discriminating concentration bioassays + individual mosquito tracker |  DHIS2.34 | V0.0.2 | Event Program |  [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20DISCRIMINATING%20%2B%20MOSQUITO%20TRACKER%20BIOASSAY/ENTO-DISCRIMINATING%2BMOSQUITO%20TRACKER%20BIOASSAY_metadata_program-0.0.0-2.34-20200121.json)	| 2021-01-21 |
 | Intensity concentration bioassays | DHIS2.34 | V1.0.6 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20INTENSITY/ENTO-IR_INT_metadata_program-1.0.6-2.34-202011171244.json) | 2020-11-18 |
 |  | DHIS2.33 | V1.0.6 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20INTENSITY/ENTO-IR_INT_metadata_program-1.0.6-2.33-202011171244.json) | 2020-11-18 |
 |  | DHIS2.32 | V1.0.6 | Event Program | [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-IR%20INTENSITY/ENTO-IR_INT_metadata_program-1.0.6-2.32-202011171244.json) | 2020-11-18 |
@@ -44,13 +45,13 @@ Links to the latest version of the metadata packages compatible with different D
 | Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | Adult surveillance |  DHIS2.34 | V0.0.0 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-ADULT%20SURVEILLANCE/ENTO-ADULT_SURV_metadata_program-0.0.0--2.34-202010092218.json)	| 2020-10-13 |
-| Mosquito Tracker | DHIS2.34 | V0.0.0 | Linked Tracker Programs (x2) | [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/ENTO-MOSQUITO%20TRACKER/ENTO-MOSQ_TRACKER_metadata_program-0.0.5-2.34-20210120.json) | 2020-10-20 |
+| Mosquito Tracker | DHIS2.34 | V0.0.0 | Linked Tracker Programs (x2) | [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/ENTO-MOSQUITO%20TRACKER/ENTO-MOSQ_TRACKER_metadata_program-0.0.5-2.34-20210120.json) | 2021-01-21 |
 
 ## Breeding sites monitoring
 | Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
 | Breeding sites maping |  DHIS2.34 | V0.0.1 | Event Program |  [metadata.json](https://github.com/WorldHealthOrganization/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES/ENTO-BREED_SITE_MAPING_metadata_program-0.0.1-2.34-202010201051.json)	| 2020-10-20 |
-| Breeding sites tracker |  DHIS2.34 | V0.0.0 | Tracker Program |  [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES%20TRACKER/ENTO-BREED_SITE_TRACKER_metadata_program-0.0.3-2.34-20201021.json)	| 2020-10-20 |
+| Breeding sites tracker |  DHIS2.34 | V0.0.0 | Tracker Program |  [metadata.json](https://github.com/EyeSeeTea/DHIS2-standard-packages/blob/GMP/VCR/ENTO-BREEDING%20SITES%20TRACKER/ENTO-BREED_SITE_TRACKER_metadata_program-0.0.3-2.34-20201021.json)	| 2021-01-21 |
 
 ## Indoor Residual Spraying (IRS)
 | Module name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
