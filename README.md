@@ -3,7 +3,7 @@ The WHO configuration packages consist of DHIS2 metadata that provide standard c
 
 # Entomology and Vector Control
 Generic DHIS2 modules have been developed to strengthen the collection, reporting and use of malaria entomology and vector control data to inform decision-making. All the modules have been designed in line with existing WHO recommendations, standard protocols and guidance.
-This modules complement already existing [modules for malaria epidemiology](https://who.dhis2.org/documentation/index.html#malaria).
+These modules complement already existing [modules for malaria epidemiology](https://who.dhis2.org/documentation/index.html#malaria).
 
 The modules consist consist of event programs and dashboards to support the collection of data from the following activities:
   * ITN mass distribution campaigns, 
