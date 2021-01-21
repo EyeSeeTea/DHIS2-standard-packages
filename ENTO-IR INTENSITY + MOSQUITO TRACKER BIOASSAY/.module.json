@@ -1,0 +1,9 @@
+{
+    "id": "uxdDLFX7A0O",
+    "name": "ENTO-IR INTENSITY + MOSQUITO TRACKER BIOASSAY",
+    "instance": "http://localhost:8080",
+    "department": {
+        "name": "GMP/VCR",
+        "id": "OEHAIvnHRxz"
+    }
+}
