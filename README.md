@@ -1,5 +1,5 @@
 # WHO Configuration Packages for DHIS2
-The WHO configuration packages consist of DHIS2 metadata that provide standard configurations of DHIS2 that allow for the collection of health data following WHO recommendations. 
+The WHO configuration packages consist of DHIS2 metadata that provide standard configurations of DHIS2 to support the collection of health data following WHO recommendations. 
 
 # Entomology and Vector Control
 Generic DHIS2 modules have been developed to strengthen the collection, reporting and use of malaria entomology and vector control data to inform decision-making. All the modules have been designed in line with existing WHO recommendations, standard protocols and guidance.
