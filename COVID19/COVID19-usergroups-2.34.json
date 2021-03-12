@@ -1,10 +1,10 @@
 {
-    "date": "2021-02-24T16:57:54.740Z",
+    "date": "2021-03-12T18:53:13.379Z",
     "userGroups": [
         {
             "metadataType": "userGroups",
             "created": "2020-03-19T18:44:15.212",
-            "lastUpdated": "2021-02-24T02:58:42.408",
+            "lastUpdated": "2021-03-11T20:49:25.404",
             "name": "COVID19 access",
             "id": "DoYehxUvmwT",
             "displayName": "COVID19 access",
@@ -48,32 +48,7 @@
             ],
             "managedByGroups": [],
             "attributeValues": [],
-            "users": [
-                {
-                    "id": "tDRB0qMjZWu"
-                },
-                {
-                    "id": "rDVIX8vqrkv"
-                },
-                {
-                    "id": "yPti4tvGAeq"
-                },
-                {
-                    "id": "H4atNsEuKxP"
-                },
-                {
-                    "id": "iLNGClYWbde"
-                },
-                {
-                    "id": "cQ9EiS4KlGl"
-                },
-                {
-                    "id": "vUeLeQMSwhN"
-                },
-                {
-                    "id": "UWKMLHDwVJ3"
-                }
-            ],
+            "users": [],
             "managedGroups": [],
             "translations": [
                 {
@@ -83,13 +58,13 @@
                 },
                 {
                     "property": "NAME",
-                    "locale": "nb",
-                    "value": "COVID19 tilgang"
+                    "locale": "fr",
+                    "value": "Accès COVID19"
                 },
                 {
                     "property": "NAME",
-                    "locale": "pt",
-                    "value": "COVID19 acesso"
+                    "locale": "nb",
+                    "value": "COVID19 tilgang"
                 },
                 {
                     "property": "NAME",
@@ -98,8 +73,8 @@
                 },
                 {
                     "property": "NAME",
-                    "locale": "fr",
-                    "value": "Accès COVID19"
+                    "locale": "pt",
+                    "value": "COVID19 acesso"
                 }
             ],
             "userAccesses": []
@@ -151,29 +126,7 @@
             ],
             "managedByGroups": [],
             "attributeValues": [],
-            "users": [
-                {
-                    "id": "tDRB0qMjZWu"
-                },
-                {
-                    "id": "yPti4tvGAeq"
-                },
-                {
-                    "id": "H4atNsEuKxP"
-                },
-                {
-                    "id": "iLNGClYWbde"
-                },
-                {
-                    "id": "cQ9EiS4KlGl"
-                },
-                {
-                    "id": "vUeLeQMSwhN"
-                },
-                {
-                    "id": "UWKMLHDwVJ3"
-                }
-            ],
+            "users": [],
             "managedGroups": [],
             "translations": [
                 {
@@ -188,13 +141,13 @@
                 },
                 {
                     "property": "NAME",
-                    "locale": "es",
-                    "value": "Administración COVID19 "
+                    "locale": "fr",
+                    "value": "Administrateur COVID19"
                 },
                 {
                     "property": "NAME",
-                    "locale": "fr",
-                    "value": "Administrateur COVID19"
+                    "locale": "es",
+                    "value": "Administración COVID19 "
                 }
             ],
             "userAccesses": []
@@ -202,7 +155,7 @@
         {
             "metadataType": "userGroups",
             "created": "2020-03-11T00:58:20.255",
-            "lastUpdated": "2021-02-24T02:58:42.410",
+            "lastUpdated": "2021-03-11T20:49:25.511",
             "name": "COVID19 data capture",
             "id": "k8Fk0kuhOeK",
             "displayName": "COVID19 data capture",
@@ -251,23 +204,23 @@
             "translations": [
                 {
                     "property": "NAME",
-                    "locale": "fr",
-                    "value": "Saisie des données COVID-19"
-                },
-                {
-                    "property": "NAME",
-                    "locale": "es",
-                    "value": "COVID19 captura de data"
-                },
-                {
-                    "property": "NAME",
                     "locale": "nb",
                     "value": "COVID19 datainnsamling"
                 },
                 {
                     "property": "NAME",
+                    "locale": "fr",
+                    "value": "Saisie des données COVID-19"
+                },
+                {
+                    "property": "NAME",
                     "locale": "ru",
                     "value": "COVID19 ввод данных"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "COVID19 captura de data"
                 }
             ],
             "userAccesses": []
@@ -275,7 +228,7 @@
         {
             "metadataType": "userGroups",
             "created": "2021-02-23T11:35:41.783",
-            "lastUpdated": "2021-02-24T02:58:42.418",
+            "lastUpdated": "2021-03-11T20:49:25.604",
             "name": "COVID19 data capture form1",
             "id": "SSC547lTgxZ",
             "displayName": "COVID19 data capture form1",
@@ -327,7 +280,7 @@
         {
             "metadataType": "userGroups",
             "created": "2021-02-23T11:36:31.950",
-            "lastUpdated": "2021-02-24T02:58:42.421",
+            "lastUpdated": "2021-03-11T20:49:25.830",
             "name": "COVID19 data capture form2",
             "id": "T68QMdGj8Hz",
             "displayName": "COVID19 data capture form2",
@@ -379,7 +332,7 @@
         {
             "metadataType": "userGroups",
             "created": "2021-02-23T11:36:44.725",
-            "lastUpdated": "2021-02-24T02:58:42.412",
+            "lastUpdated": "2021-03-11T20:49:25.540",
             "name": "COVID19 data capture form3",
             "id": "m2dhxniuEfT",
             "displayName": "COVID19 data capture form3",
@@ -431,7 +384,7 @@
         {
             "metadataType": "userGroups",
             "created": "2021-02-23T11:37:04.139",
-            "lastUpdated": "2021-02-24T02:58:42.413",
+            "lastUpdated": "2021-03-11T20:49:25.559",
             "name": "COVID19 data capture form4",
             "id": "VCAP3VVyypJ",
             "displayName": "COVID19 data capture form4",
@@ -483,7 +436,7 @@
         {
             "metadataType": "userGroups",
             "created": "2021-02-23T11:37:16.247",
-            "lastUpdated": "2021-02-24T02:58:42.415",
+            "lastUpdated": "2021-03-11T20:49:25.580",
             "name": "COVID19 data capture form5",
             "id": "qmUDbOXcn23",
             "displayName": "COVID19 data capture form5",
@@ -535,7 +488,7 @@
         {
             "metadataType": "userGroups",
             "created": "2021-02-23T11:37:29.916",
-            "lastUpdated": "2021-02-24T02:58:42.417",
+            "lastUpdated": "2021-03-11T20:49:25.595",
             "name": "COVID19 data capture form6",
             "id": "YJtZXHYcDXw",
             "displayName": "COVID19 data capture form6",
@@ -587,7 +540,7 @@
         {
             "metadataType": "userGroups",
             "created": "2021-02-23T11:37:42.900",
-            "lastUpdated": "2021-02-24T02:58:42.420",
+            "lastUpdated": "2021-03-11T20:49:25.611",
             "name": "COVID19 data capture form7",
             "id": "Xfkwa5JpUAW",
             "displayName": "COVID19 data capture form7",

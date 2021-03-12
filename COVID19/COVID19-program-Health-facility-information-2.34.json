@@ -1,28 +1,28 @@
 {
-    "date": "2021-02-24T18:17:49.399Z",
+    "date": "2021-03-12T17:12:26.320Z",
     "programs": [
         {
             "metadataType": "programs",
-            "lastUpdated": "2021-02-24T02:53:34.344",
+            "lastUpdated": "2021-03-08T23:01:10.164",
             "id": "KAxhtI2NH3K",
             "created": "2021-01-18T14:48:43.106",
-            "name": "COVID-19 Ag RDT Operator",
-            "shortName": "COVID-19 Ag RDT Operator",
+            "name": "COVID-19 Health facility information",
+            "shortName": "COVID-19 Health facility information",
             "publicAccess": "--------",
             "ignoreOverdueEvents": false,
             "skipOffline": false,
             "onlyEnrollOnce": false,
-            "displayFormName": "COVID-19 Ag RDT Operator",
-            "version": 4,
+            "displayFormName": "COVID-19 Health facility information",
+            "version": 5,
             "maxTeiCountToReturn": 0,
             "selectIncidentDatesInFuture": false,
             "selectEnrollmentDatesInFuture": false,
             "registration": false,
             "favorite": false,
             "useFirstStageDuringRegistration": false,
-            "displayName": "COVID-19 Ag RDT Operator",
+            "displayName": "COVID-19 Health facility information",
             "completeEventsExpiryDays": 0,
-            "displayShortName": "COVID-19 Ag RDT Operator",
+            "displayShortName": "COVID-19 Health facility information",
             "externalAccess": false,
             "withoutRegistration": true,
             "minAttributesRequiredToSearch": 1,
@@ -32,7 +32,7 @@
             "displayIncidentDate": true,
             "expiryDays": 0,
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "access": {
                 "read": true,
@@ -103,26 +103,7 @@
             ],
             "programTrackedEntityAttributes": [],
             "notificationTemplates": [],
-            "organisationUnits": [
-                {
-                    "id": "PaY1g85yRmC"
-                },
-                {
-                    "id": "DVnpk4xiXGJ"
-                },
-                {
-                    "id": "Da5lWskcgP7"
-                },
-                {
-                    "id": "TASs9LgQ91V"
-                },
-                {
-                    "id": "VXs1NMMGaaK"
-                },
-                {
-                    "id": "TkGWYwkNDT1"
-                }
-            ],
+            "organisationUnits": [],
             "programSections": [],
             "programStages": [
                 {
@@ -134,14 +115,13 @@
     "programRules": [
         {
             "metadataType": "programRules",
-            "lastUpdated": "2021-02-24T01:15:35.556",
-            "id": "Lpo6m3KLCON",
-            "created": "2021-02-12T22:03:52.860",
-            "name": "COVID19_F6 Hide action failure section if RDT_QC_fails is No",
-            "displayName": "COVID19_F6 Hide action failure section if RDT_QC_fails is No",
+            "lastUpdated": "2021-02-12T22:29:10.756",
+            "id": "YdARgjL6FJW",
+            "created": "2021-02-12T22:29:10.756",
+            "name": "COVID19_F6 Hide temp_exceeded if temp_monitoring is not Yes",
+            "displayName": "COVID19_F6 Hide temp_exceeded if temp_monitoring is not Yes",
             "externalAccess": false,
-            "priority": 1,
-            "condition": "#{COVID19_F6 RDT_QC_fails} == 'No'",
+            "condition": "#{COVID19_F6 temp_monitoring} != 'Yes'",
             "favorite": false,
             "access": {
                 "read": true,
@@ -163,291 +143,7 @@
             "attributeValues": [],
             "programRuleActions": [
                 {
-                    "id": "e24UFxQZIpU"
-                }
-            ],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRules",
-            "lastUpdated": "2021-02-12T22:09:12.492",
-            "id": "f6efMG0TjFv",
-            "created": "2021-02-12T22:08:11.545",
-            "name": "COVID19_F6 Hide action5_specify if action5 false",
-            "displayName": "COVID19_F6 Hide action5_specify if action5 false",
-            "externalAccess": false,
-            "priority": 2,
-            "condition": "#{COVID19_F6 action5} != true",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "program": {
-                "id": "KAxhtI2NH3K"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "programRuleActions": [
-                {
-                    "id": "fpqN0WX1Rfq"
-                }
-            ],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRules",
-            "lastUpdated": "2021-02-12T22:32:33.525",
-            "id": "DBTjZRrYQCW",
-            "created": "2021-02-12T22:32:33.525",
-            "name": "COVID19_F6 Hide NAAT_site if NAAT_capacity is not Yes",
-            "displayName": "COVID19_F6 Hide NAAT_site if NAAT_capacity is not Yes",
-            "externalAccess": false,
-            "condition": "#{COVID19_F6 NAAT_capacity} != 'Yes'",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "program": {
-                "id": "KAxhtI2NH3K"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "programRuleActions": [
-                {
-                    "id": "f17jiqSg1X4"
-                }
-            ],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRules",
-            "lastUpdated": "2021-02-12T21:37:15.361",
-            "id": "tZDbvR64Wcz",
-            "created": "2021-02-12T21:37:15.361",
-            "name": "COVID19_F6 Hide RDT_brand_other0 if RDT_brand0 not Other",
-            "displayName": "COVID19_F6 Hide RDT_brand_other0 if RDT_brand0 not Other",
-            "externalAccess": false,
-            "condition": "#{COVID19_F6 RDT_brand0} != 'Other'",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "program": {
-                "id": "KAxhtI2NH3K"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "programRuleActions": [
-                {
-                    "id": "NGdQHgGsY4d"
-                }
-            ],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRules",
-            "lastUpdated": "2021-02-12T21:47:37.722",
-            "id": "sWQzRexTro8",
-            "created": "2021-02-12T21:47:37.722",
-            "name": "COVID19_F6 Hide RDT_noQC if RDT_QC is not No",
-            "displayName": "COVID19_F6 Hide RDT_noQC if RDT_QC is not No",
-            "externalAccess": false,
-            "condition": "#{COVID19_F6 RDT_QC} != 'No'",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "program": {
-                "id": "KAxhtI2NH3K"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "programRuleActions": [
-                {
-                    "id": "HBBAXakkBaJ"
-                }
-            ],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRules",
-            "lastUpdated": "2021-02-12T22:17:11.006",
-            "id": "W1uW75cl1X1",
-            "created": "2021-02-12T22:17:11.006",
-            "name": "COVID19_F6 Hide RDT_QC_fail_cause if RDT_QC_fail_check is not Yes",
-            "displayName": "COVID19_F6 Hide RDT_QC_fail_cause if RDT_QC_fail_check is not Yes",
-            "externalAccess": false,
-            "priority": 3,
-            "condition": "#{COVID19_F6 RDT_QC_fail_check} != 'Yes'",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "program": {
-                "id": "KAxhtI2NH3K"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "programRuleActions": [
-                {
-                    "id": "Q6SBsGHHr9p"
-                }
-            ],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRules",
-            "lastUpdated": "2021-02-12T22:21:51.306",
-            "id": "gsEnUXO1cSW",
-            "created": "2021-02-12T22:21:51.306",
-            "name": "COVID19_F6 Hide RDT_QC_fail_cause_specify if RDT_QC_fail_cause is not Other",
-            "displayName": "COVID19_F6 Hide RDT_QC_fail_cause_specify if RDT_QC_fail_cause is not Other",
-            "externalAccess": false,
-            "priority": 4,
-            "condition": "#{COVID19_F6 RDT_QC_fail_cause} != 'Other'",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "program": {
-                "id": "KAxhtI2NH3K"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "programRuleActions": [
-                {
-                    "id": "AaIPyr0TT5m"
-                }
-            ],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRules",
-            "lastUpdated": "2021-02-24T01:31:55.843",
-            "id": "n1wyorsXZwZ",
-            "created": "2021-02-24T01:14:05.560",
-            "name": "COVID19_F6 Hide RDT_QC_fail_check if RDT_QC_fails is No",
-            "displayName": "COVID19_F6 Hide RDT_QC_fail_check if RDT_QC_fails is No",
-            "externalAccess": false,
-            "priority": 2,
-            "condition": "#{COVID19_F6 RDT_QC_fails} == 'No'",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "program": {
-                "id": "KAxhtI2NH3K"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "programRuleActions": [
-                {
-                    "id": "hR72aiW0jbY"
-                }
-            ],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRules",
-            "lastUpdated": "2021-02-12T22:09:30.345",
-            "id": "DKw4Bi8ey5W",
-            "created": "2021-02-12T21:52:15.529",
-            "name": "COVID19_F6 Hide RDT_QC_fails_freq if RDT_QC_fails is not Yes - multiple failures",
-            "displayName": "COVID19_F6 Hide RDT_QC_fails_freq if RDT_QC_fails is not Yes - multiple failures",
-            "externalAccess": false,
-            "condition": "#{COVID19_F6 RDT_QC_fails} != 'YMF'",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "program": {
-                "id": "KAxhtI2NH3K"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "programRuleActions": [
-                {
-                    "id": "D6CS0tr6IWS"
+                    "id": "O9LVldQrMQn"
                 }
             ],
             "userAccesses": []
@@ -493,13 +189,13 @@
         },
         {
             "metadataType": "programRules",
-            "lastUpdated": "2021-02-12T22:29:10.756",
-            "id": "YdARgjL6FJW",
-            "created": "2021-02-12T22:29:10.756",
-            "name": "COVID19_F6 Hide temp_exceeded if temp_monitoring is not Yes",
-            "displayName": "COVID19_F6 Hide temp_exceeded if temp_monitoring is not Yes",
+            "lastUpdated": "2021-02-12T22:09:30.345",
+            "id": "DKw4Bi8ey5W",
+            "created": "2021-02-12T21:52:15.529",
+            "name": "COVID19_F6 Hide RDT_QC_fails_freq if RDT_QC_fails is not Yes - multiple failures",
+            "displayName": "COVID19_F6 Hide RDT_QC_fails_freq if RDT_QC_fails is not Yes - multiple failures",
             "externalAccess": false,
-            "condition": "#{COVID19_F6 temp_monitoring} != 'Yes'",
+            "condition": "#{COVID19_F6 RDT_QC_fails} != 'YMF'",
             "favorite": false,
             "access": {
                 "read": true,
@@ -521,7 +217,327 @@
             "attributeValues": [],
             "programRuleActions": [
                 {
-                    "id": "O9LVldQrMQn"
+                    "id": "D6CS0tr6IWS"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-02-24T01:31:55.843",
+            "id": "n1wyorsXZwZ",
+            "created": "2021-02-24T01:14:05.560",
+            "name": "COVID19_F6 Hide RDT_QC_fail_check if RDT_QC_fails is No",
+            "displayName": "COVID19_F6 Hide RDT_QC_fail_check if RDT_QC_fails is No",
+            "externalAccess": false,
+            "priority": 2,
+            "condition": "#{COVID19_F6 RDT_QC_fails} == 'No'",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "hR72aiW0jbY"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-02-12T22:21:51.306",
+            "id": "gsEnUXO1cSW",
+            "created": "2021-02-12T22:21:51.306",
+            "name": "COVID19_F6 Hide RDT_QC_fail_cause_specify if RDT_QC_fail_cause is not Other",
+            "displayName": "COVID19_F6 Hide RDT_QC_fail_cause_specify if RDT_QC_fail_cause is not Other",
+            "externalAccess": false,
+            "priority": 4,
+            "condition": "#{COVID19_F6 RDT_QC_fail_cause} != 'Other'",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "AaIPyr0TT5m"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-02-12T22:17:11.006",
+            "id": "W1uW75cl1X1",
+            "created": "2021-02-12T22:17:11.006",
+            "name": "COVID19_F6 Hide RDT_QC_fail_cause if RDT_QC_fail_check is not Yes",
+            "displayName": "COVID19_F6 Hide RDT_QC_fail_cause if RDT_QC_fail_check is not Yes",
+            "externalAccess": false,
+            "priority": 3,
+            "condition": "#{COVID19_F6 RDT_QC_fail_check} != 'Yes'",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "Q6SBsGHHr9p"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-02-12T21:47:37.722",
+            "id": "sWQzRexTro8",
+            "created": "2021-02-12T21:47:37.722",
+            "name": "COVID19_F6 Hide RDT_noQC if RDT_QC is not No",
+            "displayName": "COVID19_F6 Hide RDT_noQC if RDT_QC is not No",
+            "externalAccess": false,
+            "condition": "#{COVID19_F6 RDT_QC} != 'No'",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "HBBAXakkBaJ"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-02-12T21:37:15.361",
+            "id": "tZDbvR64Wcz",
+            "created": "2021-02-12T21:37:15.361",
+            "name": "COVID19_F6 Hide RDT_brand_other0 if RDT_brand0 not Other",
+            "displayName": "COVID19_F6 Hide RDT_brand_other0 if RDT_brand0 not Other",
+            "externalAccess": false,
+            "condition": "#{COVID19_F6 RDT_brand0} != 'Other'",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "NGdQHgGsY4d"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-02-12T22:32:33.525",
+            "id": "DBTjZRrYQCW",
+            "created": "2021-02-12T22:32:33.525",
+            "name": "COVID19_F6 Hide NAAT_site if NAAT_capacity is not Yes",
+            "displayName": "COVID19_F6 Hide NAAT_site if NAAT_capacity is not Yes",
+            "externalAccess": false,
+            "condition": "#{COVID19_F6 NAAT_capacity} != 'Yes'",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "f17jiqSg1X4"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-02-12T22:09:12.492",
+            "id": "f6efMG0TjFv",
+            "created": "2021-02-12T22:08:11.545",
+            "name": "COVID19_F6 Hide action5_specify if action5 false",
+            "displayName": "COVID19_F6 Hide action5_specify if action5 false",
+            "externalAccess": false,
+            "priority": 2,
+            "condition": "#{COVID19_F6 action5} != true",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "fpqN0WX1Rfq"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-03-09T17:57:55.878",
+            "id": "K3h8qS6XqT3",
+            "created": "2021-03-09T17:46:10.068",
+            "name": "COVID19_F6 Hide action when QC failures section if RDT_QC is not Yes or RDT_QC_fails is No",
+            "displayName": "COVID19_F6 Hide action when QC failures section if RDT_QC is not Yes or RDT_QC_fails is No",
+            "externalAccess": false,
+            "condition": "#{COVID19_F6 RDT_QC} != 'Yes' || #{COVID19_F6 RDT_QC_fails} == 'No'",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "H7Q0WmjNBsO"
+                }
+            ],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRules",
+            "lastUpdated": "2021-02-24T01:15:35.556",
+            "id": "Lpo6m3KLCON",
+            "created": "2021-02-12T22:03:52.860",
+            "name": "COVID19_F6 Hide action failure section if RDT_QC_fails is No",
+            "displayName": "COVID19_F6 Hide action failure section if RDT_QC_fails is No",
+            "externalAccess": false,
+            "priority": 1,
+            "condition": "#{COVID19_F6 RDT_QC_fails} == 'No'",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "KAxhtI2NH3K"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "programRuleActions": [
+                {
+                    "id": "e24UFxQZIpU"
                 }
             ],
             "userAccesses": []
@@ -804,22 +820,22 @@
     "programStages": [
         {
             "metadataType": "programStages",
-            "lastUpdated": "2021-02-24T02:53:34.398",
+            "lastUpdated": "2021-03-08T23:03:02.811",
             "id": "mWOJ2W7fX6Z",
             "created": "2021-01-18T14:48:43.087",
-            "name": "COVID-19 Ag RDT Operator",
+            "name": "COVID-19 Health facility information",
             "allowGenerateNextVisit": false,
             "publicAccess": "--------",
             "formType": "SECTION",
             "generatedByEnrollmentDate": false,
-            "displayFormName": "COVID-19 Ag RDT Operator",
+            "displayFormName": "COVID-19 Health facility information",
             "hideDueDate": false,
             "enableUserAssignment": false,
             "minDaysFromStart": 0,
             "favorite": false,
             "executionDateLabel": "Date this form completed",
             "preGenerateUID": false,
-            "displayName": "COVID-19 Ag RDT Operator",
+            "displayName": "COVID-19 Health facility information",
             "externalAccess": false,
             "openAfterEnrollment": false,
             "repeatable": false,
@@ -832,7 +848,7 @@
                 "id": "KAxhtI2NH3K"
             },
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "access": {
                 "read": true,
@@ -851,7 +867,7 @@
             },
             "programStageDataElements": [
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.814",
                     "id": "WotvmYmOn1n",
                     "created": "2021-01-18T15:01:04.196",
                     "displayInReports": false,
@@ -884,7 +900,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.814",
                     "id": "XlVVGSPQfP2",
                     "created": "2021-01-18T16:00:30.254",
                     "displayInReports": false,
@@ -917,7 +933,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.815",
                     "id": "FXXV2iKZOJe",
                     "created": "2021-01-18T16:00:30.255",
                     "displayInReports": false,
@@ -950,7 +966,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.816",
                     "id": "y16cVClaQLP",
                     "created": "2021-01-18T16:00:30.253",
                     "displayInReports": false,
@@ -983,7 +999,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.817",
                     "id": "BFZN0jhts95",
                     "created": "2021-01-18T16:50:22.304",
                     "displayInReports": false,
@@ -1016,7 +1032,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.816",
                     "id": "i9R00mqYYEW",
                     "created": "2021-01-18T16:50:22.302",
                     "displayInReports": false,
@@ -1049,7 +1065,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.815",
                     "id": "G9oVgBedlHy",
                     "created": "2021-01-18T16:50:22.301",
                     "displayInReports": false,
@@ -1082,7 +1098,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.815",
                     "id": "j7lah2X85fL",
                     "created": "2021-01-18T16:50:22.300",
                     "displayInReports": false,
@@ -1115,7 +1131,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.814",
                     "id": "VOR3U4T8M7e",
                     "created": "2021-01-18T16:50:22.298",
                     "displayInReports": false,
@@ -1148,7 +1164,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.816",
                     "id": "MkR0HBRQ5Z6",
                     "created": "2021-01-18T16:50:22.303",
                     "displayInReports": false,
@@ -1181,7 +1197,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.817",
                     "id": "caMc58F1ksp",
                     "created": "2021-01-18T16:50:22.304",
                     "displayInReports": false,
@@ -1214,7 +1230,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.815",
                     "id": "JAhaCfNwBKl",
                     "created": "2021-01-18T16:50:22.300",
                     "displayInReports": false,
@@ -1247,7 +1263,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.816",
                     "id": "Jv5Lmzdkrbg",
                     "created": "2021-01-18T16:50:22.302",
                     "displayInReports": false,
@@ -1280,7 +1296,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.816",
                     "id": "dVM0YHw9obz",
                     "created": "2021-01-18T16:50:22.303",
                     "displayInReports": false,
@@ -1288,7 +1304,7 @@
                     "externalAccess": false,
                     "renderOptionsAsRadio": false,
                     "allowFutureDate": false,
-                    "compulsory": false,
+                    "compulsory": true,
                     "allowProvidedElsewhere": false,
                     "sortOrder": 14,
                     "favorite": false,
@@ -1313,7 +1329,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.814",
                     "id": "UgWwfM45pz6",
                     "created": "2021-01-18T16:50:22.299",
                     "displayInReports": false,
@@ -1346,7 +1362,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.817",
                     "id": "jjc1ojA7chg",
                     "created": "2021-01-18T16:50:22.304",
                     "displayInReports": false,
@@ -1379,7 +1395,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.814",
                     "id": "HK2krZ5fw4L",
                     "created": "2021-01-18T16:50:22.299",
                     "displayInReports": false,
@@ -1412,7 +1428,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.816",
                     "id": "rhdw5cm6WJh",
                     "created": "2021-01-18T16:50:22.303",
                     "displayInReports": false,
@@ -1445,7 +1461,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.815",
                     "id": "VtgQRQ58Y2X",
                     "created": "2021-01-18T16:50:22.302",
                     "displayInReports": false,
@@ -1478,7 +1494,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.817",
                     "id": "hnUR3hxsKYo",
                     "created": "2021-01-18T16:50:22.305",
                     "displayInReports": false,
@@ -1511,7 +1527,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.815",
                     "id": "r9Yd75uIQxu",
                     "created": "2021-01-18T16:50:22.300",
                     "displayInReports": false,
@@ -1544,7 +1560,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.817",
                     "id": "u7QrMPRapea",
                     "created": "2021-01-18T16:50:22.304",
                     "displayInReports": false,
@@ -1577,7 +1593,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.814",
                     "id": "Z2J1CpLkQn3",
                     "created": "2021-01-18T16:50:22.299",
                     "displayInReports": false,
@@ -1610,7 +1626,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.594",
+                    "lastUpdated": "2021-03-08T23:03:02.816",
                     "id": "EzTqNONYG4Y",
                     "created": "2021-01-18T16:50:22.303",
                     "displayInReports": false,
@@ -1643,7 +1659,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.814",
                     "id": "DCdlOYaDZeY",
                     "created": "2021-01-18T16:50:22.299",
                     "displayInReports": false,
@@ -1676,7 +1692,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.815",
                     "id": "GkPAt8f13K1",
                     "created": "2021-01-18T16:50:22.300",
                     "displayInReports": false,
@@ -1709,7 +1725,7 @@
                     "userAccesses": []
                 },
                 {
-                    "lastUpdated": "2021-02-24T01:35:12.593",
+                    "lastUpdated": "2021-03-08T23:03:02.816",
                     "id": "Lv7tldkk7TP",
                     "created": "2021-01-18T16:50:22.302",
                     "displayInReports": false,
@@ -1784,6 +1800,555 @@
         }
     ],
     "dataElements": [
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-12T22:05:49.646",
+            "id": "WHHHdU4y1zi",
+            "created": "2021-01-18T16:39:36.136",
+            "name": "COVID19_F6 action5",
+            "shortName": "COVID19_F6 action5",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F6 action5",
+            "publicAccess": "--------",
+            "description": "Other",
+            "displayShortName": "COVID19_F6 action5",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Other",
+            "displayDescription": "Other",
+            "dimensionItem": "WHHHdU4y1zi",
+            "displayFormName": "Other",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-12T22:30:14.132",
+            "id": "uoB0r3VRoyP",
+            "created": "2021-01-18T16:47:52.531",
+            "name": "COVID19_F6 NAAT_capacity",
+            "shortName": "COVID19_F6 NAAT_capacity",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F6 NAAT_capacity",
+            "publicAccess": "--------",
+            "description": "Does facility have access to NAAT testing",
+            "displayShortName": "COVID19_F6 NAAT_capacity",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Does facility have access to NAAT testing",
+            "displayDescription": "Does facility have access to NAAT testing",
+            "dimensionItem": "uoB0r3VRoyP",
+            "displayFormName": "Does facility have access to NAAT testing",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "L6eMZDJkCwX"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-12T21:31:18.187",
+            "id": "E9H9LoM0U3w",
+            "created": "2021-01-18T16:07:13.088",
+            "name": "COVID19_F6 RDT_brand0",
+            "shortName": "COVID19_F6 RDT_brand0",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F6 RDT_brand0",
+            "publicAccess": "--------",
+            "description": "Brand of Ag-RDT",
+            "displayShortName": "COVID19_F6 RDT_brand0",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Ag-RDT",
+            "displayDescription": "Brand of Ag-RDT",
+            "dimensionItem": "E9H9LoM0U3w",
+            "displayFormName": "Ag-RDT",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "RZEDp0SKB4c"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-03-08T23:05:20.023",
+            "id": "DiKDCIkwp6t",
+            "created": "2021-01-18T16:13:31.538",
+            "name": "COVID19_F6 RDT_QC",
+            "shortName": "COVID19_F6 RDT_QC",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F6 RDT_QC",
+            "publicAccess": "--------",
+            "description": "Is onsite quality control (QC) check performed",
+            "displayShortName": "COVID19_F6 RDT_QC",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Is onsite quality control (QC) check performed?",
+            "displayDescription": "Is onsite quality control (QC) check performed",
+            "dimensionItem": "DiKDCIkwp6t",
+            "displayFormName": "Is onsite quality control (QC) check performed?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "L6eMZDJkCwX"
+            },
+            "lastUpdatedBy": {
+                "id": "Qu9goywu6cV"
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-12T22:18:36.009",
+            "id": "K4lkVTCniM8",
+            "created": "2021-01-18T16:42:31.988",
+            "name": "COVID19_F6 RDT_QC_fail_cause",
+            "shortName": "COVID19_F6 RDT_QC_fail_cause",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F6 RDT_QC_fail_cause",
+            "publicAccess": "--------",
+            "description": "If there were QC check failures that were investigated what was the cause? ",
+            "displayShortName": "COVID19_F6 RDT_QC_fail_cause",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Cause of QC check failures",
+            "displayDescription": "If there were QC check failures that were investigated what was the cause? ",
+            "dimensionItem": "K4lkVTCniM8",
+            "displayFormName": "Cause of QC check failures",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "ARXPZHVA174"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-12T22:16:24.822",
+            "id": "AJVFQOUyCtd",
+            "created": "2021-01-18T16:41:20.871",
+            "name": "COVID19_F6 RDT_QC_fail_check",
+            "shortName": "COVID19_F6 RDT_QC_fail_check",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F6 RDT_QC_fail_check",
+            "publicAccess": "--------",
+            "description": "Was the cause of any QC check failures determined?",
+            "displayShortName": "COVID19_F6 RDT_QC_fail_check",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Was cause of QC check failures determined?",
+            "displayDescription": "Was the cause of any QC check failures determined?",
+            "dimensionItem": "AJVFQOUyCtd",
+            "displayFormName": "Was cause of QC check failures determined?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "L6eMZDJkCwX"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-12T21:49:00.492",
+            "id": "MBMAfwVnwO2",
+            "created": "2021-01-18T16:34:41.870",
+            "name": "COVID19_F6 RDT_QC_fails",
+            "shortName": "COVID19_F6 RDT_QC_fails",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F6 RDT_QC_fails",
+            "publicAccess": "--------",
+            "description": "If QC checks are performed, were there any QC check failures",
+            "displayShortName": "COVID19_F6 RDT_QC_fails",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Were there QC check failures",
+            "displayDescription": "If QC checks are performed, were there any QC check failures",
+            "dimensionItem": "MBMAfwVnwO2",
+            "displayFormName": "Were there QC check failures",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "FKJaPo7PsKL"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-12T22:25:37.884",
+            "id": "nLncIquAO8f",
+            "created": "2021-01-18T16:44:52.562",
+            "name": "COVID19_F6 temp_monitoring",
+            "shortName": "COVID19_F6 temp_monitoring",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F6 temp_monitoring",
+            "publicAccess": "--------",
+            "description": "Does facility monitor temperature where Ag-RDTs are stored?",
+            "displayShortName": "COVID19_F6 temp_monitoring",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Does facility have temperature monitoring where Ag-RDTs are stored",
+            "displayDescription": "Does facility monitor temperature where Ag-RDTs are stored?",
+            "dimensionItem": "nLncIquAO8f",
+            "displayFormName": "Does facility have temperature monitoring where Ag-RDTs are stored",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "L6eMZDJkCwX"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
         {
             "metadataType": "dataElements",
             "lastUpdated": "2021-02-12T22:33:23.027",
@@ -2314,72 +2879,6 @@
         },
         {
             "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T22:05:49.646",
-            "id": "WHHHdU4y1zi",
-            "created": "2021-01-18T16:39:36.136",
-            "name": "COVID19_F6 action5",
-            "shortName": "COVID19_F6 action5",
-            "aggregationType": "SUM",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F6 action5",
-            "publicAccess": "--------",
-            "description": "Other",
-            "displayShortName": "COVID19_F6 action5",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Other",
-            "displayDescription": "Other",
-            "dimensionItem": "WHHHdU4y1zi",
-            "displayFormName": "Other",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
             "lastUpdated": "2021-02-12T22:35:50.925",
             "id": "KGUVgzIOAdI",
             "created": "2021-01-18T16:40:29.478",
@@ -2512,75 +3011,6 @@
         },
         {
             "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T22:30:14.132",
-            "id": "uoB0r3VRoyP",
-            "created": "2021-01-18T16:47:52.531",
-            "name": "COVID19_F6 NAAT_capacity",
-            "shortName": "COVID19_F6 NAAT_capacity",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F6 NAAT_capacity",
-            "publicAccess": "--------",
-            "description": "Does facility have access to NAAT testing",
-            "displayShortName": "COVID19_F6 NAAT_capacity",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Does facility have access to NAAT testing",
-            "displayDescription": "Does facility have access to NAAT testing",
-            "dimensionItem": "uoB0r3VRoyP",
-            "displayFormName": "Does facility have access to NAAT testing",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "L6eMZDJkCwX"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
             "lastUpdated": "2021-02-12T22:33:42.679",
             "id": "w4MqcdlLzKg",
             "created": "2021-01-18T16:48:54.915",
@@ -2612,75 +3042,6 @@
             },
             "optionSet": {
                 "id": "qVqZnYgSpmF"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T21:31:18.187",
-            "id": "E9H9LoM0U3w",
-            "created": "2021-01-18T16:07:13.088",
-            "name": "COVID19_F6 RDT_brand0",
-            "shortName": "COVID19_F6 RDT_brand0",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F6 RDT_brand0",
-            "publicAccess": "--------",
-            "description": "Brand of Ag-RDT",
-            "displayShortName": "COVID19_F6 RDT_brand0",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Ag-RDT",
-            "displayDescription": "Brand of Ag-RDT",
-            "dimensionItem": "E9H9LoM0U3w",
-            "displayFormName": "Ag-RDT",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "RZEDp0SKB4c"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
@@ -2967,144 +3328,6 @@
         },
         {
             "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T21:43:20.603",
-            "id": "DiKDCIkwp6t",
-            "created": "2021-01-18T16:13:31.538",
-            "name": "COVID19_F6 RDT_QC",
-            "shortName": "COVID19_F6 RDT_QC",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F6 RDT_QC",
-            "publicAccess": "--------",
-            "description": "Is onsite quality control (QC) check performed",
-            "displayShortName": "COVID19_F6 RDT_QC",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Onsite QC",
-            "displayDescription": "Is onsite quality control (QC) check performed",
-            "dimensionItem": "DiKDCIkwp6t",
-            "displayFormName": "Onsite QC",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "L6eMZDJkCwX"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T22:18:36.009",
-            "id": "K4lkVTCniM8",
-            "created": "2021-01-18T16:42:31.988",
-            "name": "COVID19_F6 RDT_QC_fail_cause",
-            "shortName": "COVID19_F6 RDT_QC_fail_cause",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F6 RDT_QC_fail_cause",
-            "publicAccess": "--------",
-            "description": "If there were QC check failures that were investigated what was the cause? ",
-            "displayShortName": "COVID19_F6 RDT_QC_fail_cause",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Cause of QC check failures",
-            "displayDescription": "If there were QC check failures that were investigated what was the cause? ",
-            "dimensionItem": "K4lkVTCniM8",
-            "displayFormName": "Cause of QC check failures",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "ARXPZHVA174"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
             "lastUpdated": "2021-02-12T22:34:03.637",
             "id": "JfcGv2hn3rl",
             "created": "2021-01-18T16:43:49.211",
@@ -3133,144 +3356,6 @@
                 "delete": true,
                 "write": true,
                 "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T22:16:24.822",
-            "id": "AJVFQOUyCtd",
-            "created": "2021-01-18T16:41:20.871",
-            "name": "COVID19_F6 RDT_QC_fail_check",
-            "shortName": "COVID19_F6 RDT_QC_fail_check",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F6 RDT_QC_fail_check",
-            "publicAccess": "--------",
-            "description": "Was the cause of any QC check failures determined?",
-            "displayShortName": "COVID19_F6 RDT_QC_fail_check",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Was cause of QC check failures determined?",
-            "displayDescription": "Was the cause of any QC check failures determined?",
-            "dimensionItem": "AJVFQOUyCtd",
-            "displayFormName": "Was cause of QC check failures determined?",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "L6eMZDJkCwX"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T21:49:00.492",
-            "id": "MBMAfwVnwO2",
-            "created": "2021-01-18T16:34:41.870",
-            "name": "COVID19_F6 RDT_QC_fails",
-            "shortName": "COVID19_F6 RDT_QC_fails",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F6 RDT_QC_fails",
-            "publicAccess": "--------",
-            "description": "If QC checks are performed, were there any QC check failures",
-            "displayShortName": "COVID19_F6 RDT_QC_fails",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Were there QC check failures",
-            "displayDescription": "If QC checks are performed, were there any QC check failures",
-            "dimensionItem": "MBMAfwVnwO2",
-            "displayFormName": "Were there QC check failures",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "FKJaPo7PsKL"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
@@ -3444,17 +3529,17 @@
         },
         {
             "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T22:26:34.286",
+            "lastUpdated": "2021-03-02T18:38:01.911",
             "id": "j6q2N7owSqj",
             "created": "2021-01-18T16:46:39.824",
-            "name": " COVID19_F6 temp_exceeded",
-            "shortName": " COVID19_F6 temp_exceeded",
+            "name": "COVID19_F6 temp_exceeded",
+            "shortName": "COVID19_F6 temp_exceeded",
             "aggregationType": "NONE",
             "domainType": "TRACKER",
-            "displayName": " COVID19_F6 temp_exceeded",
+            "displayName": "COVID19_F6 temp_exceeded",
             "publicAccess": "--------",
             "description": "How many days in the last month has the storage temperature exceeded the manufacturers' storage conditions?",
-            "displayShortName": " COVID19_F6 temp_exceeded",
+            "displayShortName": "COVID19_F6 temp_exceeded",
             "externalAccess": false,
             "valueType": "TEXT",
             "formName": "How many days in the last month has the storage temperature exceeded the manufacturers' storage conditions?",
@@ -3510,399 +3595,9 @@
             "userAccesses": [],
             "legendSets": [],
             "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-12T22:25:37.884",
-            "id": "nLncIquAO8f",
-            "created": "2021-01-18T16:44:52.562",
-            "name": "COVID19_F6 temp_monitoring",
-            "shortName": "COVID19_F6 temp_monitoring",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F6 temp_monitoring",
-            "publicAccess": "--------",
-            "description": "Does facility monitor temperature where Ag-RDTs are stored?",
-            "displayShortName": "COVID19_F6 temp_monitoring",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Does facility have temperature monitoring where Ag-RDTs are stored",
-            "displayDescription": "Does facility monitor temperature where Ag-RDTs are stored?",
-            "dimensionItem": "nLncIquAO8f",
-            "displayFormName": "Does facility have temperature monitoring where Ag-RDTs are stored",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "L6eMZDJkCwX"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        }
-    ],
-    "programStageSections": [
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-12T22:24:38.290",
-            "id": "fccbe3XhfMK",
-            "created": "2021-01-18T15:01:59.245",
-            "name": "Basic Information",
-            "displayName": "Basic Information",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayFormName": "Basic Information",
-            "sortOrder": 0,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "mWOJ2W7fX6Z"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "SLSd0DMgo7z"
-                },
-                {
-                    "id": "MHuVakMfruV"
-                },
-                {
-                    "id": "imhbxY6SXi1"
-                },
-                {
-                    "id": "gJ7biUndffQ"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-12T22:24:38.290",
-            "id": "sZG64KhBTEm",
-            "created": "2021-01-18T16:52:55.449",
-            "name": "Test Information",
-            "displayName": "Test Information",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayFormName": "Test Information",
-            "sortOrder": 1,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "mWOJ2W7fX6Z"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "E9H9LoM0U3w"
-                },
-                {
-                    "id": "lCuighYTLAi"
-                },
-                {
-                    "id": "dbaNkncGD7G"
-                },
-                {
-                    "id": "yy4xyTNwP4L"
-                },
-                {
-                    "id": "gwRMHtWtbYh"
-                },
-                {
-                    "id": "DiKDCIkwp6t"
-                },
-                {
-                    "id": "raR9t3K2yvq"
-                },
-                {
-                    "id": "Mxjp9xVSnj9"
-                },
-                {
-                    "id": "MBMAfwVnwO2"
-                },
-                {
-                    "id": "djbwiVybEB1"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-12T22:24:38.290",
-            "id": "sd6xUG72fby",
-            "created": "2021-02-12T21:59:42.259",
-            "name": "What action was taken when there were QC failures",
-            "displayName": "What action was taken when there were QC failures",
-            "description": "Select any of the following actions that were taken when where were QC failures (if applicable)",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayDescription": "Select any of the following actions that were taken when where were QC failures (if applicable)",
-            "displayFormName": "What action was taken when there were QC failures",
-            "sortOrder": 2,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "mWOJ2W7fX6Z"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "IPYaIfR6gJC"
-                },
-                {
-                    "id": "HT9GskI1O4a"
-                },
-                {
-                    "id": "s8x8Yn0E6Z9"
-                },
-                {
-                    "id": "qYDK14uwj8f"
-                },
-                {
-                    "id": "WHHHdU4y1zi"
-                },
-                {
-                    "id": "KGUVgzIOAdI"
-                },
-                {
-                    "id": "AJVFQOUyCtd"
-                },
-                {
-                    "id": "K4lkVTCniM8"
-                },
-                {
-                    "id": "JfcGv2hn3rl"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-12T22:24:38.281",
-            "id": "xMFlqkNirv3",
-            "created": "2021-02-12T22:24:38.281",
-            "name": "Facility storage conditions and NAAT capability",
-            "displayName": "Facility storage conditions and NAAT capability",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayFormName": "Facility storage conditions and NAAT capability",
-            "sortOrder": 3,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "mWOJ2W7fX6Z"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "nLncIquAO8f"
-                },
-                {
-                    "id": "j6q2N7owSqj"
-                },
-                {
-                    "id": "uoB0r3VRoyP"
-                },
-                {
-                    "id": "w4MqcdlLzKg"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
         }
     ],
     "optionSets": [
-        {
-            "metadataType": "optionSets",
-            "created": "2021-01-18T16:24:10.102",
-            "lastUpdated": "2021-01-18T18:43:18.779",
-            "name": "COVID19_temp_exceeded",
-            "id": "E6ZZJ7eWFqc",
-            "displayName": "COVID19_temp_exceeded",
-            "publicAccess": "--------",
-            "version": 5,
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "favorite": false,
-            "lastUpdatedBy": {
-                "id": "HV3gKxwkDu5"
-            },
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "attributeValues": [],
-            "translations": [],
-            "userAccesses": [],
-            "options": [
-                {
-                    "id": "b2BfiurotHk"
-                },
-                {
-                    "id": "TBv41q8H41f"
-                },
-                {
-                    "id": "BDRhdrsKKvq"
-                },
-                {
-                    "id": "qZgHQXD2j3s"
-                },
-                {
-                    "id": "D9jch6LKFnY"
-                }
-            ]
-        },
         {
             "metadataType": "optionSets",
             "created": "2017-05-02T18:34:58.765",
@@ -3954,13 +3649,13 @@
             "translations": [
                 {
                     "property": "NAME",
-                    "locale": "nb",
-                    "value": "Ja/Nei/Ukjent"
+                    "locale": "pt",
+                    "value": "Sim/Não/Desconhecido"
                 },
                 {
                     "property": "NAME",
-                    "locale": "es",
-                    "value": "Si/No/Desconocido"
+                    "locale": "ru",
+                    "value": "Да / Нет / Неизвестно"
                 },
                 {
                     "property": "NAME",
@@ -3969,13 +3664,13 @@
                 },
                 {
                     "property": "NAME",
-                    "locale": "pt",
-                    "value": "Sim/Não/Desconhecido"
+                    "locale": "es",
+                    "value": "Si/No/Desconocido"
                 },
                 {
                     "property": "NAME",
-                    "locale": "ru",
-                    "value": "Да / Нет / Неизвестно"
+                    "locale": "nb",
+                    "value": "Ja/Nei/Ukjent"
                 }
             ],
             "userAccesses": [],
@@ -3988,68 +3683,6 @@
                 },
                 {
                     "id": "pqxvAQU1z9W"
-                }
-            ]
-        },
-        {
-            "metadataType": "optionSets",
-            "created": "2021-01-18T16:26:02.066",
-            "lastUpdated": "2021-01-18T18:40:59.988",
-            "name": "COVID19_NAAT_site",
-            "id": "qVqZnYgSpmF",
-            "displayName": "COVID19_NAAT_site",
-            "publicAccess": "--------",
-            "version": 3,
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "favorite": false,
-            "lastUpdatedBy": {
-                "id": "HV3gKxwkDu5"
-            },
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "attributeValues": [],
-            "translations": [],
-            "userAccesses": [],
-            "options": [
-                {
-                    "id": "pSYQFvEnUud"
-                },
-                {
-                    "id": "hXAevR9sotG"
-                },
-                {
-                    "id": "WcanHPanO3L"
                 }
             ]
         },
@@ -4115,71 +3748,6 @@
                 },
                 {
                     "id": "p9shNCj19LY"
-                }
-            ]
-        },
-        {
-            "metadataType": "optionSets",
-            "created": "2021-01-18T16:17:31.375",
-            "lastUpdated": "2021-01-18T18:42:25.659",
-            "name": "COVID19_RDT_noQC",
-            "id": "rULBL5Y2MS0",
-            "displayName": "COVID19_RDT_noQC",
-            "publicAccess": "--------",
-            "version": 4,
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "favorite": false,
-            "lastUpdatedBy": {
-                "id": "HV3gKxwkDu5"
-            },
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "user": {
-                "id": "HV3gKxwkDu5"
-            },
-            "favorites": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                },
-                {
-                    "access": "rw------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                }
-            ],
-            "attributeValues": [],
-            "translations": [],
-            "userAccesses": [],
-            "options": [
-                {
-                    "id": "Ggyfanddajk"
-                },
-                {
-                    "id": "xgtvVIBcGC7"
-                },
-                {
-                    "id": "AeLKMcZIDA9"
-                },
-                {
-                    "id": "YkqRkPJuOTh"
                 }
             ]
         },
@@ -4309,6 +3877,133 @@
         },
         {
             "metadataType": "optionSets",
+            "created": "2021-01-18T16:26:02.066",
+            "lastUpdated": "2021-01-18T18:40:59.988",
+            "name": "COVID19_NAAT_site",
+            "id": "qVqZnYgSpmF",
+            "displayName": "COVID19_NAAT_site",
+            "publicAccess": "--------",
+            "version": 3,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "HV3gKxwkDu5"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "pSYQFvEnUud"
+                },
+                {
+                    "id": "hXAevR9sotG"
+                },
+                {
+                    "id": "WcanHPanO3L"
+                }
+            ]
+        },
+        {
+            "metadataType": "optionSets",
+            "created": "2021-01-18T16:17:31.375",
+            "lastUpdated": "2021-01-18T18:42:25.659",
+            "name": "COVID19_RDT_noQC",
+            "id": "rULBL5Y2MS0",
+            "displayName": "COVID19_RDT_noQC",
+            "publicAccess": "--------",
+            "version": 4,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "HV3gKxwkDu5"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "Ggyfanddajk"
+                },
+                {
+                    "id": "xgtvVIBcGC7"
+                },
+                {
+                    "id": "AeLKMcZIDA9"
+                },
+                {
+                    "id": "YkqRkPJuOTh"
+                }
+            ]
+        },
+        {
+            "metadataType": "optionSets",
             "created": "2021-01-18T16:15:58.044",
             "lastUpdated": "2021-01-18T18:41:40.039",
             "name": "COVID19_RDT_QC_freq",
@@ -4374,96 +4069,77 @@
                     "id": "ztuk4BE98hn"
                 }
             ]
+        },
+        {
+            "metadataType": "optionSets",
+            "created": "2021-01-18T16:24:10.102",
+            "lastUpdated": "2021-01-18T18:43:18.779",
+            "name": "COVID19_temp_exceeded",
+            "id": "E6ZZJ7eWFqc",
+            "displayName": "COVID19_temp_exceeded",
+            "publicAccess": "--------",
+            "version": 5,
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "favorite": false,
+            "lastUpdatedBy": {
+                "id": "HV3gKxwkDu5"
+            },
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "user": {
+                "id": "HV3gKxwkDu5"
+            },
+            "favorites": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                },
+                {
+                    "access": "rw------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                }
+            ],
+            "attributeValues": [],
+            "translations": [],
+            "userAccesses": [],
+            "options": [
+                {
+                    "id": "b2BfiurotHk"
+                },
+                {
+                    "id": "TBv41q8H41f"
+                },
+                {
+                    "id": "BDRhdrsKKvq"
+                },
+                {
+                    "id": "qZgHQXD2j3s"
+                },
+                {
+                    "id": "D9jch6LKFnY"
+                }
+            ]
         }
     ],
     "options": [
-        {
-            "metadataType": "options",
-            "code": "HFL",
-            "lastUpdated": "2021-01-18T16:26:17.293",
-            "id": "pSYQFvEnUud",
-            "created": "2021-01-18T16:26:17.255",
-            "name": "At health facility laboratory",
-            "displayName": "At health facility laboratory",
-            "externalAccess": false,
-            "displayFormName": "At health facility laboratory",
-            "sortOrder": 1,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "qVqZnYgSpmF"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "options",
-            "code": "NLab",
-            "lastUpdated": "2021-01-18T16:26:31.185",
-            "id": "hXAevR9sotG",
-            "created": "2021-01-18T16:26:31.145",
-            "name": "At nearby laboratory (within same town/city)",
-            "displayName": "At nearby laboratory (within same town/city)",
-            "externalAccess": false,
-            "displayFormName": "At nearby laboratory (within same town/city)",
-            "sortOrder": 2,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "qVqZnYgSpmF"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "options",
-            "code": "diffLab",
-            "lastUpdated": "2021-01-18T16:26:43.895",
-            "id": "WcanHPanO3L",
-            "created": "2021-01-18T16:26:43.859",
-            "name": "At laboratory in different/town/city/country",
-            "displayName": "At laboratory in different/town/city/country",
-            "externalAccess": false,
-            "displayFormName": "At laboratory in different/town/city/country",
-            "sortOrder": 3,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "qVqZnYgSpmF"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
         {
             "metadataType": "options",
             "code": "09COV30D",
@@ -4573,122 +4249,6 @@
             },
             "optionSet": {
                 "id": "RZEDp0SKB4c"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "options",
-            "code": "NP",
-            "lastUpdated": "2021-01-18T16:18:17.104",
-            "id": "Ggyfanddajk",
-            "created": "2021-01-18T16:18:17.063",
-            "name": "No protocol in place",
-            "displayName": "No protocol in place",
-            "externalAccess": false,
-            "displayFormName": "No protocol in place",
-            "sortOrder": 1,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "rULBL5Y2MS0"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "options",
-            "code": "NoQCM ",
-            "lastUpdated": "2021-01-18T16:18:39.254",
-            "id": "xgtvVIBcGC7",
-            "created": "2021-01-18T16:18:39.213",
-            "name": "No QC materials available",
-            "displayName": "No QC materials available",
-            "externalAccess": false,
-            "displayFormName": "No QC materials available",
-            "sortOrder": 2,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "rULBL5Y2MS0"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "options",
-            "code": "NTS",
-            "lastUpdated": "2021-01-18T16:18:52.455",
-            "id": "AeLKMcZIDA9",
-            "created": "2021-01-18T16:18:52.390",
-            "name": "No trained staff available",
-            "displayName": "No trained staff available",
-            "externalAccess": false,
-            "displayFormName": "No trained staff available",
-            "sortOrder": 3,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "rULBL5Y2MS0"
-            },
-            "favorites": [],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "options",
-            "code": "NK",
-            "lastUpdated": "2021-01-18T16:19:07.351",
-            "id": "YkqRkPJuOTh",
-            "created": "2021-01-18T16:19:07.300",
-            "name": "Not known",
-            "displayName": "Not known",
-            "externalAccess": false,
-            "displayFormName": "Not known",
-            "sortOrder": 4,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "rULBL5Y2MS0"
             },
             "favorites": [],
             "translations": [],
@@ -4863,6 +4423,404 @@
             },
             "optionSet": {
                 "id": "FKJaPo7PsKL"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "Yes",
+            "lastUpdated": "2021-02-23T00:16:30.421",
+            "id": "x9yVKkv9koc",
+            "created": "2017-05-02T18:35:04.524",
+            "name": "Yes",
+            "displayName": "Yes",
+            "externalAccess": false,
+            "displayFormName": "Yes",
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "L6eMZDJkCwX"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Sim"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nb",
+                    "value": "Ja"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Oui"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "Sí"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "uz@Cyrl",
+                    "value": "Ҳа"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "ru",
+                    "value": "да"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "uz@Latn",
+                    "value": "Ha"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "No",
+            "lastUpdated": "2021-02-23T00:16:30.421",
+            "id": "R98tI2c6rF5",
+            "created": "2017-05-02T18:35:09.328",
+            "name": "No",
+            "displayName": "No",
+            "externalAccess": false,
+            "displayFormName": "No",
+            "sortOrder": 2,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "L6eMZDJkCwX"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "uz@Latn",
+                    "value": "Yo`q"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Non"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "No"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "uz@Cyrl",
+                    "value": "Йўқ"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "nb",
+                    "value": "Nei"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Não"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "ru",
+                    "value": "нет"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "Unknown",
+            "lastUpdated": "2021-02-23T00:16:30.421",
+            "id": "pqxvAQU1z9W",
+            "created": "2017-05-02T18:35:17.514",
+            "name": "Not known",
+            "displayName": "Not known",
+            "externalAccess": false,
+            "displayFormName": "Not known",
+            "sortOrder": 3,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "L6eMZDJkCwX"
+            },
+            "favorites": [],
+            "translations": [
+                {
+                    "property": "NAME",
+                    "locale": "nb",
+                    "value": "Ukjent"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "ru",
+                    "value": "Неизвестно"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "pt",
+                    "value": "Desconhecido"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "es",
+                    "value": "DEsconocido"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "uz@Latn",
+                    "value": "Noaniq"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "uz@Cyrl",
+                    "value": "Ноаниқ"
+                },
+                {
+                    "property": "NAME",
+                    "locale": "fr",
+                    "value": "Inconnu"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "HFL",
+            "lastUpdated": "2021-01-18T16:26:17.293",
+            "id": "pSYQFvEnUud",
+            "created": "2021-01-18T16:26:17.255",
+            "name": "At health facility laboratory",
+            "displayName": "At health facility laboratory",
+            "externalAccess": false,
+            "displayFormName": "At health facility laboratory",
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "qVqZnYgSpmF"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "NLab",
+            "lastUpdated": "2021-01-18T16:26:31.185",
+            "id": "hXAevR9sotG",
+            "created": "2021-01-18T16:26:31.145",
+            "name": "At nearby laboratory (within same town/city)",
+            "displayName": "At nearby laboratory (within same town/city)",
+            "externalAccess": false,
+            "displayFormName": "At nearby laboratory (within same town/city)",
+            "sortOrder": 2,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "qVqZnYgSpmF"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "diffLab",
+            "lastUpdated": "2021-01-18T16:26:43.895",
+            "id": "WcanHPanO3L",
+            "created": "2021-01-18T16:26:43.859",
+            "name": "At laboratory in different/town/city/country",
+            "displayName": "At laboratory in different/town/city/country",
+            "externalAccess": false,
+            "displayFormName": "At laboratory in different/town/city/country",
+            "sortOrder": 3,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "qVqZnYgSpmF"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "NP",
+            "lastUpdated": "2021-01-18T16:18:17.104",
+            "id": "Ggyfanddajk",
+            "created": "2021-01-18T16:18:17.063",
+            "name": "No protocol in place",
+            "displayName": "No protocol in place",
+            "externalAccess": false,
+            "displayFormName": "No protocol in place",
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "rULBL5Y2MS0"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "NoQCM ",
+            "lastUpdated": "2021-01-18T16:18:39.254",
+            "id": "xgtvVIBcGC7",
+            "created": "2021-01-18T16:18:39.213",
+            "name": "No QC materials available",
+            "displayName": "No QC materials available",
+            "externalAccess": false,
+            "displayFormName": "No QC materials available",
+            "sortOrder": 2,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "rULBL5Y2MS0"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "NTS",
+            "lastUpdated": "2021-01-18T16:18:52.455",
+            "id": "AeLKMcZIDA9",
+            "created": "2021-01-18T16:18:52.390",
+            "name": "No trained staff available",
+            "displayName": "No trained staff available",
+            "externalAccess": false,
+            "displayFormName": "No trained staff available",
+            "sortOrder": 3,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "rULBL5Y2MS0"
+            },
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "options",
+            "code": "NK",
+            "lastUpdated": "2021-01-18T16:19:07.351",
+            "id": "YkqRkPJuOTh",
+            "created": "2021-01-18T16:19:07.300",
+            "name": "Not known",
+            "displayName": "Not known",
+            "externalAccess": false,
+            "displayFormName": "Not known",
+            "sortOrder": 4,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "rULBL5Y2MS0"
             },
             "favorites": [],
             "translations": [],
@@ -5159,17 +5117,80 @@
             "userGroupAccesses": [],
             "attributeValues": [],
             "userAccesses": []
+        }
+    ],
+    "programStageSections": [
+        {
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-12T22:24:38.290",
+            "id": "fccbe3XhfMK",
+            "created": "2021-01-18T15:01:59.245",
+            "name": "Basic Information",
+            "displayName": "Basic Information",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayFormName": "Basic Information",
+            "sortOrder": 0,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "mWOJ2W7fX6Z"
+            },
+            "favorites": [],
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
+                {
+                    "id": "SLSd0DMgo7z"
+                },
+                {
+                    "id": "MHuVakMfruV"
+                },
+                {
+                    "id": "imhbxY6SXi1"
+                },
+                {
+                    "id": "gJ7biUndffQ"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
         },
         {
-            "metadataType": "options",
-            "code": "Yes",
-            "lastUpdated": "2021-02-23T00:16:30.421",
-            "id": "x9yVKkv9koc",
-            "created": "2017-05-02T18:35:04.524",
-            "name": "Yes",
-            "displayName": "Yes",
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-12T22:24:38.290",
+            "id": "sZG64KhBTEm",
+            "created": "2021-01-18T16:52:55.449",
+            "name": "Test Information",
+            "displayName": "Test Information",
             "externalAccess": false,
-            "displayFormName": "Yes",
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayFormName": "Test Information",
             "sortOrder": 1,
             "favorite": false,
             "access": {
@@ -5180,45 +5201,45 @@
                 "write": true,
                 "manage": true
             },
-            "optionSet": {
-                "id": "L6eMZDJkCwX"
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "mWOJ2W7fX6Z"
             },
             "favorites": [],
-            "translations": [
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
                 {
-                    "property": "NAME",
-                    "locale": "fr",
-                    "value": "Oui"
+                    "id": "E9H9LoM0U3w"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "uz@Cyrl",
-                    "value": "Ҳа"
+                    "id": "lCuighYTLAi"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "ru",
-                    "value": "да"
+                    "id": "dbaNkncGD7G"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "uz@Latn",
-                    "value": "Ha"
+                    "id": "yy4xyTNwP4L"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "es",
-                    "value": "Sí"
+                    "id": "gwRMHtWtbYh"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "pt",
-                    "value": "Sim"
+                    "id": "DiKDCIkwp6t"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "nb",
-                    "value": "Ja"
+                    "id": "raR9t3K2yvq"
+                },
+                {
+                    "id": "Mxjp9xVSnj9"
+                },
+                {
+                    "id": "MBMAfwVnwO2"
+                },
+                {
+                    "id": "djbwiVybEB1"
                 }
             ],
             "userGroupAccesses": [],
@@ -5226,15 +5247,24 @@
             "userAccesses": []
         },
         {
-            "metadataType": "options",
-            "code": "No",
-            "lastUpdated": "2021-02-23T00:16:30.421",
-            "id": "R98tI2c6rF5",
-            "created": "2017-05-02T18:35:09.328",
-            "name": "No",
-            "displayName": "No",
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-12T22:24:38.290",
+            "id": "sd6xUG72fby",
+            "created": "2021-02-12T21:59:42.259",
+            "name": "What action was taken when there were QC failures",
+            "displayName": "What action was taken when there were QC failures",
+            "description": "Select any of the following actions that were taken when where were QC failures (if applicable)",
             "externalAccess": false,
-            "displayFormName": "No",
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayDescription": "Select any of the following actions that were taken when where were QC failures (if applicable)",
+            "displayFormName": "What action was taken when there were QC failures",
             "sortOrder": 2,
             "favorite": false,
             "access": {
@@ -5245,45 +5275,42 @@
                 "write": true,
                 "manage": true
             },
-            "optionSet": {
-                "id": "L6eMZDJkCwX"
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "mWOJ2W7fX6Z"
             },
             "favorites": [],
-            "translations": [
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
                 {
-                    "property": "NAME",
-                    "locale": "nb",
-                    "value": "Nei"
+                    "id": "IPYaIfR6gJC"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "uz@Cyrl",
-                    "value": "Йўқ"
+                    "id": "HT9GskI1O4a"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "pt",
-                    "value": "Não"
+                    "id": "s8x8Yn0E6Z9"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "fr",
-                    "value": "Non"
+                    "id": "qYDK14uwj8f"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "ru",
-                    "value": "нет"
+                    "id": "WHHHdU4y1zi"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "uz@Latn",
-                    "value": "Yo`q"
+                    "id": "KGUVgzIOAdI"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "es",
-                    "value": "No"
+                    "id": "AJVFQOUyCtd"
+                },
+                {
+                    "id": "K4lkVTCniM8"
+                },
+                {
+                    "id": "JfcGv2hn3rl"
                 }
             ],
             "userGroupAccesses": [],
@@ -5291,15 +5318,22 @@
             "userAccesses": []
         },
         {
-            "metadataType": "options",
-            "code": "Unknown",
-            "lastUpdated": "2021-02-23T00:16:30.421",
-            "id": "pqxvAQU1z9W",
-            "created": "2017-05-02T18:35:17.514",
-            "name": "Not known",
-            "displayName": "Not known",
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-12T22:24:38.281",
+            "id": "xMFlqkNirv3",
+            "created": "2021-02-12T22:24:38.281",
+            "name": "Facility storage conditions and NAAT capability",
+            "displayName": "Facility storage conditions and NAAT capability",
             "externalAccess": false,
-            "displayFormName": "Not known",
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayFormName": "Facility storage conditions and NAAT capability",
             "sortOrder": 3,
             "favorite": false,
             "access": {
@@ -5310,45 +5344,27 @@
                 "write": true,
                 "manage": true
             },
-            "optionSet": {
-                "id": "L6eMZDJkCwX"
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "mWOJ2W7fX6Z"
             },
             "favorites": [],
-            "translations": [
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
                 {
-                    "property": "NAME",
-                    "locale": "es",
-                    "value": "DEsconocido"
+                    "id": "nLncIquAO8f"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "fr",
-                    "value": "Inconnu"
+                    "id": "j6q2N7owSqj"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "uz@Latn",
-                    "value": "Noaniq"
+                    "id": "uoB0r3VRoyP"
                 },
                 {
-                    "property": "NAME",
-                    "locale": "nb",
-                    "value": "Ukjent"
-                },
-                {
-                    "property": "NAME",
-                    "locale": "ru",
-                    "value": "Неизвестно"
-                },
-                {
-                    "property": "NAME",
-                    "locale": "pt",
-                    "value": "Desconhecido"
-                },
-                {
-                    "property": "NAME",
-                    "locale": "uz@Cyrl",
-                    "value": "Ноаниқ"
+                    "id": "w4MqcdlLzKg"
                 }
             ],
             "userGroupAccesses": [],
@@ -5359,45 +5375,9 @@
     "programRuleActions": [
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-24T01:15:35.550",
-            "id": "e24UFxQZIpU",
-            "created": "2021-02-12T22:01:47.095",
-            "externalAccess": false,
-            "programRuleActionType": "HIDESECTION",
-            "evaluationTime": "ALWAYS",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "programRule": {
-                "id": "Lpo6m3KLCON"
-            },
-            "programStageSection": {
-                "id": "sd6xUG72fby"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "favorites": [],
-            "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
-            ],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T22:09:12.486",
-            "id": "fpqN0WX1Rfq",
-            "created": "2021-02-12T22:08:11.540",
+            "lastUpdated": "2021-02-12T22:29:10.750",
+            "id": "O9LVldQrMQn",
+            "created": "2021-02-12T22:29:10.750",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
             "evaluationTime": "ALWAYS",
@@ -5411,18 +5391,18 @@
                 "manage": true
             },
             "programRule": {
-                "id": "f6efMG0TjFv"
+                "id": "YdARgjL6FJW"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
             },
             "dataElement": {
-                "id": "KGUVgzIOAdI"
+                "id": "j6q2N7owSqj"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5431,80 +5411,8 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T22:32:33.520",
-            "id": "f17jiqSg1X4",
-            "created": "2021-02-12T22:32:33.520",
-            "externalAccess": false,
-            "programRuleActionType": "HIDEFIELD",
-            "evaluationTime": "ALWAYS",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "programRule": {
-                "id": "DBTjZRrYQCW"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "dataElement": {
-                "id": "w4MqcdlLzKg"
-            },
-            "favorites": [],
-            "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
-            ],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T21:37:15.355",
-            "id": "NGdQHgGsY4d",
-            "created": "2021-02-12T21:37:15.355",
-            "externalAccess": false,
-            "programRuleActionType": "HIDEFIELD",
-            "evaluationTime": "ALWAYS",
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "programRule": {
-                "id": "tZDbvR64Wcz"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "dataElement": {
-                "id": "lCuighYTLAi"
-            },
-            "favorites": [],
-            "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
-            ],
-            "translations": [],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T21:47:37.716",
-            "id": "HBBAXakkBaJ",
+            "lastUpdated": "2021-02-12T21:50:21.263",
+            "id": "VILAsskPpGj",
             "created": "2021-02-12T21:44:04.722",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
@@ -5519,18 +5427,18 @@
                 "manage": true
             },
             "programRule": {
-                "id": "sWQzRexTro8"
+                "id": "mrdHk7hGWg1"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
             },
             "dataElement": {
-                "id": "Mxjp9xVSnj9"
+                "id": "raR9t3K2yvq"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5539,9 +5447,9 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T22:17:11.003",
-            "id": "Q6SBsGHHr9p",
-            "created": "2021-02-12T22:17:11.003",
+            "lastUpdated": "2021-02-12T21:50:21.263",
+            "id": "mMwi4WPOwGS",
+            "created": "2021-02-12T21:49:42.573",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
             "evaluationTime": "ALWAYS",
@@ -5555,18 +5463,18 @@
                 "manage": true
             },
             "programRule": {
-                "id": "W1uW75cl1X1"
+                "id": "mrdHk7hGWg1"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
             },
             "dataElement": {
-                "id": "K4lkVTCniM8"
+                "id": "MBMAfwVnwO2"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5575,9 +5483,9 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T22:21:51.300",
-            "id": "AaIPyr0TT5m",
-            "created": "2021-02-12T22:21:51.300",
+            "lastUpdated": "2021-02-12T22:09:30.341",
+            "id": "D6CS0tr6IWS",
+            "created": "2021-02-12T21:53:43.778",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
             "evaluationTime": "ALWAYS",
@@ -5591,18 +5499,18 @@
                 "manage": true
             },
             "programRule": {
-                "id": "gsEnUXO1cSW"
+                "id": "DKw4Bi8ey5W"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
             },
             "dataElement": {
-                "id": "JfcGv2hn3rl"
+                "id": "djbwiVybEB1"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5647,9 +5555,9 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T22:09:30.341",
-            "id": "D6CS0tr6IWS",
-            "created": "2021-02-12T21:53:43.778",
+            "lastUpdated": "2021-02-12T22:21:51.300",
+            "id": "AaIPyr0TT5m",
+            "created": "2021-02-12T22:21:51.300",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
             "evaluationTime": "ALWAYS",
@@ -5663,18 +5571,18 @@
                 "manage": true
             },
             "programRule": {
-                "id": "DKw4Bi8ey5W"
+                "id": "gsEnUXO1cSW"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
             },
             "dataElement": {
-                "id": "djbwiVybEB1"
+                "id": "JfcGv2hn3rl"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5683,8 +5591,44 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T21:50:21.263",
-            "id": "VILAsskPpGj",
+            "lastUpdated": "2021-02-12T22:17:11.003",
+            "id": "Q6SBsGHHr9p",
+            "created": "2021-02-12T22:17:11.003",
+            "externalAccess": false,
+            "programRuleActionType": "HIDEFIELD",
+            "evaluationTime": "ALWAYS",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "programRule": {
+                "id": "W1uW75cl1X1"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "dataElement": {
+                "id": "K4lkVTCniM8"
+            },
+            "favorites": [],
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRuleActions",
+            "lastUpdated": "2021-02-12T21:47:37.716",
+            "id": "HBBAXakkBaJ",
             "created": "2021-02-12T21:44:04.722",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
@@ -5699,18 +5643,18 @@
                 "manage": true
             },
             "programRule": {
-                "id": "mrdHk7hGWg1"
+                "id": "sWQzRexTro8"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
             },
             "dataElement": {
-                "id": "raR9t3K2yvq"
+                "id": "Mxjp9xVSnj9"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5719,9 +5663,9 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T21:50:21.263",
-            "id": "mMwi4WPOwGS",
-            "created": "2021-02-12T21:49:42.573",
+            "lastUpdated": "2021-02-12T21:37:15.355",
+            "id": "NGdQHgGsY4d",
+            "created": "2021-02-12T21:37:15.355",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
             "evaluationTime": "ALWAYS",
@@ -5735,18 +5679,18 @@
                 "manage": true
             },
             "programRule": {
-                "id": "mrdHk7hGWg1"
+                "id": "tZDbvR64Wcz"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
             },
             "dataElement": {
-                "id": "MBMAfwVnwO2"
+                "id": "lCuighYTLAi"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5755,9 +5699,9 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-12T22:29:10.750",
-            "id": "O9LVldQrMQn",
-            "created": "2021-02-12T22:29:10.750",
+            "lastUpdated": "2021-02-12T22:32:33.520",
+            "id": "f17jiqSg1X4",
+            "created": "2021-02-12T22:32:33.520",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
             "evaluationTime": "ALWAYS",
@@ -5771,13 +5715,121 @@
                 "manage": true
             },
             "programRule": {
-                "id": "YdARgjL6FJW"
+                "id": "DBTjZRrYQCW"
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
             },
             "dataElement": {
-                "id": "j6q2N7owSqj"
+                "id": "w4MqcdlLzKg"
+            },
+            "favorites": [],
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRuleActions",
+            "lastUpdated": "2021-02-12T22:09:12.486",
+            "id": "fpqN0WX1Rfq",
+            "created": "2021-02-12T22:08:11.540",
+            "externalAccess": false,
+            "programRuleActionType": "HIDEFIELD",
+            "evaluationTime": "ALWAYS",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "programRule": {
+                "id": "f6efMG0TjFv"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "dataElement": {
+                "id": "KGUVgzIOAdI"
+            },
+            "favorites": [],
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRuleActions",
+            "lastUpdated": "2021-03-09T17:57:55.868",
+            "id": "H7Q0WmjNBsO",
+            "created": "2021-03-09T17:46:10.057",
+            "externalAccess": false,
+            "programRuleActionType": "HIDESECTION",
+            "evaluationTime": "ALWAYS",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "programRule": {
+                "id": "K3h8qS6XqT3"
+            },
+            "programStageSection": {
+                "id": "sd6xUG72fby"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "favorites": [],
+            "evaluationEnvironments": [
+                "WEB",
+                "ANDROID"
+            ],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programRuleActions",
+            "lastUpdated": "2021-02-24T01:15:35.550",
+            "id": "e24UFxQZIpU",
+            "created": "2021-02-12T22:01:47.095",
+            "externalAccess": false,
+            "programRuleActionType": "HIDESECTION",
+            "evaluationTime": "ALWAYS",
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "programRule": {
+                "id": "Lpo6m3KLCON"
+            },
+            "programStageSection": {
+                "id": "sd6xUG72fby"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
             },
             "favorites": [],
             "evaluationEnvironments": [

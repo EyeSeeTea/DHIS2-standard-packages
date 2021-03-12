@@ -1,5 +1,5 @@
 {
-    "date": "2021-02-24T18:21:40.263Z",
+    "date": "2021-03-12T17:20:27.323Z",
     "programs": [
         {
             "metadataType": "programs",
@@ -106,26 +106,7 @@
             ],
             "programTrackedEntityAttributes": [],
             "notificationTemplates": [],
-            "organisationUnits": [
-                {
-                    "id": "PaY1g85yRmC"
-                },
-                {
-                    "id": "DVnpk4xiXGJ"
-                },
-                {
-                    "id": "Da5lWskcgP7"
-                },
-                {
-                    "id": "TASs9LgQ91V"
-                },
-                {
-                    "id": "VXs1NMMGaaK"
-                },
-                {
-                    "id": "TkGWYwkNDT1"
-                }
-            ],
+            "organisationUnits": [],
             "programSections": [],
             "programStages": [
                 {
@@ -210,13 +191,13 @@
         },
         {
             "metadataType": "programRules",
-            "lastUpdated": "2021-02-13T02:16:42.334",
+            "lastUpdated": "2021-03-12T08:28:30.323",
             "id": "RmuJ0xHBbl6",
             "created": "2021-01-22T12:17:28.588",
             "name": "COVID19_F7 show cluster_other_specify when cluster_other is yes",
             "displayName": "COVID19_F7 show cluster_other_specify when cluster_other is yes",
             "externalAccess": false,
-            "condition": "#{COVID19_form7_cluster_other} != 1",
+            "condition": "#{COVID19_form7_cluster_other} != true",
             "favorite": false,
             "access": {
                 "read": true,
@@ -230,7 +211,7 @@
                 "id": "tLRF0ba2ASO"
             },
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "favorites": [],
             "translations": [],
@@ -238,7 +219,7 @@
             "attributeValues": [],
             "programRuleActions": [
                 {
-                    "id": "sIbh3euFbCU"
+                    "id": "K6s6ygY4sEE"
                 }
             ],
             "userAccesses": []
@@ -458,13 +439,13 @@
         },
         {
             "metadataType": "programRules",
-            "lastUpdated": "2021-02-13T02:16:57.100",
+            "lastUpdated": "2021-03-12T08:30:11.026",
             "id": "tkEi3v1edZA",
             "created": "2021-01-22T12:28:54.017",
             "name": "COVID19_F7 show selection_asymptomatic_specify if selection_asymptomatic is YES",
             "displayName": "COVID19_F7 show selection_asymptomatic_specify if selection_asymptomatic is YES",
             "externalAccess": false,
-            "condition": "#{COVID19_form7_selection_asymptomatic} != 1",
+            "condition": "#{COVID19_form7_selection_asymptomatic} != true",
             "favorite": false,
             "access": {
                 "read": true,
@@ -478,7 +459,7 @@
                 "id": "tLRF0ba2ASO"
             },
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "favorites": [],
             "translations": [],
@@ -486,20 +467,20 @@
             "attributeValues": [],
             "programRuleActions": [
                 {
-                    "id": "RkOYTkE9k7D"
+                    "id": "uHZDPwiGT2e"
                 }
             ],
             "userAccesses": []
         },
         {
             "metadataType": "programRules",
-            "lastUpdated": "2021-02-13T02:37:36.156",
+            "lastUpdated": "2021-03-12T08:29:28.199",
             "id": "EXx4hqODjo2",
             "created": "2021-01-22T12:29:38.531",
             "name": "COVID19_F7 show selection_other_specify if selection_other is YES",
             "displayName": "COVID19_F7 show selection_other_specify if selection_other is YES",
             "externalAccess": false,
-            "condition": "#{COVID19_form7_selection_other} != 1",
+            "condition": "#{COVID19_form7_selection_other} != true",
             "favorite": false,
             "access": {
                 "read": true,
@@ -513,7 +494,7 @@
                 "id": "tLRF0ba2ASO"
             },
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "favorites": [],
             "translations": [],
@@ -521,7 +502,7 @@
             "attributeValues": [],
             "programRuleActions": [
                 {
-                    "id": "AmKyEQgK5NO"
+                    "id": "nbyDzXvg9iE"
                 }
             ],
             "userAccesses": []
@@ -2192,23 +2173,89 @@
     "dataElements": [
         {
             "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:23:21.888",
-            "id": "waQM1bg9sJl",
-            "created": "2021-01-20T15:37:34.937",
-            "name": "COVID19_F7 name7",
-            "shortName": "COVID19_F7 name7",
-            "aggregationType": "NONE",
+            "lastUpdated": "2021-02-13T02:19:43.198",
+            "id": "s1pMhs7USD2",
+            "created": "2021-01-22T11:14:26.120",
+            "name": "COVID19_F7 cluster_RDT",
+            "shortName": "COVID19_F7 cluster_RDT",
+            "aggregationType": "SUM",
             "domainType": "TRACKER",
-            "displayName": "COVID19_F7 name7",
+            "displayName": "COVID19_F7 cluster_RDT",
             "publicAccess": "--------",
-            "description": "Name of rapid response team focal point",
-            "displayShortName": "COVID19_F7 name7",
+            "description": "Conduct Ag-RDT onsite",
+            "displayShortName": "COVID19_F7 cluster_RDT",
             "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Name of rapid response team focal point",
-            "displayDescription": "Name of rapid response team focal point",
-            "dimensionItem": "waQM1bg9sJl",
-            "displayFormName": "Name of rapid response team focal point",
+            "valueType": "TRUE_ONLY",
+            "formName": "Conduct Ag-RDT onsite",
+            "displayDescription": "Conduct Ag-RDT onsite",
+            "dimensionItem": "s1pMhs7USD2",
+            "displayFormName": "Conduct Ag-RDT onsite",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "I77r2A5xemt"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-13T02:20:47.939",
+            "id": "t9GMqpkTAiG",
+            "created": "2021-01-22T11:14:45.217",
+            "name": "COVID19_F7 cluster_samples",
+            "shortName": "COVID19_F7 cluster_samples",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F7 cluster_samples",
+            "publicAccess": "--------",
+            "description": "Collect samples for later Ag-RDT and/or NAAT testing",
+            "displayShortName": "COVID19_F7 cluster_samples",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Collect samples for later Ag-RDT and/or NAAT testing",
+            "displayDescription": "Collect samples for later Ag-RDT and/or NAAT testing",
+            "dimensionItem": "t9GMqpkTAiG",
+            "displayFormName": "Collect samples for later Ag-RDT and/or NAAT testing",
             "zeroIsSignificant": false,
             "favorite": false,
             "optionSetValue": false,
@@ -2289,6 +2336,474 @@
             },
             "optionSet": {
                 "id": "ePju16O8Rxw"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "I77r2A5xemt"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-13T02:20:21.017",
+            "id": "mbLaZ9dzAoS",
+            "created": "2021-01-22T11:16:02.273",
+            "name": "COVID19_F7 cluster_other",
+            "shortName": "COVID19_F7 cluster_other",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F7 cluster_other",
+            "publicAccess": "--------",
+            "description": "Other",
+            "displayShortName": "COVID19_F7 cluster_other",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Other",
+            "displayDescription": "Other",
+            "dimensionItem": "mbLaZ9dzAoS",
+            "displayFormName": "Other",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "I77r2A5xemt"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-13T02:21:59.257",
+            "id": "XUrz8opJOAk",
+            "created": "2021-01-22T11:52:04.096",
+            "name": "COVID19_F7 counter_other",
+            "shortName": "COVID19_F7 counter_other",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F7 counter_other",
+            "publicAccess": "--------",
+            "description": "Other",
+            "displayShortName": "COVID19_F7 counter_other",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Other",
+            "displayDescription": "Other",
+            "dimensionItem": "XUrz8opJOAk",
+            "displayFormName": "Other",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "I77r2A5xemt"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-13T02:51:18.535",
+            "id": "pmViQxrdp1H",
+            "created": "2021-01-22T11:54:52.516",
+            "name": "COVID19_F7 RDT_impact",
+            "shortName": "COVID19_F7 RDT_impact",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F7 RDT_impact",
+            "publicAccess": "--------",
+            "description": "Were the countermeasures affected in any way by having access to Ag-RDTs?",
+            "displayShortName": "COVID19_F7 RDT_impact",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Were countermeasures affected by having access to Ag-RDTs?",
+            "displayDescription": "Were the countermeasures affected in any way by having access to Ag-RDTs?",
+            "dimensionItem": "pmViQxrdp1H",
+            "displayFormName": "Were countermeasures affected by having access to Ag-RDTs?",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "C0M5D0QjRuz"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "I77r2A5xemt"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-13T02:19:12.661",
+            "id": "eKxo4wpvras",
+            "created": "2021-01-22T11:45:41.505",
+            "name": "COVID19_F7 RDT_positivity",
+            "shortName": "COVID19_F7 RDT_positivity",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F7 RDT_positivity",
+            "publicAccess": "--------",
+            "description": "Were any Ag-RDTs positive in the field (if applicable)",
+            "displayShortName": "COVID19_F7 RDT_positivity",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Positive Ag-RDTs",
+            "displayDescription": "Were any Ag-RDTs positive in the field (if applicable)",
+            "dimensionItem": "eKxo4wpvras",
+            "displayFormName": "Positive Ag-RDTs",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": true,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "optionSet": {
+                "id": "kDRrwtBpdh1"
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "I77r2A5xemt"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-13T02:23:54.338",
+            "id": "Z72EJyhvGxm",
+            "created": "2021-01-22T11:36:26.394",
+            "name": "COVID19_F7 selection_asymptomatic",
+            "shortName": "COVID19_F7 selection_asymptomatic",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F7 selection_asymptomatic",
+            "publicAccess": "--------",
+            "description": "Other asymptomatic individuals",
+            "displayShortName": "COVID19_F7 selection_asymptomatic",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Other asymptomatic",
+            "displayDescription": "Other asymptomatic individuals",
+            "dimensionItem": "Z72EJyhvGxm",
+            "displayFormName": "Other asymptomatic",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "I77r2A5xemt"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-13T02:24:31.852",
+            "id": "Yf49mQfeFA2",
+            "created": "2021-01-22T11:36:58.311",
+            "name": "COVID19_F7 selection_other",
+            "shortName": "COVID19_F7 selection_other",
+            "aggregationType": "SUM",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F7 selection_other",
+            "publicAccess": "--------",
+            "description": "Other",
+            "displayShortName": "COVID19_F7 selection_other",
+            "externalAccess": false,
+            "valueType": "TRUE_ONLY",
+            "formName": "Other",
+            "displayDescription": "Other",
+            "dimensionItem": "Yf49mQfeFA2",
+            "displayFormName": "Other",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "user": {
+                "id": "I77r2A5xemt"
+            },
+            "favorites": [],
+            "dataSetElements": [],
+            "translations": [],
+            "userGroupAccesses": [
+                {
+                    "access": "rw------",
+                    "userGroupUid": "w4iJeNKy9br",
+                    "displayName": "COVID19 admin",
+                    "id": "w4iJeNKy9br"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "DoYehxUvmwT",
+                    "displayName": "COVID19 access",
+                    "id": "DoYehxUvmwT"
+                },
+                {
+                    "access": "r-------",
+                    "userGroupUid": "k8Fk0kuhOeK",
+                    "displayName": "COVID19 data capture",
+                    "id": "k8Fk0kuhOeK"
+                }
+            ],
+            "dataElementGroups": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "legendSets": [],
+            "aggregationLevels": []
+        },
+        {
+            "metadataType": "dataElements",
+            "lastUpdated": "2021-02-13T02:23:21.888",
+            "id": "waQM1bg9sJl",
+            "created": "2021-01-20T15:37:34.937",
+            "name": "COVID19_F7 name7",
+            "shortName": "COVID19_F7 name7",
+            "aggregationType": "NONE",
+            "domainType": "TRACKER",
+            "displayName": "COVID19_F7 name7",
+            "publicAccess": "--------",
+            "description": "Name of rapid response team focal point",
+            "displayShortName": "COVID19_F7 name7",
+            "externalAccess": false,
+            "valueType": "TEXT",
+            "formName": "Name of rapid response team focal point",
+            "displayDescription": "Name of rapid response team focal point",
+            "dimensionItem": "waQM1bg9sJl",
+            "displayFormName": "Name of rapid response team focal point",
+            "zeroIsSignificant": false,
+            "favorite": false,
+            "optionSetValue": false,
+            "dimensionItemType": "DATA_ELEMENT",
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
             },
             "lastUpdatedBy": {
                 "id": "H4atNsEuKxP"
@@ -2657,72 +3172,6 @@
         },
         {
             "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:20:21.017",
-            "id": "mbLaZ9dzAoS",
-            "created": "2021-01-22T11:16:02.273",
-            "name": "COVID19_F7 cluster_other",
-            "shortName": "COVID19_F7 cluster_other",
-            "aggregationType": "SUM",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F7 cluster_other",
-            "publicAccess": "--------",
-            "description": "Other",
-            "displayShortName": "COVID19_F7 cluster_other",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Other",
-            "displayDescription": "Other",
-            "dimensionItem": "mbLaZ9dzAoS",
-            "displayFormName": "Other",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "I77r2A5xemt"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
             "lastUpdated": "2021-02-13T02:20:32.743",
             "id": "qlVNQuoHPaf",
             "created": "2021-01-22T11:16:57.287",
@@ -2740,138 +3189,6 @@
             "displayDescription": "Please specify what other actions the rapid response team took to investigate the cluster",
             "dimensionItem": "qlVNQuoHPaf",
             "displayFormName": "Please specify what other actions the rapid response team took to investigate the cluster",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "I77r2A5xemt"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:19:43.198",
-            "id": "s1pMhs7USD2",
-            "created": "2021-01-22T11:14:26.120",
-            "name": "COVID19_F7 cluster_RDT",
-            "shortName": "COVID19_F7 cluster_RDT",
-            "aggregationType": "SUM",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F7 cluster_RDT",
-            "publicAccess": "--------",
-            "description": "Conduct Ag-RDT onsite",
-            "displayShortName": "COVID19_F7 cluster_RDT",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Conduct Ag-RDT onsite",
-            "displayDescription": "Conduct Ag-RDT onsite",
-            "dimensionItem": "s1pMhs7USD2",
-            "displayFormName": "Conduct Ag-RDT onsite",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "I77r2A5xemt"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:20:47.939",
-            "id": "t9GMqpkTAiG",
-            "created": "2021-01-22T11:14:45.217",
-            "name": "COVID19_F7 cluster_samples",
-            "shortName": "COVID19_F7 cluster_samples",
-            "aggregationType": "SUM",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F7 cluster_samples",
-            "publicAccess": "--------",
-            "description": "Collect samples for later Ag-RDT and/or NAAT testing",
-            "displayShortName": "COVID19_F7 cluster_samples",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Collect samples for later Ag-RDT and/or NAAT testing",
-            "displayDescription": "Collect samples for later Ag-RDT and/or NAAT testing",
-            "dimensionItem": "t9GMqpkTAiG",
-            "displayFormName": "Collect samples for later Ag-RDT and/or NAAT testing",
             "zeroIsSignificant": false,
             "favorite": false,
             "optionSetValue": false,
@@ -3202,72 +3519,6 @@
             "displayDescription": "No additional countermeasures",
             "dimensionItem": "inThDDQk2Rb",
             "displayFormName": "No additional countermeasures",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "I77r2A5xemt"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:21:59.257",
-            "id": "XUrz8opJOAk",
-            "created": "2021-01-22T11:52:04.096",
-            "name": "COVID19_F7 counter_other",
-            "shortName": "COVID19_F7 counter_other",
-            "aggregationType": "SUM",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F7 counter_other",
-            "publicAccess": "--------",
-            "description": "Other",
-            "displayShortName": "COVID19_F7 counter_other",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Other",
-            "displayDescription": "Other",
-            "dimensionItem": "XUrz8opJOAk",
-            "displayFormName": "Other",
             "zeroIsSignificant": false,
             "favorite": false,
             "optionSetValue": false,
@@ -3713,75 +3964,6 @@
         },
         {
             "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:51:18.535",
-            "id": "pmViQxrdp1H",
-            "created": "2021-01-22T11:54:52.516",
-            "name": "COVID19_F7 RDT_impact",
-            "shortName": "COVID19_F7 RDT_impact",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F7 RDT_impact",
-            "publicAccess": "--------",
-            "description": "Were the countermeasures affected in any way by having access to Ag-RDTs?",
-            "displayShortName": "COVID19_F7 RDT_impact",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Were countermeasures affected by having access to Ag-RDTs?",
-            "displayDescription": "Were the countermeasures affected in any way by having access to Ag-RDTs?",
-            "dimensionItem": "pmViQxrdp1H",
-            "displayFormName": "Were countermeasures affected by having access to Ag-RDTs?",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "C0M5D0QjRuz"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "I77r2A5xemt"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
             "lastUpdated": "2021-02-13T02:18:33.000",
             "id": "jTNuLPbpiph",
             "created": "2021-01-22T11:55:24.628",
@@ -3914,7 +4096,7 @@
         },
         {
             "metadataType": "dataElements",
-            "lastUpdated": "2021-02-24T01:43:27.982",
+            "lastUpdated": "2021-03-09T07:46:46.872",
             "id": "d43FLwNKqLT",
             "created": "2021-01-22T11:41:44.690",
             "name": "COVID19_F7 RDT_number",
@@ -3927,10 +4109,10 @@
             "displayShortName": "COVID19_F7 RDT_number",
             "externalAccess": false,
             "valueType": "INTEGER_POSITIVE",
-            "formName": "Approximately how many Ag-RDTs and NAAT tests/samples were conducted?",
+            "formName": "Ag-RDTs",
             "displayDescription": "Approximately how many Ag-RDTs and NAAT tests/samples were conducted?",
             "dimensionItem": "d43FLwNKqLT",
-            "displayFormName": "Approximately how many Ag-RDTs and NAAT tests/samples were conducted?",
+            "displayFormName": "Ag-RDTs",
             "zeroIsSignificant": false,
             "favorite": false,
             "optionSetValue": false,
@@ -3944,76 +4126,7 @@
                 "manage": true
             },
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "I77r2A5xemt"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:19:12.661",
-            "id": "eKxo4wpvras",
-            "created": "2021-01-22T11:45:41.505",
-            "name": "COVID19_F7 RDT_positivity",
-            "shortName": "COVID19_F7 RDT_positivity",
-            "aggregationType": "NONE",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F7 RDT_positivity",
-            "publicAccess": "--------",
-            "description": "Were any Ag-RDTs positive in the field (if applicable)",
-            "displayShortName": "COVID19_F7 RDT_positivity",
-            "externalAccess": false,
-            "valueType": "TEXT",
-            "formName": "Positive Ag-RDTs",
-            "displayDescription": "Were any Ag-RDTs positive in the field (if applicable)",
-            "dimensionItem": "eKxo4wpvras",
-            "displayFormName": "Positive Ag-RDTs",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": true,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "optionSet": {
-                "id": "kDRrwtBpdh1"
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "user": {
                 "id": "I77r2A5xemt"
@@ -4066,138 +4179,6 @@
             "displayDescription": "Approximately how many patients were Ag-RDT-positive in the field (if applicable)?",
             "dimensionItem": "HXtY2gEgIR1",
             "displayFormName": "Number of Ag-RDT positive patients in the field",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "I77r2A5xemt"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:24:31.852",
-            "id": "Yf49mQfeFA2",
-            "created": "2021-01-22T11:36:58.311",
-            "name": "COVID19_F7 selection_other",
-            "shortName": "COVID19_F7 selection_other",
-            "aggregationType": "SUM",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F7 selection_other",
-            "publicAccess": "--------",
-            "description": "Other",
-            "displayShortName": "COVID19_F7 selection_other",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Other",
-            "displayDescription": "Other",
-            "dimensionItem": "Yf49mQfeFA2",
-            "displayFormName": "Other",
-            "zeroIsSignificant": false,
-            "favorite": false,
-            "optionSetValue": false,
-            "dimensionItemType": "DATA_ELEMENT",
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "user": {
-                "id": "I77r2A5xemt"
-            },
-            "favorites": [],
-            "dataSetElements": [],
-            "translations": [],
-            "userGroupAccesses": [
-                {
-                    "access": "rw------",
-                    "userGroupUid": "w4iJeNKy9br",
-                    "displayName": "COVID19 admin",
-                    "id": "w4iJeNKy9br"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "DoYehxUvmwT",
-                    "displayName": "COVID19 access",
-                    "id": "DoYehxUvmwT"
-                },
-                {
-                    "access": "r-------",
-                    "userGroupUid": "k8Fk0kuhOeK",
-                    "displayName": "COVID19 data capture",
-                    "id": "k8Fk0kuhOeK"
-                }
-            ],
-            "dataElementGroups": [],
-            "attributeValues": [],
-            "userAccesses": [],
-            "legendSets": [],
-            "aggregationLevels": []
-        },
-        {
-            "metadataType": "dataElements",
-            "lastUpdated": "2021-02-13T02:23:54.338",
-            "id": "Z72EJyhvGxm",
-            "created": "2021-01-22T11:36:26.394",
-            "name": "COVID19_F7 selection_asymptomatic",
-            "shortName": "COVID19_F7 selection_asymptomatic",
-            "aggregationType": "SUM",
-            "domainType": "TRACKER",
-            "displayName": "COVID19_F7 selection_asymptomatic",
-            "publicAccess": "--------",
-            "description": "Other asymptomatic individuals",
-            "displayShortName": "COVID19_F7 selection_asymptomatic",
-            "externalAccess": false,
-            "valueType": "TRUE_ONLY",
-            "formName": "Other asymptomatic",
-            "displayDescription": "Other asymptomatic individuals",
-            "dimensionItem": "Z72EJyhvGxm",
-            "displayFormName": "Other asymptomatic",
             "zeroIsSignificant": false,
             "favorite": false,
             "optionSetValue": false,
@@ -4708,426 +4689,6 @@
             "aggregationLevels": []
         }
     ],
-    "programStageSections": [
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-24T01:40:12.608",
-            "id": "aZJTE4POpFd",
-            "created": "2021-01-20T15:54:10.851",
-            "name": "Alert information",
-            "displayName": "Alert information",
-            "description": "Alert information",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayDescription": "Alert information",
-            "displayFormName": "Alert information",
-            "sortOrder": 0,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "am2dAg5mTtK"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "waQM1bg9sJl"
-                },
-                {
-                    "id": "At381zUfbyc"
-                },
-                {
-                    "id": "aj8O3TjdhAl"
-                },
-                {
-                    "id": "POvdf8aZL0a"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-24T01:40:12.608",
-            "id": "xzK0QNj2E54",
-            "created": "2021-01-20T15:54:41.843",
-            "name": "Rapid response team response",
-            "displayName": "Rapid response team response",
-            "description": "Rapid response team response",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayDescription": "Rapid response team response",
-            "displayFormName": "Rapid response team response",
-            "sortOrder": 1,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "am2dAg5mTtK"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "gayhM8ycRXp"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-24T01:40:12.608",
-            "id": "whdUkEUUkOM",
-            "created": "2021-01-22T11:58:05.304",
-            "name": "How did rapid response team investigate the cluster? (select all that apply)",
-            "displayName": "How did rapid response team investigate the cluster? (select all that apply)",
-            "description": "(select all that apply)",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayDescription": "(select all that apply)",
-            "displayFormName": "How did rapid response team investigate the cluster? (select all that apply)",
-            "sortOrder": 2,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "am2dAg5mTtK"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "HNljyiCJgO0"
-                },
-                {
-                    "id": "s1pMhs7USD2"
-                },
-                {
-                    "id": "t9GMqpkTAiG"
-                },
-                {
-                    "id": "SUFhfSPaVce"
-                },
-                {
-                    "id": "mbLaZ9dzAoS"
-                },
-                {
-                    "id": "qlVNQuoHPaf"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-24T01:40:12.608",
-            "id": "gXBuGR1zwZT",
-            "created": "2021-01-22T12:19:39.857",
-            "name": "How were individuals selected for testing by Ag-RDT and/or NAAT testing? Tick all that apply.",
-            "displayName": "How were individuals selected for testing by Ag-RDT and/or NAAT testing? Tick all that apply.",
-            "description": "(Select all that apply)",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayDescription": "(Select all that apply)",
-            "displayFormName": "How were individuals selected for testing by Ag-RDT and/or NAAT testing? Tick all that apply.",
-            "sortOrder": 3,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "am2dAg5mTtK"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "mUoTdl2yau2"
-                },
-                {
-                    "id": "ll20ZbuXeKv"
-                },
-                {
-                    "id": "pT7n7BHfpUk"
-                },
-                {
-                    "id": "WwhYxUWPAFU"
-                },
-                {
-                    "id": "oAKFvv1V6Wf"
-                },
-                {
-                    "id": "Z72EJyhvGxm"
-                },
-                {
-                    "id": "BxumyL5n384"
-                },
-                {
-                    "id": "Yf49mQfeFA2"
-                },
-                {
-                    "id": "JcgQzqzvWVe"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-24T01:40:12.608",
-            "id": "I1iNuuqSzSd",
-            "created": "2021-01-22T12:35:25.178",
-            "name": " Approximately how many Ag-RDTs and NAAT tests were conducted?",
-            "displayName": " Approximately how many Ag-RDTs and NAAT tests were conducted?",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayFormName": " Approximately how many Ag-RDTs and NAAT tests were conducted?",
-            "sortOrder": 4,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "am2dAg5mTtK"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "d43FLwNKqLT"
-                },
-                {
-                    "id": "EbvdXOAa68T"
-                },
-                {
-                    "id": "eKxo4wpvras"
-                },
-                {
-                    "id": "HXtY2gEgIR1"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-24T01:40:12.608",
-            "id": "VknIx8Qq6y8",
-            "created": "2021-01-22T12:35:25.178",
-            "name": "What countermeasures were implemented in response to the alert? (Select all that apply)",
-            "displayName": "What countermeasures were implemented in response to the alert? (Select all that apply)",
-            "description": "(Select all that apply)",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayDescription": "(Select all that apply)",
-            "displayFormName": "What countermeasures were implemented in response to the alert? (Select all that apply)",
-            "sortOrder": 5,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "am2dAg5mTtK"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "inThDDQk2Rb"
-                },
-                {
-                    "id": "gMHvbsUDbxq"
-                },
-                {
-                    "id": "yk7grA7z5Id"
-                },
-                {
-                    "id": "xwmam96KfR1"
-                },
-                {
-                    "id": "gT4ugKjaWKo"
-                },
-                {
-                    "id": "ilXT6rEA3nx"
-                },
-                {
-                    "id": "s6n4R8MwVqQ"
-                },
-                {
-                    "id": "UvwlYnn6rp4"
-                },
-                {
-                    "id": "XUrz8opJOAk"
-                },
-                {
-                    "id": "btBhj6tdzaF"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        },
-        {
-            "metadataType": "programStageSections",
-            "lastUpdated": "2021-02-24T01:40:12.608",
-            "id": "ejHARmsR81C",
-            "created": "2021-01-22T12:35:25.178",
-            "name": "Countermeasures",
-            "displayName": "Countermeasures",
-            "externalAccess": false,
-            "renderType": {
-                "MOBILE": {
-                    "type": "LISTING"
-                },
-                "DESKTOP": {
-                    "type": "LISTING"
-                }
-            },
-            "displayFormName": "Countermeasures",
-            "sortOrder": 6,
-            "favorite": false,
-            "access": {
-                "read": true,
-                "update": true,
-                "externalize": true,
-                "delete": true,
-                "write": true,
-                "manage": true
-            },
-            "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
-            },
-            "programStage": {
-                "id": "am2dAg5mTtK"
-            },
-            "favorites": [],
-            "programIndicators": [],
-            "translations": [],
-            "dataElements": [
-                {
-                    "id": "p5BuriowIFH"
-                },
-                {
-                    "id": "pmViQxrdp1H"
-                },
-                {
-                    "id": "jTNuLPbpiph"
-                },
-                {
-                    "id": "FfcZi6uQ9eo"
-                }
-            ],
-            "userGroupAccesses": [],
-            "attributeValues": [],
-            "userAccesses": []
-        }
-    ],
     "optionSets": [
         {
             "metadataType": "optionSets",
@@ -5618,6 +5179,426 @@
             "userAccesses": []
         }
     ],
+    "programStageSections": [
+        {
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-24T01:40:12.608",
+            "id": "aZJTE4POpFd",
+            "created": "2021-01-20T15:54:10.851",
+            "name": "Alert information",
+            "displayName": "Alert information",
+            "description": "Alert information",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayDescription": "Alert information",
+            "displayFormName": "Alert information",
+            "sortOrder": 0,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "am2dAg5mTtK"
+            },
+            "favorites": [],
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
+                {
+                    "id": "waQM1bg9sJl"
+                },
+                {
+                    "id": "At381zUfbyc"
+                },
+                {
+                    "id": "aj8O3TjdhAl"
+                },
+                {
+                    "id": "POvdf8aZL0a"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-24T01:40:12.608",
+            "id": "xzK0QNj2E54",
+            "created": "2021-01-20T15:54:41.843",
+            "name": "Rapid response team response",
+            "displayName": "Rapid response team response",
+            "description": "Rapid response team response",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayDescription": "Rapid response team response",
+            "displayFormName": "Rapid response team response",
+            "sortOrder": 1,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "am2dAg5mTtK"
+            },
+            "favorites": [],
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
+                {
+                    "id": "gayhM8ycRXp"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-24T01:40:12.608",
+            "id": "whdUkEUUkOM",
+            "created": "2021-01-22T11:58:05.304",
+            "name": "How did rapid response team investigate the cluster? (select all that apply)",
+            "displayName": "How did rapid response team investigate the cluster? (select all that apply)",
+            "description": "(select all that apply)",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayDescription": "(select all that apply)",
+            "displayFormName": "How did rapid response team investigate the cluster? (select all that apply)",
+            "sortOrder": 2,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "am2dAg5mTtK"
+            },
+            "favorites": [],
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
+                {
+                    "id": "HNljyiCJgO0"
+                },
+                {
+                    "id": "s1pMhs7USD2"
+                },
+                {
+                    "id": "t9GMqpkTAiG"
+                },
+                {
+                    "id": "SUFhfSPaVce"
+                },
+                {
+                    "id": "mbLaZ9dzAoS"
+                },
+                {
+                    "id": "qlVNQuoHPaf"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-24T01:40:12.608",
+            "id": "gXBuGR1zwZT",
+            "created": "2021-01-22T12:19:39.857",
+            "name": "How were individuals selected for testing by Ag-RDT and/or NAAT testing? Tick all that apply.",
+            "displayName": "How were individuals selected for testing by Ag-RDT and/or NAAT testing? Tick all that apply.",
+            "description": "(Select all that apply)",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayDescription": "(Select all that apply)",
+            "displayFormName": "How were individuals selected for testing by Ag-RDT and/or NAAT testing? Tick all that apply.",
+            "sortOrder": 3,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "am2dAg5mTtK"
+            },
+            "favorites": [],
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
+                {
+                    "id": "mUoTdl2yau2"
+                },
+                {
+                    "id": "ll20ZbuXeKv"
+                },
+                {
+                    "id": "pT7n7BHfpUk"
+                },
+                {
+                    "id": "WwhYxUWPAFU"
+                },
+                {
+                    "id": "oAKFvv1V6Wf"
+                },
+                {
+                    "id": "Z72EJyhvGxm"
+                },
+                {
+                    "id": "BxumyL5n384"
+                },
+                {
+                    "id": "Yf49mQfeFA2"
+                },
+                {
+                    "id": "JcgQzqzvWVe"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-24T01:40:12.608",
+            "id": "I1iNuuqSzSd",
+            "created": "2021-01-22T12:35:25.178",
+            "name": " Approximately how many Ag-RDTs and NAAT tests were conducted?",
+            "displayName": " Approximately how many Ag-RDTs and NAAT tests were conducted?",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayFormName": " Approximately how many Ag-RDTs and NAAT tests were conducted?",
+            "sortOrder": 4,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "am2dAg5mTtK"
+            },
+            "favorites": [],
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
+                {
+                    "id": "d43FLwNKqLT"
+                },
+                {
+                    "id": "EbvdXOAa68T"
+                },
+                {
+                    "id": "eKxo4wpvras"
+                },
+                {
+                    "id": "HXtY2gEgIR1"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-24T01:40:12.608",
+            "id": "VknIx8Qq6y8",
+            "created": "2021-01-22T12:35:25.178",
+            "name": "What countermeasures were implemented in response to the alert? (Select all that apply)",
+            "displayName": "What countermeasures were implemented in response to the alert? (Select all that apply)",
+            "description": "(Select all that apply)",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayDescription": "(Select all that apply)",
+            "displayFormName": "What countermeasures were implemented in response to the alert? (Select all that apply)",
+            "sortOrder": 5,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "am2dAg5mTtK"
+            },
+            "favorites": [],
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
+                {
+                    "id": "inThDDQk2Rb"
+                },
+                {
+                    "id": "gMHvbsUDbxq"
+                },
+                {
+                    "id": "yk7grA7z5Id"
+                },
+                {
+                    "id": "xwmam96KfR1"
+                },
+                {
+                    "id": "gT4ugKjaWKo"
+                },
+                {
+                    "id": "ilXT6rEA3nx"
+                },
+                {
+                    "id": "s6n4R8MwVqQ"
+                },
+                {
+                    "id": "UvwlYnn6rp4"
+                },
+                {
+                    "id": "XUrz8opJOAk"
+                },
+                {
+                    "id": "btBhj6tdzaF"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        },
+        {
+            "metadataType": "programStageSections",
+            "lastUpdated": "2021-02-24T01:40:12.608",
+            "id": "ejHARmsR81C",
+            "created": "2021-01-22T12:35:25.178",
+            "name": "Countermeasures",
+            "displayName": "Countermeasures",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayFormName": "Countermeasures",
+            "sortOrder": 6,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "lastUpdatedBy": {
+                "id": "H4atNsEuKxP"
+            },
+            "programStage": {
+                "id": "am2dAg5mTtK"
+            },
+            "favorites": [],
+            "programIndicators": [],
+            "translations": [],
+            "dataElements": [
+                {
+                    "id": "p5BuriowIFH"
+                },
+                {
+                    "id": "pmViQxrdp1H"
+                },
+                {
+                    "id": "jTNuLPbpiph"
+                },
+                {
+                    "id": "FfcZi6uQ9eo"
+                }
+            ],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": []
+        }
+    ],
     "programRuleActions": [
         {
             "metadataType": "programRuleActions",
@@ -5719,8 +5700,8 @@
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5729,8 +5710,8 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-13T02:16:42.328",
-            "id": "sIbh3euFbCU",
+            "lastUpdated": "2021-03-12T08:28:30.246",
+            "id": "K6s6ygY4sEE",
             "created": "2021-01-22T12:17:28.581",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
@@ -5748,15 +5729,15 @@
                 "id": "RmuJ0xHBbl6"
             },
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "dataElement": {
                 "id": "qlVNQuoHPaf"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5791,8 +5772,8 @@
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5827,8 +5808,8 @@
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5863,8 +5844,8 @@
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5899,8 +5880,8 @@
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5935,8 +5916,8 @@
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -5971,8 +5952,8 @@
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -6007,8 +5988,8 @@
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -6017,8 +5998,8 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-13T02:16:57.094",
-            "id": "RkOYTkE9k7D",
+            "lastUpdated": "2021-03-12T08:30:10.989",
+            "id": "uHZDPwiGT2e",
             "created": "2021-01-22T12:28:54.011",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
@@ -6036,15 +6017,15 @@
                 "id": "tkEi3v1edZA"
             },
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "dataElement": {
                 "id": "BxumyL5n384"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
@@ -6053,8 +6034,8 @@
         },
         {
             "metadataType": "programRuleActions",
-            "lastUpdated": "2021-02-13T02:37:36.151",
-            "id": "AmKyEQgK5NO",
+            "lastUpdated": "2021-03-12T08:29:28.163",
+            "id": "nbyDzXvg9iE",
             "created": "2021-01-22T12:29:38.526",
             "externalAccess": false,
             "programRuleActionType": "HIDEFIELD",
@@ -6072,15 +6053,15 @@
                 "id": "EXx4hqODjo2"
             },
             "lastUpdatedBy": {
-                "id": "H4atNsEuKxP"
+                "id": "Qu9goywu6cV"
             },
             "dataElement": {
                 "id": "JcgQzqzvWVe"
             },
             "favorites": [],
             "evaluationEnvironments": [
-                "ANDROID",
-                "WEB"
+                "WEB",
+                "ANDROID"
             ],
             "translations": [],
             "userGroupAccesses": [],
