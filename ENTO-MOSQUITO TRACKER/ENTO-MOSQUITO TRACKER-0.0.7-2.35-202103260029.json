@@ -18844,5 +18844,138 @@
             "displayInListNoProgram": false,
             "displayOnVisitSchedule": false
         }
+    ],
+    
+    "programSections": [
+        {
+            "metadataType": "programSections",
+            "lastUpdated": "2020-10-08T13:01:10.059",
+            "id": "MHwU8yVTvfz",
+            "created": "2020-08-31T08:05:01.450",
+            "name": "default",
+            "displayName": "default",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "LISTING"
+                }
+            },
+            "displayFormName": "default",
+            "sortOrder": 0,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "Mk9ocCvATwK"
+            },
+            "lastUpdatedBy": {},
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "trackedEntityAttributes": [
+                {
+                    "id": "OYWQukMXLPQ"
+                },
+                {
+                    "id": "AG71ENG0BRK"
+                },
+                {
+                    "id": "f9oSp7wBiIg"
+                },
+                {
+                    "id": "g9p0Q4FuqtJ"
+                },
+                {
+                    "id": "Mtdjq1BtXQ0"
+                },
+                {
+                    "id": "x7jiLG5HL0W"
+                },
+                {
+                    "id": "zIZ5GZBEKO6"
+                },
+                {
+                    "id": "noQ3IYQUXRu"
+                }
+            ]
+        },
+        {
+            "metadataType": "programSections",
+            "lastUpdated": "2021-03-25T23:28:35.162",
+            "id": "cxgdcCsurku",
+            "created": "2021-03-25T23:28:35.162",
+            "name": "section1",
+            "displayName": "section1",
+            "externalAccess": false,
+            "renderType": {
+                "MOBILE": {
+                    "type": "LISTING"
+                },
+                "DESKTOP": {
+                    "type": "SEQUENTIAL"
+                }
+            },
+            "displayFormName": "section1",
+            "sortOrder": 0,
+            "favorite": false,
+            "access": {
+                "read": true,
+                "update": true,
+                "externalize": true,
+                "delete": true,
+                "write": true,
+                "manage": true
+            },
+            "program": {
+                "id": "Oj5hUu2m0gP"
+            },
+            "lastUpdatedBy": {},
+            "favorites": [],
+            "translations": [],
+            "userGroupAccesses": [],
+            "attributeValues": [],
+            "userAccesses": [],
+            "trackedEntityAttributes": [
+                {
+                    "id": "XQ1WcRJageG"
+                },
+                {
+                    "id": "wR7Wun7W80x"
+                },
+                {
+                    "id": "mUmOc38HDzp"
+                },
+                {
+                    "id": "VW72NuoNloJ"
+                },
+                {
+                    "id": "AG71ENG0BRK"
+                },
+                {
+                    "id": "OYWQukMXLPQ"
+                },
+                {
+                    "id": "m9NsQZGfdSZ"
+                },
+                {
+                    "id": "EOXnF7AauUu"
+                },
+                {
+                    "id": "zFjDBRkKU7m"
+                }
+            ]
+        }
     ]
+
 }
