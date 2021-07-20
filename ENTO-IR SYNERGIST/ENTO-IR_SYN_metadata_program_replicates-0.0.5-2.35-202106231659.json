@@ -3,13 +3,13 @@
         "id": "p5kRdSNekvs",
         "name": "ENTO-IR SYNERGIST",
         "deleted": false,
-        "description": "",
-        "version": "0.0.7",
+        "description": "Replicates added",
+        "version": "0.0.5",
         "dhisVersion": "2.35",
         "module": {
             "id": "imWYeZLnBHV",
             "name": "ENTO-IR SYNERGIST",
-            "instance": "http://eyeseetea.ddns.net:8081",
+            "instance": "https://extranet.who.int/dhis2-ento-vc",
             "department": {
                 "id": "OEHAIvnHRxz",
                 "name": "GMP/VCR"
