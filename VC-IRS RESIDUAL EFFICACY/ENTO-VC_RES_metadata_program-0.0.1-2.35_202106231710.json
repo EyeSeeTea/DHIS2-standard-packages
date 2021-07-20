@@ -3,7 +3,9 @@
         "id": "n0461KI0lRT",
         "name": "VC-IRS RESIDUAL EFFICACY",
         "deleted": false,
-        "description": "Abott's formula correction and error for control mortality >20%",
+
+        "description": "Abott's formula correction,  error for control mortality >20% and replicates added",
+
         "version": "0.0.1",
         "dhisVersion": "2.35",
         "module": {

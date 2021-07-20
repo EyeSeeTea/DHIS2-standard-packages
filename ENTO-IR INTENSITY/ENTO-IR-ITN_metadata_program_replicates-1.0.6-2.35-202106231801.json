@@ -4,12 +4,12 @@
         "name": "ENTO-IR INTENSITY",
         "deleted": false,
         "description": "Individual replicates",
-        "version": "1.0.7",
+        "version": "1.0.6",
         "dhisVersion": "2.35",
         "module": {
             "id": "hTs7EtPuxvd",
             "name": "ENTO-IR INTENSITY",
-            "instance": "http://localhost:8080",
+            "instance": "https://extranet.who.int/dhis2-ento-vc",
             "department": {
                 "id": "OEHAIvnHRxz",
                 "name": "GMP/VCR"
