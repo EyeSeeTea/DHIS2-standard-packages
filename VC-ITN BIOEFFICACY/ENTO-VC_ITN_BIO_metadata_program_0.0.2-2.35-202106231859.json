@@ -4,12 +4,12 @@
         "name": "VC-ITN BIOEFFICACY",
         "deleted": false,
         "description": "Abott's mortality added",
-        "version": "0.0.3",
+        "version": "0.0.2",
         "dhisVersion": "2.35",
         "module": {
             "id": "kWpscnOVFxT",
             "name": "VC-ITN BIOEFFICACY",
-            "instance": "http://localhost:8080",
+            "instance": "https://extranet.who.int/dhis2-ento-vc",
             "department": {
                 "id": "OEHAIvnHRxz",
                 "name": "GMP/VCR"
