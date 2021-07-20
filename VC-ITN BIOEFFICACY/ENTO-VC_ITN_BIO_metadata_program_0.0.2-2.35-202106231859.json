@@ -3,7 +3,9 @@
         "id": "eZ6PyPHLfAP",
         "name": "VC-ITN BIOEFFICACY",
         "deleted": false,
+
         "description": "Abott's mortality and replicates added",
+
         "version": "0.0.2",
         "dhisVersion": "2.35",
         "module": {

@@ -3,13 +3,15 @@
         "id": "n0461KI0lRT",
         "name": "VC-IRS RESIDUAL EFFICACY",
         "deleted": false,
+
         "description": "Abott's formula correction,  error for control mortality >20% and replicates added",
+
         "version": "0.0.1",
         "dhisVersion": "2.35",
         "module": {
             "id": "n1emyUPch3P",
             "name": "VC-IRS RESIDUAL EFFICACY",
-            "instance": "http://localhost:8080",
+            "instance": "https://extranet.who.int/dhis2-ento-vc",
             "department": {
                 "id": "OEHAIvnHRxz",
                 "name": "GMP/VCR"

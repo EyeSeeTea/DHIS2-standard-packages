@@ -6,10 +6,13 @@
             "id": "gUQgjMPkPvK",
             "name": "Lucia Fernandez"
         },
+         "description": "Replicates added",
+        "version": "0.0.2",
+        "dhisVersion": "2.35",
         "module": {
             "id": "qa4lbJy2NZF",
             "name": "ENTO-IR DISCRIMINATING",
-            "instance": "http://eyeseetea.ddns.net:8081",
+            "instance": "https://extranet.who.int/dhis2-ento-vc",
             "department": {
                 "id": "OEHAIvnHRxz",
                 "name": "GMP/VCR"
