@@ -1,7 +1,7 @@
 {
     "id": "qa4lbJy2NZF",
     "name": "ENTO-IR DISCRIMINATING",
-    "instance": "http://localhost:8080",
+    "instance": "http://eyeseetea.ddns.net:8081",
     "department": {
         "id": "OEHAIvnHRxz",
         "name": "GMP/VCR"
