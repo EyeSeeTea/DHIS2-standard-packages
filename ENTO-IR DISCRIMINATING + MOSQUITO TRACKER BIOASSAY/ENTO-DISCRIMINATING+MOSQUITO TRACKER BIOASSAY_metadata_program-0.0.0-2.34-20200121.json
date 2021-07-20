@@ -4,12 +4,12 @@
         "name": "ENTO-IR DISCRIMINATING + MOSQUITO TRACKER BIOASSAY",
         "deleted": false,
         "description": "An event program to collect results from discriminating concentration bioassays linked to a tracker program to capture data for the individual mosquitoes that participated in the bioassay.",
-        "version": "0.0.3",
+        "version": "0.0.0",
         "dhisVersion": "2.34",
         "module": {
             "id": "wWDTKliIUVS",
             "name": "ENTO-IR DISCRIMINATING + MOSQUITO TRACKER BIOASSAY",
-            "instance": "http://localhost:8080",
+            "instance": "https://extranet.who.int/dhis2-ento-vc",
             "department": {
                 "id": "OEHAIvnHRxz",
                 "name": "GMP/VCR"
