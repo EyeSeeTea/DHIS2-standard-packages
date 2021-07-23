@@ -17,14 +17,17 @@ A **[demo of the modules](https://extranet.who.int/dhis2-ento-vc)** is available
 ## Climate - malaria surveillance
 | Package name | DHIS2 Version | Package Version | Package Type |  Metadata | Last updated |
 | --- | --- | --- | --- |  --- | --- |
-| CC UserGroups |  2.30-2.34 | V0.0.0 | UserGroups |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-usergroup-2.30-2.34.json)	| 2020-10-20 |
-| MAL UserGroups |  2.30-2.34 | V0.0.0 | UserGroups |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/MAL-usergroup-2.30-2.34.json)	| 2020-10-20 |
-| CC DataSet |  2.30-2.34 | V0.0.0 | DataSet |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-dataset-2.30-2.34.json)	| 2020-10-20 |
-| CC Predictive DataSet |  2.30-2.34 | V0.0.0 | DataSet |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-dataset-predictive-2.30-2.34.json)	| 2020-10-20 |
-| MAL DataSet |  2.30-2.34 | V0.0.0 | DataSet |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/MAL-dataset-2.30-2.34.json)	| 2020-10-20 |
+| CC UserGroups |  2.30-2.36 | V0.0.1 | UserGroups |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-usergroup-2.30-2.36.json)	| 2021-07-23 |
+| MAL UserGroups |  2.30-2.36 | V0.0.1 | UserGroups |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/MAL-usergroup-2.30-2.36.json)	| 2021-07-23 |
+| CC DataSet |  2.30-2.36 | V0.0.1 | DataSet |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-dataset-2.30-2.36.json)	| 2021-07-23 |
+| CC Predictive DataSet |  2.30-2.36 | V0.0.1 | DataSet |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-dataset-predictive-2.30-2.36.json)	| 2021-07-23 |
+| MAL DataSet |  2.30-2.36 | V0.0.1 | DataSet |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/MAL-dataset-2.30-2.36.json)	| 2021-07-23 |
 | CC-MAL Dashboard |  2.30-2.31 | V0.0.0 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-2.30-2.31.json)	| 2020-10-20 |
 | CC-MAL Dashboard |  2.32-2.33 | V0.0.0 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-2.32-2.33.json)	| 2020-10-20 |
-| CC-MAL Dashboard |  2.34 | V0.0.0 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-2.34.json)	| 2020-10-20 |
+| CC-MAL Dashboard |  2.34-2.36 | V0.0.1 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-2.34-2.36.json)	| 2021-07-23 |
 | CC-MAL Predictive Dashboard |  2.30-2.31 | V0.0.0 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-predictive-2.30-2.31.json)	| 2020-10-20 |
 | CC-MAL Predictive Dashboard |  2.32-2.33 | V0.0.0 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-predictive-2.32-2.33.json)	| 2020-10-20 |
-| CC-MAL Predictive Dashboard |  2.34 | V0.0.0 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-predictive-2.34.json)	| 2020-10-20 |
+| CC-MAL Predictive Dashboard |  2.34-2.36 | V0.0.1 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-predictive-2.34-2.36.json)	| 2021-07-23 |
+
+## Note to installation of packages in DHIS2 instances with 2.36 version
+Due to a bug in 2.36 version of DHIS2, for installing the packages CC UserGroups, MAL UserGroups and MAL DataSet you need to select the option "import" in the "Atomic mode" section during importation.
