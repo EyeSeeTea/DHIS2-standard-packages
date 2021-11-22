@@ -29,5 +29,4 @@ A **[demo of the modules](https://extranet.who.int/dhis2-ento-vc)** is available
 | CC-MAL Predictive Dashboard |  2.32-2.33 | V0.0.0 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-predictive-2.32-2.33.json)	| 2020-10-20 |
 | CC-MAL Predictive Dashboard |  2.34-2.36 | V0.0.1 | Dashboard |  [metadata package](https://raw.githubusercontent.com/EyeSeeTea/DHIS2-standard-packages/CC/CC-MAL/CC-MAL-dashboard-predictive-2.34-2.36.json)	| 2021-07-23 |
 
-## Note to installation of packages in DHIS2 instances with 2.36 version
-Due to a bug in 2.36 version of DHIS2, for installing the packages CC UserGroups, MAL UserGroups and MAL DataSet you need to select the option "import" in the "Atomic mode" section during importation.
+
