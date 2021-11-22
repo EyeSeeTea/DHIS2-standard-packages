@@ -20,7 +20,6 @@
                 "write": true,
                 "manage": true
             },
-            "user": {},
             "favorites": [],
             "userGroupAccesses": [],
             "managedByGroups": [],
@@ -49,7 +48,6 @@
                 "write": true,
                 "manage": true
             },
-            "user": {},
             "favorites": [],
             "userGroupAccesses": [],
             "managedByGroups": [],

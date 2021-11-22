@@ -47,9 +47,6 @@
                     "write": true
                 }
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "dataSetElements": [
                 {
                     "dataElement": {
@@ -195,9 +192,6 @@
             "lastUpdatedBy": {
                 "id": "vUeLeQMSwhN"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "dataSetElements": [
                 {
@@ -277,9 +271,6 @@
             },
             "lastUpdatedBy": {
                 "id": "PG2izvccrYM"
-            },
-            "user": {
-                "id": "vUeLeQMSwhN"
             },
             "favorites": [],
             "dataSetElements": [
@@ -372,9 +363,6 @@
             "lastUpdatedBy": {
                 "id": "PG2izvccrYM"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "dataSetElements": [
                 {
@@ -466,9 +454,6 @@
             "lastUpdatedBy": {
                 "id": "vUeLeQMSwhN"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "dataSetElements": [
                 {
@@ -547,9 +532,6 @@
                 "id": "BwnnrV1AkNj"
             },
             "lastUpdatedBy": {
-                "id": "vUeLeQMSwhN"
-            },
-            "user": {
                 "id": "vUeLeQMSwhN"
             },
             "favorites": [],
@@ -641,9 +623,6 @@
             "lastUpdatedBy": {
                 "id": "vUeLeQMSwhN"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "dataSetElements": [
                 {
@@ -711,9 +690,6 @@
                 "delete": true,
                 "write": true,
                 "manage": true
-            },
-            "user": {
-                "id": "vUeLeQMSwhN"
             },
             "favorites": [],
             "userGroupAccesses": [
@@ -785,9 +761,6 @@
                 "delete": true,
                 "write": true,
                 "manage": true
-            },
-            "user": {
-                "id": "vUeLeQMSwhN"
             },
             "favorites": [],
             "userGroupAccesses": [
@@ -1229,9 +1202,6 @@
             "lastUpdatedBy": {
                 "id": "PG2izvccrYM"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "translations": [
                 {
@@ -1325,9 +1295,6 @@
             },
             "lastUpdatedBy": {
                 "id": "PG2izvccrYM"
-            },
-            "user": {
-                "id": "vUeLeQMSwhN"
             },
             "favorites": [],
             "translations": [
@@ -1439,9 +1406,6 @@
             "lastUpdatedBy": {
                 "id": "PG2izvccrYM"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "translations": [
                 {
@@ -1552,9 +1516,6 @@
             "lastUpdatedBy": {
                 "id": "PG2izvccrYM"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "translations": [
                 {
@@ -1659,9 +1620,6 @@
             "lastUpdatedBy": {
                 "id": "PG2izvccrYM"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "translations": [
                 {
@@ -1765,9 +1723,6 @@
             "lastUpdatedBy": {
                 "id": "PG2izvccrYM"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "translations": [],
             "categoryCombos": [
@@ -1840,9 +1795,6 @@
                 "manage": true
             },
             "lastUpdatedBy": {
-                "id": "PG2izvccrYM"
-            },
-            "user": {
                 "id": "PG2izvccrYM"
             },
             "favorites": [],
@@ -1934,9 +1886,6 @@
             "lastUpdatedBy": {
                 "id": "vUeLeQMSwhN"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "translations": [],
             "categoryOptions": [
@@ -1993,9 +1942,6 @@
             "lastUpdatedBy": {
                 "id": "vUeLeQMSwhN"
             },
-            "user": {
-                "id": "vUeLeQMSwhN"
-            },
             "favorites": [],
             "translations": [],
             "categoryOptions": [
@@ -2050,9 +1996,6 @@
                 "manage": true
             },
             "lastUpdatedBy": {
-                "id": "vUeLeQMSwhN"
-            },
-            "user": {
                 "id": "vUeLeQMSwhN"
             },
             "favorites": [],
